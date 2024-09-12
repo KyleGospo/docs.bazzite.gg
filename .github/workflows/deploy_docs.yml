@@ -9,10 +9,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - docs/**
-      - .github/workflows/deploy_docs.yml
-      - README*.md
   workflow_dispatch:
 
 concurrency:
@@ -22,8 +18,8 @@ concurrency:
 env:
   runner: ubuntu-latest
   cache-mkdocs-key: cache-mkdocs
-  SITE_SUFFIX: /bazzite/
-  REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+  REPO_URL: https://github.com/KyleGospo/docs.bazzite.gg
+  SITE_URL: https://docs.bazzite.gg
 
 jobs:
   deploy:
@@ -33,24 +29,10 @@ jobs:
       id-token: write # To update the deployment status
 
     runs-on: ubuntu-latest
-    # environment:
-    #   name: github-pages
-    #   url: ${{ steps.deployment.outputs.page_url }}
-    defaults:
-      run:
-        working-directory: ./docs
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Prepare env vars
-        run: |
-          _OWNER_NAME=${{ github.repository_owner }}
-          _OWNER_NAME=${_OWNER_NAME,,}
-          _SITE_PREFIX=${{ env.SITE_SUFFIX }}
-          _SITE_PREFIX=${_SITE_PREFIX#/}
-          echo "SITE_URL=https://${_OWNER_NAME}.github.io/$_SITE_PREFIX" >> $GITHUB_ENV
 
       # Necessary in order to have fetch_discourse_md.py available for mdbook-cmd
       - name: Add docs/utils to PATH
@@ -62,7 +44,7 @@ jobs:
         with:
           site_url: ${{ env.SITE_URL }}
           repo_url: ${{ env.REPO_URL }}
-          working_dir: ${{ github.workspace }}/docs
+          working_dir: ${{ github.workspace }}
           output_dir: ${{ github.workspace }}/book
           upload_github_page: "true"
           github_token: ${{ github.token }}
