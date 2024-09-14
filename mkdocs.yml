@@ -1,8 +1,8 @@
 site_name: Bazzite Documentation
 site_author: nicknamenamenick
 site_url: !ENV MKDOCS_SITE_URL
-repo_url: !ENV MKDOCS_REPO_URL
-repo_name: !ENV GITHUB_REPOSITORY
+repo_url: !ENV https://github.com/ublue-os/bazzite
+repo_name: ublue-os/bazzite
 edit_uri: https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src
 site_description: Bazzite is a custom image built upon Fedora Atomic Desktops that brings the best of Linux gaming to all of your devices - including your favorite handheld.
 
