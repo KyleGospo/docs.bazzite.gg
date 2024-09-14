@@ -25,7 +25,7 @@ The essential part that can't be missing in a mdBook is the `mkdocs.yml` file.
 To install our dependencies, run this:
 
 ```sh
-bash docs/utils/install-deps.sh
+bash utils/install-deps.sh
 ```
 
 <details>
@@ -38,6 +38,12 @@ bash docs/utils/install-deps.sh
 - [Just](https://just.systems/man/en/) (preinstalled in all [Universal Blue](https://universal-blue.org/) images)
 
 </details>
+
+To run the MkDocs dev-server to preview the Bazzite documentation, run this:
+
+```sh
+just mkdocs serve
+```
 
 You will need other tools as well, like:
 
