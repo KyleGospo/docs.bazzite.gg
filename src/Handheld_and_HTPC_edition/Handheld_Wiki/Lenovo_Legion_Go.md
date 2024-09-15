@@ -19,8 +19,6 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](https://ublue-os
 
 ## Post-Installation Setup
 
-Open a host terminal and enter the following **commands**:
-
 - Complete the Bazzite Portal
 - Login to Steam
 - Reboot device
