@@ -20,6 +20,12 @@ https://www.youtube.com/watch?v=GRdz08hJByo
 
 > **Note**: The workarounds below are also useful for **downloading a smaller ISO size**.
 
+### Device is Active Error
+
+Watch this video for a workaround:
+
+https://www.youtube.com/watch?v=FBGLLkIKp-w
+
 #### **Option 1**: Rebasing from a Fedora Atomic Desktop Image (Recommended)
 
 If you experience issues with installing our ISO or the bootable drive you have is too small for Bazzite, then download the [Fedora Kinoite (**KDE Plasma**)](https://fedoraproject.org/atomic-desktops/kinoite/) or [Fedora Silverblue (**GNOME**)](https://fedoraproject.org/atomic-desktops/silverblue/) depending on which desktop environment preferred.
