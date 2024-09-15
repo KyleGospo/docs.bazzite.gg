@@ -36,11 +36,6 @@ body {
   padding-bottom: 5px;
 }
 
-/* Limit image width */
-div.md-container > main img {
-  width: 100%;
-}
-
 /* Stylized github button in nav bar */
 .md-source {
   border-radius: 15px;
