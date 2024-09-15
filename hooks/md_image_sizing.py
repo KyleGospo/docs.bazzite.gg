@@ -24,6 +24,6 @@ def on_page_content(html: str, page: Page, config, files):
             multi = int(multi) / 100 if multi else 1
             width = int(width) * multi
             height = int(height) * multi
-            img["style"] = f"max-width: {width}px; max-height: {height}px;"
+            img["style"] = f"max-width: {width}px; max-height: {height}px; width: 100%;"
 
     return soup.prettify()
