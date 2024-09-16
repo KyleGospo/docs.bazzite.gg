@@ -1,6 +1,9 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@atimeofday"
+  - "@damiankorcz"
+  - "@aarron-lee"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -104,7 +107,3 @@ ujust regenerate-grub
 ### Bazzite as Primary Boot
 
 If the `OS Boot Manager` has set `Windows Boot Manager` to be the first boot priority, then this may result in booting directly into Windows after the install instead of Bazzite. You may have to fix this in your BIOS settings.
-
-<hr>
-
-**Documentation Contributors**: [ChaiQi](https://github.com/atimeofday), [Damian Korcz](https://github.com/damiankorcz), and [Aarron Lee](https://github.com/aarron-lee)
