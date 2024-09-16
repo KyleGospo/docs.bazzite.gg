@@ -117,7 +117,7 @@ Hold down the "**select**" button on your device to force a reboot. This feature
 
 ## Contributing
 
-This page is a **wiki**, edit it to add any relevant information you may have regarding the handheld and your experience with Bazzite on it. Make sure to follow proper [documentation guidelines](https://universal-blue.discourse.group/docs?topic=890) and [contributing guidelines](https://universal-blue.discourse.group/docs?topic=81) before adding any edits.
+This page is a **wiki**, edit it to add any relevant information you may have regarding the handheld and your experience with Bazzite on it. Make sure to follow proper [contributing guidelines](https://universal-blue.discourse.group/docs?topic=81) before adding any edits.
 
 **See also**: [Steam Gaming Mode Overview](../Steam_Gaming_Mode.md)
 
