@@ -1,6 +1,7 @@
 ---
 authors:
   - "@castrojo"
+  - "@nicknamenamenick"
 ---
 
 <!-- ANCHOR: METADATA -->
