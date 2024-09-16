@@ -4,7 +4,7 @@ authors:
   - "@nicknamenamenick"
   - "@zetarancio"
   - "@aarron-lee"
-  - "@zetarancio"
+  - "@antheas"
 ---
 
 <!-- ANCHOR: METADATA -->
