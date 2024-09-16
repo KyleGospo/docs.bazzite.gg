@@ -110,7 +110,7 @@ This works on desktop mode including running Nested Gamescope and also works for
 
 Some plugins are built specifically for SteamOS or the Steam Deck, and won’t necessarily work on Bazzite or non-Deck hardware.
 
-For example, the [DeckMTP plugin](https://github.com/dafta/DeckMTP) only works on the Steam Deck, it will not work on alternative hardware.
+For example, the [DeckMTP plugin](https://github.com/dafta/DeckMTP) only works on the Steam Deck and will not work on alternative hardware.
 
 ### How do I use SteamDeckGyroDSU on hardware that isn't the Steam Deck?
 
