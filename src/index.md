@@ -6,7 +6,7 @@ hide:
 
 # Getting started
 
-A quick list of stuff you might be interested in checking out:
+A quick list of topics:
 
 <div class="grid cards _bz" markdown>
 
