@@ -46,7 +46,7 @@ ujust install-hhd-controller-glyph-theme
 - Changing A/C power sometimes leads to a stuck TDP.
 - Some users report that "Auto UMA" in the bios can cause crashes in some games.
   - If you encounter this, then try setting the VRAM in bios to **4GB** or **8GB**.
-- LED is on max brightness by default and cannot be changed on any other operating system outside of Windows.
+- LED indicator is on max brightness by default and cannot be changed on any other operating system outside of Windows.
   - This is tied to the firmware.
   - This also affects when the ally is charging and sleeping.
 - The Ally does **not support** button holding for the Steam or QAM buttons.
@@ -55,8 +55,7 @@ ujust install-hhd-controller-glyph-theme
 - Suspend can break if SMT is disabled
 - Fingerprint driver does not work.
 - Storage shows duplicate drives.
-  - This is a visual bug, do **not** attempt to format!
-- Rainbow RGB on the original ROG Ally that can affect Windows even after Bazzite is remove
+  - This is a visual bug, do **not** attempt to format this drive!
 - Turning on the wake animation when resuming from sleep causes the device to act erratically.
   - No controls outside of Steam.
   - Steam's top and bottom panels missing.
