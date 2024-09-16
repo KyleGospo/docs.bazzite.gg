@@ -93,6 +93,4 @@ If this fails to fix it, then try forcing Proton Experimental in the game's prop
 
 <hr>
 
-**Documentation Contributors**: [M2](https://github.com/m2Giles)
-
 [**<-- Back to Gaming Guide**](./index.md)
