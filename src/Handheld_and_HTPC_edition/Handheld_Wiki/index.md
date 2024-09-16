@@ -2,6 +2,9 @@
 title: Handheld Wiki
 authors:
   - "@nicknamenamenick"
+  - "@zetarancio
+  - "@aarron-lee"
+  - "@zetarancio"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -84,7 +87,5 @@ Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an 
 Read this [guide](https://github.com/ewagner12/all-ways-egpu) for eGPU usage on Linux, and use the script at your own risk.
 
 <hr>
-
-**Documentation Contributors**: [Antheas Kapenekakis](https://github.com/antheas), [Aarron Lee](https://github.com/aarron-lee), and [Zetarancio](https://universal-blue.discourse.group/u/zetarancio)
 
 ← [**View all Bazzite documentation**](https://docs.bazzite.gg)
