@@ -7,6 +7,7 @@ authors:
   - "@noelmiller"
   - "@rothgar"
   - "@aarron-lee"
+  - "@HikariKnight"
 ---
 
 <!-- ANCHOR: METADATA -->
