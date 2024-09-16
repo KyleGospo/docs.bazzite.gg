@@ -1,6 +1,11 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@KyleGospo"
+  - "@storyaddict"
+  - "@castrojo"
+  - "@noelmiller"
+  - "@rothgar"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -195,8 +200,6 @@ After completing all of the above, then your next boot will be in Steam Gaming M
 View the [Installation Troubleshoot Guide](./troubleshoot_guide.md).
 
 <hr>
-
-**Documentation Contributors**: [Kyle Gospodnetich](https://github.com/KyleGospo), [Nathaniel Warburton](https://github.com/storyaddict), [Jorge Castro](https://github.com/castrojo), [Noel Miller](https://github.com/noelmiller), [ChaiQi](https://github.com/atimeofday), [Damian Korcz](https://github.com/damiankorcz), and [Justin Garrison](https://github.com/rothgar)
 
 **See also:** [Upstream Manual Partitioning Guide](https://docs.fedoraproject.org/en-US/fedora-silverblue/installation/#manual-partition) & [Steam Gaming Mode Overview][Steam_Gaming_Mode]
 
