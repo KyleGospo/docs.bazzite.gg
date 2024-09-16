@@ -2,6 +2,11 @@
 title: Gaming
 authors:
   - "@nicknamenamenick"
+  - "@KyleGospo"
+  - "@EyeCantCU"
+  - "@bsherman"
+  - "@storyaddict"
+  - "@castrojo"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -49,8 +54,6 @@ Linux gaming being a viable competitor to Windows is a relatively new paradigm. 
 - [**General Emulation Wiki**](https://emulation.gametechwiki.com/index.php/Main_Page) - Emulation resources
 
 <hr>
-
-**Documentation Contributors**: [Kyle Gospodnetich](https://github.com/KyleGospo), [RJ Trujillo](https://github.com/EyeCantCU), [Benjamin Shermin](https://github.com/bsherman), [Nathaniel Warburton](https://github.com/storyaddict), and [Jorge Castro](https://github.com/castrojo)
 
 **See also**: [Steam Deck Gaming Mode Overview](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
