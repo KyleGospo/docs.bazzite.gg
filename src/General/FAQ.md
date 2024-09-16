@@ -1,6 +1,10 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@KyleGospo"
+  - "@EyeCantCU"
+  - "@storyaddict"
+  - "@castrojo"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -190,8 +194,6 @@ If its for Minecraft, then install the [Prism Launcher](https://flathub.org/apps
 Do not be alarmed if you see this on our [Github repository](https://github.com/ublue-os/bazzite/). Builds can fail for a number of reasons, but it's only temporary. You can still install and use Bazzite without any issues. Latest features and fixes may be delayed until the builds are successfully built again however.
 
 <hr>
-
-**Documentation Contributors**: [Kyle Gospodnetich](https://github.com/KyleGospo), [RJ Trujillo](https://github.com/EyeCantCU), [Nathaniel Warburton](https://github.com/storyaddict), and [Jorge Castro](https://github.com/castrojo)
 
 **See also**: [Upstream Fedora Silverblue FAQ](https://docs.fedoraproject.org/en-US/fedora-silverblue/faq/)
 
