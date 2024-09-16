@@ -1,6 +1,10 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@Gecked-Deck"
+  - "@KyleGospo"
+  - "@storyaddict"
+  - "@castrojo"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -155,8 +159,6 @@ ujust setup-waydroid
 ```
 
 <hr>
-
-**Documentation Contributors**: [Kyle Gospo](https://github.com/KyleGospo), [Gecked-Deck](https://github.com/Gecked-Deck), [Nathaniel Warburton](https://github.com/storyaddict), and [Jorge Castro](https://github.com/castrojo)
 
 **See also**: [Upstream documentation](https://docs.waydro.id/)
 
