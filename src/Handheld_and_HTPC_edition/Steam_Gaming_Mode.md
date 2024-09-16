@@ -1,6 +1,7 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@HikariKnight"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -237,8 +238,6 @@ Save it and place it in the `Desktop` directory.
 Valve wrote a [guide](https://help.steampowered.com/en/faqs/view/7DD4-C618-182E-0E49) for the Steam Deck which may have some relevant information in regards to Bazzite.
 
 <hr>
-
-**Documentation Contributors**: [HikariKnight](https://github.com/HikariKnight)
 
 **See also**: [Gaming Guide](../Gaming/index.md)
 
