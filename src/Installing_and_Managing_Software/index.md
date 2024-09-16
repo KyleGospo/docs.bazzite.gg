@@ -1,6 +1,7 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@HikariKnight"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -49,8 +50,6 @@ Follow the [Waydroid Setup Guide](./Waydroid_Setup_Guide.md) to install Android 
 https://www.youtube.com/watch?v=ITuT23YrgPs
 
 <hr>
-
-**Documentation Contributors**: [HikariKnight](https://github.com/HikariKnight)
 
 **See also**: [Updates, Rollbacks, & Rebasing](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md)
 
