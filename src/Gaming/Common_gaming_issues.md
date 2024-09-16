@@ -1,6 +1,7 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@m2Giles"
 ---
 
 <!-- ANCHOR: METADATA -->
