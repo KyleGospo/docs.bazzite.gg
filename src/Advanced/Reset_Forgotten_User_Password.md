@@ -1,6 +1,7 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@noelmiller"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -62,7 +63,5 @@ Your user password should now be reset.
 Thanks to [Colin Walters](https://github.com/cgwalters) for the [solution](https://github.com/ublue-os/main/issues/469#issuecomment-1885264886).
 
 <hr>
-
-**Documentation Contributors**: [Noel Miller](https://github.com/noelmiller)
 
 [**<-- View all Bazzite documentation**](https://docs.bazzite.gg)
