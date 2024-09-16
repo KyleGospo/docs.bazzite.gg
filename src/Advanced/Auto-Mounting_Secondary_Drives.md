@@ -1,6 +1,8 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@HikariKnight"
+  - "@asen23"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -86,7 +88,5 @@ This video tutorial shows how to recover from your mounting mistakes.
 https://www.youtube.com/watch?v=-2wca_0CpXY
 
 <hr>
-
-**Documentation Contributors**: [HikariKnight](https://github.com/HikariKnight) and [asen23](https://github.com/asen23)
 
 <-- [**View all Bazzite documentation**](https://docs.bazzite.gg)
