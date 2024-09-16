@@ -30,7 +30,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](https://docs.baz
 
 ![Steam Deck OLED|667x500, 100%](../../img/Steam_Deck_OLED.jpeg)
 
-**Status**: Gold
+**Status**: Platinum
 
 ## Installing Bazzite
 
