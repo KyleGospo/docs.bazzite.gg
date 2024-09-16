@@ -1,5 +1,5 @@
 ---
-title: "Best Practices"
+title: "Best Shell Practices"
 authors:
   - "@raddevon"
 ---
