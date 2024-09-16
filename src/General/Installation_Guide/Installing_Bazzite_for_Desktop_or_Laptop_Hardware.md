@@ -4,7 +4,7 @@ authors:
   - "@KyleGospo"
   - "@storyaddict"
   - "@castrojo"
-  - "@noelmiller
+  - "@noelmiller"
   - "@rothgar"
 ---
 
