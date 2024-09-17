@@ -20,7 +20,7 @@ authors:
 
 ## Steam Gaming Mode Requirements
 
->**Note**: The requirements only applies to [HTPC/Handheld (`-deck`) Bazzite images](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/)
+>**Note**: The requirements only applies to [Handheld/HTPC (`-deck`) Bazzite images](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/)
 
 - A modern AMD GPU
   - Intel Arc GPUs may work with **major caveats**
