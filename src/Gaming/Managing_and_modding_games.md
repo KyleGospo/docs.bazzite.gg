@@ -11,10 +11,6 @@ authors:
 
 Windows games need to run through a **compatibility layer** (like Proton) on Bazzite. KDE Plasma and GNOME images pre-install different, but similar compatibility layer managers.
 
-> **KDE Plasma Images**: [**ProtonUp-Qt**](https://davidotek.github.io/protonup-qt/)
-
-> **GNOME Images**: [**ProtonPlus**](https://github.com/Vysp3r/protonplus)
-
 ### Using ProtonUp-Qt/ProtonPlus
 
 ![ProtonUp-Qt Interface|690x388](../img/ProtonUp-Qt_Interface.png)
