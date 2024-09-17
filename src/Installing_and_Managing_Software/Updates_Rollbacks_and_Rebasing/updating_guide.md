@@ -100,7 +100,10 @@ Notifications for updates are now active.
 
 # How do I disable automatic updates for Desktop images?
 
-Read the [upstream documentation](https://universal-blue.discourse.group/docs?topic=80#manually-for-bazzite-and-bluefin-3) to disable automatic updates.
+Open a host terminal and enter this **command**:
+```
+ujust toggle-update
+```
 
 <hr>
 
