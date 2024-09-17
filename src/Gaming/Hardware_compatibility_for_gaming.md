@@ -19,7 +19,9 @@ authors:
 - **Additional Notes**: Certain [drivers](https://github.com/morrownr/8812au-20210820) are **not** compatible with Bazzite.
 
 ## Steam Gaming Mode Requirements
+
 >**Note**: The requirements only applies to [HTPC/Handheld (`-deck`) Bazzite images](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/)
+
 - A modern AMD GPU
   - Intel Arc GPUs may work with **major caveats**
   - Nvidia GPUs are **not** supported
