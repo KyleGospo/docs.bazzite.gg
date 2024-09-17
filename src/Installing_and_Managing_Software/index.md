@@ -34,7 +34,7 @@ authors:
 
 Follow the [Waydroid Setup Guide](./Waydroid_Setup_Guide.md) to install Android applications on Bazzite.
 
-> **Note**: Waydroid is **not supported** on other Universal Blue images like Aurora and Bluefin.
+> **Note**: Waydroid is **not supported** on other Universal Blue images like [Aurora](https://getaurora.dev/) and [Bluefin](https://projectbluefin.io/).
 
 # Tutorials for Installing Other Software
 
