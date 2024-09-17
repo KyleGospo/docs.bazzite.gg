@@ -21,9 +21,7 @@ Rollback can also be done in the GRUB menu (the menu you see before booting into
 
 > If you need to rollback to a different OS image, use the [`bazzite-rollback-helper`](./bazzite_rollback_helper.md) to do so.
 
-## Unhide The GRUB Menu
-
-If you opted to hide the GRUB menu:
+## Unhide The GRUB Menu (If you opted to hide the GRUB menu)
 
 Unhide GRUB on Handheld/HTPC images with this **command**:
 
