@@ -43,6 +43,9 @@ vulkaninfo | grep 'Instance Version'
 - If it outputs less than `1.3` in the `Vulkan Instance Version:` or does not work at all, then you will run into issues including unplayable games and worse performance.
 - Really old devices may need to resort to OpenGL translation which performs worse, has graphical issues, etc.
 
+![Vulkan Command](https://github.com/user-attachments/assets/ccca14ca-3001-4aa6-bf47-e0dcbdb73936)
+
+
 Using insufficient hardware requires utilizing older Proton versions and use this **launch option for most games**:
 
 ```command
