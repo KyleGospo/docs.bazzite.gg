@@ -59,8 +59,8 @@ See https://squidfunk.github.io/mkdocs-material/reference/grids/#using-card-grid
 /* Rounded blockquotes */
 .md-typeset blockquote {
   background-color: #fff;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   padding: 10px;
