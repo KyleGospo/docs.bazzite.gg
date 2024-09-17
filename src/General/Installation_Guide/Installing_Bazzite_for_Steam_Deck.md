@@ -23,10 +23,8 @@ authors:
 
 Bazzite functions properly on the Steam Deck LCD (256GB+) and Steam Deck OLED models.
 
-**Bazzite and SteamOS** comparison:
-Read the [Handheld Wiki entry for the Steam Deck](https://universal-blue.discourse.group/docs?topic=1849) for a quick comparison.
-
-> **Note**: Bazzite requires a stable internet connection with no bandwidth cap in place.
+#### **Bazzite and SteamOS** Comparison:
+Read the [Handheld Wiki entry for the Steam Deck](https://universal-blue.discourse.group/docs?topic=1849) for a quick rundown of differences between the two operating systems.
 
 <hr>
 
@@ -42,6 +40,8 @@ Read the [Handheld Wiki entry for the Steam Deck](https://universal-blue.discour
   - [Ventoy](https://www.ventoy.net/en/index.html)
     - Make sure to properly eject the drive after flashing the ISO to it
 - Optional: Physical keyboard (without one, your username will be `bazzite` and the password will be `bazzite`)
+
+> **Note**: Bazzite requires a stable internet connection with no bandwidth cap in place.
 
 ### Desktop Environments
 
