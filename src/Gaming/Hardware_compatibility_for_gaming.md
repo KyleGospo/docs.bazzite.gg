@@ -46,7 +46,7 @@ vulkaninfo | grep 'Instance Version'
 ![Vulkan Command](https://github.com/user-attachments/assets/ccca14ca-3001-4aa6-bf47-e0dcbdb73936)
 
 
-Using insufficient hardware requires utilizing older Proton versions and use this **launch option for most games**:
+Using insufficient hardware requires utilizing older Proton versions and use this **launch option for most Steam games**:
 
 ```command
 PROTON_USE_WINED3D=1 %command%
