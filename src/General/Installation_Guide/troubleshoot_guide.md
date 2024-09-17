@@ -22,13 +22,13 @@ https://www.youtube.com/watch?v=GRdz08hJByo
 
 https://www.youtube.com/watch?v=FBGLLkIKp-w
 
-## Alternative Installation Methods
+## Alternative Installation Method
 
-> **Attention**: Both workaround methods may have scaling issues with the installer depending on the hardware especially if it is a handheld PC.
+> **Attention**: The workaround method may have scaling issues with the installer depending on the hardware especially if it is a handheld PC.
 
-> **Note**: The workarounds below are also useful for **downloading a smaller ISO size**.
+> **Note**: The workaround below is also useful for **downloading a smaller ISO size**.
 
-### **Option 1**: Rebasing from a Fedora Atomic Desktop Image (Recommended)
+### Rebasing from a Fedora Atomic Desktop Image
 
 If you experience issues with installing our ISO or the bootable drive you have is too small for Bazzite, then download the [Fedora Kinoite (**KDE Plasma**)](https://fedoraproject.org/atomic-desktops/kinoite/) or [Fedora Silverblue (**GNOME**)](https://fedoraproject.org/atomic-desktops/silverblue/) depending on which desktop environment preferred.
 
@@ -64,36 +64,3 @@ Replace `<IMAGE>` with the image you're using which can be found from the "**Exi
 #### Video Tutorial
 
 https://www.youtube.com/watch?v=Vs4cneBW5ck
-
-### **Option 2**: Older & Buggy Net-Installer (Not Recommended)
-
-> **Note**: This is intended as a last resort!
-
-This is not something we recommend at all, but an alternative solution is using our [Github release](https://github.com/ublue-os/bazzite/releases/tag/v2.1.0) of the last **online** ISO. This is **extremely buggy** and suffers from other issues that are now fixed in the offline ISO.
-
-There is an older [video](https://www.youtube.com/watch?v=doQW1FyAISQ) showcasing how to install the Bazzite with this old online ISO.
-
-> **IMPORTANT**: The video guide does **not** mention this part of the process since this wasn’t a requirement previously:
-
-After installing it and making it to the desktop, then you will have to **rebase** to a signed image:
-
-```command
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/<IMAGE>
-```
-
-Replace `<IMAGE>` with the image you're using.
-
-Reboot when the rebasing process has finished, and you will know because it will tell you to reboot your device.
-
-You will also be missing the default applications, so open a host terminal and **enter**:
-
-```command
-ujust _install-system-flatpaks
-```
-
-> Choose the "Flathub" remote.
-
-**This command installs:**
-
-- [Flatpak applications for **KDE Plasma** images](https://github.com/ublue-os/bazzite/blob/9f6f5e143b7545d06803e70e7723997400bd8b88/system_files/desktop/kinoite/usr/share/ublue-os/bazzite/flatpak/install)
-- [Flatpak applications for **GNOME** images](https://github.com/ublue-os/bazzite/blob/9f6f5e143b7545d06803e70e7723997400bd8b88/system_files/desktop/silverblue/usr/share/ublue-os/bazzite/flatpak/install)
