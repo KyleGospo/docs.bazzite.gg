@@ -22,7 +22,7 @@ bazzite-rollback-helper
 # Options are available to the user:
 
 - `list` = List images from the last 90 days that can rebased to.
-- `rollback` = Rollback to the previous deployment on next reboot.
+- `rollback` = Rollback to the previous deployment on the next reboot.
 - `current` = Show information about your current deployment and image.
 - `rebase` = Switch to another build, update branch, or a different Fedora image **at your own risk**.
 
