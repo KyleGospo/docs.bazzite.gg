@@ -75,7 +75,7 @@ Selecting `Configure Waydroid` will allow users to install additional Android tw
 
 - [Magisk](https://github.com/topjohnwu/Magisk) (Android power user suite)
 
-- [Logitech Smartdock Support](https://support.logi.com/hc/en-us/articles/360023201574-What-is-SmartDock) (Currently broken)
+- [Logitech Smartdock Support](https://support.logi.com/hc/en-us/articles/360023201574-What-is-SmartDock) (SmartDock hardware support)
 
 - [F-Droid Privileged Extension](https://f-droid.org/packages/org.fdroid.fdroid.privileged/) (Proper [F-Droid](https://f-droid.org/en/packages/) support)
 
