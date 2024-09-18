@@ -9,7 +9,7 @@ authors:
 
 ![GRUB Menu|690x402](../../img/GRUB_Menu.png)
 
-# How do I rollback a system update?
+## How do I rollback a system update?
 
 A rollback to the previous system deployment can be done by **entering this command in a host terminal**:
 
@@ -21,7 +21,7 @@ Rollback can also be done in the GRUB menu (the menu you see before booting into
 
 > If you need to rollback to a different OS image, use the [`bazzite-rollback-helper`](./bazzite_rollback_helper.md) to do so.
 
-## Unhide The GRUB Menu (If you opted to hide the GRUB menu)
+### Unhide The GRUB Menu (If you opted to hide the GRUB menu)
 
 Unhide GRUB on Handheld/HTPC images with this **command**:
 
@@ -33,7 +33,7 @@ Select the "**unhide**" opiton to have GRUB appear on boot.
 
 > Controls may vary with different handheld or HTPC navigate the menu and an external physical keyboard may be needed.
 
-# How do I save my **current** deployment?
+## How do I save my **current** deployment?
 
 You can pin your **current** deployment with this **command**:
 
@@ -43,7 +43,7 @@ sudo ostree admin pin 0
 
 In a host terminal for a backup save state of your **current** deployment to rollback to if a new system update causes issues.
 
-# How do I save my **previous** deployment?
+## How do I save my **previous** deployment?
 
 You can pin your **previous** deployment with this **command**:
 
@@ -53,7 +53,7 @@ sudo ostree admin pin 1
 
 In a host terminal for a backup save state of your **previous** deployment to rollback if the current deployment has issues.
 
-# How do I unpin a deployment if I saved it?
+## How do I unpin a deployment if I saved it?
 
 Unpin saved **current** deployment:
 
@@ -79,7 +79,7 @@ Unpin **saved** deployment:
 sudo ostree admin pin --unpin <index number>
 ```
 
-# Application Update Downgrades
+## Application Update Downgrades
 
 **Read about the pre-installed Warehouse application to downgrade applications in this doc**:
 
