@@ -26,4 +26,4 @@ def on_page_content(html: str, page: Page, config, files):
             height = int(height) * multi
             img["style"] = f"max-width: {width}px; max-height: {height}px; width: 100%;"
 
-    return soup.prettify()
+    return str(soup)
