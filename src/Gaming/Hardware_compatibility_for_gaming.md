@@ -23,9 +23,14 @@ authors:
 
 >**Note**: The requirements only applies to [Handheld/HTPC (`-deck`) Bazzite images](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/)
 
-- A modern AMD GPU (newer than Polaris)
-  - Intel Arc GPUs may work with **major caveats**
-  - Nvidia GPUs are **not** supported
+- AMD GPU
+  - Modern AMD GPUs
+    - RX 5000 and up
+    - 600M/700M integrated GPUs
+  - May work with **major caveats**:
+    - Polaris (RX 500 series)
+- Intel Arc GPUs may work with **major caveats**
+- Nvidia GPUs are **not** supported
 - [Steam](https://store.steampowered.com/) account
 
 ## Compatible Handhelds
