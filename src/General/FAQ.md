@@ -35,8 +35,8 @@ Bazzite's [website](https://bazzite.gg/#image-picker) offers a streamlined way o
 
 Bazzite offers multiple images, but most images will be following _one of these two formats_:
 
-- Bazzite that automatically boots into Steam Gaming Mode with manual updates
-- Bazzite that does **not** have Steam Gaming Mode and receives automatic updates daily
+- Bazzite images that does **not** have Steam Gaming Mode and receives automatic updates daily
+- Bazzite images that automatically boots into Steam Gaming Mode with manual updates
 
 **Images are split up between **two** types of Bazzite editions**:
 
