@@ -139,7 +139,8 @@ mkdir ~/.config/environment.d
 nano ~/.config/environment.d/10-gamescope-session.conf
 ```
 
-add this to the file:
+Then add this to the file:
+
 `OUTPUT_CONNECTOR=DP-1`
 change `DP-1` to the correct output.
 You can find your display outputs on KDE using the command
@@ -158,7 +159,7 @@ Save with <kbd>CTRL</kbd> + <kbd>X</kbd> then pressing <kbd>Y</kbd> followed by 
 
 ### How do I specify which GPU that Steam Gaming Mode should use?
 
-1. Open a TTY session with an **external physical keyboard** using this **keyboard combination**:
+Open a TTY session with an **external physical keyboard** using this **keyboard combination**:
    <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F4</kbd>
 
 ```command
@@ -171,7 +172,7 @@ export-gpu
 /usr/bin/export-gpu
 ```
 
-2. Select the GPU to use for Steam Gaming Mode.
+Select the GPU to use for Steam Gaming Mode.
 
 ### "Something went wrong while displaying this content" Error
 
