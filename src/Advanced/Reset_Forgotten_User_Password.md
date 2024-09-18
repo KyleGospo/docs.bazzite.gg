@@ -38,7 +38,7 @@ Once you are in the GRUB command line:
     /sbin/load_policy
     ```
 
-3. Enter your new password (i.e. passwd nick)
+3. Enter your new password (i.e. `passwd bazzite`)
 
     ```
     passwd [INSERT USERNAME HERE]
