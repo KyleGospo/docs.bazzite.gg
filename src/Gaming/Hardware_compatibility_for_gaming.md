@@ -1,6 +1,7 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@Zeglius"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -22,7 +23,7 @@ authors:
 
 >**Note**: The requirements only applies to [Handheld/HTPC (`-deck`) Bazzite images](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/)
 
-- A modern AMD GPU
+- A modern AMD GPU (newer than Polaris)
   - Intel Arc GPUs may work with **major caveats**
   - Nvidia GPUs are **not** supported
 - [Steam](https://store.steampowered.com/) account
