@@ -199,7 +199,7 @@ hostnamectl hostname <hostname>
 
 ## Questions Regarding Java
 
-If its for Minecraft, then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) for mods that require anything Java related. If its for development use [Distrobox](../Installing_and_Managing_Software/Distrobox.md). You will not be able to change Java on your host.
+If its for Minecraft, then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) for mods that require anything Java related. If its for development then use [Distrobox](../Installing_and_Managing_Software/Distrobox.md). You will not be able to change Java on your host.
 
 ## Why are builds failing?
 
