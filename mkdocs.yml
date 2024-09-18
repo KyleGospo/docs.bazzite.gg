@@ -152,3 +152,4 @@ nav:
       - "Contributing to Bazzite": Advanced/Contributing_to_bazzite.md
       - "Auto-Mounting Secondary Drives": Advanced/Auto-Mounting_Secondary_Drives.md
       - "Best Shell Practices": Advanced/Best_Shell_Practices.md
+  - Resources: Resources.md
