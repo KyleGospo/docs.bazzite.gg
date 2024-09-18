@@ -43,7 +43,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](https://docs.baz
   - Layer Fedora packages to the image without losing them between updates/reboots.
   - Newer package upgrades including the Linux kernel and drivers.
   - Printing support and other basic features that would make Bazzite viable for daily usage.
-- View our [FAQ](https://universal-blue.discourse.group/docs?topic=33) for more information.
+- View our [FAQ](faq.bazzite.gg) for more information.
 
 <hr>
 
