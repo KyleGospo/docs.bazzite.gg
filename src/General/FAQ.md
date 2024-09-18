@@ -15,6 +15,20 @@ authors:
 
 [Fedora Linux's Atomic Desktops](https://fedoraproject.org/atomic-desktops/) originally followed a naming scheme based on [minerals.](https://fedoraproject.org/kinoite/) Bazzite is a mineral that is known for being strong, lightweight, and is colored [blue](https://universal-blue.org/).
 
+## Bazzite vs. Windows Comparison
+
+**OS** | [Atomic Updates](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide/)  | [Rollback  System Updates](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates/) |[Open Source]( https://github.com/ublue-os/bazzite)| [Software Center](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/)| [Gaming User Interface](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/)|
+| -------- | -------- | -------- | -------- | --------  | -------- | 
+| **Bazzite**: | ✅  | ✅  | ✅  | ✅ | ✅  | ✅  
+| **Windows**: | ❌ | ❌ | ❌ | ✅  | ❌ |
+
+
+### Detailed Overview (Pros/Cons of Bazzite)
+
+Bazzite's hardware requirements are less demanding than Windows 11 and arguably has better desktop performance.  However, there is such a thing as 'Linux unfriendly hardware' and functionality may be lost including fingerprint scanners.  Graphics driver performance is also mixed.  AMD GPUs are objectively better on Bazzite versus Windows, but Nvidia GPUs are objectively worse on Bazzite versus Windows.  Intel GPUs are a mixed bag overall, but there may be edge cases on both operating systems.  Installing software on Bazzite is usually easier to install in comparison to Windows outside of ["legacy Linux software"](https://docs.bazzite.gg/Installing_and_Managing_Software/Distrobox/).  
+
+Steam Gaming Mode provides a first-class handheld and controller-friendly experience.  Game compatibility for newer games may require [tinkering](https://www.protondb.com/) and many [games with kernel anti-cheat](https://areweanticheatyet.com/) that do not support Linux will not work at all.  Older games usually run better on Bazzite vs. Windows due to the [compatibility layer](https://github.com/ValveSoftware/Proton/wiki), and modding on Bazzite usually requires a few extra steps and many mod frontends do not run.  Non-Steam gaming requires a graphical frontend, like [Lutris](https://lutris.net/) (pre-installed on Bazzite), which requires some manual steps than on Windows to set them up.  Emulation setup can be simplified with the available tools on Bazzite versus Windows.  Most emulators will run on par with Windows, but [Xenia](https://xenia.jp/) (Xbox 360 emulator) is an outlier and runs objectively worse on Bazzite versus Windows.
+
 ## What Bazzite image do I use?
 
 Bazzite's [website](https://bazzite.gg/#image-picker) offers a streamlined way of selecting the correct image which will be chosen based on hardware, desktop environment, and to include Steam Gaming Mode if the hardware supports it.
@@ -134,7 +148,7 @@ Updates are obtained and downloaded straight from upstream which means there is 
 
 > A friendly reminder that this project is still in its early stages and moving at a fast pace with updates and changes nearly daily.
 
-### What are some of the utilities that Bazzite ships?
+## What are some of the utilities that Bazzite ships?
 
 (_in alphabetical order_)
 
@@ -145,11 +159,11 @@ Updates are obtained and downloaded straight from upstream which means there is 
 - [`ujust`](../Installing_and_Managing_Software/ujust.md): Execute custom commands based on recipes.
 - [yafti (Bazzite Portal)](https://github.com/ublue-os/yafti/): First-boot utility for installing additional software.
 
-### Can I use this desktop environment or that standalone window manager?
+## Can I use this desktop environment or that standalone window manager?
 
 Make your own [custom image based off Bazzite](https://universal-blue.discourse.group/docs?topic=43) with the DE and WM change that you want.
 
-### Is Secure Boot supported?
+## Is Secure Boot supported?
 
 > **WARNING (Steam Deck hardware only):** The Steam Deck does not come with secure boot enabled and does not ship with any keys enrolled by default, so do not enable this on Steam Deck hardware unless you absolutely know what you're doing!
 
