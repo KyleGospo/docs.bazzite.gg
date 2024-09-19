@@ -61,6 +61,16 @@ The handheld is not listed here and a general guide is under “Other Handhelds.
 
 > **Note**: Gyro functionality **requires** DualSense emulation
 
+# Decky Setup
+
+To install [Decky Loader](https://decky.xyz), open a host terminal and enter:
+
+```bash
+ujust setup-decky
+```
+
+You can access Decky Loader by pressing the 'side menu button' once from within Steam Gamemode or Steam Big Picture Mode.
+
 # Decky Plugins
 
 > **Note**: Decky may break or uninstall after updates especially if the Steam client or Gamescope is updated.
