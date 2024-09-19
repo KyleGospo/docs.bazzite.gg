@@ -26,7 +26,7 @@ Bazzite updates all of the changes made specifically in Bazzite itself, updates 
     - **Reboot** to apply system upgrades.
 - Updates upgrade system packages, containers and installed applications.
 - The progress indicator and changelogs are not accurate currently.
-  - There's more information at the bottom of this [documentation](../../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md).
+  - There's more information about this [here](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/#update-and-changelog-inaccuracy).
 
 ## How do I update manually on Desktop images?
 
