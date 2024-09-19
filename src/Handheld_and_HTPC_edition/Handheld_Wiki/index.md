@@ -5,6 +5,7 @@ authors:
   - "@zetarancio"
   - "@aarron-lee"
   - "@antheas"
+  - "@wolfyreload"
 ---
 
 <!-- ANCHOR: METADATA -->
