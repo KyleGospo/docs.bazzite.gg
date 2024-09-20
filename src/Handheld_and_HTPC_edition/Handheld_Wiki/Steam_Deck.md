@@ -65,7 +65,7 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
 
 - Shares packages from SteamOS
 - Works on different hardware configurations (desktops, handhelds, etc.)
-- Android applications can be installed with [Waydroid](https://universal-blue.discourse.group/docs?topic=32/)
+- Android applications can be installed with [Waydroid](/Installing_and_Managing_Software/Waydroid_Setup_Guide.md)
 - Updating in Steam Gaming Mode will also update installed applications
 - Access to multiple desktop environments
   - KDE
