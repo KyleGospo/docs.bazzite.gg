@@ -6,7 +6,7 @@ authors:
 
 ## Changing the default terminal shell
 
-*The procedure for changing the default terminal on Bazzite is the same as that for [Project Bluefin](https://projectbluefin.io/) since both are based on [Universal Blue](https://universal-blue.org/). These instructions are adapted from the [Project Bluefin docs](https://docs.projectbluefin.io/).*
+>**Note**: *The procedure for changing the default terminal on Bazzite is the same as that for [Project Bluefin](https://projectbluefin.io/) since both are based on [Universal Blue](https://universal-blue.org/). These instructions are adapted from the [Project Bluefin docs](https://docs.projectbluefin.io/).*
 
 Bazzite ships [pytxis](https://devsuite.app/ptyxis/) as the default terminal. It shows up as `Terminal` in the menu. It is **strongly recommended** that you [change your shell via the terminal emulator instead of system-wide](https://tim.siosm.fr/blog/2023/12/22/dont-change-defaut-login-shell/). Click on the Terminal settings and edit your profile:
 
