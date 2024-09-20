@@ -73,6 +73,7 @@ plugins:
           build: true
 
   - search
+  - glightbox
   - git-revision-date-localized:
       enable_creation_date: !ENV [CI, false]
       fallback_to_build_date: true
@@ -94,6 +95,7 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.magiclink
+  - pymdownx.smartsymbols
 
 nav:
   - index.md
