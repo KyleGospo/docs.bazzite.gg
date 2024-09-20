@@ -23,10 +23,9 @@ Swap back to a previous system update if there are major issues after updating v
 
 # Rebasing
 
-**Important**: Do **not** rebase to a different desktop environment than the one you are currently using, please backup and reinstall instead.
-
-
 Rebase to Bazzite builds from the last 90 days, change Bazzite update channels, swap between the Desktop and Handheld/HTPC images, or move completely to a different Fedora Atomic Desktop image.
+
+**Important**: Do **not** rebase to a different desktop environment than the one you are currently using, please backup and reinstall instead.
 
 > **Full Documentation**:
 > [Rebase guide](./rebase_guide.md)
