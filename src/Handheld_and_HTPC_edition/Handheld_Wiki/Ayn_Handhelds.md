@@ -15,7 +15,7 @@ authors:
 
 ### Installing Bazzite
 
-Read the [**Installing Bazzite on Handheld PCs documentation**](https://docs.bazzite.gg/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs/).
+Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
 
 ### Post-Installation Setup
 
@@ -51,7 +51,7 @@ ujust install-hhd-controller-glyph-theme
 
 ### Installing Bazzite
 
-Read the [**Installing Bazzite on Handheld PCs documentation**](https://docs.bazzite.gg/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs/).
+Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
 
 ### Post-Installation Setup
 

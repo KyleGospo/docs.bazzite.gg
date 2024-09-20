@@ -35,7 +35,7 @@ Check out the Bazzite's [issue tracker](https://github.com/ublue-os/bazzite/issu
 
 > **[Bazzite Template](https://github.com/ublue-os/image-template)**
 
-Read about forking your own Bazzite image [here](https://docs.bazzite.gg/Advanced/creating_custom_image/).
+Read about forking your own Bazzite image [here](/Advanced/creating_custom_image.md).
 
 If you feel comfortable with bash scripting, programming, working with containers, or anything upstream (Fedora, Flatpak, etc.) then feel free to contribute to Bazzite if you have want to add a feature or bug fix.
 

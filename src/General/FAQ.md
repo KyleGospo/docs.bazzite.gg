@@ -17,7 +17,7 @@ authors:
 
 ## Bazzite vs. Windows Comparison
 
-**OS** | [Atomic Updates](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide/)  | [Rollback  System Updates](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates/) | [Gaming User Interface](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/)| [App Store](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/)|[Open Source]( https://github.com/ublue-os/bazzite)|
+**OS** | [Atomic Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide.md)  | [Rollback  System Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md) | [Gaming User Interface](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)| [App Store](/Installing_and_Managing_Software/Flatpak.md)|[Open Source]( https://github.com/ublue-os/bazzite)|
 | -------- | -------- | -------- | -------- | --------  | -------- | 
 | **Bazzite**: | ✅  | ✅  | ✅  | ✅ | ✅  | ✅  
 | **Windows**: | ❌ | ❌ | ❌ | ✅  | ❌ |
@@ -25,7 +25,7 @@ authors:
 
 ### Detailed Overview (Pros/Cons of Bazzite)
 
-Bazzite's hardware requirements are less demanding than Windows and arguably has better desktop performance.  However, Linux unfriendly hardware may cause loss of hardware functionality.  Graphics driver performance is also a mixed bag.  AMD GPUs are objectively better on Bazzite versus Windows, but Nvidia GPUs are objectively worse.  Installing software on Bazzite is usually easier to install in comparison to Windows outside of ["legacy Linux software"](https://docs.bazzite.gg/Installing_and_Managing_Software/Distrobox/).  
+Bazzite's hardware requirements are less demanding than Windows and arguably has better desktop performance.  However, Linux unfriendly hardware may cause loss of hardware functionality.  Graphics driver performance is also a mixed bag.  AMD GPUs are objectively better on Bazzite versus Windows, but Nvidia GPUs are objectively worse.  Installing software on Bazzite is usually easier to install in comparison to Windows outside of ["legacy Linux software"](/Installing_and_Managing_Software/Distrobox.md).  
 
 Steam Gaming Mode provides a first-class handheld and controller-friendly experience.  Game compatibility for newer games may require [tinkering](https://www.protondb.com/) and many [games with kernel anti-cheat](https://areweanticheatyet.com/) that do not support Linux will not work at all.  Older games usually run better on Bazzite vs. Windows due to the [compatibility layer](https://github.com/ValveSoftware/Proton/wiki), and modding on Bazzite usually requires a few extra steps and many mod frontends do not run.  Non-Steam gaming requires a graphical frontend, like [Lutris](https://lutris.net/) (pre-installed on Bazzite), which requires some manual steps than on Windows to set them up.  Emulation setup can be simplified with the available tools on Bazzite versus Windows.  Most emulators will run on par with Windows, but [Xenia](https://xenia.jp/) (Xbox 360 emulator) is an outlier and runs objectively worse on Bazzite versus Windows.
 

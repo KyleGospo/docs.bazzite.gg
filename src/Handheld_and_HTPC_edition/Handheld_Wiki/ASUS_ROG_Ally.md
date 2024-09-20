@@ -15,7 +15,7 @@ authors:
 
 ## Installing Bazzite
 
-Read the [**Installing Bazzite on Handheld PCs documentation**](https://docs.bazzite.gg/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs/).
+Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
 
 ## Post-Installation Setup
 
@@ -62,7 +62,7 @@ ujust install-hhd-controller-glyph-theme
 
 ## BIOS Update Breaks Secure Boot Key
 
-Read our [Secure Boot guide](https://docs.bazzite.gg/General/Installation_Guide/secure_boot/#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
+Read our [Secure Boot guide](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
 
 
 <hr>

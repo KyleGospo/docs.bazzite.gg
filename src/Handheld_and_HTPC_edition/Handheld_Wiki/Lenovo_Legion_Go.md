@@ -58,7 +58,7 @@ A [thread](https://universal-blue.discourse.group/docs?topic=3064) on our forums
 
 ## BIOS Update Breaks Secure Boot Key
 
-Read our [Secure Boot guide](https://docs.bazzite.gg/General/Installation_Guide/secure_boot/#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
+Read our [Secure Boot guide](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
 
 
 ## External Resource
