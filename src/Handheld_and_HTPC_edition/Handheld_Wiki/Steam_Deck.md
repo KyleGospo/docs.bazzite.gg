@@ -19,7 +19,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](https://docs.baz
 
 ### Post-Installation Setup
 
-- No additional setup required, but make sure to read the [installation Guide](https://universal-blue.discourse.group/docs?topic=30).
+- No additional setup required, but make sure to read the [installation Guide](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
 - It should function nearly identical to SteamOS with the benefits of [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/):
   - Layer Fedora packages to the image without losing them between updates/reboots.
   - Newer package upgrades including the Linux kernel and drivers.
@@ -38,7 +38,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](https://docs.baz
 
 ### Post-Installation Setup
 
-- No additional setup required, but make sure to read the [installation Guide](https://universal-blue.discourse.group/docs?topic=30).
+- No additional setup required, but make sure to read the [installation Guide](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs/).
 - It should function nearly identical to SteamOS with the benefits of [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/):
   - Layer Fedora packages to the image without losing them between updates/reboots.
   - Newer package upgrades including the Linux kernel and drivers.
