@@ -51,7 +51,7 @@ This documentation may not cover specific areas with the assumption that the use
 
 ### Update and Changelog Inaccuracy
 
-> **Note**: Updates will also look for and upgrade Linux applications like installed [Flatpaks](https://universal-blue.discourse.group/docs?topic=2636).
+> **Note**: Updates will also look for and upgrade Linux applications like installed [Flatpaks](/Installing_and_Managing_Software/Flatpak.md).
 
 #### Steam Gaming Mode
 
