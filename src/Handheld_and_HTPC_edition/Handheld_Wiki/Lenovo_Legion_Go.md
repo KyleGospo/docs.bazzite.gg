@@ -56,6 +56,11 @@ mv ~/.config/kwinoutputconfig.json ~/.config/kwinoutputconfig.json.old
 
 A [thread](https://universal-blue.discourse.group/docs?topic=3064) on our forums goes over in detail on how to update the BIOS without having Windows installed.
 
+## BIOS Update Breaks Secure Boot Key
+
+Read our [Secure Boot guide](https://docs.bazzite.gg/General/Installation_Guide/secure_boot/#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
+
+
 ## External Resource
 
 For more information, check out the [Legion Go Tips and Tricks guide](https://github.com/aarron-lee/legion-go-tricks) which includes useful scripts for this handheld.
