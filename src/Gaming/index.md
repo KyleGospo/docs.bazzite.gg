@@ -19,32 +19,32 @@ Linux gaming being a viable competitor to Windows is a relatively new paradigm. 
 
 ## [Game Launchers](Game_Launchers.md)
 
-- [Setting Up Steam](https://docs.bazzite.gg/Gaming/Game_Launchers/#steam-setup)
-- [Non-Steam Games](https://docs.bazzite.gg/Gaming/Game_Launchers/#non-steam-games)
-  - [Available Options](https://docs.bazzite.gg/Gaming/Game_Launchers/#non-steam-games)
-  - [Configuring Lutris](https://docs.bazzite.gg/Gaming/Game_Launchers/#lutris-setup)
-  - [Gamepass Using Xbox Cloud Gaming](https://docs.bazzite.gg/Gaming/Game_Launchers/#gamepass-microsoft-store-games-cloud-streaming)
+- [Setting Up Steam](/Gaming/Game_Launchers.md#steam-setup)
+- [Non-Steam Games](/Gaming/Game_Launchers.md#non-steam-games)
+  - [Available Options](/Gaming/Game_Launchers.md#non-steam-games)
+  - [Configuring Lutris](/Gaming/Game_Launchers.md#lutris-setup)
+  - [Gamepass Using Xbox Cloud Gaming](/Gaming/Game_Launchers.md#gamepass-microsoft-store-games-cloud-streaming)
 
 ## [Managing & Modding Games](Managing_and_modding_games.md)
 
-- [Compatibility Layers](https://docs.bazzite.gg/Gaming/Managing_and_modding_games/#compatibility-layers)
-- [Protontricks / Winetricks](https://docs.bazzite.gg/Gaming/Managing_and_modding_games/#protontricks-winetricks)
-- [Proton Prefix Information](https://docs.bazzite.gg/Gaming/Managing_and_modding_games/#what-is-a-protonwine-prefix)
-- [Hidden Files in File Manager](https://docs.bazzite.gg/Gaming/Managing_and_modding_games/#hidden-files-in-file-manager)
-- [Modding Quick-Start](https://docs.bazzite.gg/Gaming/Managing_and_modding_games/#modding-quick-start)
-- [Pre-Installed Enhancements](https://docs.bazzite.gg/Gaming/Managing_and_modding_games/#enhancements-pre-installed-on-bazzite)
+- [Compatibility Layers](/Gaming/Managing_and_modding_games.md#compatibility-layers)
+- [Protontricks / Winetricks](/Gaming/Managing_and_modding_games.md#protontricks-winetricks)
+- [Proton Prefix Information](/Gaming/Managing_and_modding_games.md#what-is-a-protonwine-prefix)
+- [Hidden Files in File Manager](/Gaming/Managing_and_modding_games.md#hidden-files-in-file-manager)
+- [Modding Quick-Start](/Gaming/Managing_and_modding_games.md#modding-quick-start)
+- [Pre-Installed Enhancements](/Gaming/Managing_and_modding_games.md#enhancements-pre-installed-on-bazzite)
 
 ## [Common Gaming Issues](Common_gaming_issues.md)
 
-- [Proton Logs](https://docs.bazzite.gg/Gaming/Common_gaming_issues/#steam-logs)
-- [Native Linux Builds vs. Proton](https://docs.bazzite.gg/Gaming/Common_gaming_issues/#native-linux-port-versus-windows-version)
-- [Issues with Valve/Source Games](https://docs.bazzite.gg/Gaming/Common_gaming_issues/#valvesource-engine-games-problems)
+- [Proton Logs](/Gaming/Common_gaming_issues.md#steam-logs)
+- [Native Linux Builds vs. Proton](/Gaming/Common_gaming_issues.md#native-linux-port-versus-windows-version)
+- [Issues with Valve/Source Games](/Gaming/Common_gaming_issues.md#valvesource-engine-games-problems)
 
 ## [Hardware Compatibility for Gaming](Hardware_compatibility_for_gaming.md)
 
-- [Compatible Hardware / Handhelds](https://docs.bazzite.gg/Gaming/Hardware_compatibility_for_gaming/#minimum-system-requirements)
-- [Vulkan Capable GPU for Desktop/HTPC Hardware](https://docs.bazzite.gg/Gaming/Hardware_compatibility_for_gaming/#vulkan-compatible-gpu)
-- [Information Regarding Unsupported Filesystems](https://docs.bazzite.gg/Gaming/Hardware_compatibility_for_gaming/#unsupported-filesystems-for-secondary-drives)
+- [Compatible Hardware / Handhelds](/Gaming/Hardware_compatibility_for_gaming.md#minimum-system-requirements)
+- [Vulkan Capable GPU for Desktop/HTPC Hardware](/Gaming/Hardware_compatibility_for_gaming.md#vulkan-compatible-gpu)
+- [Information Regarding Unsupported Filesystems](/Gaming/Hardware_compatibility_for_gaming.md#unsupported-filesystems-for-secondary-drives)
 
 ## Useful External Resources
 
