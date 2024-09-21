@@ -54,6 +54,7 @@ theme:
     - search.highlight
     - content.action.edit
     - content.action.view
+    - announce.dismiss
 
 docs_dir: src
 site_dir: book
