@@ -140,13 +140,6 @@ We provide several different images that all get the same additions and fixes th
 
 There can be a hypothetical scenario where everyone involved with Bazzite could stop maintaining the project at once and it will still continue to receive updates directly from upstream.
 
-## Can this be used as a daily driver?
-
-**Yes**.
-
-Updates are obtained and downloaded straight from upstream which means there is little maintenance to be done with the image on our end since these images are modified Fedora images. Users will receive application and system updates from Bazzite, Universal Blue, and Fedora daily.
-
-> A friendly reminder that this project is still in its early stages and moving at a fast pace with updates and changes nearly daily.
 
 ## What are some of the utilities that Bazzite ships?
 
@@ -159,9 +152,6 @@ Updates are obtained and downloaded straight from upstream which means there is 
 - [`ujust`](../Installing_and_Managing_Software/ujust.md): Execute custom commands based on recipes.
 - [yafti (Bazzite Portal)](https://github.com/ublue-os/yafti/): First-boot utility for installing additional software.
 
-## Can I use this desktop environment or that standalone window manager?
-
-Make your own [custom image based off Bazzite](https://universal-blue.discourse.group/docs?topic=43) with the DE and WM change that you want.
 
 ## Is Secure Boot supported?
 
@@ -181,15 +171,14 @@ Most hardware changes should **not** require any manual intervention outside of 
 
 However, if you swap from or to a Nvidia GPU, then [rebasing](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md) will be necessary as a manual intervention to get the appropriate graphics drivers.
 
-## What is the difference between Bluefin, Aurora, and Bazzite?
 
-> **TL;DR**: Bazzite is the gaming-centric version of Bluefin (GNOME) and Aurora (KDE Plasma).
+## Can this be used as a daily driver?
 
-[Bluefin](https://projectbluefin.io/) and [Aurora](https://getaurora.dev) are nearly identical outside of branding and desktop environment, but Bazzite strays away from both. All three are similar for desktop PCs and function similarly and share contributors between projects. Bluefin and Aurora target two audiences---individuals who want a maintenance-free Linux desktop experience and developers (using the `-dx` images).
+**Yes**.
 
-Bazzite exclusively focuses on having an out of the box Linux gaming experience for desktop, HTPC hardware, and handhelds. Bazzite can be summed up as Bluefin and Aurora but tuned for PC gaming. All 3 are community-centric custom Fedora Atomic Desktop that is configured for their specific target audience, and for Bazzite specifically: PC gamers who want to use the Linux desktop as the alternative to Windows.
+Updates are obtained and downloaded straight from upstream which means there is little maintenance to be done with the image on our end since these images are modified Fedora images. Users will receive application and system updates from Bazzite, Universal Blue, and Fedora daily.
 
-## How do I change the hostname of my device?
+## Can I change the hostname of my device?
 
 Edit the `/etc/hostname` file with a new hostname, save it, and reboot.
 
@@ -197,9 +186,21 @@ Edit the `/etc/hostname` file with a new hostname, save it, and reboot.
 hostnamectl hostname <hostname>
 ```
 
-## Questions Regarding Java
+## Can I use this desktop environment or that standalone window manager?
+
+Make your own [custom image based off Bazzite](https://universal-blue.discourse.group/docs?topic=43) with the DE and WM change that you want.
+
+## Can I use or modify Java?
 
 If its for Minecraft, then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) for mods that require anything Java related. If its for development then use [Distrobox](../Installing_and_Managing_Software/Distrobox.md). You will not be able to change Java on your host.
+
+## What is the difference between Bluefin, Aurora, and Bazzite?
+
+> **TL;DR**: Bazzite is the gaming-centric version of Bluefin (GNOME) and Aurora (KDE Plasma), and all 3 are Universal Blue Fedora custom images intended for end users.
+
+[Bluefin](https://projectbluefin.io/) and [Aurora](https://getaurora.dev) are nearly identical outside of branding and desktop environment, but Bazzite strays away from both. All three are similar for desktop PCs and function similarly and share contributors between projects. Bluefin and Aurora target two audiences---individuals who want a maintenance-free Linux desktop experience and developers (using the `-dx` images).
+
+Bazzite exclusively focuses on having an out of the box Linux gaming experience for desktop, HTPC hardware, and handhelds. Bazzite can be summed up as Bluefin and Aurora but tuned for PC gaming. All 3 are community-centric custom Fedora Atomic Desktop that is configured for their specific target audience, and for Bazzite specifically: PC gamers who want to use the Linux desktop as the alternative to Windows.
 
 ## Why are builds failing?
 
