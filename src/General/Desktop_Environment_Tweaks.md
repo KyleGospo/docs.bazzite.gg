@@ -91,4 +91,9 @@ Install [Decky Loader](https://decky.xyz/) then install [CSS Loader](https://doc
 
 <hr>
 
+### **See also**:
+
+- [KDE Plasma Documentation](https://docs.kde.org/stable5/en/plasma-desktop/plasma-desktop/index.html)
+- [GNOME Documentation](https://help.gnome.org/users/gnome-help/stable/)
+
 [**<-- View all Bazzite documentation**](../index.md)
