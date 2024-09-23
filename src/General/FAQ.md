@@ -188,7 +188,7 @@ hostnamectl hostname <hostname>
 
 ## Can I use this desktop environment or that standalone window manager?
 
-Make your own [custom image based off Bazzite](https://universal-blue.discourse.group/docs?topic=43) with the DE and WM change that you want.
+Make your own [custom image based off Bazzite](https://docs.bazzite.gg/Advanced/creating_custom_image/) with the DE and WM change that you want.
 
 ## Can I use or modify Java?
 
