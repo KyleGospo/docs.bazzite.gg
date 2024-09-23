@@ -21,7 +21,7 @@ authors:
 
 ## Steam Gaming Mode Requirements
 
->**Note**: The requirements only applies to [Handheld/HTPC (`-deck`) Bazzite images](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
+>**Note**: These specific requirements only apply to [Handheld/HTPC (`-deck`) Bazzite images](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
 - AMD GPU
   - Modern AMD GPUs
