@@ -17,7 +17,7 @@ authors:
 
 ## Bazzite vs. Windows Comparison
 
-**OS** | [Atomic Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide.md)  | [Rollback  System Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md) | [Gaming User Interface](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)| [App Store](/Installing_and_Managing_Software/Flatpak.md)|[Open Source]( https://github.com/ublue-os/bazzite)|
+**OS** | [Atomic Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide.md)  | [Rollback  System Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md) | [Gaming User Interface](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)| [App Store](https://flathub.org/)|[Open Source]( https://github.com/ublue-os/bazzite)|
 | -------- | -------- | -------- | -------- | --------  | -------- | 
 | **Bazzite**: | ✅  | ✅  | ✅  | ✅ | ✅  | ✅  
 | **Windows**: | ❌ | ❌ | ❌ | ✅  | ❌ |
