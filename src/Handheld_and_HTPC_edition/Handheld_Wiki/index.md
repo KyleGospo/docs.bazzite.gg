@@ -70,7 +70,7 @@ To install [Decky Loader](https://decky.xyz), open a host terminal and enter:
 ujust setup-decky
 ```
 
-You can access Decky Loader by pressing the 'side menu button' once from within Steam Gamemode or Steam Big Picture Mode.
+You can access Decky Loader by pressing the 'side menu button', also known as the Quick Access Menu (QAM), once from within Steam Gamemode or Steam Big Picture Mode.
 
 # Decky Plugins
 
