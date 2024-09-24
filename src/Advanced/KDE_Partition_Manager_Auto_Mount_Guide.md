@@ -30,9 +30,7 @@ authors:
 10. Mount the disk manually in KDE Partition Manager and enter your sudo password
 11. Open the terminal to test the mounts by running the **command**:
 
-    ```command
-    sudo systemctl daemon-reload && sudo mount -a
-    ```
+    `sudo systemctl daemon-reload && sudo mount -a`
 
 12. **If no errors appeared then it should be safe to reboot.**
 

@@ -29,9 +29,7 @@ authors:
 10. Select "Take Ownership"
 11. Open the terminal to test the mounts by running the **command**:
 
-    ```command
-    sudo systemctl daemon-reload && sudo mount -a
-    ```
+    `sudo systemctl daemon-reload && sudo mount -a`
 
 12. **If no errors appeared then it should be safe to reboot.**
 

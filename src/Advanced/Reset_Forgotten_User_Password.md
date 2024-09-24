@@ -28,33 +28,23 @@ Once you are in the GRUB command line:
 
 1. Temporarily mount SELinux
 
-    ```
-    mount -t selinuxfs selinuxfs /sys/fs/selinux
-    ```
+    `mount -t selinuxfs selinuxfs /sys/fs/selinux`
 
 2.  Load SELinux policy
 
-    ```
-    /sbin/load_policy
-    ```
+    `/sbin/load_policy`
 
 3. Enter your new password (i.e. `passwd bazzite`)
 
-    ```
-    passwd [INSERT USERNAME HERE]
-    ```
+    `passwd [INSERT USERNAME HERE]`
 
 4. Sync
 
-    ```command
-    sync
-    ```
+    `sync`
 
 5. Reboot
 
-    ```
-    /sbin/reboot -ff
-    ```
+    `/sbin/reboot -ff`
 
 ![Commands|690x334](../img/Reset_Password_Commands.png)
 
