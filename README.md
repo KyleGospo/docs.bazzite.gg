@@ -1,8 +1,41 @@
 # Contributing to Bazzite MkDocs documentation
 
+- [Contributing to Bazzite MkDocs documentation](#contributing-to-bazzite-mkdocs-documentation)
+  - [Introduction](#introduction)
+  - [Documentation Guidelines](#documentation-guidelines)
+    - [1. Internal links](#1-internal-links)
+    - [2. Avoid using h1 headers (`#`) in pages](#2-avoid-using-h1-headers--in-pages)
+  - [What is MkDocs](#what-is-mkdocs)
+  - [Setup MkDocs tooling](#setup-mkdocs-tooling)
+    - [1. Create the markdown file where we will store our document.](#1-create-the-markdown-file-where-we-will-store-our-document)
+    - [2. Set a proper page name](#2-set-a-proper-page-name)
+  - [Translate documentation](#translate-documentation)
+
 ## Introduction
 
-This is a guide that will show you how to write, or transcribe documentation from Discourse forums (https://universal-blue.discourse.group/) to MkDocs pages.
+This is a guide that will show you how to write documentation.
+
+## Documentation Guidelines
+
+### 1. Internal links
+
+Do not utilize absolute urls pointing to internal pages in the documentation (https://docs.bazzite.gg).
+
+Instead:
+
+- Use relative paths
+  - `./index.md`
+  - `../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md`
+- Use absolute paths\*
+  - `/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md`
+
+<small>\* Absolute paths are relative to the `docs_dir` declared in [mkdocs.yml](./mkdocs.yml). In this case, `src/`.</small>
+
+### 2. Avoid using h1 headers (`#`) in pages
+
+Instead, use h2 headers (`##`).
+
+If you really need to, use `#` only and exclusively for page titles, and only once per page.
 
 ## What is MkDocs
 
@@ -52,10 +85,10 @@ You will need other tools as well, like:
 
 ### 1. Create the markdown file where we will store our document.
 
-   > ⚠️ WARNING
-   >
-   > Just remember, ⚠️**DO NOT USE SPACES IN THE FILE NAME**⚠️. Is really important, spaces in filenames is going to bit us later in a future.
-   > Instead, use underscores `_`
+> ⚠️ WARNING
+>
+> Just remember, ⚠️**DO NOT USE SPACES IN THE FILE NAME**⚠️. Is really important, spaces in filenames is going to bit us later in a future.
+> Instead, use underscores `_`
 
 ### 2. Set a proper page name
 
