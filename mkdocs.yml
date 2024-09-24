@@ -105,6 +105,7 @@ nav:
       - "FAQ": "General/FAQ.md"
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
       - "Reporting Bugs": General/reporting_bugs.md
+      - "Press Kit": "Bazzite_Press_Kit.md"
       - "Installation Guide":
           - General/Installation_Guide/index.md
           - "Installing Bazzite for Desktop/Laptop Hardware": General/Installation_Guide/Installing_Bazzite_for_Desktop_or_Laptop_Hardware.md
