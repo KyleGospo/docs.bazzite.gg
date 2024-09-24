@@ -23,7 +23,7 @@ fi
 # Install poetry project
 echod "Setting up poetry project"
 (
-    cd "$REPO_DIR"/docs
+    cd "$REPO_DIR"
     mkdir -p .venv
     poetry install
 ) || {
