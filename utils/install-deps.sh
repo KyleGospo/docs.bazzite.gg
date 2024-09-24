@@ -19,6 +19,10 @@ fi
 if ! command -v prettier >/dev/null; then
     brew install prettier
 fi
+if ! command -v rg >/dev/null; then
+    echod "Installing ripgrep"
+    brew install ripgrep
+fi
 
 # Install poetry project
 echod "Setting up poetry project"
