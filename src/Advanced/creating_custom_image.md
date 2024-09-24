@@ -8,7 +8,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=43", "fetched_at": "2024-09-03 16:43:11.309087+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## Making your own image by forking Bazzite, Bluefin, or Aurora
+## Making your own image by forking Bazzite
 
 Sometimes you don't want to make a whole new image from scratch, you just want to change some things without too much extra work. Sometimes it's nicer to derive from images that more end-user focused like [Bazzite](https://github.com/ublue-os/bazzite).
 
