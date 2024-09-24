@@ -1,10 +1,6 @@
 import re
-import string
 
-from bs4 import BeautifulSoup, SoupStrainer, Tag
-from mkdocs.config.defaults import MkDocsConfig
-from mkdocs.plugins import event_priority
-from mkdocs.structure.files import Files
+from bs4 import BeautifulSoup, Tag
 from mkdocs.structure.pages import Page
 
 IMG_SIZED_RE = r"\|(\d+)x(\d+)(?:.*?(\d+)%)?"
@@ -24,6 +20,6 @@ def on_page_content(html: str, page: Page, config, files):
             multi = int(multi) / 100 if multi else 1
             width = int(width) * multi
             height = int(height) * multi
-            img["style"] = f"max-width: {width}px; max-height: {height}px; width: 100%;"
+            img["style"] = f"width: {width}px; max-height: {height}px;"
 
     return str(soup)
