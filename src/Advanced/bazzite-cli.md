@@ -10,6 +10,7 @@ authors:
 
 >### You're using bazzite, of course you have the coolest UNIX tools right at your disposal.
 
+![bazzite-cli|690x463, 75%](../img/bazzite-cli.png)
 
 ## List of CLI Tools
 
