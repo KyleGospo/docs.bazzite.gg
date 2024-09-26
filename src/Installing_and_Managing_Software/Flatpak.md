@@ -7,7 +7,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2636", "fetched_at": "2024-09-03 16:43:08.564302+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-# What is Flatpak?
+## What is Flatpak?
 
 ![Flatpak|100x100, 100%](../img/Flatpak.png)
 
@@ -15,7 +15,7 @@ Flatpak is a universal containerized package format that tries to sandbox applic
 
 > Flatpak is the **primary method of installing applications on Bazzite** and is recommended to use Flatpak over other formats for most software when possible.
 
-# Installing Flatpaks
+## Installing Flatpaks
 
 Flatpaks can be installed via the software center of the desktop environment you chose.
 
@@ -34,7 +34,7 @@ Flatpaks can be installed via the software center of the desktop environment you
 flatpak install <application>
 ```
 
-# Flatpak Remotes
+## Flatpak Remotes
 
 Flatpaks can be hosted anywhere, but by default Bazzite ships with the [Flathub](https://flathub.org/) remote which is a centralized repository of Linux applications.
 
@@ -46,11 +46,11 @@ Flathub has different remotes, Bazzite enables both "**system**" and "**user**" 
 
 Read more about system versus user Flathub remotes in the [upstream documentation](https://docs.flathub.org/docs/for-users/user-vs-system-install/).
 
-# Manage Flatpaks
+## Manage Flatpaks
 
 Manage Flatpaks with [Flatseal](https://github.com/tchx84/Flatseal) and [Warehouse](https://github.com/flattool/warehouse) which are both pre-installed.
 
-## Flatseal
+### Flatseal
 
 ![Flatseal|690x376](../img/Flatseal.png)
 
@@ -60,13 +60,13 @@ Alternatively, use KDE Plasma's system settings which has application permission
 
 Sometimes a project's website or [Github repository](<https://github.com/flathub/com.discordapp.Discord/wiki/Rich-Precense-(discord-rpc)#flatpak-applications>) contain information on what permissions need to be changed to perform certain functionality.
 
-## Warehouse
+### Warehouse
 
 ![Warehouse|690x376](../img/Warehouse.png)
 
 **Warehouse** is a utility that gives users a graphical interface to downgrade applications, add other Flatpak sources outside of Flathub, and backup application user data. Its also a helpful tool for installing Flatpaks outside of Flathub, **at your own risk**.
 
-# Project Website
+### Project Website
 
 https://www.flatpak.org/
 
