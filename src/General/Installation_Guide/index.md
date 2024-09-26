@@ -8,7 +8,9 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=30", "fetched_at": "2024-09-03 16:43:25.704918+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-# **Important Installation Notes**:
+# Bazzite Installation Guide
+
+### **Important Installation Notes**:
 
 - Use a download manager if the direct download fails or is downloading too slow.
 
@@ -20,7 +22,7 @@ authors:
 
 - Secure Boot is supported on most hardware, but you must [**enroll our key**](./secure_boot.md).
 
-# Choose Your Hardware:
+## Choose Your Hardware:
 
 - [Installing Bazzite for **Desktop/Laptop Hardware**](./Installing_Bazzite_for_Desktop_or_Laptop_Hardware.md)
 
@@ -36,7 +38,7 @@ authors:
 
 \*_Indicates that [**Steam Gaming Mode**](../../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) is intended for this device and ships with the ISO._
 
-# Issues Installing Bazzite?
+## Issues Installing Bazzite?
 
 > The workarounds detailed in the guide are also useful for **downloading a smaller ISO size**.
 
