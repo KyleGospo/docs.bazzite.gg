@@ -81,8 +81,6 @@ sudo ostree admin pin --unpin <index number>
 
 ## Application Update Downgrades
 
-**Read about the pre-installed Warehouse application to downgrade applications in this doc**:
-
 Read about the pre-installed Warehouse application to downgrade applications in this [documentation](/Installing_and_Managing_Software/Flatpak.md#warehouse).
 
 <hr>
