@@ -8,14 +8,17 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=43", "fetched_at": "2024-09-03 16:43:11.309087+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## Making your own image by forking Bazzite
-
-Sometimes you don't want to make a whole new image from scratch, you just want to change some things without too much extra work. Sometimes it's nicer to derive from images that more end-user focused like [Bazzite](https://github.com/ublue-os/bazzite).
-
 ## Using the Image template
 
 Use the [**official template image**](https://github.com/ublue-os/image-template) to build off of to make your own custom Bazzite preferred over forking the project.
  
+## Forking Bazzite
+
+Sometimes you don't want to make a whole new image from scratch, you just want to change some things without too much extra work by forking Bazzite.  It is highly recommended to use the [Pull application for Github](https://github.com/apps/pull) to keep your fork in sync.
+
+## Using Blue-Build
+
+[Blue-Build](https://blue-build.org/learn/universal-blue/) is a project that orginally started as a starting point base for Universal Blue images and eventually became its own separate entity.  All support for Blue-Build images should be directed to the appropriate [communication channels](https://blue-build.org/community/) outside of Universal Blue.
  
 ## Use Cases
  
