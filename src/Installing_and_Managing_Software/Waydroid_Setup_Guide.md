@@ -15,13 +15,13 @@ authors:
 
 > **Note**: Waydroid does **not** work on Nvidia's proprietary drivers, and requires an AMD or Intel GPU for the best results.
 
-# What is Waydroid?
+## What is Waydroid?
 
 ![Waydroid](../img/Waydroid.jpeg)
 
 [Waydroid](https://waydro.id/) is an Android container that runs on Linux. Bazzite users can run Android applications using this method.
 
-# First Time Setup
+## First Time Setup
 
 Open a host terminal and **enter this command to setup Waydroid**:
 
@@ -29,7 +29,7 @@ Open a host terminal and **enter this command to setup Waydroid**:
 ujust setup-waydroid
 ```
 
-## Initialize Waydroid
+### Initialize Waydroid
 
 Waydroid requires users to initialize it for the first time which can be done by selecting:
 `Initialize Waydroid`
@@ -42,9 +42,11 @@ Make sure this worked by entering this **command**:
 
 This will launch Waydroid for the first time.
 
-## Configure Waydroid
+### Configure Waydroid
 
-### Part 1: Stop Waydroid Session
+>Customize your Waydroid container
+
+#### Part 1: Stop Waydroid Session
 
 Waydroid needs to stop running to configure properly.
 
@@ -54,7 +56,7 @@ Open a host terminal and enter this **command**:
 waydroid session stop
 ```
 
-### Part 2: Configuration
+#### Part 2: Configuration
 
 Open a host terminal and enter this **command**:
 
@@ -67,7 +69,7 @@ Selecting `Configure Waydroid` will allow users to install additional Android tw
 1. Select Android Version (**_Android 11_ recommended**)
 2. Select items to install
 
-#### Available Waydroid Extras:
+##### Available Waydroid Extras:
 
 - [GApps](https://github.com/opengapps/opengapps/wiki/FAQ) (Default Android applications including the **Google Play Store)** or [microG](https://microg.org/) (Free alternatives to Google applications)
 
@@ -94,7 +96,7 @@ Selecting `Configure Waydroid` will allow users to install additional Android tw
 
 After verification has happened, it will usually take a while before your device is verified.
 
-# Add as a Non-Steam Shortcut
+## Add as a Non-Steam Shortcut
 
 > This is useful for [Bazzite images that use Steam Gaming Mode.](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
@@ -102,7 +104,7 @@ Make sure to add `/usr/bin/waydroid-launcher` to Steam as a non-Steam game for W
 
 <hr>
 
-# Disable Inputs to Waydroid When Unfocused
+## Disable Inputs to Waydroid When Unfocused
 
 Waydroid has an [issue](https://github.com/waydroid/waydroid/issues/135) where it will register inputs from controllers, keyboards, and other input devices even when the window is not focused.
 
@@ -118,7 +120,7 @@ waydroid prop set persist.waydroid.uevent false
 
 If you ever want to undo this change, run the same steps but set `true` instead of `false` with the same command.
 
-# Resolution & Density Options
+## Resolution & Density Options
 
 > **Note**: This is intended for users who have issues with Waydroid's resolution, scaling, or running Waydroid nested. This is **optional**.
 
@@ -134,7 +136,7 @@ sudoedit /etc/default/steamos-nested-desktop
 
 Save the text files when done.
 
-# Waydroid Hybrid Graphics Fix
+## Waydroid Hybrid Graphics Fix
 
 > **Note**: This is only intended for users who have multiple GPUs in their hardware who experience graphical corruptions in Waydroid.
 
@@ -148,7 +150,7 @@ Then `Select GPU for Waydroid` which will give the option on what GPU to utilize
 
 <hr>
 
-# Reset Waydroid
+## Reset Waydroid
 
 > **Warning**: You will lose all of your Waydroid data.
 
@@ -157,6 +159,10 @@ If you experience issues or want a fresh Waydroid container, then select `Reset 
 ```
 ujust setup-waydroid
 ```
+
+### Project Website
+
+https://waydro.id/
 
 <hr>
 
