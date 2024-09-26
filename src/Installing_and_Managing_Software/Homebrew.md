@@ -7,7 +7,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2639", "fetched_at": "2024-09-03 16:43:07.277727+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-# What is Homebrew?
+## What is Homebrew?
 
 ![Homebrew|332x500, 15%](../img/Homebrew.png)
 
@@ -21,7 +21,7 @@ Install packages in a host terminal with this **command**:
 brew install <package>
 ```
 
-# Project Website
+### Project Website
 
 https://brew.sh/
 
