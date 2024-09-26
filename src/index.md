@@ -33,7 +33,7 @@ A quick list of topics:
      {style="list-style-type: decimal;"}
   4. [Distrobox][distrobox] for containerized apps
      {style="list-style-type: decimal;"}
-  5. [Appimage][appimage] for portable applications found on the web
+  5. [Appimage][appimage] for portable apps found on the web
      {style="list-style-type: decimal;"}
 
   Install regular Fedora packages with [`rpm-ostree`][rpm-ostree] but we [advise avoiding it if possible][rpm-ostree_caveats]
