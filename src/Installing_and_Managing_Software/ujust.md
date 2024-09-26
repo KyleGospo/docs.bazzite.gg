@@ -7,13 +7,13 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2638", "fetched_at": "2024-09-03 16:43:04.643633+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-# What is `ujust`?
+## What is `ujust`?
 
 ![Shell Scripts (.sh)|96x96, 100%](../img/Shell_Scripts__sh.png)
 
 Technically `ujust` is **not** a package format, but are convenience commands that automate tasks using scripts which can be utilized to install specific software. There are also commands for system configuration and maintenance included here, so run `ujust` commands **at your own risk.**
 
-# Using `ujust`
+## Using `ujust`
 
 ![ujust command list|690x411](../img/ujust_command_list.png)
 
@@ -35,7 +35,7 @@ This will show a terminal user interface of `ujust` commands that you can choose
 
 > **Note**: Commands that require values or flags do not function with this method.
 
-## Manually Entering Commands
+### Manually Entering Commands
 
 **Find the command you want to use and enter**:
 
@@ -62,7 +62,7 @@ ujust | grep "<search keyword(s)>"
   - These are shortcuts that we have deemed necessary to not have a verb
     - **Examples**: `ujust update` and `ujust enroll-secureboot-key`
 
-# View each `ujust` script's source code
+## View each `ujust` script's source code
 
 If you would like to see what each script does for each command then open a host terminal and **enter**:
 
@@ -75,7 +75,7 @@ Alternatively, you can find the `ujust` commands locally in:
 
 > This directory also shows **hidden** `ujust` commands.
 
-# Uninstalling Applications Installed Through `ujust`
+## Uninstalling Applications Installed Through `ujust`
 
 Most applications installed via a `ujust` script would have to be uninstalled manually. Follow the instructions found on the project's website or README file in the source code to uninstall it properly.
 
@@ -85,7 +85,7 @@ This **command** Shows layered packages that may be installed from the Bazzite P
 rpm-ostree status
 ```
 
-# Project Website
+### Project Website
 
 https://just.systems/
 
