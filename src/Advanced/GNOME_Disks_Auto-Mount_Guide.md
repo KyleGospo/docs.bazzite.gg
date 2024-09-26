@@ -13,7 +13,7 @@ authors:
 
 **This comes pre-installed on GNOME images.**
 
-# Instructions
+## Instructions
 
 ![GNOME_Disks|690x463, 75%](../img/GNOME_Disks.png)
 
@@ -37,7 +37,7 @@ authors:
 
 Display Name should be added too. Name it whatever you want it to be identified as.
 
-## Filesystem Arguments
+### Filesystem Arguments
 
 > **Warning**: If a drive is formatted, then do not remove it from `/etc/fstab`, so the "nofail" option is a must to avoid issues with booting.
 
@@ -45,19 +45,19 @@ Display Name should be added too. Name it whatever you want it to be identified 
 
 ![GNOME_Mount_Options|549x500, 75%](../img/GNOME_Mount_Options.png)
 
-### **BTRFS**:
+#### **BTRFS**:
 
 ```command
 defaults,compress-force=zstd:3,noatime,lazytime,commit=120,space_cache=v2,nofail
 ```
 
-### **Ext4**:
+#### **Ext4**:
 
 ```command
 defaults,noatime,errors=remount-ro,nofail,rw,users,exec
 ```
 
-### **NTFS**:
+#### **NTFS**:
 
 ```command
 defaults,noatime,nofail,rw,users,exec
@@ -65,17 +65,17 @@ defaults,noatime,nofail,rw,users,exec
 
 > **Note**: Do not use the NTFS filesystem for game library storage in Bazzite, and it is not supported and you will get lots of issues with it. NTFS is **not** intended as a game drive for Bazzite.
 
-## Permissions for the drive
+### Permissions for the drive
 
 ```command
 sudo chown $USER:$USER /mnt/games
 ```
 
-### Advanced Options (Not required for most setups)
+#### Advanced Options (Not required for most setups)
 
 > Change at your own risk!
 
-### Information about compression:
+#### Information about compression:
 
 **3** is a good balance, older CPUs should use **1**.
 
@@ -83,7 +83,7 @@ sudo chown $USER:$USER /mnt/games
 
 use `subvol=name` as an option, KDE and GNOME Disks let you only mount 1 subvolume through the GUI, you can mount the root with `subvol=/` if a default subvolume is configured in the filesystem
 
-# Installing GNOME Disks on non-GNOME images
+## Installing GNOME Disks on non-GNOME images
 
 If you would like to install this, then it can be layered to your system by entering in a terminal:
 
