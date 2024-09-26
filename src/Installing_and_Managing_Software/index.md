@@ -8,7 +8,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=35", "fetched_at": "2024-09-03 16:43:05.697052+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-# Linux Package Formats
+## Linux Package Formats
 
 > **Package formats ranked from most recommended for daily usage**:
 >
@@ -19,7 +19,7 @@ authors:
 > 5. [AppImage](./AppImage.md) - Portable universal package format that relies on specific host libraries at a system-level, usually obtained from a project's website.
 > 6. [`rpm-ostree`](./rpm-ostree.md) - Layer Fedora packages at a system-level (**not recommended, use as a last resort**)
 
-# How do I run Windows applications?
+## How do I run Windows applications?
 
 > **Use a [WINE](https://www.winehq.org/) front-end**:
 >
@@ -30,20 +30,18 @@ authors:
 > - [itch](https://flathub.org/apps/io.itch.itch) for games on itch.io.
 > - [WineZGUI](https://github.com/fastrizwaan/WineZGUI) (_pre-installed_) for Windows applications that don’t require special considerations for their prefix.
 
-# How do I install Android applications?
+## How do I install Android applications?
 
 Follow the [Waydroid Setup Guide](./Waydroid_Setup_Guide.md) to install Android applications on Bazzite.
 
 > **Note**: Waydroid is **not supported** on other Universal Blue images like [Aurora](https://getaurora.dev/) and [Bluefin](https://projectbluefin.io/).
 
-# Tutorials for Installing Other Software
+## Tutorials for Installing Other Software
 
 - [Plex Media Server](https://universal-blue.discourse.group/t/video-tutorial-how-to-install-plex-media-server-using-distrobox-on-bazzite/1999) (**Note**: Podman or Docker is recommended over Distrobox)
 - [Flash Games](https://universal-blue.discourse.group/t/how-to-run-old-browser-games-with-web-apps/486)
 
-<hr>
-
-# Video Showcase of Installing Software
+### Video Showcase of Installing Software
 
 > **Note**: This video is missing Homebrew.
 
