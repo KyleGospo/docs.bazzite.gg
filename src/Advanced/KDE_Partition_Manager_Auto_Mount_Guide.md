@@ -13,7 +13,7 @@ authors:
 
 **This is pre-installed on KDE images.**
 
-# Instructions
+## Instructions
 
 ![KDE Partition Manager|690x462, 75%](../img/KDE_Partition_Manager.png)
 ![Do not check the boxes!|690x197](../img/Do_not_check_the_boxes.png)
@@ -38,14 +38,14 @@ authors:
 
 Display Name should be added too. Name it whatever you want it to be identified as.
 
-## Required additional options depending on **filesystem**
+### Required additional options depending on **filesystem**
 
 Use the below generic options depending on your filesystem (these are just good defaults)
 You can copy+paste these into the "More.." dialog and they will be valid
 
 > **Note**: "Users can mount and unmount" is an **optional** setting.
 
-## Filesystem arguments
+### Filesystem arguments
 
 > **Warning**: If a drive is formatted, then do not remove it from `/etc/fstab`, so the "nofail" option is a must to avoid issues with booting.
 
@@ -53,19 +53,19 @@ You can copy+paste these into the "More.." dialog and they will be valid
 
 > **Example: btrfs requires these additional options.**
 
-### **BTRFS**:
+#### **BTRFS**:
 
 ```command
 defaults,compress-force=zstd:3,noatime,lazytime,commit=120,space_cache=v2,nofail
 ```
 
-### **Ext4**:
+#### **Ext4**:
 
 ```command
 defaults,noatime,errors=remount-ro,nofail,rw,users,exec
 ```
 
-### **NTFS**:
+#### **NTFS**:
 
 ```command
 defaults,noatime,nofail,rw,users,exec
@@ -73,19 +73,19 @@ defaults,noatime,nofail,rw,users,exec
 
 > **Note**: Do not use the NTFS filesystem for game library storage in Bazzite, and it is not supported and you will get lots of issues with it. NTFS is **not** intended as a game drive for Bazzite.
 
-## Advanced Options (Not required for most setups)
+### Advanced Options (Not required for most setups)
 
 > Change at your own risk!
 
-### Information about compression:
+#### Information about compression:
 
 **3** is a good balance, older CPUs should use **1**.
 
-### Information about subvolumes:
+#### Information about subvolumes:
 
 use `subvol=name` as an option, KDE and GNOME Disks let you only mount 1 subvolume through the GUI, you can mount the root with `subvol=/` if a default subvolume is configured in the filesystem.
 
-# Installing KDE Partition Manager on non-KDE images
+## Installing KDE Partition Manager on non-KDE images
 
 If you would like to install this, then it can be layered to your system by entering in a terminal:
 
