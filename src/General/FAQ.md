@@ -15,6 +15,12 @@ authors:
 
 [Fedora Linux's Atomic Desktops](https://fedoraproject.org/atomic-desktops/) originally followed a naming scheme based on [minerals.](https://fedoraproject.org/kinoite/) Bazzite is a mineral that is known for being strong, lightweight, and is colored [blue](https://universal-blue.org/).
 
+## What is the difference between SteamOS and Bazzite?
+
+Bazzite originally was developed for the Steam Deck targeting users who used their Steam Deck as their primary PC. Bazzite is a collection of custom Fedora Atomic Desktop images built with Universal Blue's tooling.  The main advantages of Bazzite versus SteamOS is receiving system packages in updates at a much faster rate, choice of an alternative desktop environment, [Waydroid support](https://docs.bazzite.gg/Installing_and_Managing_Software/Waydroid_Setup_Guide/), [layering system-level packages at your own risk without messing with the filesystem](https://docs.bazzite.gg/Installing_and_Managing_Software/rpm-ostree/), and printing support.
+
+A full list of major differences can be found in the [Steam Deck wiki entry](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck/#how-similar-is-bazzite-to-steamos-on-steam-deck-hardware) and the [Bazzite README](https://github.com/ublue-os/bazzite/blob/main/README.md).
+
 ## Bazzite vs. Windows Comparison
 
 **OS** | [Atomic Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide.md)  | [Rollback  System Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md) | [Gaming User Interface](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)| [App Store](https://flathub.org/)|[Open Source]( https://github.com/ublue-os/bazzite)|
