@@ -7,6 +7,8 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=36", "fetched_at": "2024-09-03 16:43:15.473615+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
+# Updates, Rollbacks, and Rebasing
+
 ## Updates
 
 Updates are automatic on Desktop images and manually done on Handheld/HTPC images, and both Bazzite variants upgrade everything at both a system-level and user-installed applications during the updating process.
