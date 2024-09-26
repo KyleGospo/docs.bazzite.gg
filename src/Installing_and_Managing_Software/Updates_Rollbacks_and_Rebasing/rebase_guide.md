@@ -9,7 +9,7 @@ authors:
 
 ![Docker's OCI Icon|200x200, 100%](../../img/Dockers_OCI_Icon.png)
 
-# What is Rebasing?
+## What is Rebasing?
 
 > **Attention**: Do **not** rebase between different desktop environments.
 
@@ -17,13 +17,13 @@ Rebasing allows users to switch to a different image **without** having to reins
 
 [**It is recommended to use the Bazzite Rollback Helper utility**](./bazzite_rollback_helper.md).
 
-# Rebase Scenarios
+## Rebase Scenarios
 
 - Rebase to specific images of older builds within the last 90 days if issues are occurring on the newest build of Bazzite.
 - Rebase to other Fedora Atomic Desktop images including other Bazzite images.
   - Do **not** rebase between different desktop environments.
 
-# How do I swap between Bazzite (and other Fedora Atomic Desktop) images?
+## How do I swap between Bazzite (and other Fedora Atomic Desktop) images?
 
 See what channel or build you are on by **entering this command in a host terminal**:
 
@@ -43,7 +43,7 @@ Open the terminal and **enter**:
 rpm-ostree rebase <image>
 ```
 
-**Example**:
+### **Example**:
 
 ```command
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/bazzite-deck:stable
@@ -53,7 +53,7 @@ For rebasing to the generic KDE Plasma version of the Handheld & HTPC image.
 
 > **NOTE**: Rebasing between different desktop environments **may cause issues** and is **unsupported**.
 
-# How do I change the Bazzite's update branch? (Stable, Testing, and Unstable)
+## How do I change the Bazzite's update branch? (Stable, Testing, and Unstable)
 
 There are 3 branches you can switch to:
 
@@ -84,7 +84,7 @@ Main (:unstable)
 
 For Desktop images, replacing `:stable` with `:testing` or `:unstable` to the end of the rebase command for your Bazzite image allows you to switch to the experimental branches (which may have frequent bugs.)
 
-**Example**:
+###  **Example**:
 
 ```command
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/bazzite:testing
@@ -92,7 +92,7 @@ rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/bazzite:testing
 
 For the **testing** branch on the generic AMD/Intel Desktop image.
 
-# Can I stay on a specific Fedora release?
+## Can I stay on a specific Fedora release?
 
 > **Warning**: You will have to rebase back to `:stable` once you want to upgrade to the next Fedora version.
 
@@ -103,7 +103,7 @@ For the **testing** branch on the generic AMD/Intel Desktop image.
 - Replace `:stable` with the supported version of Fedora you would like to stay on.
 - [Fedora Rawhide](https://docs.fedoraproject.org/en-US/releases/rawhide/) is **not** supported.
 
-# Rebasing to older builds
+## Rebasing to older builds
 
 > **Warning**: You will have to rebase back to `:stable` once you want to upgrade to the newest release.
 
