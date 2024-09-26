@@ -21,7 +21,7 @@ Install Fedora Linux packages by installing them with `rpm-ostree`.
 - Layering packages will **require** a system reboot when it finishes creating the new deployment with the package(s) added to your image.
 - Use this method as a **last resort** and for anything at a "system-level" only.
 
-### Common `rpm-ostree` Terminal Commands:
+## Common `rpm-ostree` Terminal Commands:
 
 ```
 rpm-ostree install <package>
@@ -41,7 +41,7 @@ rpm-ostree search <package>
 
 Search for Fedora packages that can be installed.
 
-# RPM packages installed on the host
+## RPM packages installed on the host
 
 Fedora containers should be used for most RPM files, but sometimes they need to be installed to your host.
 
@@ -55,7 +55,7 @@ You may need to copy the full path (`/path/to/rpmfile.rpm`) for it to install pr
 
 > **Note**: The downside of installing local RPM files outside of the Fedora repositories is updates for the specific RPM package will not apply automatically.
 
-# How do I install [COPR](https://copr.fedorainfracloud.org) repositories?
+## How do I install [COPR](https://copr.fedorainfracloud.org) repositories?
 
 > **Note**: It is highly advised to **not** use third-party COPR repos if possible, so be aware there are risks associated with it including broken updates until removed.
 
@@ -69,7 +69,7 @@ If you experience issues updating your system due to GPG signature issues, then 
 
 There is also an experimental `copr` utility script that ships with Bazzite. Run `copr --help` in the terminal for to see usage documentation, and the source code for the helper script can be found [here](https://github.com/ublue-os/COPR-command).
 
-# **MAJOR** caveats using `rpm-ostree`
+## **MAJOR** caveats using `rpm-ostree`
 
 Layering packages are mostly intended for system-level applications, libraries, and other dependencies. It is recommend by upstream to use all of the methods above **before** installing software with `rpm-ostree`. Typical users should **not** be using `rpm-ostree` to install end-user graphical applications.
 
@@ -82,7 +82,7 @@ Layering packages can cause **severe consequences** including:
 
 It is **highly recommended** to only use this command when absolutely necessary especially if the application can be obtained through other methods.
 
-# How to remove **ALL** Layered Packages
+## How to remove **ALL** Layered Packages
 
 If you run into issues upgrading due to a layered package conflict, then either optionally uninstall the conflicted package(s) or remove all layered packages with this **command**:
 
@@ -90,7 +90,7 @@ If you run into issues upgrading due to a layered package conflict, then either 
 rpm-ostree reset
 ```
 
-# Image Information
+## Image Information
 
 See information about image build date, update channel, layered packages, etc. by **entering this command in a host terminal**:
 
@@ -98,7 +98,7 @@ See information about image build date, update channel, layered packages, etc. b
 rpm-ostree status
 ```
 
-# Project Website
+### Project Website
 
 https://coreos.github.io/rpm-ostree/
 
