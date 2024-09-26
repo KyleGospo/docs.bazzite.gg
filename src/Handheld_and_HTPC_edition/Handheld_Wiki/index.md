@@ -12,7 +12,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=1038", "fetched_at": "2024-09-03 16:43:15.186486+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-# Handheld Compatibility
+## Handheld Compatibility
 
 > **Attention**: This list is incomplete and does not indicate that unlisted handhelds do not work with Bazzite currently, but because we lack specific information regarding their post-installation setup, workarounds, and proper hardware support for Linux, they are unlisted here.
 
@@ -28,7 +28,7 @@ _Click the name of each hardware to view post-installation setup and known issue
 - [**Ayaneo Handhelds**](./Ayaneo_Handhelds.md) ([Edit Wiki](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/Handheld_and_HTPC_edition/Handheld_Wiki/Ayaneo_Handhelds.md))
 - [**Other Handhelds**](./Other_Handhelds.md)
 
-## Support Rating
+### Support Rating
 
 Bazzite takes a similar approach to [ProtonDB’s medal system](https://www.protondb.com/) by giving a generic label rating for each handheld.
 
@@ -62,7 +62,7 @@ The handheld is not listed here and a general guide is under “Other Handhelds.
 
 > **Note**: Gyro functionality **requires** DualSense emulation
 
-# Decky Setup
+## Decky Setup
 
 To install [Decky Loader](https://decky.xyz), open a host terminal and enter:
 
@@ -72,7 +72,7 @@ ujust setup-decky
 
 You can access Decky Loader by pressing the 'side menu button', also known as the Quick Access Menu (QAM), once from within Steam Gamemode or Steam Big Picture Mode.
 
-# Decky Plugins
+## Decky Plugins
 
 > **Note**: Decky may break or uninstall after updates especially if the Steam client or Gamescope is updated.
 
@@ -82,7 +82,7 @@ Install optional [Decky plugins](https://plugins.deckbrew.xyz/) for your handhel
 
 Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an in-depth guide on Steam Gaming Mode plus general fixes for common issues.
 
-# eGPU Support
+## eGPU Support
 
 > eGPU is **not** a fully supported feature and has many caveats.
 
@@ -93,7 +93,7 @@ Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an 
 - Nvidia GPUs are **unsupported**.
 - Proprietary connectors, like the one for the ASUS ROG Ally, will not work.
 
-## **Recommended External Guide & Script**:
+### **Recommended External Guide & Script**:
 
 Read this [guide](https://github.com/ewagner12/all-ways-egpu) for eGPU usage on Linux, and use the script at your own risk.
 
