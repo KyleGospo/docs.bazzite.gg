@@ -13,15 +13,16 @@ authors:
 
 > **Note**: Read the [rollback](./rolling_back_system_updates.md) and [rebasing](./rebase_guide.md) guides to understand the terms and what they do.
 
-A command-line utility that assists with **rollbacks**, **rebasing**, and **information on your current image**.
+A command-line utility that assists with **rollbacks**, **rebasing**, and **outputs information on your current Bazzite image**.
 
+## Using `bazzite-rollback-helper`
 Open a host terminal and **enter**:
 
 ```command
 bazzite-rollback-helper
 ```
 
-## Options are available to the user:
+### Options are available to the user:
 
 - `list` = List images from the last 90 days that can rebased to.
 - `rollback` = Rollback to the previous deployment on the next reboot.
