@@ -41,11 +41,11 @@ rpm-ostree search <package>
 
 Searches for Fedora packages that can be installed.
 
-## RPM binaries installed on the host
+## Installing RPM files
 
-Fedora containers should be used for most RPM files, but sometimes they need to be installed to your host.
+Fedora [Distrobox containers](https://docs.bazzite.gg/Installing_and_Managing_Software/Distrobox/) should be used for most `.rpm` files, but sometimes they need to be installed to your host.
 
-You can install RPM files **to your host** with `rpm-ostree` by entering:
+You can install RPM binaries **to your host** with `rpm-ostree` by entering:
 
 ```
 rpm-ostree install <package>.rpm
