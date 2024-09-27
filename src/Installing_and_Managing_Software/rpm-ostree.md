@@ -39,9 +39,9 @@ Uninstalls any layered packages added to the system.
 rpm-ostree search <package>
 ```
 
-Search for Fedora packages that can be installed.
+Searches for Fedora packages that can be installed.
 
-## RPM packages installed on the host
+## RPM binaries installed on the host
 
 Fedora containers should be used for most RPM files, but sometimes they need to be installed to your host.
 
@@ -55,13 +55,13 @@ You may need to copy the full path (`/path/to/rpmfile.rpm`) for it to install pr
 
 > **Note**: The downside of installing local RPM files outside of the Fedora repositories is updates for the specific RPM package will not apply automatically.
 
-## How do I install [COPR](https://copr.fedorainfracloud.org) repositories?
+## How do I add [COPR](https://copr.fedorainfracloud.org) repositories?
 
 > **Note**: It is highly advised to **not** use third-party COPR repos if possible, so be aware there are risks associated with it including broken updates until removed.
 
 1. Download the .repo file and save it to `/etc/yum.repos.d/`
 
-2. Then install the package with `rpm-ostree`
+2. Then install the package(s) with `rpm-ostree`
 
 3. Reboot
 
@@ -71,16 +71,13 @@ There is also an experimental `copr` utility script that ships with Bazzite. Run
 
 ## **MAJOR** caveats using `rpm-ostree`
 
-Layering packages are mostly intended for system-level applications, libraries, and other dependencies. It is recommend by upstream to use all of the methods above **before** installing software with `rpm-ostree`. Typical users should **not** be using `rpm-ostree` to install end-user graphical applications.
+>Layering packages can cause **severe consequences** including:
+>
+>- Break upgrades or prevent rebasing.
+>- Conflict with existing packages as part of the image leading to dependency issues.
+>- Updates will take longer to download as you layer more packages to your system.
 
-Layering packages can cause **severe consequences** including:
-
-- Break upgrades or prevent rebasing.
-- Conflict with existing packages as part of the image leading to dependency issues.
-- Updates will take longer to download as you layer more packages to your system.
-- Eventually package layering will be removed later in the future for Fedora Atomic Desktop and is only used currently as a crutch for the current software ecosystem on desktop Linux.
-
-It is **highly recommended** to only use this command when absolutely necessary especially if the application can be obtained through other methods.
+Layering packages are mostly intended for system-level applications, libraries, and other dependencies. It is recommended to use Flatpak, Homebrew, Distrobox containers, AppImage, etc. **before** installing software with `rpm-ostree`. Typical users should **not** be using `rpm-ostree` to install end-user graphical applications at all to avoid problems in the future.  It is **highly recommended** to only layer packages when absolutely necessary especially if the application can be obtained through other methods.
 
 ## How to remove **ALL** Layered Packages
 
@@ -96,6 +93,18 @@ See information about image build date, update channel, layered packages, etc. b
 
 ```command
 rpm-ostree status
+```
+
+## Additional Commmands
+
+View the full range of `rpm-ostree` and `ostree` commands with the following two commands:
+
+```
+rpm-ostree help
+```
+
+```
+ostree help
 ```
 
 ### Project Website
