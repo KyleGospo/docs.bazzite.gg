@@ -89,7 +89,7 @@ There are a few options for TDP Controls that work with Bazzite:
 
 ![Settings Example|690x431, 75%](../../img/HHD_Settings_Example.jpeg)
 
-Press, hold, or double-tap the Quick Access Menu button.
+Double-tap the Quick Access Menu button.
 
 > **Note**: ASUS ROG Ally does not support **holding** for the QAM button!
 
