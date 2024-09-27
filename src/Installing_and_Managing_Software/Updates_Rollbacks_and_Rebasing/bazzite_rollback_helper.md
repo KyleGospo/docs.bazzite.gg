@@ -22,7 +22,7 @@ Open a host terminal and **enter**:
 bazzite-rollback-helper
 ```
 
-### Options are available to the user:
+### Options Available:
 
 - `list` = List images from the last 90 days that can rebased to.
 - `rollback` = Rollback to the previous deployment on the next reboot.
