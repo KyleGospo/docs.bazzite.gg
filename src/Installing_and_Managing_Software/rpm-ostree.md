@@ -97,6 +97,8 @@ rpm-ostree status
 
 ## Additional Commmands
 
+>**Warning**: Certain `rpm-ostree` and `ostree` commands can permanently remove deployments and cause other destructive behavior, so enter them at your own risk.
+
 View the full range of `rpm-ostree` and `ostree` commands with the following two commands:
 
 ```
