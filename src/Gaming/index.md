@@ -13,6 +13,8 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=31", "fetched_at": "2024-09-03 16:43:06.311188+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
+# Bazzite Gaming Guide
+
 ## Linux Gaming Introduction
 
 Linux gaming being a viable competitor to Windows is a relatively new paradigm. Most Windows exclusive games can run on Bazzite using modern hardware. There are still some rough edges, but gaming on Linux does offer advantages on the appropriate hardware such as better frame-times than on Windows.
