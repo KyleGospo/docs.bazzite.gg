@@ -88,7 +88,7 @@ There are a few options for TDP Controls that work with Bazzite:
 
 ![Legion HHD|690x431, 75%](../../img/HHD_Settings_Example.jpeg)
 
-Press, hold, or double-tap the Quick Access Menu button.
+Hold or double-tap the Quick Access Menu button.
 
 > **Example**: <kbd>Legion R</kbd> for the Lenovo Legion Go.
 
