@@ -23,13 +23,6 @@ authors:
 
 If you feel comfortable with bash scripting, programming, working with containers, or anything upstream (Fedora, Flatpak, etc.) then feel free to contribute to Bazzite if you have want to add a feature or bug fix.  Building your own Bazzite will give you a sandbox to play in with your own personal changes to it. Also, this can be your own version of Bazzite to daily drive. This is useful to receive the same updates upstream, but with your spin on it with differences that we cannot or will not include regarding specific packages, drivers, etc.  Read about forking your own Bazzite image [here](/Advanced/creating_custom_image.md/#forking-bazzite) or use the [Image Template](https://github.com/ublue-os/image-template).  Alternatively, use the unaffiliated [BlueBuild](https://blue-build.org/learn/universal-blue/) project to build your own Bazzite.
 
-<hr>
-
----
-layout: page
-permalink: /contributing
----
-
 # Contributing
 
 We welcome pull requests! Here's a quick howto:
