@@ -1,5 +1,6 @@
 ---
 authors:
+  - "@castrojo"
   - "@nicknamenamenick"
 ---
 
