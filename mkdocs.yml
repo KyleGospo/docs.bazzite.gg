@@ -156,6 +156,6 @@ nav:
       - "Best Shell Practices": Advanced/Best_Shell_Practices.md
       - "Bazzite Command Line Tools": Advanced/bazzite-cli.md
       - "Creating A Custom Bazzite Image": Advanced/creating_custom_image.md
-      - "Contributing to Bazzite": Advanced/Contributing_to_bazzite.md
+      - "Contributing to Bazzite": Advanced/contributing.md
   - Resources: Resources.md
   - Universal Blue Docs: Ublue-Docs.md
