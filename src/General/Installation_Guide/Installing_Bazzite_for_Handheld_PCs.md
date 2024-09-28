@@ -151,6 +151,14 @@ The first boot will show a screen showing your current and last deployment. It w
 
 Read more about this in the [Updates, Rollback, and Rebasing documentation](../../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md).
 
+### Login to Steam & Reboot Device
+
+Login to Steam then **reboot** your device when you finish setting up your device during the first-boot process.
+
+![Steam Gaming Mode Setup|690x442, 50%](../../img/pLvHB1NAMlb3ghsR72q7l9Auj8B.jpeg)
+
+After completing all of the above, then your next boot will be in Steam Gaming Mode which requires additional setup for Steam.
+
 ### Configuring System Settings for KDE Plasma and GNOME
 
 ![Display Settings (KDE Plasma)|690x370, 75%](../../img/KDE_Display_Settings.png)
@@ -160,14 +168,6 @@ Read more about this in the [Updates, Rollback, and Rebasing documentation](../.
 **_GNOME's Settings application_**
 
 After you have booted into the Desktop for the first-time configuration, then you can should adjust the settings to your liking. The most important setting that may need to be changed is the scaling setting in "Display(s) [and Monitor]" since it can be incorrect for the screen of your hardware on a fresh installation. Monitor orientation should also be corrected if it is rotated improperly.
-
-### Login to Steam & Reboot Device
-
-Login to Steam then **reboot** your device when you finish setting up your device during the first-boot process.
-
-![Steam Gaming Mode Setup|690x442, 50%](../../img/pLvHB1NAMlb3ghsR72q7l9Auj8B.jpeg)
-
-After completing all of the above, then your next boot will be in Steam Gaming Mode which requires additional setup for Steam.
 
 ### First Boot Setup Utility: Bazzite Portal
 
