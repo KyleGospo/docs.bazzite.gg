@@ -161,6 +161,14 @@ Read more about this in the [Updates, Rollback, and Rebasing documentation](../.
 
 After you have booted into the Desktop for the first-time configuration, then you can should adjust the settings to your liking. The most important setting that may need to be changed is the scaling setting in "Display(s) [and Monitor]" since it can be incorrect for the screen of your hardware on a fresh installation. Monitor orientation should also be corrected if it is rotated improperly.
 
+### Login to Steam & Reboot Device
+
+Login to Steam then **reboot** your device when you finish setting up your device during the first-boot process.
+
+![Steam Gaming Mode Setup|690x442, 50%](../../img/pLvHB1NAMlb3ghsR72q7l9Auj8B.jpeg)
+
+After completing all of the above, then your next boot will be in Steam Gaming Mode which requires additional setup for Steam.
+
 ### First Boot Setup Utility: Bazzite Portal
 
 ![Welcome to Bazzite|618x500, 75%](../../img/yafti_welcome.jpeg)
@@ -183,14 +191,6 @@ An application will pop up welcoming you to Bazzite when you boot into the deskt
 ### Installing additional software
 
 The [Installing and Managing Applications documentation](../../Installing_and_Managing_Software/index.md) is useful to learn how to install additional software on Bazzite outside of the Bazzite Portal.
-
-### Login to Steam & Reboot Device
-
-Login to Steam then **reboot** your device when you finish setting up your device during the first-boot process.
-
-![Steam Gaming Mode Setup|690x442, 50%](../../img/pLvHB1NAMlb3ghsR72q7l9Auj8B.jpeg)
-
-After completing all of the above, then your next boot will be in Steam Gaming Mode which requires additional setup for Steam.
 
 #### Post-Setup and Known Issues for Handhelds and Steam Gaming Mode
 
