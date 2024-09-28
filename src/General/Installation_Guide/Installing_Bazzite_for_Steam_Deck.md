@@ -140,6 +140,20 @@ The first boot will show a screen showing your current and last deployment. It w
 
 Read more about this in the [Updates, Rollback, and Rebasing documentation](../../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md).
 
+### Login to Steam & Reboot Device
+
+Login to Steam then **reboot** your device when you finish setting up your device during the first-boot process.
+
+#### Setting Up Steam Gaming Mode
+
+![Gaming Mode Setup|690x442, 50%](../../img/pLvHB1NAMlb3ghsR72q7l9Auj8B.jpeg)
+
+After completing all of the above, then your next boot will be in Steam Gaming Mode which requires additional setup for Steam.
+
+> [Read further information about Steam Gaming Mode][Steam_Gaming_Mode]
+
+### Configuring System Settings for KDE Plasma and GNOME
+
 ![Display Settings (KDE Plasma)|690x370, 75%](../../img/KDE_Display_Settings.png)
 **_KDE Plasma's System Settings application_**
 
@@ -170,18 +184,6 @@ An application will pop up welcoming you to Bazzite when you boot into the deskt
 ### Installing additional software
 
 The [Installing and Managing Applications documentation](../../Installing_and_Managing_Software/index.md) is useful to learn how to install additional software on Bazzite outside of the Bazzite Portal.
-
-### Login to Steam & Reboot Device
-
-Login to Steam then **reboot** your device when you finish setting up your device during the first-boot process.
-
-#### Setting Up Steam Gaming Mode
-
-![Gaming Mode Setup|690x442, 50%](../../img/pLvHB1NAMlb3ghsR72q7l9Auj8B.jpeg)
-
-After completing all of the above, then your next boot will be in Steam Gaming Mode which requires additional setup for Steam.
-
-> [Read further information about Steam Gaming Mode][Steam_Gaming_Mode]
 
 <hr>
 
