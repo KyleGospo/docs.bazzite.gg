@@ -38,7 +38,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 - VRAM size option is missing from BIOS as it's controlled by AYASPACE application under windows.
 - For certain Ayaneo devices, wifi stops working after suspend-resume cycles
   - as a workaround, you need to `modprobe -r mt7921e` right before suspend to disable the wifi, then run `modprobe mt7921e` after suspend to re-enable the wifi
-    - You can find an automatic installer for the workaround [here](https://github.com/aarron-lee/gpd-win-tricks/tree/mt7921e_fix/win4-gyro-suspend-fix)
+    - You can find an automatic installer for the workaround [here](https://github.com/aarron-lee/gpd-win-tricks/tree/mt7921e_fix/suspend-fix)
 
 ### Functional HHD\*\*:
 
