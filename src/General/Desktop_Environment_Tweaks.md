@@ -17,7 +17,7 @@ Do **not** install themes with the built-in KDE system settings installer since 
 
 ![Directory|401x207, 75%](../img/Directory.png)
 
-### Universal instructions for most custom themes
+## Universal instructions for most custom themes
 
 Step-by-step instructions to install custom themes on KDE Plasma.
 
@@ -25,35 +25,35 @@ Step-by-step instructions to install custom themes on KDE Plasma.
 2. Extracting the contents to `~/.local/share/plasma/` (you may need to make this directory)
 3. Open the system settings and select your theme, style, cursor etc. as it now should appear
 
-#### Theme Extraction Locations
+### Theme Extraction Locations
 
 The location where specific KDE Plasma components will be extracted on the desktop.
 
-##### Global Themes
+#### Global Themes
 
 Global themes are placed in `~/.local/share/plasma/look-and-feel/` (_you may need to make this directory_).
 
-##### Plasma Themes
+#### Plasma Themes
 
 "Plasma themes" are placed in `~/.local/share/plasma/desktoptheme/` (_you may need to make this directory_).
 
-##### SDDM (Login Manager) Themes
+#### SDDM (Login Manager) Themes
 
 SDDM themes are placed in `/etc/sddm/themes` (_you may need to make this directory_).
 
 SDDM themes can also be layered at your own risk if they are available as RPM packages.
 
-##### Icon / Cursor Themes
+#### Icon / Cursor Themes
 
 "Icon/Cursor themes" are placed in `~/.icons`
 
-##### Application Permissions to Use Themes
+#### Application Permissions to Use Themes
 
 Some Flatpaks need filesystem permissions for applications that have issues with cursor themes.
 
-**Example**: (`~/.icons/:ro` in "Filesystem" in each problematic application or globally in Flatseal).
+>**Example**: (`~/.icons/:ro` in "Filesystem" in each problematic application or globally in Flatseal).
 
-##### Themes that require `kvantum`
+#### Themes that require `kvantum`
 
 Some themes require [`kvantum`](https://github.com/tsujan/Kvantum/blob/master/Kvantum/README.md) to be installed on the host system.
 
@@ -63,7 +63,7 @@ Install it with this **command**:
 rpm-ostree install kvantum
 ```
 
-### Wallpaper Engine Guide (_Only on KDE Images_)
+## Wallpaper Engine Guide (_Only on KDE Images_)
 
 > **Note**: Not all wallpapers are compatible and may even cause issues since most are not intended for use on the Linux desktop.
 
@@ -77,21 +77,19 @@ Read this [guide](https://github.com/catsout/wallpaper-engine-kde-plugin/blob/ma
 
 <hr>
 
-## Manage GNOME Extensions (`-gnome` Images)
+## Customizing Other Desktops and Sessions
+
+### Manage GNOME Extensions (`-gnome` Images)
 
 View the [Bluefin documentation](https://docs.projectbluefin.io/administration#managing-extensions) since most of the information will be relevant to Bazzite as well.
 
-<hr>
-
-## Steam Gaming Mode Tweaks (`-deck` Images)
+### Steam Gaming Mode Tweaks (`-deck` Images)
 
 > Decky Loader will sometimes have issues with new Steam and Gamescope updates, and may need to be uninstalled temporarily.
 
 Install [Decky Loader](https://decky.xyz/) then install [CSS Loader](https://docs.deckthemes.com/) to customize how Steam Gaming Mode looks. Be aware that third-party plugins may cause issues. Read Bazzite's [Steam Gaming Mode documentation](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) to resolve common issues if you run into them after using Decky Loader.
 
-<hr>
-
-### **See also**:
+## **See also**:
 
 - [KDE Plasma Documentation](https://docs.kde.org/stable5/en/plasma-desktop/plasma-desktop/index.html)
 - [GNOME Documentation](https://help.gnome.org/users/gnome-help/stable/)
