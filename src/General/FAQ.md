@@ -186,6 +186,8 @@ Updates are obtained and downloaded straight from upstream which means there is 
 
 ## Can I change the hostname of my device?
 
+>**Note**: Hostnames must be under 20 characters due to a limitation with Distrobox containers.
+
 Edit the `/etc/hostname` file with a new hostname, save it, and reboot.
 
 ```
