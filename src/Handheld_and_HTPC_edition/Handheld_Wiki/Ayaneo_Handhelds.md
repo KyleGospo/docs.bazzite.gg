@@ -34,7 +34,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
   - Alternatively, since ALC269VB is an audio chipset that has been around for years, it just need its pins to be rerouted with `hdajackretask` (part of fedora's alsa-tools) package. (You basically need to reroute the auto-generated "green headset" and "black headset" devices to "Channel 30 & 31").
   - External audio works over both HDMI and eGPU.
 - **Suspend does not work without a workaround**!
-  - see suspend workaround [here](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Handheld_Wiki/Ayaneo_Handhelds/#suspend-workaround)
+  - see suspend workaround [here](#suspend-workaround)
 - VRAM size option is missing from BIOS as it's controlled by AYASPACE application under windows.
 - For certain Ayaneo devices, wifi stops working after suspend-resume cycles
   - as a workaround, you need to `modprobe -r mt7921e` right before suspend to disable the wifi, then run `modprobe mt7921e` after suspend to re-enable the wifi
