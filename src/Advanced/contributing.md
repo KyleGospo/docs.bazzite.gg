@@ -337,7 +337,7 @@ Budget for a 24 hour delay after Fedora has fixed a regression before removing i
 
 ## Join The Project Team
 
-If you're interested in _maintaining_ something then check the [membership page](/membership) for more information. 
+If you're interested in _maintaining_ something then check the [membership page](https://universal-blue.org/membership.html) for more information. 
 
 ## Attribution
 This guide is based on the **contributing.md**. [Make your own](https://contributing.md/)!
