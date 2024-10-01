@@ -40,7 +40,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
   - as a workaround, you need to `modprobe -r mt7921e` right before suspend to disable the wifi, then run `modprobe mt7921e` after suspend to re-enable the wifi
     - You can find an automatic installer for the workaround [here](https://github.com/aarron-lee/gpd-win-tricks/tree/mt7921e_fix/suspend-fix)
 
-### Functional HHD\*\*:
+### Functional HHD
 
 ```
 sudo systemctl enable --now hhd@$(whoami)
