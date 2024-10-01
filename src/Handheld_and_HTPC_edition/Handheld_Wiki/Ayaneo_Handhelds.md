@@ -1,6 +1,7 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@aarron-lee"
 ---
 
 <!-- ANCHOR: METADATA -->
