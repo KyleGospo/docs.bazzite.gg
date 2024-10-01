@@ -20,6 +20,9 @@ mkdocs_clean:
 # Format all markdown files with prettier
 fmt:
     prettier --check --write $(find src -type f -name '*.md')
+
+# Fix headers
+_fmt-headers:
     rg '^#\s' src/ --json \
     | jq -rs '.[] | select(.type=="end") | {file: .data.path.text, number: .data.stats.matches} | select(.number > 1) | .file' \
     | xargs -I{} sed -i -E 's/(^#+) /\1# /' {}
