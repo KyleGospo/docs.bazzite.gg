@@ -28,7 +28,7 @@ Download the Framework Laptop image of [Bazzite](https://bazzite.gg/). Make sure
   - Power on the laptop, repeatedly tapping F2 in order to get into the BIOS. Note: If you’re having trouble with this, try again, holding down the Fn key while rapidly tapping F2.
   - In BIOS mode, arrow key over to Setup Utility. Press the enter key. Arrow down to Advanced. Then arrow right, then arrow down to Linux Audio Compatibility. Press enter.
   - A new box for Linux Audio Compatibility will appear, arrow to Linux, then press enter. Now press F10 key to reboot.
-  - Now we don’t have an OS installed yet. So the reboot won’t get us to a running operating system and we fully expect to see an error to this point. Simply press the power button to shutdown.
+  - Now we don’t have an OS installed yet. So the reboot won’t get us to a running operating system and we fully expect to see an error to this point. Press the power button to shutdown.
 
 ![audio1|592x444](../../img/Install_Framework_16_audio_1.jpeg)
 
