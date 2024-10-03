@@ -85,7 +85,7 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
 
 - Access to multiple package managers and repositories in [containers](https://universal-blue.discourse.group/docs?topic=44)
 - [Layer](https://universal-blue.discourse.group/docs?topic=513) Fedora packages to the system which survive between updates
-- [`ujust`](https://universal-blue.discourse.group/docs?topic=42) commands to easily setup anything from virtualization support to supporting specific input peripherals
+- [`ujust`](https://universal-blue.discourse.group/docs?topic=42) commands to setup anything from virtualization support to supporting specific input peripherals
 
 ## Will there be any performance improvements with Bazzite?
 
