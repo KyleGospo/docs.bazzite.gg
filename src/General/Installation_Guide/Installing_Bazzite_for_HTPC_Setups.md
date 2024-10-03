@@ -126,6 +126,7 @@ Read the [Dual Boot Guide](https://universal-blue.discourse.group/docs?topic=274
   - Recommended to use the automatic storage configuration **unless dual booting on the same drive**.
 - Optionally encrypt the drive with a password if desired.
   - **If you lose this password, then it cannot be decrypted**.
+  - **A PHYSICAL WIRED KEYBOARD IS REQUIRED TO UNLOCK THE DEVICE!**
 - Setup a user account.
   - Give administrative privileges and **set a user password**.
 - Begin the installation.
