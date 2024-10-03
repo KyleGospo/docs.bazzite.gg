@@ -128,6 +128,7 @@ You may need to research your handheld on how to boot from removable storage. It
   - Only use the automatic storage configuration when installing to separate drives
 - Optionally encrypt the drive with a password if desired.
   - **If you lose this password, then it cannot be decrypted**.
+  - **A PHYSICAL WIRED KEYBOARD IS REQUIRED TO UNLOCK THE DEVICE!**
 - Setup a user account and begin the installation. (If you do not have a physical, skip this step and begin the installation)
   - Give administrative privileges and set a user password. (**required**)
 - Begin the installation.
