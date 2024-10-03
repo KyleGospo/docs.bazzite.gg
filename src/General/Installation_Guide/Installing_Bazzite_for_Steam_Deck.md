@@ -123,6 +123,7 @@ When you get to the boot menu, select your bootable device to boot into the Bazz
   - Recommended to use the automatic storage configuration.
 - Optionally encrypt the drive with a password if desired.
   - **If you lose this password, then it cannot be decrypted**.
+  - **A PHYSICAL WIRED KEYBOARD IS REQUIRED TO UNLOCK THE DEVICE!**
 - Setup a user account. (If you do not have a physical, skip this step and begin the installation)
   - Give administrative privileges and **set a user password**.
 - Begin the installation.
