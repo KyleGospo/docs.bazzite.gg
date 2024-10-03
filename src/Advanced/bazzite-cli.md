@@ -1,5 +1,4 @@
 ---
-title: Command Line Tools (`bazzite-cli`)
 authors:
   - "@castrojo"
   - "@nicknamenamenick"
