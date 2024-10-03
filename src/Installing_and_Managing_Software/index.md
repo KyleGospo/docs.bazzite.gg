@@ -1,4 +1,5 @@
 ---
+title: Installing and Managing Applications
 authors:
   - "@nicknamenamenick"
   - "@HikariKnight"
