@@ -134,7 +134,7 @@ Bazzite is **not** a Linux distribution in the traditional sense. It's a custom 
 
 Bazzite is using a new "**container-native**" approach that Fedora has been testing, and we are taking full advantage of it.
 
-We are utilizing the [Open Container Initiative (OCI)](https://opencontainers.org/about/overview/) to build the images, and are simply adding packages, services, kernel modules, and our own spin to existing Fedora operating systems.
+We are utilizing the [Open Container Initiative (OCI)](https://opencontainers.org/about/overview/) to build the images, and are adding packages, services, kernel modules, and our own spin to existing Fedora operating systems.
 
 Unlike traditional Linux distributions, **most of the maintenance and security updates are done upstream** by Fedora and Universal Blue while Bazzite only has to focus on creating a great experience for PC gaming.
 
