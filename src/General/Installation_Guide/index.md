@@ -14,7 +14,7 @@ authors:
 
 - Use a download manager if the direct download fails or is downloading too slow.
 
-- A physical wired keyboard is **recommended**.
+- A physical wired keyboard is **recommended** and **required for devices without a touchscreen**.
 
 - Create a User Account with a **username** and a **user password** if you have a keyboard.
 
