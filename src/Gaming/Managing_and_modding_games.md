@@ -78,7 +78,7 @@ Non-Steam games can have the prefix folder anywhere you specify:
 
 ## Modding Quick-Start
 
-Steam Workshop is the easiest way to obtain mods, but is not supported for every title and requires you to own the game on Steam. Some mod managers have Linux ports like [r2modman.](https://github.com/ebkr/r2modmanPlus)
+Steam Workshop is the most straightforward method to obtain mods, but is not supported for every title and requires you to own the game on Steam. Some mod managers have Linux ports like [r2modman.](https://github.com/ebkr/r2modmanPlus)
 
 [Steam Tinker Launch](https://github.com/sonic2kk/steamtinkerlaunch) may have useful settings for modding certain titles. It can be installed via ProtonUp-Qt (for KDE images) or ProtonPlus (for GNOME images).
 
