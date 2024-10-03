@@ -1,5 +1,5 @@
 ---
-title: Gaming
+title: Gaming Guide
 authors:
   - "@nicknamenamenick"
   - "@KyleGospo"
