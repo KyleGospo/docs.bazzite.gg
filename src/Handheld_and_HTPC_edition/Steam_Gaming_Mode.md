@@ -176,7 +176,7 @@ Select the GPU to use for Steam Gaming Mode.
 
 ### "Something went wrong while displaying this content" Error
 
-This is most likely due to a broken Decky Loader plugin you have installed. The easiest fix is to uninstall the broken plugin. CSS Loader themes can also cause this issue.
+This is most likely due to a broken Decky Loader plugin you have installed. Uninstall the broken plugin. Specific CSS Loader themes can also cause this issue.
 
 ### Audio output not working (Default Device)
 
