@@ -4,7 +4,7 @@ hide:
   - navigation
 ---
 
-# Getting started
+# Getting Started
 
 <div class="grid cards _bz" markdown>
 
