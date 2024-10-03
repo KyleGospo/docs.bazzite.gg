@@ -29,7 +29,7 @@ Bazzite originally was developed for the Steam Deck targeting users who used the
 | **Windows**: | ❌ | ❌ | ❌ | ✅  | ❌ |
 
 
-### Detailed Overview (Pros/Cons of Bazzite)
+### Detailed Overview (Pros/Cons of Bazzite vs. Windows)
 
 Bazzite's hardware requirements are less demanding than Windows and arguably has better desktop performance.  However, Linux unfriendly hardware may cause loss of hardware functionality.  Graphics driver performance is also a mixed bag.  AMD GPUs are objectively better on Bazzite versus Windows, but Nvidia GPUs are objectively worse.  Installing software on Bazzite is usually easier to install in comparison to Windows outside of ["legacy Linux software"](/Installing_and_Managing_Software/Distrobox.md).  
 
