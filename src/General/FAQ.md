@@ -184,6 +184,15 @@ However, if you swap from or to a Nvidia GPU, then [rebasing](../Installing_and_
 
 Updates are obtained and downloaded straight from upstream which means there is little maintenance to be done with the image on our end since these images are modified Fedora images. Users will receive application and system updates from Bazzite, Universal Blue, and Fedora daily.
 
+## What is the `:0` and `:1` in the GRUB menu at boot?
+
+These are deployments and there's a bug where they get duplicated, which is why there are 4 entries when there should be two by default unless a specific deployment is pinned.  This allows users to rollback bad system updates by selecting the previous deployment.
+
+- `:0` = Current deployment/newest update
+- `:1` = Previous deployment/update.
+
+>**See also**: [Rolling Back System Updates](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates/)
+
 ## Can I change the hostname of my device?
 
 >**Note**: Hostnames must be under 20 characters due to a limitation with Distrobox containers.
@@ -207,6 +216,10 @@ If its for Minecraft, then install the [Prism Launcher](https://flathub.org/apps
 It is not recommended to rebase between desktop environments due to configuration files having different standards which usually lead to broken installations after rebasing between two different DEs.
 
 >[Read more about Rebasing on Bazzite.](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide/)
+
+## I have questions and concerns that cannot be answered in Bazzite's documentation
+
+Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite/5) or [Discord](https://discord.gg/WEu6BdFEtp), but if it's an issue or bug you are encountering then [report it](https://docs.bazzite.gg/General/reporting_bugs/)!  Be warned that the answers sometimes will be "out of our control" especially when it comes to Nvidia driver problems, game compatibility, or other problems that plague the Linux desktop.
 
 ## What is the difference between Bluefin, Aurora, and Bazzite?
 
