@@ -202,6 +202,12 @@ Make your own [custom image based off Bazzite](https://docs.bazzite.gg/Advanced/
 
 If its for Minecraft, then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) for mods that require anything Java related. If its for development then use [Distrobox](../Installing_and_Managing_Software/Distrobox.md). You will not be able to change Java on your host.
 
+## Can I rebase to a different desktop environment?  (Example: KDE Plasma to GNOME)
+
+It is not recommended to rebase between desktop environments due to configuration files having different standards which usually lead to broken installations after rebasing between two different DEs.
+
+>[Read more about Rebasing on Bazzite.](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide/)
+
 ## What is the difference between Bluefin, Aurora, and Bazzite?
 
 > **TL;DR**: Bazzite is the gaming-centric version of Bluefin (GNOME) and Aurora (KDE Plasma), and all 3 are Universal Blue Fedora custom images intended for end users.
