@@ -21,11 +21,11 @@ authors:
 _Click the name of each hardware to view post-installation setup and known issues/workarounds._
 
 - [**Steam Deck**](./Steam_Deck.md)
-- [**Lenovo Legion Go**](./Lenovo_Legion_Go.md) ([Edit Wiki](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/Handheld_and_HTPC_edition/Handheld_Wiki/Lenovo_Legion_Go.md))
-- [**ASUS ROG Ally**](./ASUS_ROG_Ally.md) ([Edit Wiki](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/Handheld_and_HTPC_edition/Handheld_Wiki/ASUS_ROG_Ally.md))
-- [**Ayn Handhelds**](./Ayn_Handhelds.md) ([Edit Wiki](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/Handheld_and_HTPC_edition/Handheld_Wiki/Ayn_Handhelds.md))
-- [**GPD Handhelds**](./GPD_Handhelds.md) ([Edit Wiki](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/Handheld_and_HTPC_edition/Handheld_Wiki/GPD_Handhelds.md))
-- [**Ayaneo Handhelds**](./Ayaneo_Handhelds.md) ([Edit Wiki](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/Handheld_and_HTPC_edition/Handheld_Wiki/Ayaneo_Handhelds.md))
+- [**Lenovo Legion Go**](./Lenovo_Legion_Go.md)
+- [**ASUS ROG Ally**](./ASUS_ROG_Ally.md)
+- [**Ayn Handhelds**](./Ayn_Handhelds.md)
+- [**GPD Handhelds**](./GPD_Handhelds.md)
+- [**Ayaneo Handhelds**](./Ayaneo_Handhelds.md)
 - [**Other Handhelds**](./Other_Handhelds.md)
 
 ### Support Rating
