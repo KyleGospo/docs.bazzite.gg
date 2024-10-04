@@ -193,6 +193,9 @@ These are deployments and there's a bug where they get duplicated, which is why 
 
 >**See also**: [Rolling Back System Updates](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates/)
 
+## Can I uninstall pre-installed applications (that are not [Flatpak](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/))
+Not recommended and due to technical limitations. The uninstalled packages will result in slower updates and take up more storage space.  We recommend hiding it from the menu.
+
 ## Can I change the hostname of my device?
 
 >**Note**: Hostnames must be under 20 characters due to a limitation with Distrobox containers.
