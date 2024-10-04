@@ -79,7 +79,7 @@ There is also an experimental `copr` utility script that ships with Bazzite. Run
 
 Layering packages are mostly intended for system-level applications, libraries, and other dependencies. It is recommended to use Flatpak, Homebrew, Distrobox containers, AppImage, etc. **before** installing software with `rpm-ostree`. Typical users should **not** be using `rpm-ostree` to install end-user graphical applications at all to avoid problems in the future.  It is **highly recommended** to only layer packages when absolutely necessary especially if the application can be obtained through other methods.
 
-## How to remove **ALL** Layered Packages
+## How to remove **ALL** layered packages
 
 If you run into issues upgrading due to a layered package conflict, then either optionally uninstall the conflicted package(s) or remove all layered packages with this **command**:
 
