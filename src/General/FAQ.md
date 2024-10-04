@@ -158,7 +158,6 @@ There can be a hypothetical scenario where everyone involved with Bazzite could 
 - [`ujust`](../Installing_and_Managing_Software/ujust.md): Execute custom commands based on recipes.
 - [yafti (Bazzite Portal)](https://github.com/ublue-os/yafti/): First-boot utility for installing additional software.
 
-
 ## Is Secure Boot supported?
 
 > **WARNING (Steam Deck hardware only):** The Steam Deck does not come with secure boot enabled and does not ship with any keys enrolled by default, so do not enable this on Steam Deck hardware unless you absolutely know what you're doing!
@@ -193,10 +192,12 @@ These are deployments and there's a bug where they get duplicated, which is why 
 
 >**See also**: [Rolling Back System Updates](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates/)
 
-## Can I uninstall pre-installed applications (that are not [Flatpak](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/))
+## Can I...?
+
+### Can I uninstall pre-installed applications (that are not [Flatpak](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/))
 Not recommended and due to technical limitations. The uninstalled packages will result in slower updates and take up more storage space.  We recommend hiding it from the menu.
 
-## Can I change the hostname of my device?
+### Can I change the hostname of my device?
 
 >**Note**: Hostnames must be under 20 characters due to a limitation with Distrobox containers.
 
@@ -206,15 +207,15 @@ Edit the `/etc/hostname` file with a new hostname, save it, and reboot.
 hostnamectl hostname <hostname>
 ```
 
-## Can I use this desktop environment or that standalone window manager?
+### Can I use this desktop environment or that standalone window manager?
 
 Make your own [custom image based off Bazzite](https://docs.bazzite.gg/Advanced/creating_custom_image/) with the DE and WM change that you want.
 
-## Can I use or modify Java?
+### Can I use or modify Java?
 
 If its for Minecraft, then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) for mods that require anything Java related. If its for development then use [Distrobox](../Installing_and_Managing_Software/Distrobox.md). You will not be able to change Java on your host.
 
-## Can I rebase to a different desktop environment?  (Example: KDE Plasma to GNOME)
+### Can I rebase to a different desktop environment?  (Example: KDE Plasma to GNOME)
 
 It is not recommended to rebase between desktop environments due to configuration files having different standards which usually lead to broken installations after rebasing between two different DEs.
 
