@@ -35,7 +35,7 @@ This will show a terminal user interface of `ujust` commands that you can choose
 
 > **Note**: Commands that require values or flags do not function with this method.
 
-### Manually Entering Commands
+### Manually entering commands
 
 **Find the command you want to use and enter**:
 
@@ -75,7 +75,7 @@ Alternatively, you can find the `ujust` commands locally in:
 
 > This directory also shows **hidden** `ujust` commands.
 
-## Uninstalling Applications Installed Through `ujust`
+## Uninstalling applications installed through `ujust`
 
 Most applications installed via a `ujust` script would have to be uninstalled manually. Follow the instructions found on the project's website or README file in the source code to uninstall it properly.
 
