@@ -30,7 +30,7 @@ bazzite-rollback-helper
 - `current` = Show information about your current deployment and image.
 - `rebase` = Switch to another build, update branch, or a different Fedora image **at your own risk**.
 
-### Example Usage
+### Usage
 
 `bazzite-rollback-helper list` will list available bazzite images.
 
