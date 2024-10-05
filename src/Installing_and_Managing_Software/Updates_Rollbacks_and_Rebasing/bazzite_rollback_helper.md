@@ -30,17 +30,19 @@ bazzite-rollback-helper
 - `current` = Show information about your current deployment and image.
 - `rebase` = Switch to another build, update branch, or a different Fedora image **at your own risk**.
 
-## Example Usage
+### Example Usage
 
 `bazzite-rollback-helper list` will list available bazzite images.
 
-`bazzite-rollback-helper rebase image_goes_name_here` for to rollback, you can use a version from the `list` command.
+`bazzite-rollback-helper rebase <image-name:stable>` to rebase to an earlier image, update branch, or different Bazzite image (Desktop vs. Handheld/HTPC).  Find a version from the `list` command.
 
-e.g. `bazzite-rollback-helper rebase stable-40.20240930.0`
+#### Rebasing to an older Bazzite image
 
-Note that rebasing to an image will lock you to that OS image, you will no longer get regular OS updates.
+**Example**: `bazzite-rollback-helper rebase stable-40.20240930.0`
 
-To get back to regular OS updates later after there's bugfixes, run:
+Rebasing to an image will lock you to that OS image which means new features and security updates will no longer be applied until you rebase back to the Stable channel.
+
+Get back to normal OS updates later after the bug has been squashed that prevents you from running the Stable branch:
 `bazzite-rollback-helper rebase stable`
 
 ## Video Guide
