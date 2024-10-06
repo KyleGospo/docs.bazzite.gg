@@ -5,6 +5,7 @@ authors:
   - "@KyleGospo"
   - "@storyaddict"
   - "@castrojo"
+  - "@aarron-lee"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -44,7 +45,7 @@ This will launch Waydroid for the first time.
 
 ### Configure Waydroid
 
->Customize your Waydroid container
+> Customize your Waydroid container
 
 #### Part 1: Stop Waydroid Session
 
@@ -101,6 +102,8 @@ After verification has happened, it will usually take a while before your device
 > This is useful for [Bazzite images that use Steam Gaming Mode.](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
 Make sure to add `/usr/bin/waydroid-launcher` to Steam as a non-Steam game for Waydroid to work properly in Steam Gaming Mode.
+
+![Waydroid Launcher add to steam|960x540](../img/waydroid_launcher_add_to_steam.jpg)
 
 <hr>
 
