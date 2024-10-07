@@ -33,4 +33,4 @@ Sometimes you don't want to make a whole new image from scratch, you just want t
 
 <hr>
 
-**See also**: [Community Created Custom Images](https://universal-blue.discourse.group/docs?topic=340)
+**See also**: [Community Created Custom Images](https://universal-blue.discourse.group/t/list-of-community-created-custom-images/340)
