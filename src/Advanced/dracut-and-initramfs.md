@@ -4,8 +4,6 @@ authors:
   - "@nicknamenamenick"
 ---
 
-# How to modify initramfs and dracut
-
 ## If you just plan to add options to a module, you should consider using a karg!
 Touching the initramfs system and modprobe will slow down your updates so all your updates will take several minutes longer. In most cases what you want to do in modprobe can be done with simple kernel arguments,
 
