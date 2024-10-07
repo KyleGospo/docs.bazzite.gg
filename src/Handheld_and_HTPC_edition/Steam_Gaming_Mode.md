@@ -17,6 +17,7 @@ authors:
 > Steam Gaming Mode requires a modern AMD graphics card or an Intel Arc graphics card. Nvidia is **not** supported.
 
 ### What is Steam Gaming Mode?
+> **Note**: The Steam beta client is **not** supported, please revert to the stable client before reporting issues.
 
 https://www.youtube.com/watch?v=zXK1CXUyzXQ
 **Steam Deck UI Tour by [Linux For Everyone](https://www.youtube.com/@LinuxForEveryone)**
@@ -25,9 +26,7 @@ Bazzite utilizes Steam Gaming Mode by [forking ChimeraOS’s `gamescope-session`
 
 Steam Gaming Mode is what SteamOS on the Steam Deck is built around. A simple interface that is controller-friendly built around Steam's "Big Picture Mode" UI/UX. The minimal session only runs the bare minimum in the background, so most of the hardware resources is going towards the game being played. [Gamescope](https://github.com/ValveSoftware/gamescope) is the main ingredient in Steam Gaming Mode which gives users options to set a framerate cap, resolution scaling options, etc.
 
-### What are the HTPC/Handheld Images?
-
-> **Note**: The Steam beta client is **not** supported, please revert to the stable client before reporting issues.
+### What are the HTPC/Handheld (`-deck`) Images?
 
 Bazzite for Steam Deck hardware, Home Theater PC setups, and other Handheld PCs like the Lenovo Legion Go and Asus ROG Ally.
 
