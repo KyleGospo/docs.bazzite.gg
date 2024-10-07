@@ -155,6 +155,7 @@ nav:
       - "Auto-Mounting Secondary Drives": Advanced/Auto-Mounting_Secondary_Drives.md
       - "Best Shell Practices": Advanced/Best_Shell_Practices.md
       - "Bazzite Command Line Tools": Advanced/bazzite-cli.md
+      - "Using Looking-Glass": Advanced/looking-glass.md
       - "Creating A Custom Bazzite Image": Advanced/creating_custom_image.md
       - "Contributing to Bazzite": Advanced/contributing.md
   - Resources: Resources.md
