@@ -1,5 +1,7 @@
 ---
+title: Show Detailed Init Logs During Boot
 authors:
+  - "@dkolb"
   - "@nicknamenamenick"
 ---
 
@@ -16,7 +18,3 @@ Alternatively, create `/etc/plymouth/plymouthd.conf` manually
 ```command
 sudo rpm-ostree initramfs --enable --reboot
 ```
-
-<hr>
-
-**Documentation Contributors**: Krin
