@@ -32,23 +32,14 @@ _Click the name of each hardware to view post-installation setup and known issue
 
 Bazzite takes a similar approach to [ProtonDB’s medal system](https://www.protondb.com/) by giving a generic label rating for each handheld.
 
-**Platinum**:
-No major issues and/or simple workarounds are needed for small fixes.
-
-**Gold**:
-Minor issues and/or simple workarounds required, but ultimately works.
-
-**Silver**:
-Major issues and/or exhaustive workarounds required, but boots and can game.
-
-**Bronze**:
-Major issues and/or exhaustive workarounds, but boots and displays a desktop.
-
-**Borked**:
-Bazzite does not boot on this hardware.
-
-**Unknown** (_unlisted_):
-The handheld is not listed here and a general guide is under “Other Handhelds.”
+| Status | Definition
+| -------- | -------- |
+|**Platinum**  | No major issues and/or simple workarounds are needed for small fixes. | 
+| **Gold** | Minor issues and/or simple workarounds required, but ultimately works.
+| **Silver** | Major issues and/or exhaustive workarounds required, but boots and can game. |
+| **Bronze**  | Major issues and/or exhaustive workarounds, but boots and displays a desktop.| 
+| **Borked** | Bazzite does not boot on this hardware.
+| **Unknown (_Unlisted_)** | The handheld is not listed here and a general guide is under “Other Handhelds.” |
 
 # HHD Setup
 
@@ -78,7 +69,7 @@ You can access Decky Loader by pressing the 'side menu button', also known as th
 
 Install optional [Decky plugins](https://plugins.deckbrew.xyz/) for your handheld. If you experience any major issues then it is recommended to uninstall Decky before reporting Bazzite bugs.
 
-# Bazzite's Steam Gaming Mode Documentation
+## Bazzite's Steam Gaming Mode Documentation
 
 Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an in-depth guide on Steam Gaming Mode plus general fixes for common issues.
 
