@@ -8,7 +8,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=37", "fetched_at": "2024-09-03 16:43:12.251158+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## General Information
+## General Information for `bazzite-deck` Images
 
 > **For Handheld PC users only**: View our [Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) for post-installation setup, workarounds, and known issues on handheld hardware.
 
