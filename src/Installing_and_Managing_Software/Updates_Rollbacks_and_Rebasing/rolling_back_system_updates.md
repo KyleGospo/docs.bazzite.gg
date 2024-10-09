@@ -19,7 +19,7 @@ rpm-ostree rollback
 
 Rollback can also be done in the GRUB menu (the menu you see before booting into Bazzite on Desktop images) by choosing the previous boot entry before booting to the desktop. It shows your current (`:0`) and your previous (`:1`) deployments, but due to a bug upstream there may be duplicates below them. Your personal files will **not** be affected by this, and you can still update to the newest builds after rolling back.
 
-> If you need to rollback to a different OS image, use the [`bazzite-rollback-helper`](./bazzite_rollback_helper.md) to do so.
+> If you need to rollback to an earlier image, then use the [`bazzite-rollback-helper`](./bazzite_rollback_helper.md) to do so.
 
 ### Unhide The GRUB Menu (If you opted to hide the GRUB menu)
 
