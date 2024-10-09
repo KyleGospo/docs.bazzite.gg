@@ -79,9 +79,8 @@ Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an 
 
 **Notes**:
 
-- Modern AMD GPUs are **supported**.
-- Intel ARC GPUs are **supported**.
-- Nvidia GPUs are **unsupported**.
+- The same [GPU hardware requirements](https://docs.bazzite.gg/Gaming/Hardware_compatibility_for_gaming/#steam-gaming-mode-requirements) that apply for Steam Gaming Mode also apply for e-GPUs.
+  - Nvidia GPUs are **unsupported**. 
 - Proprietary connectors, like the one for the ASUS ROG Ally, will not work.
 
 ### **Recommended External Guide & Script**:
