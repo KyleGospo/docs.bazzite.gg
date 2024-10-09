@@ -16,7 +16,7 @@ authors:
 
 > **Attention**: This list is incomplete and does not indicate that unlisted handhelds do not work with Bazzite currently, but because we lack specific information regarding their post-installation setup, workarounds, and proper hardware support for Linux, they are unlisted here.
 
-> **Note**: All handhelds except for the Steam Deck make use of [Handheld Daemon](https://github.com/hhd-dev/hhd/blob/master/readme.md) for controls, TDP, etc.
+**All handhelds except for the Steam Deck make use of [Handheld Daemon](https://github.com/hhd-dev/hhd/blob/master/readme.md) for controls, TDP, etc.**
 
 _Click the name of each hardware to view post-installation setup and known issues/workarounds._
 
@@ -27,6 +27,8 @@ _Click the name of each hardware to view post-installation setup and known issue
 - [**GPD Handhelds**](./GPD_Handhelds.md)
 - [**Ayaneo Handhelds**](./Ayaneo_Handhelds.md)
 - [**Other Handhelds**](./Other_Handhelds.md)
+
+Feel free to add new entries or update current wiki pages for your handheld following our [documentation guidelines](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/README.md).
 
 ### Support Rating
 
