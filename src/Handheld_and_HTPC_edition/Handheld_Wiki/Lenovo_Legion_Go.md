@@ -54,7 +54,7 @@ mv ~/.config/kwinoutputconfig.json ~/.config/kwinoutputconfig.json.old
 
 ## BIOS Update Information
 
-A [thread](https://universal-blue.discourse.group/docs?topic=3064) on our forums goes over in detail on how to update the BIOS without having Windows installed.
+Read the [tutorial](https://docs.bazzite.gg/Handheld_and_HTPC_edition/update-bios) on how to update the BIOS for the Lenovo Legion Go without a Windows installation.
 
 ## BIOS Update Breaks Secure Boot Key
 
