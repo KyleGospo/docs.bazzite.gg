@@ -84,8 +84,8 @@ There is more information about this topic on the [Installation Guide](../Genera
 | `bazzite-asus-gnome`        | GNOME               | No                | ASUS Laptops (AMD/Intel GPUs)            | Desktop       |
 | `bazzite-asus-nvidia`       | KDE Plasma          | No                | ASUS Laptops (Nvidia GPUs)               | Desktop       |
 | `bazzite-gnome-asus-nvidia` | GNOME               | No                | ASUS Laptops (Nvidia GPUs)               | Desktop       |
-| `bazzite-ally`              | KDE Plasma          | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Handheld/HTPC |
-| `bazzite-ally-gnome`        | GNOME               | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Handheld/HTPC |
+| `bazzite-asus-deck`              | KDE Plasma          | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Handheld/HTPC |
+| `bazzite-asus-deck-gnome`        | GNOME               | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Handheld/HTPC |
 
 ### Who are the target audiences?
 
