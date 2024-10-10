@@ -195,7 +195,7 @@ These are deployments and there's a bug where they get duplicated, which is why 
 ## Can I...?
 
 ### Can I uninstall pre-installed applications (that are not [Flatpak](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/))
-Not recommended and due to technical limitations. The uninstalled packages will result in slower updates and take up more storage space.  We recommend hiding it from the menu.
+Not recommended and due to technical limitations. The uninstalled packages will result in slower updates and take up more storage space.  We recommend hiding it from the application menu instead.
 
 ### Can I change the hostname of my device?
 
