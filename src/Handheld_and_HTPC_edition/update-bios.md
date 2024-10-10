@@ -4,7 +4,7 @@ title: How to Update the BIOS on the Lenovo Legion Go from Bazzite (No Windows R
 
 >**Note**: This was originally a [forum post](https://universal-blue.discourse.group/t/how-to-update-the-bios-on-the-lenovo-legion-go-from-bazzite-no-windows-required/3064) by [Mister Fluffles](https://universal-blue.discourse.group/u/mrfluffles/summary).
 
- **THIS METHOD HAS ONLY BEEN TESTED ON THE LENOVO LEGION GO**. While some users have successfully followed it on other devices, this is not recommended at this time as no testing has been done. Please only follow this guide if you are using a Lenovo Legion Go. **PLEASE BE AWARE THAT DOING THIS ON OTHER DEVICES RISKS MAKING A BRICK**
+ **THIS METHOD HAS ONLY BEEN TESTED ON THE LENOVO LEGION GO**. Please only follow this guide if you are using a Lenovo Legion Go. **PLEASE BE AWARE THAT DOING THIS ON OTHER DEVICES RISKS MAKING A BRICK**
 
 Updating the BIOS on the Legion Go from Bazzite works, and means not needing to keep a pesky Windows partition around for updates. Here's how to do so. (Credit to the [ChimeraOS](https://chimeraos.org/) devs and [aarron-lee](https://github.com/aarron-lee) on github for the original fwupdtool instructions)
 
