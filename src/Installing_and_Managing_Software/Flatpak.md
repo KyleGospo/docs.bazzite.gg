@@ -11,9 +11,7 @@ authors:
 
 ![Flatpak|100x100, 100%](../img/Flatpak.png)
 
-Flatpak is a universal containerized package format that tries to sandbox applications through flexible permissions that the application has access to on your system.
-
-> Flatpak is the **primary method of installing applications on Bazzite** and is recommended to use Flatpak over other formats for most software when possible.
+Flatpak is a universal containerized package format that tries to sandbox applications through flexible permissions that the application has access to on your system.  It is the **primary method of installing applications on Bazzite** and is recommended to use Flatpak over other formats for most software when possible.
 
 ## Installing Flatpaks
 
