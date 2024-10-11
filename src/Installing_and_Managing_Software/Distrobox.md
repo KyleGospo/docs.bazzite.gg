@@ -13,7 +13,7 @@ authors:
 
 Run other minimal variants of popular Linux distributions in Bazzite inside of a container, and access each distribution's packages without any of their dependencies and libraries affecting the host machine.
 
-## **Important Notes**:
+## **Important Information**:
 
 - Containers are **not** virtual machines.
 - Containers are intended to be **disposable** and may run into issues where they need to be recreated.
