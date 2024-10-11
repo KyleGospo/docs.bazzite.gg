@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=FBGLLkIKp-w
 
 > **Attention**: The workaround method may have scaling issues with the installer depending on the hardware especially if it is a handheld PC.
 
-> **Note**: The workaround below is also useful for **downloading a smaller ISO size**.
+The workaround below is also useful for **downloading a smaller ISO size**.
 
 ### Rebasing from a Fedora Atomic Desktop Image
 
