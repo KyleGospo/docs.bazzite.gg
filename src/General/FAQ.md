@@ -229,7 +229,7 @@ Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite
 
 > **TL;DR**: Bazzite is the gaming-centric version of Bluefin (GNOME) and Aurora (KDE Plasma), and all 3 are Universal Blue Fedora custom images intended for end users.
 
-[Bluefin](https://projectbluefin.io/) and [Aurora](https://getaurora.dev) are nearly identical outside of branding and desktop environment, but Bazzite strays away from both. All three are similar for desktop PCs and function similarly and share contributors between projects. Bluefin and Aurora target two audiences---individuals who want a maintenance-free Linux desktop experience and developers (using the `-dx` images).
+[Bluefin](https://projectbluefin.io/) and [Aurora](https://getaurora.dev) are nearly identical outside of branding and desktop environment, but Bazzite strays away from both. All three are similar for desktop PCs and function similarly and share contributors between projects. Bluefin and Aurora target two audiences: individuals who want a maintenance-free Linux desktop experience and developers who work with containers (using the `-dx` images).
 
 Bazzite exclusively focuses on having an out of the box Linux gaming experience for desktop, HTPC hardware, and handhelds. Bazzite can be summed up as Bluefin and Aurora but tuned for PC gaming. All 3 are community-centric custom Fedora Atomic Desktop that is configured for their specific target audience, and for Bazzite specifically: PC gamers who want to use the Linux desktop as the alternative to Windows.
 
