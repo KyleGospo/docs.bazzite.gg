@@ -129,6 +129,25 @@ Open the game's properties on Steam and **enter this launch option**:
 SteamDeck=0 %command%
 ```
 
+### Steam broke and so is my Gaming Mode
+
+#### Desktop Mode
+
+Open a host terminal and **enter**:
+
+```
+ujust fix-steam
+```
+
+#### TTY (if you cannot access Desktop Mode)
+Access a TTY session with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F4</kbd> and login with your Bazzite username and password.
+
+**Enter**:
+
+```
+ujust fix-steam
+```
+
 ### How do I specify the correct monitor for Gaming Mode to use? (HTPC only)
 
 Go into desktop mode and open `ptyxis` our terminal and run
