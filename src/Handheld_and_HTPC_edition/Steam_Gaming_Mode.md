@@ -93,7 +93,7 @@ Select "unhide" to have GRUB appear on boot.
 
 ### How do I open the Quick Access Menu (QAM) with a physical keyboard?
 
-<kbd>Ctrl</kbd>+<kbd>2</kbd>
+<kbd>Super</kbd>+<kbd>2</kbd>
 
 ### Change physical keyboard layout for Steam Gaming Mode
 
