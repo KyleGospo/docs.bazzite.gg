@@ -44,7 +44,8 @@ Follow the [Waydroid Setup Guide](./Waydroid_Setup_Guide.md) to install Android 
 
 ## Tutorials for Installing Other Software
 
-- [Plex Media Server](https://universal-blue.discourse.group/t/video-tutorial-how-to-install-plex-media-server-using-distrobox-on-bazzite/1999) (**Note**: Podman or Docker is recommended over Distrobox)
+- [Plex Media Server](https://universal-blue.discourse.group/t/video-tutorial-how-to-install-plex-media-server-using-distrobox-on-bazzite/1999)
+  - **DISCLAIMER**: Podman, Docker, or [linuxserver.io](https://www.linuxserver.io/) is recommended over Distrobox for most software that you host.
 - [Flash Games](https://universal-blue.discourse.group/t/how-to-run-old-browser-games-with-web-apps/486)
 
 ### Video Showcase of Installing Software
