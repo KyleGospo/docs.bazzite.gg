@@ -46,8 +46,8 @@ If you experience issues with installing our ISO or the bootable drive you have 
 ujust _install-system-flatpaks
 ```
 
-> Choose the "Flathub" remote.
->
+Choose the "Flathub" remote.
+
 > **This command installs:**
 >
 > - [Flatpak applications for **KDE Plasma** images](https://github.com/ublue-os/bazzite/blob/9f6f5e143b7545d06803e70e7723997400bd8b88/system_files/desktop/kinoite/usr/share/ublue-os/bazzite/flatpak/install)
