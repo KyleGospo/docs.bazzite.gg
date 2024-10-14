@@ -5,7 +5,7 @@ authors:
 
 ## OneXPlayer X1
 
-![onexplayer-x1|690x328, 100%](../../img/gpdwin4.jpeg)
+![onexplayer-x1|690x328, 100%](../../img/onexplayer-x1.jpeg)
 
 **Status**: Gold
 
