@@ -11,9 +11,7 @@ authors:
 
 # `rpm-ostree` Overview
 
-> **Notice**: Using `rpm-ostree` irresponsibly can be **destructive**.
-
-> **Attention**: Layering packages may prevent updates and **may cause several issues until the layered packages are uninstalled**.
+> **Attention**: Using `rpm-ostree` Layering packages irresponsibly can be **destructive** and may prevent updates as well as other issues until the layered packages are uninstalled.
 
 Install Fedora Linux packages by installing them with `rpm-ostree`.
 
