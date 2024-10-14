@@ -15,7 +15,7 @@ hide:
   - [Steam Deck (and OLED)][deck]
   - [Asus ROG Ally (and X)][ally]
   - [Lenovo Legion Go][legion_go]
-  - [OneXPlayer Handhelds][
+  - [OneXPlayer Handhelds][onex]
   - [GPD Handhelds][gpd]
   - [Ayn Handhelds][ayn]
   - [Ayaneo Handhelds][ayaneo]
