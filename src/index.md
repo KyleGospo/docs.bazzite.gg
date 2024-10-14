@@ -15,6 +15,7 @@ hide:
   - [Steam Deck (and OLED)][deck]
   - [Asus ROG Ally (and X)][ally]
   - [Lenovo Legion Go][legion_go]
+  - [OneXPlayer Handhelds][
   - [GPD Handhelds][gpd]
   - [Ayn Handhelds][ayn]
   - [Ayaneo Handhelds][ayaneo]
@@ -80,6 +81,7 @@ hide:
 [ally]: Handheld_and_HTPC_edition/Handheld_Wiki/ASUS_ROG_Ally.md
 [legion_go]: Handheld_and_HTPC_edition/Handheld_Wiki/Lenovo_Legion_Go.md
 [ayn]: Handheld_and_HTPC_edition/Handheld_Wiki/Ayn_Handhelds.md
+[onex]: Handheld_and_HTPC_edition/Handheld_Wiki/OneXPlayer_Handhelds.md
 [gpd]: Handheld_and_HTPC_edition/Handheld_Wiki/GPD_Handhelds.md
 [ayaneo]: Handheld_and_HTPC_edition/Handheld_Wiki/Ayaneo_Handhelds.md
 [run_win_game]: Installing_and_Managing_Software/index.md#how-do-i-run-windows-applications
