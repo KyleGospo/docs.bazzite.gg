@@ -46,6 +46,9 @@ ujust install-hhd-controller-glyph-theme
   - <kbd>**Legion L**</kbd> + <kbd>**X**/**Square**</kbd> (This can be remapped)
 
 ### Changing the resolution in Desktop Mode or connecting an external monitor has dire consequences!
+
+![grainy|690x387, 100%](../../img/grainy.webp)
+
 Try not to change the resolution in Desktop Mode!  Connecting to an external monitor may also cause issues.  If your screen doesn't display the correct output or looks grainy, noisy, or oddly colorful then you will have to **enter a [TTY session](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/?h=tt#tty-if-you-cannot-access-desktop-mode) and enter this command**:
 
 ```
