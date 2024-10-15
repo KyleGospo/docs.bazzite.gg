@@ -44,13 +44,20 @@ ujust install-hhd-controller-glyph-theme
 - BIOS and controller firmware is **recommended** to update in Windows.
 - Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode. (See "Desktop Controls" section below)
   - <kbd>**Legion L**</kbd> + <kbd>**X**/**Square**</kbd> (This can be remapped)
-- Try not to change the resolution in Desktop Mode!
-  - Connecting to an external monitor may also cause issues.
-    - If your screen doesn't display the correct output or looks grainy/noisy, then you will have to **ssh into it and enter this command**:
 
-```command
+### Changing the resolution in Desktop Mode or connecting an external monitor has dire consequences!
+Try not to change the resolution in Desktop Mode!  Connecting to an external monitor may also cause issues.  If your screen doesn't display the correct output or looks grainy, noisy, or oddly colorful then you will have to **enter a [TTY session](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/?h=tt#tty-if-you-cannot-access-desktop-mode) and enter this command**:
+
+```
+rm ~/.config/kwin*
+```
+
+Alternatively, **ssh into it and enter this command**:
+
+```
 mv ~/.config/kwinoutputconfig.json ~/.config/kwinoutputconfig.json.old
 ```
+
 
 ## BIOS Update Information
 
