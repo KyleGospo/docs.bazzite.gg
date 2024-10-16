@@ -22,34 +22,36 @@ hide:
 
 - [:material-download-circle: **Installing Software**][installing_software]{ style="font-size: 1.1rem" }
 
-  <small>Order reflects the recommendation degree</small>
+  <small>Order reflects the recommendation degree.</small>
 
-  1. [Flatpak][flatpak] for graphical apps
+  1. [Flatpak][flatpak] for graphical apps.
      {style="list-style-type: decimal;"}
-  2. [ujust][ujust] to use Bazzite tailored installers
+  2. [ujust][ujust] to use Bazzite tailored installers.
      {style="list-style-type: decimal;"}
-  3. [Homebrew][homebrew] for CLI apps
+  3. [Homebrew][homebrew] for CLI apps.
      {style="list-style-type: decimal;"}
-  4. [Distrobox][distrobox] for containerized apps
+  4. [Distrobox][distrobox] for legacy Linux apps or as development containers.
      {style="list-style-type: decimal;"}
-  5. [Appimage][appimage] for portable apps found on the web
+  5. [Appimage][appimage] for portable apps found on the web.
      {style="list-style-type: decimal;"}
 
-  Install regular Fedora packages with [`rpm-ostree`][rpm-ostree] but we [advise avoiding it if possible][rpm-ostree_caveats]
+  Install regular Fedora packages with [`rpm-ostree`][rpm-ostree] but we [advise avoiding it if possible][rpm-ostree_caveats].
 
 - [:fontawesome-brands-windows: **Running Windows Games**][run_win_game]{ style="font-size: 1.1rem" }
 
-  Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup)
+  Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup).
 
   Compatible with other tools as well:
 
-  - [Heroic](https://heroicgameslauncher.com/) for Epic Games, GOG, and Amazon Games integration
-  - [Bottles](https://usebottles.com/) for general-purpose applications or as an alternative to Lutris
-  - ...And [more][run_win_game]
+  - [Heroic](https://heroicgameslauncher.com/) for Epic Games, GOG, and Amazon Games integration.
+  - [Bottles](https://usebottles.com/) for general-purpose applications or as an alternative to Lutris.
+  - ...And [more][run_win_game]!
 
-  <small>\* Desktop images require [**enabling Proton for all Steam games**][enable_proton]</small>
+  <small>\* Desktop images require [**enabling Proton for all Steam games**][enable_proton]</small>.
 
-- [:fontawesome-solid-circle-arrow-down: **Updates, Rollbacks, and Rebasing**][updateindex]{ style="font-size: 1.1rem" }
+- [:fontawesome-solid-circle-arrow-down: **Updates & Rollbacks**][updateindex]{ style="font-size: 1.1rem" }
+
+If a regression occurs, rollback to the previous deployment because updates should be a painless experience.
 
   - [Updating Guide][updates]
   - [Rollback System Updates][rollbacks]
@@ -58,17 +60,17 @@ hide:
 
 - [:fontawesome-brands-android: **Android Applications**][waydroid]{ style="font-size: 1.1rem" }
 
-  Run Android applications in a container using [Waydroid](https://waydro.id/)
+  Run Android applications in a container using [Waydroid](https://waydro.id/)!
 
-  - Launch anything from productivity software to games
-  - Support for the Google Play Store and [F-Droid](https://f-droid.org/)
+  - Launch anything from productivity software to games.
+  - Support for the Google Play Store and [F-Droid](https://f-droid.org/).
 
 - [:fontawesome-solid-handshake: **Contributing**][contrib]{ style="font-size: 1.1rem" }
 
-  One of the strengths of Bazzite (inherited from [Universal Blue](https://universal-blue.org/)) is how easy is to contribute
+  One of the strengths of Bazzite (inherited from [Universal Blue](https://universal-blue.org/)) is how easy is to contribute.
 
-  - Something seems broken? You might want to [report a bug](General/reporting_bugs.md)
-  - Contributing to documentation like translating it in other languages
+  - Something seems broken? You might want to [report a bug](General/reporting_bugs.md).
+  - Editing current documentation and adding translations are also appreciated.
 
 </div>
 
