@@ -51,7 +51,7 @@ hide:
 
 - [:fontawesome-solid-circle-arrow-down: **Updates & Rollbacks**][updateindex]{ style="font-size: 1.1rem" }
 
-If a regression occurs, rollback to the previous deployment because updates should be a painless experience.
+  If a regression occurs, rollback to the previous deployment because updates should be a painless experience.
 
   - [Updating Guide][updates]
   - [Rollback System Updates][rollbacks]
