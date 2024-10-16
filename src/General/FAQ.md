@@ -23,7 +23,7 @@ Bazzite originally was developed for the Steam Deck targeting users who used the
 
 ## Bazzite vs. Windows Comparison
 
-**OS** | [App Store](https://flathub.org/) | [Atomic Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide.md)  | [Rollback  System Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md) | [Gaming User Interface](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)|[Open Source]( https://github.com/ublue-os/bazzite)|
+**OS** | [App Store](https://flathub.org/) | [Atomic Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md)  | [Out of the Box Gaming](https://github.com/ublue-os/bazzite/blob/main/README.md#about--features) | [Gaming-Centric User Interface](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)|[Open Source]( https://github.com/ublue-os/bazzite)|
 | -------- | -------- | -------- | -------- | --------  | -------- | 
 | **Bazzite**: | ✅  | ✅  | ✅  | ✅ | ✅  | ✅  
 | **Windows**: | ✅ | ❌ | ❌ | ❌  | ❌ |
