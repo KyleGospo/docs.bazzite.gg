@@ -30,7 +30,7 @@ Steam can run Windows games on Linux. It utilizes a wide range of projects and p
 - Valve selects the default runner on _Handheld/HTPC_ images.
 - Some games run better with a specific version of Proton or forcing the Linux runtime.
   - Run that specific version by going into the game's **Properties** > **Compatibility** > **Force the use of a specific Steam Play compatibility tool**
-
+#### Image Example
 ![Cog Icon > Properties|690x284, 75%](../img/Steam_Setup_Cog.png)
 ![Compatibility tab|690x492, 75%](../img/Steam_Setup_Compat_Tab.png)
 
