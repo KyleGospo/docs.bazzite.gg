@@ -40,9 +40,6 @@ ujust install-hhd-controller-glyph-theme
 ```
 
 ## Workarounds / Known Issues
-
-- [Status of CPU Boost on Bazzite](https://github.com/aarron-lee/SimpleDeckyTDP/blob/main/README.md#are-there-cpu-boost-controls)
-  - Disable CPU boost to avoid excess power usage and other issues.
 - Changing A/C power sometimes leads to a stuck TDP.
 - Some users report that "Auto UMA" in the bios can cause crashes in some games.
   - If you encounter this, then try setting the VRAM in bios to **4GB** or **8GB**.
@@ -60,10 +57,16 @@ ujust install-hhd-controller-glyph-theme
   - No controls outside of Steam.
   - Steam's top and bottom panels missing.
 
-## BIOS Update Breaks Secure Boot Key
+### BIOS update breaks secure boot key
 
 Read our [Secure Boot guide](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
 
+
+### CPU Boost?
+
+Disabled by default to prevent excessive power draw to the device.
+
+More information can be found [here](https://github.com/aarron-lee/SimpleDeckyTDP/blob/main/README.md#are-there-cpu-boost-controls) about this.
 
 <hr>
 
