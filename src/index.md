@@ -13,8 +13,8 @@ hide:
   From [desktop/laptops][install_pc_laptop], <br>Framework [13][frame_13]/[16][frame_16], to a [multitude of handhelds][install_handheld]:
 
   - [Steam Deck (and OLED)][deck]
-  - [Asus ROG Ally (and X)][ally]
   - [Lenovo Legion Go][legion_go]
+  - [Asus ROG Ally (and X)][ally]
   - [GPD Handhelds][gpd]
   - [OneXPlayer Handhelds][onex]
   - [Ayn Handhelds][ayn]
