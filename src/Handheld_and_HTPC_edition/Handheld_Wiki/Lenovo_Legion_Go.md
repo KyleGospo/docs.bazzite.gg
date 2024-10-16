@@ -62,11 +62,11 @@ mv ~/.config/kwinoutputconfig.json ~/.config/kwinoutputconfig.json.old
 ```
 
 
-## BIOS Update Information
+### BIOS Update Information
 
 Read the [tutorial](https://docs.bazzite.gg/Handheld_and_HTPC_edition/update-bios) on how to update the BIOS for the Lenovo Legion Go without a Windows installation.
 
-## BIOS Update Breaks Secure Boot Key
+### BIOS update breaks Secure Boot key
 
 Read our [Secure Boot guide](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
 
