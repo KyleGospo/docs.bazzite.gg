@@ -62,7 +62,7 @@ mv ~/.config/kwinoutputconfig.json ~/.config/kwinoutputconfig.json.old
 ```
 
 
-### BIOS Update Information
+### Updating the BIOS without a Windows installation
 
 Read the [tutorial](https://docs.bazzite.gg/Handheld_and_HTPC_edition/update-bios) on how to update the BIOS for the Lenovo Legion Go without a Windows installation.
 
