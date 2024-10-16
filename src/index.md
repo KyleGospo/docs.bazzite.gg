@@ -20,7 +20,7 @@ hide:
   - [Ayn Handhelds][ayn]
   - [Ayaneo Handhelds][ayaneo]
 
-- [:material-download-circle: **Install Software**][installing_software]{ style="font-size: 1.1rem" }
+- [:material-download-circle: **Installing Software**][installing_software]{ style="font-size: 1.1rem" }
 
   <small>Order reflects the recommendation degree</small>
 
@@ -37,7 +37,7 @@ hide:
 
   Install regular Fedora packages with [`rpm-ostree`][rpm-ostree] but we [advise avoiding it if possible][rpm-ostree_caveats]
 
-- [:fontawesome-brands-windows: **Run Windows Games**][run_win_game]{ style="font-size: 1.1rem" }
+- [:fontawesome-brands-windows: **Running Windows Games**][run_win_game]{ style="font-size: 1.1rem" }
 
   Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup)
 
@@ -63,7 +63,7 @@ hide:
   - Launch anything from productivity software to games
   - Support for the Google Play Store and [F-Droid](https://f-droid.org/)
 
-- [:fontawesome-solid-handshake: **Contribute**][contrib]{ style="font-size: 1.1rem" }
+- [:fontawesome-solid-handshake: **Contributing**][contrib]{ style="font-size: 1.1rem" }
 
   One of the strengths of Bazzite (inherited from [Universal Blue](https://universal-blue.org/)) is how easy is to contribute
 
