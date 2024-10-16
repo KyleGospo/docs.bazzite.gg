@@ -16,8 +16,9 @@ Steam can run Windows games on Linux. It utilizes a wide range of projects and p
 > **Note**: Skip this section if you're using a [_Handheld/HTPC_](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) image.
 
 - Currently Steam only allows whitelisted games to run by default on the desktop Steam client.
-- You can change this by going into the Steam **Settings** > **Compatibility** > **Enable Steam Play for all other titles**
+  - You can change this by enabling this in **Settings** > **Compatibility** > **Enable Steam Play for all other titles**
 
+##### Image Example
 ![Steam Settings|256x267, 75%](../img/Steam_Setup_Settings.png)
 ![Compatibility|589x499, 75%](../img/Steam_Setup_Compatibility.png)
 
@@ -42,6 +43,8 @@ Steam can run Windows games on Linux. It utilizes a wide range of projects and p
 
 ### Lutris Setup
 
+#### Lutris Screenshots
+
 ![Lutris|617x500, 75%](../img/Lutris_Setup.png)
 
 ![Example of Lutris installers|623x500, 75%](../img/Lutris_Setup_Installers.png)
@@ -54,11 +57,11 @@ However if your game is not listed or doesn't work with the provided script, the
 
 ![Add Locally Installed Game|632x496, 75%](../img/Lutris_Setup_Add_Local_Game.png)
 
-**Example 1**:
+**Example #1**:
 
 ![Lutris manually adding games example 1|690x213](../img/Lutris_Setup_Add_Local_Game_1.png)
 
-**Example 2**:
+**Example #2**:
 ![Lutris manually adding games example 2|690x342, 100%](../img/Lutris_Setup_Add_Local_Game_2.png)
 
 #### Lutris Shortcuts
