@@ -208,16 +208,26 @@ Go into Desktop Mode and into the system settings to adjust the sound settings. 
 Most of the time this is because you're connecting the device via HDMI which does not support VRR on Linux. Here is the [source](https://www.phoronix.com/news/HDMI-2.1-OSS-Rejected) of that information.
 
 ### Stuck at the Bazzite logo
+1.  Opening a TTY session with an **external physical keyboard** using this **keyboard combination and entering this command**:
+    <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F4</kbd>
+2.  Login to your user.
+3.  Enter this command:
+```
+ujust fix-reset-steam
+```
 
-https://www.youtube.com/watch?v=gE1ff72g2Gk
+Reboot the system.
+#### Alternative Method
+> **Attention**: Try rebooting your device first before proceeding with the next steps! You may lose your games, saves, and other content if this is done incorrectly.
 
-> **Attention**: Try rebooting your device first before proceeding with the next steps.
-
-1.  Resolve this by opening a TTY session with an **external physical keyboard** using this **keyboard combination and entering this command**:
+1.  Open a TTY session with an **external physical keyboard** using this **keyboard combination and entering this command**:
     <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F4</kbd> and `mv ~/.local/share/Steam ~/.local/share/Steam1`
 2.  This command will rename the `Steam` directory to `Steam1`, and it will force Steam to reinitialize and create a new directory
 3.  You can move your games from the renamed `Steam1` directory to the new `Steam` directory if you had any installed previously on your internal storage
 4.  Exit the TTY session by entering this **keyboard combination**: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F2</kbd>
+
+##### Video Tutorial
+https://www.youtube.com/watch?v=gE1ff72g2Gk
 
 ### I lost my "Return to Gaming Mode" shortcut
 
