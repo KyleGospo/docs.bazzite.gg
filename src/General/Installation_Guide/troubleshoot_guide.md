@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=GRdz08hJByo
 
 https://www.youtube.com/watch?v=FBGLLkIKp-w
 
-## Alternative Installation Method
+## Worst Case Scenario: Alternative Installation Method
 
 > **Attention**: The workaround method may have scaling issues with the installer depending on the hardware especially if it is a handheld PC.
 
