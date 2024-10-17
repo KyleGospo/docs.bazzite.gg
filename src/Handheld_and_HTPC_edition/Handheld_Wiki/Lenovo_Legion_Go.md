@@ -45,6 +45,14 @@ ujust install-hhd-controller-glyph-theme
 - Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode. (See "Desktop Controls" section below)
   - <kbd>**Legion L**</kbd> + <kbd>**X**/**Square**</kbd> (This can be remapped)
 
+### Updating the BIOS without a Windows installation
+
+Read the [tutorial](https://docs.bazzite.gg/Handheld_and_HTPC_edition/update-bios) on how to update the BIOS for the Lenovo Legion Go without a Windows installation.
+
+### BIOS update breaks Secure Boot key
+
+Read our [Secure Boot guide](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
+
 ### Changing the resolution in Desktop Mode or connecting an external monitor has dire consequences!
 
 ![grainy|690x387, 100%](../../img/grainy.jpeg)
@@ -60,16 +68,6 @@ Alternatively, **ssh into it and enter this command**:
 ```
 mv ~/.config/kwinoutputconfig.json ~/.config/kwinoutputconfig.json.old
 ```
-
-
-### Updating the BIOS without a Windows installation
-
-Read the [tutorial](https://docs.bazzite.gg/Handheld_and_HTPC_edition/update-bios) on how to update the BIOS for the Lenovo Legion Go without a Windows installation.
-
-### BIOS update breaks Secure Boot key
-
-Read our [Secure Boot guide](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
-
 
 ## External Resource
 
