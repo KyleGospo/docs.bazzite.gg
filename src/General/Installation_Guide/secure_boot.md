@@ -57,7 +57,7 @@ universalblue
 
 ## Secure Boot Instructions for Upstream Fedora Atomic Desktop Images
 
->Read more about rebasing from upstream Fedora Atomic Desktop images [here](https://docs.bazzite.gg/General/Installation_Guide/troubleshoot_guide/#worst-case-scenario-alternative-installation-method).
+>Read more about rebasing from upstream Fedora Atomic Desktop images [here](/General/Installation_Guide/troubleshoot_guide.md#worst-case-scenario-alternative-installation-method).
 
 Rebasing from Fedora Silverblue, Fedora Kinoite, etc. to Bazzite.
 
