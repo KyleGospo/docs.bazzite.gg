@@ -44,8 +44,6 @@ ujust install-hhd-controller-glyph-theme
   - It seems to be very similar/related to the suspend issue on the GPD WM2 7840u and newer devices, more details [here](https://gitlab.freedesktop.org/drm/amd/-/issues/3154)
 - Games can sometimes default to 800p resolution.
   - Manually change the resolution per game in the `Steam Settings > Properties > Game Resolution` to either `Native` or other higher resolutions.
-- Fix controls and gyro after suspend-resume cycles (confirmed to work on both the 7840u and 6800u variants).
-  - Run these [commands](https://github.com/aarron-lee/gpd-win-tricks/blob/df0cb72ee11cfd0ba30c8bcffe0e395b99b713d3/win4-gyro-suspend-fix/README.md) in a host terminal.
 - Back buttons may need to be manually remapped before they are usable.
   - Manually remap back buttons as described in hhd docs [here](https://github.com/hhd-dev/hhd?tab=readme-ov-file#extra-steps-gpd-win-devices)
     - Watch this [video](https://www.youtube.com/watch?v=lnNfMY9kzjk) if you need a visual guide.
