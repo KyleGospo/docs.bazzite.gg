@@ -30,7 +30,7 @@ The workaround below is also useful for **downloading a smaller ISO size**.
 
 ### Rebasing from a Fedora Atomic Desktop Image
 
-If you experience issues with installing our ISO or the bootable drive you have is too small for Bazzite, then download the [Fedora Kinoite (**KDE Plasma**)](https://fedoraproject.org/atomic-desktops/kinoite/) or [Fedora Silverblue (**GNOME**)](https://fedoraproject.org/atomic-desktops/silverblue/) depending on which desktop environment preferred.
+If you experience issues with installing our ISO or the bootable drive you have is too small for Bazzite, then download the [Fedora Kinoite (**KDE Plasma**)](https://fedoraproject.org/atomic-desktops/kinoite/) or [Fedora Silverblue (**GNOME**)](https://fedoraproject.org/atomic-desktops/silverblue/) depending on which desktop environment you prefer.
 
 1. The installation setup is similar to Bazzite and includes the same installer with the same instructions, but do **not** set a root account if its an option in the installer.
 
