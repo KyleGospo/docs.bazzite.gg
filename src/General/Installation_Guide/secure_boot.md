@@ -39,7 +39,7 @@ Otherwise `Continue boot` if you have Secure Boot disabled or if it is not suppo
 
 ## **Method B**) After Installation Method
 
-> **ATTENTION**: Disable Secure Boot before doing this, and then re-enable it after enrolling the key.
+**Disable Secure Boot in the BIOS before proceeding**, and then re-enable it **after enrolling the key**.
 
 If you have already installed Bazzite then **enter this command in a host terminal**:
 
@@ -53,6 +53,12 @@ If prompted to enroll the required key, then **enter the password in the host te
 universalblue
 ```
 
-You can now turn Secure Boot back on in the BIOS.
+**You can now turn Secure Boot back on in the BIOS.**
 
-**If you're rebasing from a Fedora Atomic Desktop image and use Secure Boot, then follow our [README](https://github.com/ublue-os/bazzite/blob/main/README.md#secure-boot)**.
+## Secure Boot Instructions for Upstream Fedora Atomic Desktop Images
+
+>Read more about rebasing from upstream Fedora Atomic Desktop images [here](https://docs.bazzite.gg/General/Installation_Guide/troubleshoot_guide/#worst-case-scenario-alternative-installation-method).
+
+Rebasing from Fedora Silverblue, Fedora Kinoite, etc. to Bazzite.
+
+If you're rebasing from a Fedora Atomic Desktop image and use Secure Boot, then follow our [README](https://github.com/ublue-os/bazzite/blob/main/README.md#secure-boot).
