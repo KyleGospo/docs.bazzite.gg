@@ -18,9 +18,8 @@ authors:
 
 ## Important Notes on Handheld Hardware
 
-> **Note**: Bazzite requires a stable internet connection with no bandwidth cap in place.
-
 > **Attention**: Several handhelds require BitLocker to be unlocked (write down your recovery key too), Windows "Fast Startup" disabled, and **not** putting Windows into Hibernation Mode before installing Bazzite.
+
 
 > [Bazzite's Handheld Wiki](https://universal-blue.discourse.group/docs?topic=1038) contains information on setting up your handheld after installing Bazzite and workarounds for known issues.
 
@@ -31,6 +30,8 @@ authors:
 > Pre-requisites and steps before installing Bazzite.
 
 #### Installer Requirements
+
+> **Note**: Bazzite requires a stable internet connection with no bandwidth cap in place.
 
 - A USB flash drive with 10GB free space
   - **Note**: All data on this drive will be wiped when flashed
