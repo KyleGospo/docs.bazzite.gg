@@ -34,7 +34,7 @@ Read the [Handheld Wiki entry](https://universal-blue.discourse.group/docs?topic
 
 #### Installer Requirements
 
-- A USB flash drive or microSD card with 10GB free space
+- A USB flash drive with 10GB free space
   - **Note**: All data on this drive will be wiped when flashed
 - Software to flash the image:
   - [Ventoy](https://www.ventoy.net/en/index.html)
