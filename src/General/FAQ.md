@@ -229,9 +229,11 @@ Please try searching for your question on **https://docs.bazzite.gg** first befo
 
 > **TL;DR**: Bazzite is the gaming-centric version of Bluefin (GNOME) and Aurora (KDE Plasma), and all 3 are Universal Blue Fedora custom images intended for end users.
 
-[Bluefin](https://projectbluefin.io/) and [Aurora](https://getaurora.dev) are nearly identical outside of branding and desktop environment, but Bazzite strays away from both. All three are similar for desktop PCs and function similarly and share contributors between projects. Bluefin and Aurora target two audiences: individuals who want a maintenance-free Linux desktop experience and developers who work with containers (using the `-dx` images).
+[Bluefin](https://projectbluefin.io/) and [Aurora](https://getaurora.dev) are nearly identical outside of branding and desktop environment. Bazzite is a different image that shares similarities with both Bluefin and Aurora, and all three function relatively the same for desktop PCs and share contributors between projects. Bluefin and Aurora target two audiences: 
+- Individuals who want a maintenance-free Linux desktop experience
+- Developers who work with containers (using their `-dx` images)
 
-Bazzite exclusively focuses on having an out of the box Linux gaming experience for desktop, HTPC hardware, and handhelds. Bazzite can be summed up as Bluefin and Aurora but tuned for PC gaming. All 3 are community-centric custom Fedora Atomic Desktop that is configured for their specific target audience, and for Bazzite specifically: PC gamers who want to use the Linux desktop as the alternative to Windows.
+Bazzite exclusively focuses on having an out of the box Linux gaming experience for desktop, HTPC hardware, and handhelds as a priority. Bazzite can be summed up as Bluefin and Aurora designed for PC gaming.  Bazzite, Bluefin, and Aurora are community-centric custom Fedora Atomic Desktop that are configured for their specific target audience. Bazzite specifically targets PC gamers who want to use the Linux desktop as an alternative to Windows on a wide variety of hardware setups.
 
 ## Why are builds failing?
 
