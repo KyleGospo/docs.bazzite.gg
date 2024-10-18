@@ -35,13 +35,13 @@ hide:
   5. [Appimage][appimage] for portable apps found on the web.
      {style="list-style-type: decimal;"}
 
-  Install regular Fedora packages with [`rpm-ostree`][rpm-ostree] but we [advise avoiding it if possible][rpm-ostree_caveats].
+  There is also [package layering with `rpm-ostree`][rpm-ostree] but it is [advised to avoid using it if possible][rpm-ostree_caveats].
 
 - [:fontawesome-brands-windows: **Running Windows Games**][run_win_game]{ style="font-size: 1.1rem" }
 
   Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup).
 
-  Compatible with other tools as well:
+  It is also compatible with other tools as well:
 
   - [Heroic](https://heroicgameslauncher.com/) for Epic Games, GOG, and Amazon Games integration.
   - [Bottles](https://usebottles.com/) for general-purpose applications or as an alternative to Lutris.
