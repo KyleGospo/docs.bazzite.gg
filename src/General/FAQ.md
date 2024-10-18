@@ -221,9 +221,9 @@ It is not recommended to rebase between desktop environments due to configuratio
 
 >[Read more about Rebasing on Bazzite.](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide/)
 
-## I have questions and concerns that cannot be answered in Bazzite's documentation
+## I have questions or concerns that cannot be answered in the documentation
 
-Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite/5) or [Discord](https://discord.gg/WEu6BdFEtp), but if it's an issue or bug you are encountering then [report it](https://docs.bazzite.gg/General/reporting_bugs/)!  Be warned that the answers sometimes will be "out of our control" especially when it comes to Nvidia driver problems, game compatibility, or other problems that plague the Linux desktop.
+Please try searching for your question on **https://docs.bazzite.gg** first before proceeding with the next steps. Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite/5) or [Discord](https://discord.gg/WEu6BdFEtp) if you have a specific question about something, but if it's an issue or bug you are encountering then [report it to the issue tracker](https://docs.bazzite.gg/General/reporting_bugs/).  Keep in mind that certain areas and topics are out of our control especially when it comes to Nvidia driver problems, game compatibility, or other problems that plague the modern day Linux desktop.
 
 ## What is the difference between Bluefin, Aurora, and Bazzite?
 
