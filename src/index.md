@@ -10,7 +10,7 @@ hide:
 
 - [:material-harddisk: **Installing Bazzite**](General/Installation_Guide/index.md){ style="font-size: 1.1rem" }
 
-  From [desktop/laptops][install_pc_laptop], <br>Framework [13][frame_13]/[16][frame_16], to a [multitude of handhelds][install_handheld]:
+  From [desktop/laptops][install_pc_laptop], <br>Framework [13][frame_13]/[16][frame_16], [home theater PC setups][htpc] to a [multitude of handhelds][install_handheld]:
 
   - [Steam Deck (and OLED)][deck]
   - [Lenovo Legion Go][legion_go]
