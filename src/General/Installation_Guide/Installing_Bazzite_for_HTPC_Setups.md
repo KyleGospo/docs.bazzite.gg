@@ -39,7 +39,7 @@ authors:
 
 #### Installer Requirements
 
-- A USB flash drive or microSD card with 10GB free space
+- A USB flash drive with 10GB free space
   - **Note**: All data on this drive will be wiped when flashed
 - Software to flash the image:
   - [Fedora Media Writer](https://www.fedoraproject.org/en/workstation/download/), [Ventoy](https://www.ventoy.net/en/index.html), or [Rufus](https://rufus.ie/en/)
