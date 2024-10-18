@@ -94,11 +94,11 @@ Both types of images also come with the choice of using [KDE Plasma](https://kde
 - Home Theater PC setups for a console-like experience.
 - [Handheld PC](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) users who would prefer a SteamOS-like experience.
 
-## SteamOS is based on Arch Linux, so why use Fedora Linux?
+## SteamOS is based on Arch Linux, so why use Fedora Atomic Desktop?
 
 SteamOS receives package and driver updates less frequently despite the rolling release base.  Bazzite will follow Fedora's update release cycle which means early access to new graphics card driver and kernel updates in comparison to SteamOS.  Fedora Linux and Universal Blue currently supports a specific "atomic" implementation to maintain multiple images that can receive all of the same updates at once, which is unlike a derivative Linux distribution.  The **goal** of Bazzite is to have an operating system ready to game after installing it.
 
-#### Any advantages to using Fedora?
+#### Any advantages to using Fedora Atomic Desktop?
 
 Since Bazzite is a custom Fedora Atomic Desktop image, it makes use of read-only root files for stability purposes, and is built with [libostree](https://docs.fedoraproject.org/en-US/fedora-silverblue/technical-information/) which has advantages such as:
 
@@ -112,9 +112,17 @@ Since Bazzite is a custom Fedora Atomic Desktop image, it makes use of read-only
 
 ### How is Fedora Atomic Desktop different than Fedora Workstation?
 
-If you're familiar with [Fedora Workstation](https://www.fedoraproject.org/workstation/) and [Fedora's Spins](https://www.fedoraproject.org/spins/), but not the Fedora Atomic Desktops paradigm, the major difference is with stability between system upgrades. There are read-only root files and an emphasis on installing applications as a Flatpak or inside [containers.](https://distrobox.it/) Read more about [obtaining software on Bazzite](../Installing_and_Managing_Software/index.md).  Users can rollback to a previous deployment if a system update breaks their workflow, or rebase entirely back to a stock Fedora Atomic image, [Aurora](https://getaurora.dev/), [Bluefin](https://projectbluefin.io/), or a [custom image by the community](https://universal-blue.discourse.group/docs?topic=340). Do **not** rebase between different desktop environments. Read more about how [updates, rolling back, and rebasing works on Bazzite](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md).
+If you're familiar with [Fedora Workstation](https://www.fedoraproject.org/workstation/) and [Fedora's Spins](https://www.fedoraproject.org/spins/), but not the Fedora Atomic Desktops paradigm then the major difference deals with obtaining a reproducable and consistent OS image, seperation between installing additional software and the system, and stability between system upgrades. Here's a helpful [cheat sheet](https://docs.fedoraproject.org/en-US/fedora-silverblue/_attachments/silverblue-cheatsheet.pdf) for using **advanced** commands, but gives a glimpse of what this paradigm is capable of. There is also a future planned ahead of this technology like the upcoming addition of [bootc](https://containers.github.io/bootc/) which will be a major change when it is ready for production.
 
-Here's a helpful [cheat sheet](https://docs.fedoraproject.org/en-US/fedora-silverblue/_attachments/silverblue-cheatsheet.pdf) for using **advanced** commands, but gives a glimpse of what this paradigm is capable of. There is also a future planned ahead of this technology. Upcoming additions like [bootc](https://containers.github.io/bootc/) will be a major change when it is ready for production.
+#### Software & Updates
+
+There are **read-only root files** and an emphasis on installing applications as a Flatpak or inside [containers.](https://distrobox.it/)
+
+>**Read more about [obtaining software on Bazzite](../Installing_and_Managing_Software/index.md)**.
+
+Users can also rollback to a previous deployment if a system update breaks their workflow, or rebase entirely back to a stock Fedora Atomic image, [Aurora](https://getaurora.dev/), [Bluefin](https://projectbluefin.io/), or a [custom image by the community](https://universal-blue.discourse.group/docs?topic=340). Do **not** rebase between different desktop environments. 
+
+>**Read more about how [updates, rolling back, and rebasing works on Bazzite](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md)**.
 
 ### Is this another fringe Linux distribution?
 
