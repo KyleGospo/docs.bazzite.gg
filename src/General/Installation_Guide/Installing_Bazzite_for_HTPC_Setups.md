@@ -25,7 +25,7 @@ authors:
 - **Processor (CPU)** : 2GHz quad core processor or better
 - **System Memory (RAM)**: 4GB
 - **Graphics**: A graphics card that can utilize Vulkan 1.3+
-- **Storage**: 50GB free on an internal solid-state drive
+- **Storage**: 64GB free on an internal solid-state drive
 - **Network**: Stable internet connection with no bandwidth caps
 - **Additional Notes**: Certain drivers are **not** compatible with Bazzite
   - For example: [A list of compatible USB Wi-Fi adapters](https://github.com/morrownr/USB-WiFi/blob/f3001d8e5b897e5671302cb2faf18954dd34e3d7/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) 
