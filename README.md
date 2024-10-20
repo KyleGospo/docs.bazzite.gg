@@ -9,6 +9,7 @@
   - [Setup MkDocs tooling](#setup-mkdocs-tooling)
     - [1. Create the markdown file where we will store our document.](#1-create-the-markdown-file-where-we-will-store-our-document)
     - [2. Set a proper page name](#2-set-a-proper-page-name)
+  - [How to add images to embeds](#how-to-add-images-to-embeds)
   - [Translate documentation](#translate-documentation)
 
 ## Introduction
@@ -99,6 +100,36 @@ Adding this at the start of the markdown file would change the tab name to "Hell
 ```yaml
 ---
 title: "Hello world"
+---
+```
+
+## How to add images to embeds
+
+<small>Reference: [#34](https://github.com/KyleGospo/docs.bazzite.gg/pull/34#issue-2600324288)</small>
+
+Attach the necesary parameters to the markdown page, in the yaml metadata
+
+```yaml
+---
+# Simple
+# Uses a default blend setting with purple and crops
+preview: ../img/distrobox.png
+description: |
+  Distrobox is ...
+---
+```
+
+or
+
+```yaml
+---
+# Expanded
+preview:
+  src: ../img/distrobox.png
+  alpha: 150 # from 0 (invisible) to 255 (fully visible)
+  contain: True # For images with transparent sides only, center the image without cropping
+description: |
+  Distrobox is ...
 ---
 ```
 
