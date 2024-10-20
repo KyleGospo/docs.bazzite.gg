@@ -19,7 +19,7 @@
 # IN THE SOFTWARE.
 
 from mkdocs.config.base import Config
-from mkdocs.config.config_options import Deprecated, Type
+from mkdocs.config.config_options import Type, Optional
 
 # -----------------------------------------------------------------------------
 # Classes
@@ -36,13 +36,5 @@ class SocialConfig(Config):
     cards_layout_options = Type(dict, default = {})
 
     # Deprecated settings
-    cards_color = Deprecated(
-        option_type = Type(dict, default = {}),
-        message =
-            "Deprecated, use 'cards_layout_options.background_color' "
-            "and 'cards_layout_options.color' with 'default' layout"
-    )
-    cards_font = Deprecated(
-        option_type = Type(str),
-        message = "Deprecated, use 'cards_layout_options.font_family'"
-    )
+    cards_color = Type(dict, default = {})
+    cards_font = Optional(Type(str))

@@ -1,6 +1,12 @@
 ---
 authors:
   - "@nicknamenamenick"
+preview:
+  src: "../img/AppImage.png"
+  contain: True
+  alpha: 50
+description: |
+  AppImage is a universal package format that bundles every dependency an application needs.
 ---
 
 <!-- ANCHOR: METADATA -->

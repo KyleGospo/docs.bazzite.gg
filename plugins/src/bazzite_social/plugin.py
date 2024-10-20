@@ -73,6 +73,7 @@ except OSError as e:
 # Classes
 # -----------------------------------------------------------------------------
 
+
 # Social plugin
 class SocialPlugin(BasePlugin[SocialConfig]):
 
@@ -89,14 +90,14 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         # Check dependencies
         if import_errors:
             raise PluginError(
-                "Required dependencies of \"social\" plugin not found:\n"
+                'Required dependencies of "social" plugin not found:\n'
                 + str("\n".join(map(lambda x: "- " + x, import_errors)))
-                + "\n\n--> Install with: pip install \"mkdocs-material[imaging]\""
+                + '\n\n--> Install with: pip install "mkdocs-material[imaging]"'
             )
 
         if cairosvg_error:
             raise PluginError(
-                "\"cairosvg\" Python module is installed, but it crashed with:\n"
+                '"cairosvg" Python module is installed, but it crashed with:\n'
                 + cairosvg_error
                 + "\n\n--> Check out the troubleshooting guide: https://t.ly/MfX6u"
             )
@@ -122,7 +123,7 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         # Check if site URL is defined
         if not config.site_url:
             log.warning(
-                "The \"site_url\" option is not set. The cards are generated, "
+                'The "site_url" option is not set. The cards are generated, '
                 "but not linked, so they won't be visible on social media."
             )
 
@@ -152,11 +153,13 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         options = self.config.cards_layout_options
         self.color = {
             "fill": options.get("background_color", self.color["fill"]),
-            "text": options.get("color", self.color["text"])
+            "text": options.get("color", self.color["text"]),
         }
 
         # Retrieve logo and font
-        self._resized_logo_promise = self._executor.submit(self._load_resized_logo, config)
+        self._resized_logo_promise = self._executor.submit(
+            self._load_resized_logo, config
+        )
         self.font = self._load_font(config)
 
         self._image_promises = []
@@ -171,11 +174,7 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         file, _ = os.path.splitext(page.file.src_path)
 
         # Resolve path of image
-        path = "{}.png".format(os.path.join(
-            config.site_dir,
-            directory,
-            file
-        ))
+        path = "{}.png".format(os.path.join(config.site_dir, directory, file))
 
         # Resolve path of image directory
         directory = os.path.dirname(path)
@@ -184,6 +183,32 @@ class SocialPlugin(BasePlugin[SocialConfig]):
 
         # Compute site name
         site_name = config.site_name
+
+        preview_data = page.meta.get("preview", None)
+        DEFAULT_ALPHA = 140
+        if isinstance(preview_data, str):
+            preview_img = preview_data
+            alpha = DEFAULT_ALPHA
+            contain = False
+        elif isinstance(preview_data, dict):
+            preview_img = preview_data.get("src", preview_data.get("image", None))
+            alpha = preview_data.get("alpha", DEFAULT_ALPHA)
+            contain = preview_data.get("contain", False)
+        else:
+            preview_img = None
+            alpha = DEFAULT_ALPHA
+            contain = False
+
+        if preview_img:
+            preview_img = os.path.join(
+                os.path.dirname(os.path.join(page.file.src_dir, page.file.src_path)),
+                preview_img,
+            )
+            preview = Image.open(preview_img)
+            preview_digest = md5(preview.tobytes()).hexdigest()
+        else:
+            preview = None
+            preview_digest = ""
 
         # Compute page title and description
         title = page.meta.get("title", page.title)
@@ -195,7 +220,7 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         if not isinstance(title, str):
             log.error(
                 f"Page meta title of page '{page.file.src_uri}' must be a "
-                f"string, but is of type \"{type(title)}\"."
+                f'string, but is of type "{type(title)}".'
             )
             sys.exit(1)
 
@@ -203,22 +228,34 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         if not isinstance(description, str):
             log.error(
                 f"Page meta description of '{page.file.src_uri}' must be a "
-                f"string, but is of type \"{type(description)}\"."
+                f'string, but is of type "{type(description)}".'
             )
             sys.exit(1)
 
         # Generate social card if not in cache
-        hash = md5("".join([
-            site_name,
-            str(title),
-            description
-        ]).encode("utf-8"))
+        hash = md5(
+            "".join(
+                [
+                    site_name,
+                    str(title),
+                    preview_digest,
+                    description,
+                    str(alpha),
+                    str(contain),
+                ]
+            ).encode("utf-8")
+        )
         file = os.path.join(self.cache, f"{hash.hexdigest()}.png")
-        self._image_promises.append(self._executor.submit(
-            self._cache_image,
-            cache_path = file, dest_path = path,
-            render_function = lambda: self._render_card(site_name, title, description)
-        ))
+        self._image_promises.append(
+            self._executor.submit(
+                self._cache_image,
+                cache_path=file,
+                dest_path=path,
+                render_function=lambda: self._render_card(
+                    site_name, title, description, balpha=alpha, preview=preview, contain=contain
+                ),
+            )
+        )
 
         # Inject meta tags into page
         meta = page.meta.get("meta", [])
@@ -248,33 +285,69 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         return ImageFont.truetype(self.font[kind], size)
 
     # Render social card
-    def _render_card(self, site_name, title, description):
+    def _render_card(self, site_name, title, description, balpha, preview, contain):
         # Render background and logo
         image = self._render_card_background((1200, 630), self.color["fill"])
-        image.alpha_composite(
-            self._resized_logo_promise.result(),
-            (1200 - 228, 64 - 4)
-        )
+
+        if preview:
+            ratio = preview.width / preview.height
+            req = 1200 / 630
+            if contain:
+                if ratio > req:
+                    res = preview.resize(
+                        (1200, int(1200 / ratio)), Image.Resampling.LANCZOS
+                    )
+                else:
+                    res = preview.resize((int(630 * ratio), 630), Image.Resampling.LANCZOS)
+
+                x = (1200 - res.width) // 2
+                y = (630 - res.height) // 2
+
+                res = res.convert("RGBA")
+
+                # Apply alpha
+                # FIXME: Might be very slow
+                r, g, b, a = res.split()
+                a = a.point(lambda p: p * balpha / 255)
+                res = Image.merge("RGBA", (r, g, b, a))
+                
+                image.alpha_composite(
+                    res, (x, y)
+                )            
+            else:
+                if ratio < req:
+                    res = preview.resize(
+                        (1200, int(1200 / ratio)), Image.Resampling.LANCZOS
+                    )
+                else:
+                    res = preview.resize((int(630 * ratio), 630), Image.Resampling.LANCZOS)
+
+                x = (res.width - 1200) // 2
+                y = (res.height - 630) // 2
+
+                res.putalpha(balpha)
+                image.alpha_composite(
+                    res.convert("RGBA").crop((0 + x, 0 + y, 1200 + x, 630 + y)), (0, 0)
+                )
+
+        image.alpha_composite(self._resized_logo_promise.result(), (1200 - 228, 64 - 4))
 
         # Render site name
         font = self._get_font("Bold", 36)
         image.alpha_composite(
-            self._render_text((826, 48), font, site_name, 1, 20),
-            (64 + 4, 64)
+            self._render_text((826, 48), font, site_name, 1, 20), (64 + 4, 64)
         )
 
         # Render page title
         font = self._get_font("Bold", 92)
         image.alpha_composite(
-            self._render_text((826, 328), font, title, 3, 30),
-            (64, 160)
+            self._render_text((826, 328), font, title, 3, 30), (64, 160)
         )
 
         # Render page description
         font = self._get_font("Regular", 28)
         image.alpha_composite(
-            self._render_text((826, 80), font, description, 2, 14),
-            (64 + 4, 512)
+            self._render_text((826, 80), font, description, 2, 14), (64 + 4, 512)
         )
 
         # Return social card image
@@ -282,19 +355,19 @@ class SocialPlugin(BasePlugin[SocialConfig]):
 
     # Render social card background
     def _render_card_background(self, size, fill):
-        return Image.new(mode = "RGBA", size = size, color = fill)
+        return Image.new(mode="RGBA", size=size, color=fill)
 
     @functools.lru_cache(maxsize=None)
     def _tmp_context(self):
-        image = Image.new(mode = "RGBA", size = (50, 50))
+        image = Image.new(mode="RGBA", size=(50, 50))
         return ImageDraw.Draw(image)
 
     @functools.lru_cache(maxsize=None)
     def _text_bounding_box(self, text, font):
-        return self._tmp_context().textbbox((0, 0), text, font = font)
+        return self._tmp_context().textbbox((0, 0), text, font=font)
 
     # Render social card text
-    def _render_text(self, size, font, text, lmax, spacing = 0):
+    def _render_text(self, size, font, text, lmax, spacing=0):
         width = size[0]
         lines, words = [], []
 
@@ -307,7 +380,7 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         # Create drawing context and split text into lines
         for word in text.split(" "):
             combine = " ".join(words + [word])
-            textbox = self._text_bounding_box(combine, font = font)
+            textbox = self._text_bounding_box(combine, font=font)
             yoffset = textbox[1]
             if not words or textbox[2] <= width:
                 words.append(word)
@@ -318,13 +391,16 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         # Join words for each line and create image
         lines.append(words)
         lines = [" ".join(line) for line in lines]
-        image = Image.new(mode = "RGBA", size = size)
+        image = Image.new(mode="RGBA", size=size)
 
         # Create drawing context and split text into lines
         context = ImageDraw.Draw(image)
         context.text(
-            (0, spacing / 2 - yoffset), "\n".join(lines[:lmax]),
-            font = font, fill = self.color["text"], spacing = spacing - yoffset
+            (0, spacing / 2 - yoffset),
+            "\n".join(lines[:lmax]),
+            font=font,
+            fill=self.color["text"],
+            spacing=spacing - yoffset,
         )
 
         # Return text image
@@ -348,38 +424,32 @@ class SocialPlugin(BasePlugin[SocialConfig]):
             description = page.meta["description"]
 
         # Resolve image URL
-        url = "{}.png".format(posixpath.join(
-            config.site_url or ".",
-            directory,
-            file
-        ))
+        url = "{}.png".format(posixpath.join(config.site_url or ".", directory, file))
 
         # Ensure forward slashes
         url = url.replace(os.path.sep, "/")
 
         # Return meta tags
         return [
-
             # Meta tags for Open Graph
-            { "property": "og:type", "content": "website" },
-            { "property": "og:title", "content": title },
-            { "property": "og:description", "content": description },
-            { "property": "og:image", "content": url },
-            { "property": "og:image:type", "content": "image/png" },
-            { "property": "og:image:width", "content": "1200" },
-            { "property": "og:image:height", "content": "630" },
-            { "property": "og:url", "content": page.canonical_url },
-
+            {"property": "og:type", "content": "website"},
+            {"property": "og:title", "content": title},
+            {"property": "og:description", "content": description},
+            {"property": "og:image", "content": url},
+            {"property": "og:image:type", "content": "image/png"},
+            {"property": "og:image:width", "content": "1200"},
+            {"property": "og:image:height", "content": "630"},
+            {"property": "og:url", "content": page.canonical_url},
             # Meta tags for Twitter
-            { "name": "twitter:card", "content": "summary_large_image" },
+            {"name": "twitter:card", "content": "summary_large_image"},
             # { "name": "twitter:site", "content": user },
             # { "name": "twitter:creator", "content": user },
-            { "name": "twitter:title", "content": title },
-            { "name": "twitter:description", "content": description },
-            { "name": "twitter:image", "content": url }
+            {"name": "twitter:title", "content": title},
+            {"name": "twitter:description", "content": description},
+            {"name": "twitter:image", "content": url},
         ]
 
-    def _load_resized_logo(self, config, width = 144):
+    def _load_resized_logo(self, config, width=144):
         logo = self._load_logo(config)
         height = int(width * logo.height / logo.width)
         return logo.resize((width, height))
@@ -415,10 +485,7 @@ class SocialPlugin(BasePlugin[SocialConfig]):
             logo = "material/library"
 
         # Resolve path of package
-        base = os.path.abspath(os.path.join(
-            os.path.dirname(__file__),
-            "../.."
-        ))
+        base = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 
         path = f"{base}/templates/.icons/{logo}.svg"
 
@@ -432,16 +499,16 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         return self._load_logo_svg(path, self.color["text"])
 
     # Load SVG file and convert to PNG
-    def _load_logo_svg(self, path, fill = None):
+    def _load_logo_svg(self, path, fill=None):
         file = BytesIO()
         data = open(path).read()
 
         # Fill with color, if given
         if fill:
-            data = data.replace("<svg", f"<svg fill=\"{fill}\"")
+            data = data.replace("<svg", f'<svg fill="{fill}"')
 
         # Convert to PNG and return image
-        svg2png(bytestring = data, write_to = file, scale = 10)
+        svg2png(bytestring=data, write_to=file, scale=10)
         return Image.open(file)
 
     # Retrieve font either from the card layout option or from the Material
@@ -522,9 +589,7 @@ class SocialPlugin(BasePlugin[SocialConfig]):
             )
 
         # Extract font URLs from manifest
-        for match in re.findall(
-            r"\"(https:(?:.*?)\.[ot]tf)\"", str(res.content)
-        ):
+        for match in re.findall(r"\"(https:(?:.*?)\.[ot]tf)\"", str(res.content)):
             with requests.get(match) as res:
                 res.raise_for_status()
 
@@ -541,6 +606,7 @@ class SocialPlugin(BasePlugin[SocialConfig]):
                 # write file to cache
                 write_file(res.content, target)
 
+
 # -----------------------------------------------------------------------------
 # Data
 # -----------------------------------------------------------------------------
@@ -551,25 +617,25 @@ log.addFilter(DuplicateFilter())
 
 # Color palette
 colors = {
-    "red":         { "fill": "#ef5552", "text": "#ffffff" },
-    "pink":        { "fill": "#e92063", "text": "#ffffff" },
-    "purple":      { "fill": "#ab47bd", "text": "#ffffff" },
-    "deep-purple": { "fill": "#7e56c2", "text": "#ffffff" },
-    "indigo":      { "fill": "#4051b5", "text": "#ffffff" },
-    "blue":        { "fill": "#2094f3", "text": "#ffffff" },
-    "light-blue":  { "fill": "#02a6f2", "text": "#ffffff" },
-    "cyan":        { "fill": "#00bdd6", "text": "#ffffff" },
-    "teal":        { "fill": "#009485", "text": "#ffffff" },
-    "green":       { "fill": "#4cae4f", "text": "#ffffff" },
-    "light-green": { "fill": "#8bc34b", "text": "#ffffff" },
-    "lime":        { "fill": "#cbdc38", "text": "#000000" },
-    "yellow":      { "fill": "#ffec3d", "text": "#000000" },
-    "amber":       { "fill": "#ffc105", "text": "#000000" },
-    "orange":      { "fill": "#ffa724", "text": "#000000" },
-    "deep-orange": { "fill": "#ff6e42", "text": "#ffffff" },
-    "brown":       { "fill": "#795649", "text": "#ffffff" },
-    "grey":        { "fill": "#757575", "text": "#ffffff" },
-    "blue-grey":   { "fill": "#546d78", "text": "#ffffff" },
-    "black":       { "fill": "#000000", "text": "#ffffff" },
-    "white":       { "fill": "#ffffff", "text": "#000000" }
+    "red": {"fill": "#ef5552", "text": "#ffffff"},
+    "pink": {"fill": "#e92063", "text": "#ffffff"},
+    "purple": {"fill": "#ab47bd", "text": "#ffffff"},
+    "deep-purple": {"fill": "#7e56c2", "text": "#ffffff"},
+    "indigo": {"fill": "#4051b5", "text": "#ffffff"},
+    "blue": {"fill": "#2094f3", "text": "#ffffff"},
+    "light-blue": {"fill": "#02a6f2", "text": "#ffffff"},
+    "cyan": {"fill": "#00bdd6", "text": "#ffffff"},
+    "teal": {"fill": "#009485", "text": "#ffffff"},
+    "green": {"fill": "#4cae4f", "text": "#ffffff"},
+    "light-green": {"fill": "#8bc34b", "text": "#ffffff"},
+    "lime": {"fill": "#cbdc38", "text": "#000000"},
+    "yellow": {"fill": "#ffec3d", "text": "#000000"},
+    "amber": {"fill": "#ffc105", "text": "#000000"},
+    "orange": {"fill": "#ffa724", "text": "#000000"},
+    "deep-orange": {"fill": "#ff6e42", "text": "#ffffff"},
+    "brown": {"fill": "#795649", "text": "#ffffff"},
+    "grey": {"fill": "#757575", "text": "#ffffff"},
+    "blue-grey": {"fill": "#546d78", "text": "#ffffff"},
+    "black": {"fill": "#000000", "text": "#ffffff"},
+    "white": {"fill": "#ffffff", "text": "#000000"},
 }
