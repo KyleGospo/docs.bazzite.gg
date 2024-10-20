@@ -20,8 +20,6 @@ hide:
   - [Ayn Handhelds][ayn]
   - [Ayaneo Handhelds][ayaneo]
 
-  [See which Bazzite image fits for your usecase](https://docs.bazzite.gg/General/FAQ/#what-bazzite-image-do-i-use).
-
 - [:material-download-circle: **Installing Software**][installing_software]{ style="font-size: 1.1rem" }
 
   <small>Order reflects the recommendation degree.</small>
