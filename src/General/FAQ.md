@@ -11,6 +11,8 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=33", "fetched_at": "2024-09-03 16:43:17.727110+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
+![Bazzite Tagline|178x43](../img/Bazzite_Tagline_Light_BG.png)
+
 ## Why is it called Bazzite?
 
 [Fedora Linux's Atomic Desktops](https://fedoraproject.org/atomic-desktops/) originally followed a naming scheme based on [minerals.](https://fedoraproject.org/kinoite/) Bazzite is a mineral that is known for being strong, lightweight, and is colored [blue](https://universal-blue.org/).
