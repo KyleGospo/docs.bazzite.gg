@@ -11,7 +11,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=33", "fetched_at": "2024-09-03 16:43:17.727110+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-![Bazzite Tagline|178x43](../img/Bazzite_Tagline_Light_BG.png)
+![Bazzite Tagline|938x775 70%](../img/Bazzite_Tagline_Light_BG.png)
 
 ## Why is it called Bazzite?
 
