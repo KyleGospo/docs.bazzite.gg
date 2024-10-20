@@ -1,0 +1,29 @@
+[project]
+name = "bazzite-docs-ext"
+version = "0.0.1"
+authors = [
+  { name="Kapenekakis Antheas", email="pypi@antheas.dev" },
+]
+description = "mkdocs plugins for bazzite"
+readme = "readme.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: POSIX :: Linux",
+]
+dependencies = [
+  "mkdocs-material >= 9.5.33",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.entry-points."mkdocs.plugins"]
+bazzite-social = "bazzite_social.plugin:SocialPlugin"
+
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
+include = ["*"]  # package names should match these glob patterns (["*"] by default)

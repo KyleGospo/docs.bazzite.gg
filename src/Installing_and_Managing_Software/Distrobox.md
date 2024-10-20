@@ -1,6 +1,11 @@
 ---
 authors:
   - "@nicknamenamenick"
+# preview: "../img/distrobox.png"
+preview:
+  alpha: 150
+  image: "../img/distrobox.png"
+description: ""
 ---
 
 <!-- ANCHOR: METADATA -->
