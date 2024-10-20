@@ -15,6 +15,22 @@ files = [
 dev = ["freezegun (>=1.0,<2.0)", "pytest (>=6.0)", "pytest-cov"]
 
 [[package]]
+name = "bazzite-docs-ext"
+version = "0.0.1"
+description = "mkdocs plugins for bazzite"
+optional = false
+python-versions = ">=3.10"
+files = []
+develop = true
+
+[package.dependencies]
+mkdocs-material = ">=9.5.33"
+
+[package.source]
+type = "directory"
+url = "plugins"
+
+[[package]]
 name = "beautifulsoup4"
 version = "4.12.3"
 description = "Screen-scraping library"
@@ -1220,4 +1236,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "5932dd9c59a95df6e422ab44655f8e94241274a0f311f9b441f9c8a6dcedbf36"
+content-hash = "c3b2e3b47f63a55cca45fbeeaf181384a6e77d161c0c74c18ed3c8875a551298"

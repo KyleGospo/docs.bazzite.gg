@@ -17,7 +17,7 @@ mkdocs-git-revision-date-localized-plugin = "^1.2.7"
 mkdocs-git-committers-plugin-2 = "^2.3.0"
 bs4 = "^0.0.2"
 mkdocs-glightbox = "^0.4.0"
-
+bazzite-docs-ext = {path = "plugins", develop = true}
 
 [build-system]
 requires = ["poetry-core"]
