@@ -14,7 +14,7 @@ description: ""
 
 ## What is Distrobox?
 
-![distrobox|310x113, 50%](../img/distrobox.png)
+![distrobox|510x413](../img/distrobox.png)
 
 Run other minimal variants of popular Linux distributions in Bazzite inside of a container, and access each distribution's packages without any of their dependencies and libraries affecting the host machine.
 
