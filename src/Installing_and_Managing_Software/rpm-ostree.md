@@ -1,6 +1,10 @@
 ---
 authors:
   - "@nicknamenamenick"
+preview:
+  src: "../img/rpm-ostree.png"
+  contain: true
+description: rpm-ostree is Fedora's enterprise tool for managing immutable operating system updates.
 ---
 
 <!-- ANCHOR: METADATA -->
