@@ -54,8 +54,6 @@ diskmgmt.msc
 
 Then, right-click your Windows partition and select "Shrink Volume" from the drop-down menu. Afterwards, select how much storage you want to allocate for Bazzite.
 
-> NOTE!
->
 > It is **strongly recommended for to setup a separate EFI partition via manual partitioning**.
 > The separate EFI partition will help prevent Windows Updates from affecting your Bazzite installation later down the line.
 
