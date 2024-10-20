@@ -16,8 +16,8 @@ authors:
 > **Note:** MicroSD cards automatically mount without any manual intervention required on Bazzite.
 >
 > **Important**: Do **not** use the NTFS, exFAT, or FAT32 filesystems for game library storage.
->
-> Follow this guide **at your own discretion** and make sure to read the entire document relevant to your method, so you do not miss anything!
+
+Follow this guide **at your own discretion** and make sure to read the entire document relevant to your method, so you do not miss anything!
 
 <hr>
 
