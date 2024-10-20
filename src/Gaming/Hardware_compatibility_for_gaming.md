@@ -82,7 +82,7 @@ There is a [guide](https://github.com/ValveSoftware/Proton/wiki/Using-a-NTFS-dis
 
 exFAT and FAT32 are **unsupported** entirely. Both filesystems **do not support symbolic links** which is what Proton prefixes use.
 
-> However, scenarios where a microSD card is formatted to exFAT _may work_ in some cases, but it is entirely unsupported by Universal Blue if something goes horribly wrong using it.
+However, scenarios where a microSD card is formatted to exFAT _may work_ in some cases, but it is entirely unsupported by Universal Blue if something goes horribly wrong using it.
 
 #### Sharing Games w/ Windows Installation
 
