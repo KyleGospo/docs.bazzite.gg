@@ -100,9 +100,10 @@ markdown_extensions:
 
 nav:
   - index.md
+  - FAQ:
+        - "Frequently Asked Questions": "General/FAQ.md"
   - General:
       - "Bazzite's README": "Bazzite_README.md"
-      - "FAQ": "General/FAQ.md"
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
       - "Reporting Bugs": General/reporting_bugs.md
       - "Press Kit": "Bazzite_Press_Kit.md"
@@ -116,7 +117,7 @@ nav:
           - "Installing Bazzite on Handheld PCs": General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md
           - "Installation Troubleshoot Guide": General/Installation_Guide/troubleshoot_guide.md
           - "Secure Boot Instructions": General/Installation_Guide/secure_boot.md
-          - "Dual Boot Preliminary Setup and Post-Setup Guide": General/Installation_Guide/dual_boot_setup_guide.md
+          - "Dual Boot Preliminary and Post-Installation Setup Guide": General/Installation_Guide/dual_boot_setup_guide.md
       - "Gaming":
           - Gaming/index.md
           - "Game Launchers": Gaming/Game_Launchers.md
