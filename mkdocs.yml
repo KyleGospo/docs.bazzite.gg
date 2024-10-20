@@ -83,7 +83,8 @@ plugins:
       token: !ENV ["GH_TOKEN"]
       repository: !ENV GITHUB_REPOSITORY
       branch: !ENV GITHUB_REF_NAME
-  - bazzite-social
+  - bazzite-social:
+      use_image_from_page: true # Use first image found in a page as fallback
 
 markdown_extensions:
   - attr_list

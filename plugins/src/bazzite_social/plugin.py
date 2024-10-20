@@ -46,6 +46,7 @@ from io import BytesIO
 from mkdocs.commands.build import DuplicateFilter
 from mkdocs.exceptions import PluginError
 from mkdocs.plugins import BasePlugin
+from mkdocs.structure.pages import Page
 from mkdocs.utils import write_file
 from shutil import copyfile
 from tempfile import NamedTemporaryFile
@@ -162,6 +163,12 @@ class SocialPlugin(BasePlugin[SocialConfig]):
         )
         self.font = self._load_font(config)
 
+        # Retrieve if we use the first found image by default
+        DEFAULT_IMG_FROM_PAGE = False
+        self.use_image_from_page = self.config.get(
+            "use_image_from_page", DEFAULT_IMG_FROM_PAGE
+        )
+
         self._image_promises = []
 
     # Create social cards
@@ -186,6 +193,10 @@ class SocialPlugin(BasePlugin[SocialConfig]):
 
         preview_data = page.meta.get("preview", None)
         DEFAULT_ALPHA = 140
+
+        # Check if we use the first image found as fallback
+        use_first_found_img = self.use_image_from_page
+
         if isinstance(preview_data, str):
             preview_img = preview_data
             alpha = DEFAULT_ALPHA
@@ -194,6 +205,10 @@ class SocialPlugin(BasePlugin[SocialConfig]):
             preview_img = preview_data.get("src", preview_data.get("image", None))
             alpha = preview_data.get("alpha", DEFAULT_ALPHA)
             contain = preview_data.get("contain", False)
+        elif isinstance(use_first_found_img, bool) and use_first_found_img:
+            preview_img = self._fetch_first_img(markdown, page)
+            alpha = DEFAULT_ALPHA
+            contain = False
         else:
             preview_img = None
             alpha = DEFAULT_ALPHA
@@ -310,7 +325,7 @@ class SocialPlugin(BasePlugin[SocialConfig]):
                 r, g, b, a = res.split()
                 a = a.point(lambda p: p * balpha / 255)
                 res = Image.merge("RGBA", (r, g, b, a))
-                
+
                 image.alpha_composite(
                     res, (x, y)
                 )            
@@ -405,6 +420,17 @@ class SocialPlugin(BasePlugin[SocialConfig]):
 
         # Return text image
         return image
+
+    def _fetch_first_img(self, markdown, page):
+        """Search for the first image in a markdown page"""
+
+        IMG_RE = r"\B\!\[(?P<label>[^\]]*)\]\((?P<url>\.[^\)]*)\)\B"
+
+        if not isinstance(markdown, str) or not isinstance(page, Page):
+            return None
+
+        if match := re.search(IMG_RE, markdown):
+            return match.group("url")
 
     # -------------------------------------------------------------------------
 

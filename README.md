@@ -133,6 +133,15 @@ description: |
 ---
 ```
 
+We can use the first image found in a page as a fallback.
+Set `use_image_from_page` to `true` in `mkdocs.yml`:
+
+```yaml
+plugins:
+  - bazzite-social:
+      use_image_from_page: true # Use first image found in a page as fallback
+```
+
 ## Translate documentation
 
 Translating documentation is as straightfoward as can be.
