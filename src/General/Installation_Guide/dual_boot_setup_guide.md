@@ -1,4 +1,5 @@
 ---
+title: Dual Boot Preliminary and Post-Installation Setup Guide
 authors:
   - "@nicknamenamenick"
   - "@atimeofday"
