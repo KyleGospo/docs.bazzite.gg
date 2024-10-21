@@ -5,15 +5,15 @@ authors:
 
 Fedora already has a built-in mechanism (provided by `systemd`) for booting into [rescue](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/kernel-module-driver-configuration/Working_with_the_GRUB_2_Boot_Loader/#sec-Booting_to_Rescue_Mode) and [emergency](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/kernel-module-driver-configuration/Working_with_the_GRUB_2_Boot_Loader/#sec-Booting_to_Emergency_Mode) modes.
 
-However, those documents have limitations as by default, Fedora (and thus Universal Blue systems), do not set a `root` password during install. Thus, when the emergency or rescue mode is reached, the user is shown the error: 
+However, those documents have limitations as by default, Fedora (and thus Universal Blue systems), do not set a `root` password during install. Thus, when the emergency or rescue mode is reached, the user is shown the error:
 
 ```
 Cannot open access to console, the root account is locked.
 ```
 
-### We've improved the situation for all *Universal Blue* derivatives (including *Bazzite* and *Bluefin*) using inspiration from *Fedora CoreOS*.
-
-Now, when booting to [emergency](#booting-to-emergency-mode-2) or [rescue](#booting-to-rescue-mode-3) mode with a locked root account, the user is instead presented a more standard prompt:
+> **We've improved the situation for all _Universal Blue_ derivatives (including _Bazzite_ and _Bluefin_) using inspiration from _Fedora CoreOS_.**
+>
+> Now, when booting to [emergency](#booting-to-emergency-mode-2) or [rescue](#booting-to-rescue-mode-3) mode with a locked root account, the user is instead presented a more standard prompt:
 
 ```
 Press Enter for maintenance
@@ -31,13 +31,13 @@ See below for more details:
 Emergency mode provides the most minimal environment possible and allows you to repair your system even in situations when the system is unable to enter rescue mode. In emergency mode, the system mounts the `root` file system only for reading, does not attempt to mount any other local file systems, does not activate network interfaces, and only starts few essential services.
 
 1. Press <kbd>Esc</kbd> on the keyboard to reach the GRUB boot menu.
-    a. If you press <kbd>Esc</kbd> too many times, you may end up at a `grub>` prompt. 
-    b. Return to the boot menu by typing `exit` and pressing <kbd>Enter</kbd>
+   a. If you press <kbd>Esc</kbd> too many times, you may end up at a `grub>` prompt.
+   b. Return to the boot menu by typing `exit` and pressing <kbd>Enter</kbd>
 2. Select the desired deployment (the top entry is generally correct) and edit by pressing <kbd>E</kbd> on the keyboard.
 3. Arrow down to the line starting with `linux` and press <kbd>Ctrl</kbd>+<kbd>E</kbd> to reach the end of the line.
 4. Add the word `emergency` to the end of the line.
-    a. Ensure there is a space between `emergency` and the pre-existing text.
-    b. Equivalent parameters `-b` and `systemd.unit=emergency.target` may be added instead of `emergency`.
+   a. Ensure there is a space between `emergency` and the pre-existing text.
+   b. Equivalent parameters `-b` and `systemd.unit=emergency.target` may be added instead of `emergency`.
 5. Press <kbd>Ctrl</kbd>+<kbd>X</kbd> to boot the system.
 
 ---
@@ -47,13 +47,13 @@ Emergency mode provides the most minimal environment possible and allows you to 
 Rescue mode provides a convenient single-user environment and allows you to repair your system in situations when it is unable to complete a normal booting process. In rescue mode, the system attempts to mount all local file systems and start some important system services, but it does not activate network interfaces or allow more users to be logged into the system at the same time. In Fedora, rescue mode is equivalent to single user mode.
 
 1. Press <kbd>Esc</kbd> on the keyboard to reach the GRUB boot menu.
-    a. If you press <kbd>Esc</kbd> too many times, you may end up at a `grub>` prompt. 
-    b. Return to the boot menu by typing `exit` and pressing <kbd>Enter</kbd>
+   a. If you press <kbd>Esc</kbd> too many times, you may end up at a `grub>` prompt.
+   b. Return to the boot menu by typing `exit` and pressing <kbd>Enter</kbd>
 2. Select the desired deployment (the top entry is generally correct) and edit by pressing <kbd>E</kbd> on the keyboard.
 3. Arrow down to the line starting with `linux` and press <kbd>Ctrl</kbd>+<kbd>E</kbd> to reach the end of the line.
 4. Add the word `single` to the end of the line.
-    a. Ensure there is a space between `single` and the pre-existing text.
-    b. Equivalent parameters `1`, `s`, `S`, and `systemd.unit=rescue.target` may be added instead of `single`.
+   a. Ensure there is a space between `single` and the pre-existing text.
+   b. Equivalent parameters `1`, `s`, `S`, and `systemd.unit=rescue.target` may be added instead of `single`.
 5. Press <kbd>Ctrl</kbd>+<kbd>X</kbd> to boot the system.
 
 ---
