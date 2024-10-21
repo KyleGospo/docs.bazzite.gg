@@ -11,9 +11,9 @@ However, those documents have limitations as by default, Fedora (and thus Univer
 Cannot open access to console, the root account is locked.
 ```
 
-> **We've improved the situation for all _Universal Blue_ derivatives (including _Bazzite_ and _Bluefin_) using inspiration from _Fedora CoreOS_.**
->
-> Now, when booting to [emergency](#booting-to-emergency-mode-2) or [rescue](#booting-to-rescue-mode-3) mode with a locked root account, the user is instead presented a more standard prompt:
+??? note "We've improved the situation for all _Universal Blue_ derivatives (including _Bazzite_ and _Bluefin_) using inspiration from _Fedora CoreOS_."
+
+    Now, when booting to [emergency](#booting-to-emergency-mode-2) or [rescue](#booting-to-rescue-mode-3) mode with a locked root account, the user is instead presented a more standard prompt:
 
 ```
 Press Enter for maintenance

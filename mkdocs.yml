@@ -98,6 +98,11 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.magiclink
   - pymdownx.smartsymbols
+  #region Enable Admonitions
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  #endregion Enable Admonitions
 
 nav:
   - index.md
