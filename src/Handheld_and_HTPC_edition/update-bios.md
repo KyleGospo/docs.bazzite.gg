@@ -42,6 +42,6 @@ If you do use Secure Boot, you will need to boot back into Bazzite's Desktop mod
 ujust enroll-secure-boot-key
 ```
 
-Reboot once more. Follow the normal [MOK enroll process](/General/Installation_Guide/secure_boot), and afterwards enable secure boot in the BIOS again, and all should be working.
+Reboot once more. Follow the normal [MOK enroll process](/General/Installation_Guide/secure_boot.md), and afterwards enable secure boot in the BIOS again, and all should be working.
 
 > Please note that this process has not been tested on Dual-boot systems, as it is presumed that on a dual-boot system you can simply update via Windows.
