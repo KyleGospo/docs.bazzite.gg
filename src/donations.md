@@ -1,6 +1,6 @@
 ## Fedora
 
-Fedora does not take monetary donations, but value hardware donations and contributions to the project.
+Fedora does not take monetary donations, but values hardware donations and contributions to the project.
 
 - [**Donating Hardware**](https://fedoraproject.org/wiki/Donations)
 - [**Contributing**](https://fedoraproject.org/wiki/Contribute)
