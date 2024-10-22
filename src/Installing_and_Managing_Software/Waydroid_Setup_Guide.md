@@ -127,7 +127,7 @@ If you ever want to undo this change, run the same steps but set `true` instead 
 
 ## Resolution & Density Options
 
-> **Note**: This is intended for users who have issues with Waydroid's resolution, scaling, or running Waydroid nested. This is **optional**.
+This is intended for users who have issues with Waydroid's resolution, scaling, or running Waydroid nested. This is **optional**.
 
 Open a host terminal and enter the following **commands**:
 
@@ -143,7 +143,7 @@ Save the text files when done.
 
 ## Waydroid Hybrid Graphics Fix
 
-> **Note**: This is only intended for users who have multiple GPUs in their hardware who experience graphical corruptions in Waydroid.
+This is only intended for users who have multiple GPUs in their hardware who experience graphical corruptions in Waydroid.
 
 **Enter in a host terminal**:
 
@@ -155,7 +155,9 @@ Then `Select GPU for Waydroid` which will give the option on what GPU to utilize
 
 ## Reset Waydroid
 
-> **Warning**: You will lose all of your Waydroid data.
+!!! warning
+    
+    You will lose all of your Waydroid data.
 
 If you experience issues or want a fresh Waydroid container, then select `Reset Waydroid` after **entering**:
 
