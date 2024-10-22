@@ -25,20 +25,6 @@ Bazzite originally was developed for the Steam Deck targeting users who used the
 
 >A full list of major differences can be found in the [Steam Deck wiki entry](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck/#how-similar-is-bazzite-to-steamos-on-steam-deck-hardware) and the [Bazzite README](https://github.com/ublue-os/bazzite/blob/main/README.md).
 
-## Bazzite vs. Windows Comparison
-
-**OS** | [App Store](https://flathub.org/) | [Atomic Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md)  | [Out of the Box Gaming](https://github.com/ublue-os/bazzite/blob/main/README.md#about--features) | [Gaming-Centric User Interface](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)|[Open Source]( https://github.com/ublue-os/bazzite)|
-| -------- | -------- | -------- | -------- | --------  | -------- | 
-| **Bazzite**: | ✅  | ✅  | ✅  | ✅ | ✅  | ✅  
-| **Windows**: | ✅ | ❌ | ❌ | ❌  | ❌ |
-
-
-### Detailed Overview (Pros/Cons of Bazzite vs. Windows)
-
-Bazzite's hardware requirements are less demanding than Windows and arguably has better desktop performance.  However, Linux unfriendly hardware may cause loss of hardware functionality.  Graphics driver performance is also a mixed bag.  AMD GPUs are objectively better on Bazzite versus Windows, but Nvidia GPUs are objectively worse.  Installing software on Bazzite is comparable to a mobile phone opearting system in comparison to Windows outside of ["legacy Linux software"](/Installing_and_Managing_Software/Distrobox.md).
-
-Steam Gaming Mode provides a first-class handheld and controller-friendly experience.  Game compatibility for newer games may require [tinkering](https://www.protondb.com/) and many [games with kernel anti-cheat](https://areweanticheatyet.com/) that do not support Linux will not work at all.  Older games usually run better on Bazzite vs. Windows due to the [compatibility layer](https://github.com/ValveSoftware/Proton/wiki), and modding on Bazzite usually requires a few extra steps and many mod frontends do not run.  Non-Steam gaming requires a graphical frontend, like [Lutris](https://lutris.net/) (pre-installed on Bazzite), which requires some manual steps compared to Windows for setting them up.  Emulation setup can be simplified with the available tools on Bazzite versus Windows.  Most emulators will run on par with Windows, but [Xenia](https://xenia.jp/) (Xbox 360 emulator) is an outlier and runs objectively worse on Bazzite versus Windows.
-
 ## What Bazzite image do I use?
 
 Bazzite's [website](https://bazzite.gg/#image-picker) offers a streamlined way of selecting the correct image which will be chosen based on hardware, desktop environment, and to include Steam Gaming Mode if the hardware supports it.
@@ -186,6 +172,10 @@ Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. c
 ### Can I uninstall pre-installed applications (that are not [Flatpak](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/))
 Not recommended and due to technical limitations. The uninstalled packages will result in slower updates and take up more storage space.  We recommend hiding it from the application menu instead.
 
+### Can I use AMD Fluid Motion Frames?
+
+The AMD drivers for Linux does not support this at a driver-level like it does on Windows.  Most of these graphical effects that work at a driver-level on Windows only work for games that support it in their options menu on Bazzite (or other Linux operating systems) outside of AMD'S FSR 1 which is at a driver-level.
+
 ### Can I change the hostname of my device?
 
 Hostnames must be **under 20 characters** due to a limitation with Distrobox containers.
@@ -216,7 +206,7 @@ Please try searching for your question on **https://docs.bazzite.gg** first befo
 
 ## What is the difference between Bluefin, Aurora, and Bazzite?
 
-**TL;DR**: Bazzite is the gaming-centric version of Bluefin (GNOME) and Aurora (KDE Plasma), and all three are Universal Blue Fedora custom images intended for end users.
+!!!note **TL;DR**: Bazzite is the gaming-centric version of Bluefin (GNOME) and Aurora (KDE Plasma), and all three are Universal Blue Fedora custom images intended for end users.
 
 [Bluefin](https://projectbluefin.io/) and [Aurora](https://getaurora.dev) are nearly identical outside of branding and desktop environment. Bazzite is a different image that shares similarities with both Bluefin and Aurora, and all three function relatively the same for desktop PCs and share contributors between projects. Bluefin and Aurora target two audiences: 
 - Individuals who want a maintenance-free Linux desktop experience
