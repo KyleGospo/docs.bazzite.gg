@@ -20,7 +20,7 @@ authors:
 
 ### **A**) _Separate_ Drive Method
 
-> **Note**: This method is ideal for desktops and HTPCs, and would be inconvenient for handhelds unless planned to keep stationary.
+**This method is ideal for desktops and HTPCs, and would be inconvenient for handhelds unless planned to keep stationary.**
 
 Install Bazzite on a separate internal or external drive.
 
@@ -32,11 +32,13 @@ You can also install Windows to an external drive with Windows-to-Go using [Rufu
 
 ### **B**) _Same_ Drive Method
 
-> **Note**: This must be done **before installing Bazzite**.
+!!! important 
+    
+    This must be done **before installing Bazzite**.
 
-> Recommended for handheld PCs or mobile setups.
+**This method is recommended for handheld PCs or mobile setups.**
 
-If you do not have multiple drives or are using a device that will not be stationary, then you will have to manually partition on the same drive.
+If you do not have multiple drives or are using a device that will **not** be stationary, then you will have to manually partition on the same drive.
 
 #### Note about dual booting with **Windows** specifically:
 
@@ -90,13 +92,11 @@ If you need a tutorial video for manual partitioning, watch this [tutorial at ti
     format:      btrfs (subvolume)
 ```
 
-> **Note about dual booting other Fedora Atomic Desktop images on the **same** drive**: If you want to dual boot another **Fedora libostree image** (like [Bluefin](https://projectbluefin.io/)) installed alongside Bazzite, then you would have to make an additional EFI partition and switch between them through the BIOS boot menu.
+### Note about dual booting other Fedora Atomic Desktop images on the **same** drive: 
 
-<hr>
+If you want to dual boot another **Fedora Atomic Desktop image** (like [Bluefin](https://projectbluefin.io/)) installed alongside Bazzite, then you would have to make an additional EFI partition and switch between them through the BIOS boot menu.
 
 ## Dual Boot Post-Configuration Setup
-
-> **Note:** [Handheld/HTPC](../../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) images hide GRUB by default, but the <kbd>Esc</kbd> key on a keyboard will unhide the GRUB menu without unhiding it with a `ujust` command.
 
 ### Regenerate GRUB to show Windows Entry
 
