@@ -49,7 +49,9 @@ You can copy+paste these into the "More.." dialog and they will be valid
 
 ### Filesystem arguments
 
-> **Warning**: If a drive is formatted, then do not remove it from `/etc/fstab`, so the "nofail" option is a must to avoid issues with booting.
+!!! warning 
+
+    If a drive is formatted, then do not remove it from `/etc/fstab`, so the "nofail" option is a must to avoid issues with booting.
 
 ![btrfs example|290x317](../img/btrfs_example.png)
 
