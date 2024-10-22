@@ -66,16 +66,20 @@ Both types of images also come with the choice of using [KDE Plasma](https://kde
 | --------------------------- | ------------------- | ----------------- | ---------------------------------------- | ------------- |
 | `bazzite`                   | KDE Plasma          | No                | AMD/Intel GPUs                           | Desktop       |
 | `bazzite-nvidia`            | KDE Plasma          | No                | Nvidia GPUs                              | Desktop       |
+| `bazzite-nvidia-open`            | KDE Plasma          | No                | Nvidia GPUs (open kernel modules, newer Nvidia GPUs only)                             | Desktop       |
 | `bazzite-gnome`             | GNOME               | No                | AMD/Intel GPUs                           | Desktop       |
 | `bazzite-gnome-nvidia`      | GNOME               | No                | Nvidia GPUs                              | Desktop       |
+| `bazzite-gnome-nvidia-open`      | GNOME               | No                | Nvidia GPUs (open kernel modules, newer Nvidia GPUs only)                            | Desktop       |
 | `bazzite-deck`              | KDE Plasma          | Yes               | AMD/Intel Arc GPUs                       | Handheld/HTPC |
 | `bazzite-deck-gnome`        | GNOME               | Yes               | AMD/Intel Arc GPUs                       | Handheld/HTPC |
 | `bazzite-asus`              | KDE Plasma          | No                | ASUS Laptops (AMD/Intel GPUs             | Desktop       |
 | `bazzite-asus-gnome`        | GNOME               | No                | ASUS Laptops (AMD/Intel GPUs)            | Desktop       |
 | `bazzite-asus-nvidia`       | KDE Plasma          | No                | ASUS Laptops (Nvidia GPUs)               | Desktop       |
+| `bazzite-asus-nvidia-open`       | KDE Plasma          | No                | ASUS Laptops (Newer Nvidia GPUs)               | Desktop       |
 | `bazzite-gnome-asus-nvidia` | GNOME               | No                | ASUS Laptops (Nvidia GPUs)               | Desktop       |
+| `bazzite-gnome-asus-nvidia-open` | GNOME               | No                | ASUS Laptops (Newer Nvidia GPUs)               | Desktop       |
 | `bazzite-asus-deck`              | KDE Plasma          | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Handheld/HTPC |
-| `bazzite-asus-deck-gnome`        | GNOME               | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Handheld/HTPC |
+| `bazzite-asus-deck-gnome` / `bazzite-ally`        | GNOME               | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Handheld/HTPC |
 
 ### Who are the target audiences?
 
