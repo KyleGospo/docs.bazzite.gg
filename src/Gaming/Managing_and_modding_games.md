@@ -23,9 +23,9 @@ Install and update to the latest [GE-Proton](https://github.com/GloriousEggroll/
 
 #### Steamplay Tools
 
-> View the tested games with [**GE-Proton**](https://github.com/GloriousEggroll/proton-ge-custom/blob/master/README.md#tested-games).
+> [View the tested games with **GE-Proton**](https://github.com/GloriousEggroll/proton-ge-custom/blob/master/README.md#tested-games).
 
-> View the compatible games with [**Luxtorpeda**](https://luxtorpeda-dev.github.io/packages).
+> [View the compatible games with **Luxtorpeda**](https://luxtorpeda-dev.github.io/packages).
 
 ### Protontricks / Winetricks
 
