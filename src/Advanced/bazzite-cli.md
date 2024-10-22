@@ -8,7 +8,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=970", "fetched_at": "2024-09-03 16:43:14.005694+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
->### You're using bazzite, of course you have the coolest UNIX tools right at your disposal.
+<sub>You're using bazzite, of course you have the coolest UNIX tools right at your disposal.</sub>
 
 ![bazzite-cli|690x463, 75%](../img/bazzite-cli.png)
 
