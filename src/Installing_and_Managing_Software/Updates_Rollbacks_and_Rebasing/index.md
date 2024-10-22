@@ -35,9 +35,9 @@ Rebase to Bazzite builds from the last 90 days, change Bazzite update channels, 
 > **Full Documentation**:
 > [Rebase guide](./rebase_guide.md)
 
-## Rollback Helper
+## `bazzite-rollback-helper`
 
-Utility to assist with rolling back and rebasing to older Bazzite images.
+Utility to assist with rolling back to older Bazzite images, changing update branches, or swapping to a different Bazzite image.
 
 > **Full Documentation**:
 > [Rollback Helper](./bazzite_rollback_helper.md)
