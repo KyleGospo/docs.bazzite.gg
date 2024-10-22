@@ -5,7 +5,7 @@ Fedora does not take monetary donations, but value hardware donations and contri
 - [**Donating Hardware**](https://fedoraproject.org/wiki/Donations)
 - [**Contributing**](https://fedoraproject.org/wiki/Contribute)
 
-## Upstream Projects Included in Bazzite
+## Projects Included in Bazzite
 
 We also encourage you to donate to the projects that use the most, help us keep open source sustainable!
 
