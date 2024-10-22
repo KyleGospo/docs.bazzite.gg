@@ -11,7 +11,7 @@ authors:
 
 ## General Information for `bazzite-deck` Images
 
-> **For Handheld PC users only**: View our [Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) for post-installation setup, workarounds, and known issues on handheld hardware.
+**For Handheld PC users only**: View our [Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) for post-installation setup, workarounds, and known issues on handheld hardware.
 
 ![Steam Gaming Mode UI|690x430](../img/Steam_Gaming_Mode_UI.jpeg)
 
