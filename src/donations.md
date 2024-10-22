@@ -13,30 +13,30 @@ We also encourage you to donate to the projects that use the most, help us keep 
 
 - [**Atuin**](https://github.com/sponsors/atuinsh)
 - [**BORE Scheduler**](https://ko-fi.com/firelzrd)
-- [**Blur My Shell**](https://github.com/aunetx)
+- [**Blur My Shell**](https://github.com/sponsors/aunetx)
 - [**Clapper**](https://liberapay.com/Clapper)
 - [**Davincibox**](https://ko-fi.com/akzel94)
 - [**Deja Dup**](https://liberapay.com/DejaDup)
 - [**Extensions Manager**](https://github.com/sponsors/mjakeman)
-- [**eza**](https://github.com/cafkafk)
-- [**fastfetch**](https://github.com/LinusDierheimer)
-- **fd: [David Peter](https://github.com/sharkdp) and [Tavian Barnes](https://github.com/tavianator)**
+- [**eza**](https://github.com/sponsors/cafkafk)
+- [**fastfetch**](https://github.com/sponsors/LinusDierheimer)
+- **fd: [David Peter](https://github.com/sponsors/sharkdp) and [Tavian Barnes](https://github.com/sponsors/tavianator)**
 - **Flatpak**: *Currently migrating fiscal hosts*
-- [**fzf**](https://github.com/junegunn)
+- [**fzf**](https://github.com/sponsors/junegunn)
 - [**Gear Lever**](https://ko-fi.com/mijorus)
 - [**GNOME**](https://www.gnome.org/donate/)
 - [**GNOME themes for Firefox and Thunderbird**](https://www.patreon.com/rafaelmardojai)
 - [**Hanabi**](https://ko-fi.com/jeffshee)
 - [**Homebrew**](https://github.com/Homebrew/brew#donations)
 - [**KDE**](https://kde.org/donate/)
-- [**Logo Menu**](https://github.com/Aryan20)
+- [**Logo Menu**](https://github.com/sponsors/Aryan20)
 - [**Mozilla**](https://foundation.mozilla.org/en/?form=donate&gad_source=1)
 - [**Pika Backup**](https://opencollective.com/pika-backup)
 - [**Thunderbird**](https://www.thunderbird.net/en-US/donate/)
 - [**Warehouse**](https://ko-fi.com/heliguy)
 - [**Waydroid**](https://opencollective.com/waydroid/donate)
 - [**xone**](https://www.paypal.com/donate?hosted_button_id=BWUECKFDNY446)
-- [**yq**](https://github.com/mikefarah/yq)
+- [**yq**](https://github.com/sponsors/mikefarah)
 
 ## Collaborated Projects
 
