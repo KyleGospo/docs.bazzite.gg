@@ -64,6 +64,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Primož Ajdišek**](https://github.com/bigpod98)
 - [**m2**](https://github.com/m2Giles)
 - [**xyny**](https://github.com/xynydev)
+- [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
 
 
 ### Bazzite Contributors
