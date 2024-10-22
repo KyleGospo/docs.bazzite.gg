@@ -11,11 +11,9 @@ tags:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=970", "fetched_at": "2024-09-03 16:43:14.005694+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-!!! warning
-You may lose data on the drive(s) or result in an unbootable system if configured improperly.
+!!! warning You may lose data on the drive(s) or result in an unbootable system if configured improperly.
 
-!!! attention
-MicroSD cards automatically mount without any manual intervention required on Bazzite.
+!!! attention MicroSD cards automatically mount without any manual intervention required on Bazzite.
 
 > **Important**: Do **not** use the NTFS, exFAT, or FAT32 filesystems for game library storage.
 
@@ -25,7 +23,7 @@ Follow this guide **at your own discretion** and make sure to read the entire do
 
 ## Formatting a disk
 
-> **Warning**: This will wipe all existing data on it
+!!! warning This will wipe all existing data on it
 
 ### Note when formatting in **KDE Partition Manager**
 
@@ -37,7 +35,7 @@ Use a disk graphical user interface like KDE Plasma or GNOME Disks to format you
 
 > **Note**: Drive directories should be **lowercase** with **no spaces** for best practice.
 
-> **Attention**: `/var/mnt` should NOT be the path, but create a new **directory** in either `/var/mnt` or `/var/run/media/`.
+!!! attention `/var/mnt` should NOT be the path, but create a new **directory** in either `/var/mnt` or `/var/run/media/`.
 
 - `/var/mnt/...` for **permanent** drives
 - `/var/run/media/...` for **removable** drives
@@ -66,8 +64,7 @@ sudo chown $USER:$USER /var/mnt/games
 
 ## Graphical User Interface (GUI) Methods for Auto-Mounting
 
-!!! warning
-Do not set up auto-mount, unmount then format a drive! It can confuse the software you are configuring drives with. Instead, **remove the auto-mount first before formatting the drive**.
+!!! warning Do not set up auto-mount, unmount then format a drive! It can confuse the software you are configuring drives with. Instead, **remove the auto-mount first before formatting the drive**.
 
 - [**KDE Partition Manager**](./KDE_Partition_Manager_Auto_Mount_Guide.md)
 - [**GNOME Disks**](./GNOME_Disks_Auto-Mount_Guide.md)
