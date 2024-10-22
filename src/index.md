@@ -20,6 +20,18 @@ hide:
   - [Ayn Handhelds][ayn]
   - [Ayaneo Handhelds][ayaneo]
 
+- [:fontawesome-brands-windows: **Running Windows Games**][gaming]{ style="font-size: 1.1rem" }
+
+  Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup).
+
+  It is also compatible with other tools as well:
+
+  - [Heroic](https://heroicgameslauncher.com/) for Epic Games, GOG, and Amazon Games integration.
+  - [Bottles](https://usebottles.com/) for general-purpose applications or as an alternative to Lutris.
+  - ...And [more][run_win_game]!
+
+  <small>\* Desktop images require [**enabling Proton for all Steam games**][enable_proton]</small>.
+
 - [:material-download-circle: **Installing Software**][installing_software]{ style="font-size: 1.1rem" }
 
   <small>Order reflects the recommendation degree.</small>
@@ -36,18 +48,6 @@ hide:
      {style="list-style-type: decimal;"}
 
   There is also [package layering with `rpm-ostree`][rpm-ostree] but it is [advised to avoid using it if possible][rpm-ostree_caveats].
-
-- [:fontawesome-brands-windows: **Running Windows Games**][run_win_game]{ style="font-size: 1.1rem" }
-
-  Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup).
-
-  It is also compatible with other tools as well:
-
-  - [Heroic](https://heroicgameslauncher.com/) for Epic Games, GOG, and Amazon Games integration.
-  - [Bottles](https://usebottles.com/) for general-purpose applications or as an alternative to Lutris.
-  - ...And [more][run_win_game]!
-
-  <small>\* Desktop images require [**enabling Proton for all Steam games**][enable_proton]</small>.
 
 - [:fontawesome-solid-circle-arrow-down: **Updates & Rollbacks**][updateindex]{ style="font-size: 1.1rem" }
 
@@ -104,3 +104,4 @@ hide:
 [rebasing]: Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md/
 [rollback-helper]: Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md/
 [waydroid]: Installing_and_Managing_Software/Waydroid_Setup_Guide.md
+[gaming]: Gaming/index.md
