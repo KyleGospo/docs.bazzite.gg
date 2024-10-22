@@ -9,7 +9,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=37", "fetched_at": "2024-09-03 16:43:12.251158+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## General Information for `bazzite-deck` Images
+## Bazzite's `-deck` Images Overview
 
 **For Handheld PC users only**: View our [Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) for post-installation setup, workarounds, and known issues on handheld hardware.
 
@@ -78,7 +78,7 @@ ujust changelogs
 
 ### How do I access GRUB?
 
-[GRUB](https://www.gnu.org/software/grub/manual/grub/grub.html#Overview) used to be hidden by default, but new installations have defaulted to showing it.
+[GRUB](https://www.gnu.org/software/grub/manual/grub/grub.html#Overview) used to be hidden by default, but new Bazzite installations now show it on boot.
 
 Keep in mind, other handhelds and controllers may not be able to unhide GRUB without a physical keyboard connected, but a `ujust` command can be performed to unhide it permanently.
 
@@ -111,6 +111,14 @@ This works on desktop mode including running Nested Gamescope and also works for
 Some plugins are built specifically for SteamOS or the Steam Deck, and won’t necessarily work on Bazzite or non-Deck hardware.
 
 For example, the [DeckMTP plugin](https://github.com/dafta/DeckMTP) only works on the Steam Deck and will not work on alternative hardware.
+
+### How do I use my microSD card that I used on my Steam Deck running SteamOS?
+
+Open a host terminal and enter this **command**:
+
+```command
+ujust switch-to-ext4
+```
 
 ### How do I use SteamDeckGyroDSU on hardware that isn't the Steam Deck?
 
