@@ -1,5 +1,7 @@
 ---
 title: How to Update the BIOS on the Lenovo Legion Go from Bazzite (No Windows Required)
+search:
+  boost: 0.5
 ---
 
 !!! quote ""
