@@ -7,6 +7,7 @@ Bazzite now has <a href="https://universal-blue.discourse.group/t/bazzite-update
 {# <!-- TODO: replace with eiher git-committers or a better looking template --> #}
 {% block content %}
 {% if page.meta.authors %}
+<div>
 <small class="authors-list">
     Authors:
     <nav>
@@ -24,6 +25,7 @@ Bazzite now has <a href="https://universal-blue.discourse.group/t/bazzite-update
         {% endfor %}
     </nav>
 </small>
+</div>
 {% endif %}
 {{ super() }}
 {% endblock %}
