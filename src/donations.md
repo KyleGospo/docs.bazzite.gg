@@ -49,7 +49,7 @@ We also encourage you to donate to the projects that use the most, help us keep 
 
 ## Bazzite Maintainers and Contributors
 
-Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  All sponsors are deeply appreciated.
+Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  If they don't have a Gitub Sponsors page, then give them a follow.
 
 ### Universal Blue
 - [**Kyle Gospodnetich**](https://github.com/sponsors/KyleGospo)
