@@ -23,7 +23,7 @@ Open a host terminal and **enter**:
 ujust
 ```
 
-> This will output a list of available commands.
+<sub>This will output a list of available commands.</sub>
 
 ![ujust TUI|690x403](../img/ujust_TUI.png)
 
