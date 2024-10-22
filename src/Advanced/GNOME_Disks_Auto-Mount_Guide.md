@@ -35,9 +35,9 @@ tags:
 
 12. **If no errors appeared then it should be safe to reboot.**
 
-> **Note**: If errors occur, then research the error and undo what you did and try again. Redo the previous two steps in the terminal as GNOME Disks might not give a good error to search for if the test mount fails.
+If an error occurs, then research the error and undo what you did and try again.
 
-Display Name should be added too. Name it whatever you want it to be identified as.
+Also a Display Name should be added too. Name it whatever you want it to be identified as.
 
 ### Filesystem Arguments
 
