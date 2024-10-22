@@ -45,8 +45,6 @@ We also encourage you to donate to the projects that use the most, help us keep 
 - [**Nobara Project**](https://www.patreon.com/gloriouseggroll)
 - [**Jovian NixOS**](https://github.com/Jovian-Experiments/Jovian-NixOS/blob/development/CONTRIBUTING.md)
 - [**CachyOS**](https://www.patreon.com/CachyOS)
-- [**sentry's kernel-fsync**](https://copr.fedorainfracloud.org/coprs/sentry/kernel-fsync/)
-
 
 ## Bazzite Maintainers and Contributors
 
@@ -72,7 +70,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Antheas Kapenekakis**](https://github.com/sponsors/antheas)
 - [**Aarron Lee**](https://github.com/aarron-lee)
 - [**Matthew Schwartz**](https://github.com/matte-schwartz)
-- [**Gerblesh**](https://github.com/gerblesh)
+- [**sentry**](https://copr.fedorainfracloud.org/coprs/sentry/)
 - [**Pat Connors**](https://github.com/sponsors/nicknamenamenick)
 - [**Zeglius**](https://github.com/Zeglius)
 - [**wolfyreload**](https://github.com/wolfyreload)
@@ -80,6 +78,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**rei.svg**](https://github.com/reisvg)
 - [**Sean**](https://github.com/SuperRiderTH)
 - [**Alex Banna**](https://github.com/abanna)
+- [**Gerblesh**](https://github.com/gerblesh)
 - [**BoukeHaarsma23 (bouhaa)**](https://github.com/BoukeHaarsma23)
 - [**Marco Rodolfi**](https://github.com/RodoMa92)
 - [**fiftydinar**](https://github.com/fiftydinar)
