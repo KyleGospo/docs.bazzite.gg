@@ -24,7 +24,9 @@ https://www.youtube.com/watch?v=FBGLLkIKp-w
 
 ## Worst Case Scenario: Alternative Installation Method
 
-> **Attention**: The workaround method may have scaling issues with the installer depending on the hardware especially if it is a handheld PC.
+!!! attention 
+
+    The workaround method may have scaling issues with the installer depending on the hardware especially if it is a handheld PC.
 
 The workaround below is also useful for **downloading a smaller ISO size**.
 
