@@ -47,7 +47,7 @@ ujust install-hhd-controller-glyph-theme
 
 ### Updating the BIOS without a Windows installation
 
-Read the [tutorial](https://docs.bazzite.gg/Handheld_and_HTPC_edition/update-bios) on how to update the BIOS for the Lenovo Legion Go without a Windows installation.
+Read the [tutorial](/Handheld_and_HTPC_edition/update-bios.md) on how to update the BIOS for the Lenovo Legion Go without a Windows installation.
 
 ### BIOS update breaks Secure Boot key
 
