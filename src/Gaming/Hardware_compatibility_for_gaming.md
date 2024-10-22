@@ -64,7 +64,9 @@ PROTON_USE_WINED3D=1 %command%
 
 ## Unsupported Filesystems for Secondary Drives
 
-> **Warning**: You will lose all of your data reformatting secondary internal/external drives.
+!!! warning 
+    
+    You will lose all of your data reformatting secondary internal/external drives.
 
 See also: [**Auto-Mounting Secondary Drives**](../Advanced/Auto-Mounting_Secondary_Drives.md)
 
