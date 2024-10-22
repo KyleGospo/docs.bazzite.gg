@@ -7,7 +7,7 @@ Fedora does not take monetary donations, but values hardware donations and contr
 
 ## Projects Included in Bazzite
 
-We also encourage you to donate to the projects that use the most, help us keep open source sustainable!
+We also encourage you to donate to the projects that are used in Bazzite which helps us keep open source sustainable!
 
 (*If we missed anything, then [**please let use know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)
 
