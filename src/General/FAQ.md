@@ -206,7 +206,8 @@ Please try searching for your question on **https://docs.bazzite.gg** first befo
 
 ## What is the difference between Bluefin, Aurora, and Bazzite?
 
-!!!note **TL;DR**: Bazzite is the gaming-centric version of Bluefin (GNOME) and Aurora (KDE Plasma), and all three are Universal Blue Fedora custom images intended for end users.
+!!! note 
+**TL;DR**: Bazzite is the gaming-centric version of Bluefin (GNOME) and Aurora (KDE Plasma), and all three are Universal Blue Fedora custom images intended for end users.
 
 [Bluefin](https://projectbluefin.io/) and [Aurora](https://getaurora.dev) are nearly identical outside of branding and desktop environment. Bazzite is a different image that shares similarities with both Bluefin and Aurora, and all three function relatively the same for desktop PCs and share contributors between projects. Bluefin and Aurora target two audiences: 
 - Individuals who want a maintenance-free Linux desktop experience
