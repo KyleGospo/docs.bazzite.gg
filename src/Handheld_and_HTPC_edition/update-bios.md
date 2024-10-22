@@ -2,15 +2,19 @@
 title: How to Update the BIOS on the Lenovo Legion Go from Bazzite (No Windows Required)
 ---
 
->**Note**: This was originally a [forum post](https://universal-blue.discourse.group/t/how-to-update-the-bios-on-the-lenovo-legion-go-from-bazzite-no-windows-required/3064) by [Mister Fluffles](https://universal-blue.discourse.group/u/mrfluffles/summary).
+!!! quote ""
 
- **THIS METHOD HAS ONLY BEEN TESTED ON THE LENOVO LEGION GO**. Please only follow this guide if you are using a Lenovo Legion Go. **PLEASE BE AWARE THAT DOING THIS ON OTHER DEVICES RISKS MAKING A BRICK**
+    This was originally a [forum post](https://universal-blue.discourse.group/t/how-to-update-the-bios-on-the-lenovo-legion-go-from-bazzite-no-windows-required/3064) by [Mister Fluffles](https://universal-blue.discourse.group/u/mrfluffles/summary).
+
+!!! warning
+    **THIS METHOD HAS ONLY BEEN TESTED ON THE LENOVO LEGION GO**. Please only follow this guide if you are using a Lenovo Legion Go. **PLEASE BE AWARE THAT DOING THIS ON OTHER DEVICES RISKS MAKING A BRICK**
 
 Updating the BIOS on the Legion Go from Bazzite works, and means not needing to keep a pesky Windows partition around for updates. Here's how to do so. (Credit to the [ChimeraOS](https://chimeraos.org/) devs and [aarron-lee](https://github.com/aarron-lee) on github for the original fwupdtool instructions)
 
 Warning: Your battery must be above 25% for the fwupdtool tool to function correctly. In addition, only perform this process when on AC power.
 
->**Note**: If you have secure boot enabled, you will need to disable it prior to updating your BIOS. Please see the end of the guide for the steps needed to re-enable it afterwards.
+!!! warning
+    If you have secure boot enabled, you will need to disable it prior to updating your BIOS. Please see the end of the guide for the steps needed to re-enable it afterwards.
 
 1. Download the BIOS update from Lenovo
 2. Use 7z (or file-roller, etc) to extract the contents of the EXE file
