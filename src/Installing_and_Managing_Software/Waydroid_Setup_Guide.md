@@ -153,8 +153,6 @@ ujust setup-waydroid
 
 Then `Select GPU for Waydroid` which will give the option on what GPU to utilize for Waydroid to fix graphical corruptions.
 
-<hr>
-
 ## Reset Waydroid
 
 > **Warning**: You will lose all of your Waydroid data.
