@@ -41,7 +41,9 @@ Display Name should be added too. Name it whatever you want it to be identified 
 
 ### Filesystem Arguments
 
-> **Warning**: If a drive is formatted, then do not remove it from `/etc/fstab`, so the "nofail" option is a must to avoid issues with booting.
+!!! warning 
+
+    If a drive is formatted, then do not remove it from `/etc/fstab`, so the "nofail" option is a must to avoid issues with booting.
 
 ![GNOME_Edit_Mount_Options|690x465, 75%](../img/GNOME_Edit_Mount_Options.png)
 
