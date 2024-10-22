@@ -14,7 +14,9 @@ authors:
 
 ![Google Play Store|650x500](../img/Google_Play_Store.jpeg)
 
-> **Note**: Waydroid does **not** work on Nvidia's proprietary drivers, and requires an AMD or Intel GPU for the best results.
+!!! attention
+    
+    Waydroid does **not** work on Nvidia hardware.
 
 ## What is Waydroid?
 
