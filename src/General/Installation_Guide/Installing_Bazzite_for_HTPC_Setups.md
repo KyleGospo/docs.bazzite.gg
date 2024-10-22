@@ -76,7 +76,9 @@ More information can be found on our [FAQ](https://faq.bazzite.gg) about the dif
 
 ![Gaming Mode|690x388, 75%](../../img/Gaming_Mode.jpeg)
 
-> **Note**: Your device will automatically boot into the Steam Gaming Mode session at startup, and Desktop Mode can be accessed from the "**power menu**" in Steam Gaming Mode.
+!!! important
+    
+    Your device will automatically boot into the Steam Gaming Mode session at startup, and Desktop Mode can be accessed from the "**power menu**" in Steam Gaming Mode.
 
 - **Requires a [Steam](https://store.steampowered.com/) account**
 - Included in the [Handheld/HTPC images][Steam_Gaming_Mode]
@@ -176,8 +178,6 @@ It is important to configure the system settings on a first boot to personalize 
 
 ![Welcome to Bazzite|618x500, 75%](../../img/yafti_welcome.jpeg)
 
-**Attention**: Make sure you are connected to the internet.
-
 An application will pop up welcoming you to Bazzite when you boot into the desktop for the first time. This is a utility that allows you to tailor Bazzite to your liking by installing additional software.
 
 ![Bazzite Portal|584x500, 75%](../../img/yafti_options.png)
@@ -189,7 +189,9 @@ An application will pop up welcoming you to Bazzite when you boot into the deskt
 
 > **Note**: If you only check a few items in a category, then it will only install those selected items. The switch is only toggled to install **everything** in that category.
 
-> **Attention**: There is a rare chance you will be asked to setup KDE Wallet or GNOME Keyring and set a password to continue installing items from the Bazzite Portal.
+!!! attention 
+    
+    There is a rare chance you will be asked to setup KDE Wallet or GNOME Keyring and set a password to continue installing items from the Bazzite Portal.
 
 ### Installing additional software
 
