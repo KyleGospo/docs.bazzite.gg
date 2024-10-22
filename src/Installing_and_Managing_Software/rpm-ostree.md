@@ -15,7 +15,9 @@ description: rpm-ostree is Fedora's enterprise tool for managing immutable opera
 
 # `rpm-ostree` Overview
 
-> **Attention**: Layering packages irresponsibly can be **destructive** and may prevent updates as well as other issues until the layered packages are uninstalled.
+!!! attention
+    
+    Layering packages irresponsibly can be **destructive** and may prevent updates as well as other issues until the layered packages are uninstalled.
 
 Install Fedora Linux packages by installing them with `rpm-ostree`.
 
@@ -55,11 +57,15 @@ rpm-ostree install <package>.rpm
 
 You may need to copy the full path (`/path/to/rpmfile.rpm`) for it to install properly.
 
-> **Note**: The downside of installing local RPM files outside of the Fedora repositories is updates for the specific RPM package will not apply automatically.
+!!! important
+
+    The downside of installing local RPM files outside of the Fedora repositories is updates for the specific RPM package will not apply automatically.
 
 ## How do I add [COPR](https://copr.fedorainfracloud.org) repositories?
 
-> **Note**: It is highly advised to **not** use third-party COPR repos if possible, so be aware there are risks associated with it including broken updates until removed.
+!!! warning
+    
+    It is highly advised to **not** use third-party COPR repos if possible, so be aware there are risks associated with it including broken updates until removed.
 
 1. Download the .repo file and save it to `/etc/yum.repos.d/`
 
