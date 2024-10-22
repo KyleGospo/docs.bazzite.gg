@@ -41,10 +41,11 @@ We also encourage you to donate to the projects that use the most, help us keep 
 ## Collaborated Projects
 
 - [**ChimeraOS**](https://opencollective.com/chimeraos/donate)
-- [**Jovian NixOS**](https://github.com/Jovian-Experiments/Jovian-NixOS/blob/development/CONTRIBUTING.md)
-- [**Nobara**](https://www.patreon.com/gloriouseggroll)
-- [**CachyOS**](https://www.patreon.com/CachyOS)
 - [**Ultramarine Linux**](https://github.com/sponsors/FyraLabs)
+- [**Nobara Project**](https://www.patreon.com/gloriouseggroll)
+- [**Jovian NixOS**](https://github.com/Jovian-Experiments/Jovian-NixOS/blob/development/CONTRIBUTING.md)
+- [**CachyOS**](https://www.patreon.com/CachyOS)
+- [**sentry's kernel-fsync**](https://copr.fedorainfracloud.org/coprs/sentry/kernel-fsync/)
 
 
 ## Bazzite Maintainers and Contributors
