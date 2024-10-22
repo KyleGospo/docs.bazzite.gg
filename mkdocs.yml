@@ -85,6 +85,8 @@ plugins:
       branch: !ENV GITHUB_REF_NAME
   - bazzite-social:
       # use_image_from_page: true # Use first image found in a page as fallback
+  - tags:
+      tags_file: tags.md
 
 markdown_extensions:
   - attr_list
