@@ -11,11 +11,14 @@ tags:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=970", "fetched_at": "2024-09-03 16:43:14.005694+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-!!! warning 
-  You may lose data on the drive(s) or result in an unbootable system if configured improperly.
+!!! warning
+
+    You may lose data on the drive(s) or result in an unbootable system if configured improperly.
+
 
 !!! attention 
-  MicroSD cards automatically mount without any manual intervention required on Bazzite.
+  
+    MicroSD cards automatically mount without any manual intervention required on Bazzite.
 
 **Important**: Do **not** use the NTFS, exFAT, or FAT32 filesystems for game library storage.
 
@@ -26,7 +29,8 @@ Follow this guide **at your own discretion** and make sure to read the entire do
 ## Formatting a disk
 
 !!! warning 
-  This will wipe all existing data on it
+
+    This will wipe all existing data on it
 
 ### Note when formatting in **KDE Partition Manager**
 
@@ -38,7 +42,9 @@ Use a disk graphical user interface like KDE Plasma or GNOME Disks to format you
 
 > **Note**: Drive directories should be **lowercase** with **no spaces** for best practice.
 
-!!! attention `/var/mnt` should NOT be the path, but create a new **directory** in either `/var/mnt` or `/var/run/media/`.
+!!! attention 
+    
+    `/var/mnt` should NOT be the path, but create a new **directory** in either `/var/mnt` or `/var/run/media/`.
 
 - `/var/mnt/...` for **permanent** drives
 - `/var/run/media/...` for **removable** drives
