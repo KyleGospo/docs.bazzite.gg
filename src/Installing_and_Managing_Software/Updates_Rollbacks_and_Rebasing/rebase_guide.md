@@ -11,7 +11,9 @@ authors:
 
 ## What is Rebasing?
 
-> **Attention**: Do **not** rebase between different desktop environments.
+!!! attention 
+    
+    Do **not** rebase between different desktop environments.
 
 Rebasing allows users to switch to a different image **without** having to reinstall and lose personal files and application data.
 
@@ -51,7 +53,9 @@ rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/bazzite-deck:sta
 
 For rebasing to the generic KDE Plasma version of the Handheld & HTPC image.
 
-> **NOTE**: Rebasing between different desktop environments **may cause issues** and is **unsupported**.
+!!! warning
+    
+    Rebasing between different desktop environments **may cause issues** and is **unsupported**.
 
 ## How do I change the Bazzite's update branch? (Stable, Testing, and Unstable)
 
@@ -94,7 +98,9 @@ For the **testing** branch on the generic AMD/Intel Desktop image.
 
 ## Can I stay on a specific Fedora release?
 
-> **Warning**: You will have to rebase back to `:stable` once you want to upgrade to the next Fedora version.
+!!! warning 
+    
+    You will have to rebase back to `:stable` once you want to upgrade to the next Fedora version.
 
 > **Note:** Switching to older Fedora versions will not bring new updates until you upgrade back to `:stable` and this also means **no security updates** for the time being.
 
@@ -105,7 +111,9 @@ For the **testing** branch on the generic AMD/Intel Desktop image.
 
 ## Rebasing to older builds
 
-> **Warning**: You will have to rebase back to `:stable` once you want to upgrade to the newest release.
+!!! attention 
+
+    You will have to rebase back to `:stable` once you want to upgrade to the newest release.
 
 - Like rolling back to the previous Bazzite deployment, users can also rebase to a specific Bazzite builds that was were built within the last 90 days.
 - All of your userdata will remain intact, but like how the warning indicates above, you will have to rebase manually back to `:stable` to update the system to receive the newest build.
