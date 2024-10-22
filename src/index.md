@@ -27,7 +27,7 @@ hide:
   It is also compatible with other tools as well:
 
   - [Heroic](https://heroicgameslauncher.com/) for Epic Games, GOG, and Amazon Games integration.
-  - [Bottles](https://usebottles.com/) for general-purpose applications or as an alternative to Lutris.
+  - [Bottles](https://usebottles.com/) for general-purpose Windows applications.
   - ...And [more][run_win_game]!
 
   <small>\* Desktop images require [**enabling Proton for all Steam games**][enable_proton]</small>.
