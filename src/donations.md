@@ -47,13 +47,45 @@ We also encourage you to donate to the projects that use the most, help us keep 
 - [**Ultramarine Linux**](https://github.com/sponsors/FyraLabs)
 
 
-## Bazzite Maintainers & Contributors / Universal Blue
+## Bazzite Maintainers and Contributors
 
 Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  All sponsors are deeply appreciated.
 
+### Universal Blue
 - [**Kyle Gospodnetich**](https://github.com/sponsors/KyleGospo)
+- [**RJ Trujillo**](https://github.com/EyeCantCU)
 - [**Jorge Castro**](https://github.com/sponsors/castrojo/)
-- [**Antheas Kapenekakis**](https://github.com/sponsors/antheas)
 - [**HikariKnight**](https://github.com/sponsors/HikariKnight)
 - [**Noel Miller**](https://github.com/sponsors/noelmiller)
+- [**Benjamin Sherman**](https://github.com/bsherman)
+- [**Robert Sturla**](https://github.com/p5)
+- [**Brian Ketelsen**](https://github.com/bketelsen)
+- [**Ryan Brue**](https://github.com/ryanabx)
+- [**Primož Ajdišek**](https://github.com/bigpod98)
+- [**m2**](https://github.com/m2Giles)
+- [**xyny**](https://github.com/xynydev)
+
+
+### Bazzite Contributors
+- [**Antheas Kapenekakis**](https://github.com/sponsors/antheas)
+- [**Aarron Lee**](https://github.com/aarron-lee)
+- [**Matthew Schwartz**](https://github.com/matte-schwartz)
+- [**Gerblesh**](https://github.com/gerblesh)
 - [**Pat Connors**](https://github.com/sponsors/nicknamenamenick)
+- [**Zeglius**](https://github.com/Zeglius)
+- [**wolfyreload**](https://github.com/wolfyreload)
+- [**CharlieBros**](https://github.com/CharlieBros)
+- [**rei.svg**](https://github.com/reisvg)
+- [**Sean**](https://github.com/SuperRiderTH)
+- [**Alex Banna**](https://github.com/abanna)
+- [**BoukeHaarsma23 (bouhaa)**](https://github.com/BoukeHaarsma23)
+- [**Marco Rodolfi**](https://github.com/RodoMa92)
+- [**fiftydinar**](https://github.com/fiftydinar)
+- [**Sterophonick**](https://github.com/Sterophonick)
+- [**tulilirockz**](https://github.com/tulilirockz)
+- [**Gecked-Deck**](https://github.com/Gecked-Deck)
+
+### Community 
+- [**View the full contributors list on Github**](https://github.com/ublue-os/bazzite/graphs/contributors)
+
+
