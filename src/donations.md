@@ -38,7 +38,7 @@ We also encourage you to donate to the projects that use the most, help us keep 
 - [**xone**](https://www.paypal.com/donate?hosted_button_id=BWUECKFDNY446)
 - [**yq**](https://github.com/mikefarah/yq)
 
-## Collaborate Projects
+## Collaborated Projects
 
 - [**ChimeraOS**](https://opencollective.com/chimeraos/donate)
 - [**Jovian NixOS**](https://github.com/Jovian-Experiments/Jovian-NixOS/blob/development/CONTRIBUTING.md)
