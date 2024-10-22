@@ -111,8 +111,7 @@ markdown_extensions:
 
 nav:
   - index.md
-  - FAQ:
-        - "Frequently Asked Questions": "General/FAQ.md"
+  - FAQ: "General/FAQ.md"
   - General:
       - "Bazzite's README": "Bazzite_README.md"
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
