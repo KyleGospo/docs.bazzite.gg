@@ -11,7 +11,7 @@ authors:
 
 ## Bazzite's `-deck` Images Overview
 
-**For Handheld PC users only**: View our [Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) for post-installation setup, workarounds, and known issues on handheld hardware.
+>View our [Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) for post-installation setup, workarounds, and known issues on **handheld hardware**.
 
 ![Steam Gaming Mode UI|690x430](../img/Steam_Gaming_Mode_UI.jpeg)
 
@@ -43,7 +43,9 @@ This documentation may not cover specific areas with the assumption that the use
 
 ### How do I open the on-screen keyboard?
 
-> **Note**: Steam must be running to access the keyboard.
+!!! attention
+    
+    Steam must be running to access the keyboard.
 
 - By default it is bound to the <kbd>Steam</kbd> + <kbd>X</kbd> on the Steam Deck.
 - For other handhelds it may require turning on Desktop Controls and configuring it manually.
@@ -51,7 +53,9 @@ This documentation may not cover specific areas with the assumption that the use
 
 ### Update and Changelog Inaccuracy
 
-> **Note**: Updates will also look for and upgrade Linux applications like installed [Flatpaks](/Installing_and_Managing_Software/Flatpak.md).
+!!! important
+    
+    Updates will also look for and upgrade Linux applications like installed [Flatpaks](/Installing_and_Managing_Software/Flatpak.md).
 
 #### Steam Gaming Mode
 
@@ -68,9 +72,9 @@ ujust update
 #### Changelog
 
 The changelog is specifically for SteamOS by Valve, so the upgrade for Bazzite may not apply.
-Read the [Universal Blue announcements](https://universal-blue.discourse.group/tag/announcements) for major changes and features.
+View the [news section on our website](https://universal-blue.discourse.group/tag/announcements) for recent changes.
 
-View a changelog to the next update in the terminal by **entering**:
+You can also view recent changelogs in the terminal by **entering**:
 
 ```
 ujust changelogs
@@ -207,9 +211,7 @@ This is most likely due to a broken Decky Loader plugin you have installed. Unin
 
 ### Audio output not working (Default Device)
 
-> This issue happens usually with HDMI TV audio.
-
-Go into Desktop Mode and into the system settings to adjust the sound settings. Disable devices that do not match the sound output that you're using. An example of this is disabling all the things that aren't HDMI for your TV audio.
+This issue happens usually with HDMI TV audio.  Go into Desktop Mode and into the system settings to adjust the sound settings. Disable devices that do not match the sound output that you're using. An example of this is disabling all the things that aren't HDMI for your TV audio.
 
 ### Why is VRR not working on my VRR-compatible display?
 
@@ -226,7 +228,9 @@ ujust fix-reset-steam
 
 Reboot the system.
 #### Alternative Method
-> **Attention**: Try rebooting your device first before proceeding with the next steps! You may lose your games, saves, and other content if this is done incorrectly.
+!!! attention 
+    
+    Try rebooting your device first before proceeding with the next steps! You may lose your games, saves, and other content if this is done incorrectly.
 
 1.  Open a TTY session with an **external physical keyboard** using this **keyboard combination and entering this command**:
     <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F4</kbd> and `mv ~/.local/share/Steam ~/.local/share/Steam1`
@@ -271,7 +275,9 @@ Save it and place it in the `Desktop` directory.
 
 ## Valve's Official SteamOS Guide
 
-> **Note**: Not all of the information will be accurate in regards to Bazzite.
+!!! important
+    
+    Not all of the information will be accurate in regards to Bazzite.
 
 Valve wrote a [guide](https://help.steampowered.com/en/faqs/view/7DD4-C618-182E-0E49) for the Steam Deck which may have some relevant information in regards to Bazzite.
 
