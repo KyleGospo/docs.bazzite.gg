@@ -11,7 +11,9 @@ authors:
 
 ![Homebrew|332x500, 15%](../img/Homebrew.png)
 
-> **Note**: Any package that requires root privileges will either need a rootful Distrobox container or has to be layered with `rpm-ostree`.
+!!! note
+    
+    Any package that requires root privileges will either need a rootful Distrobox container or has to be layered with `rpm-ostree`.
 
 Homebrew is a package manager that installs packages to their own prefix, and is used strictly for command-line interface (CLI) and terminal user interface (TUI) applications. Do **not** install graphical applications or anything that may override system-level packages with Homebrew.
 
