@@ -21,7 +21,7 @@ authors:
 > **Note**: The Steam beta client is **not** supported, please revert to the stable client before reporting issues.
 
 https://www.youtube.com/watch?v=zXK1CXUyzXQ
-**Steam Deck UI Tour by [Linux For Everyone](https://www.youtube.com/@LinuxForEveryone)**
+<sub>**Steam Deck UI Tour by [Linux For Everyone](https://www.youtube.com/@LinuxForEveryone)**</sub>
 
 Bazzite utilizes Steam Gaming Mode by [forking ChimeraOS’s `gamescope-session` ](https://github.com/KyleGospo/gamescope-session) and modifying it to fit the needs of our operating system. Steam Gaming Mode is also referred to as "gamepadUI" and "gamescope-session" but Bazzite documentation will usually refer to it as "Steam Gaming Mode" most of the time.
 
