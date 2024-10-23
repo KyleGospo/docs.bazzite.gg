@@ -94,7 +94,9 @@ There are a few options for TDP Controls that work with Bazzite:
 
 Double-tap the Quick Access Menu button.
 
-> **Note**: ASUS ROG Ally does not support **holding** for the QAM button!
+!!! note
+    
+    ASUS ROG Ally does not support **holding** for the QAM button!
 
 ### Controller Information
 
@@ -118,7 +120,9 @@ Make sure to **apply** the desktop controls when you select them.
 
 ### Force reboot device to prevent drive corruption if Steam crashes
 
-> **Note**: This is only for the ASUS ROG Ally and Lenovo Legion Go.
+!!! note
+    
+    This is only for the ASUS ROG Ally and Lenovo Legion Go.
 
 Hold down the "**select**" button on your device to force a reboot. This feature can be disabled in the overlay settings.
 
