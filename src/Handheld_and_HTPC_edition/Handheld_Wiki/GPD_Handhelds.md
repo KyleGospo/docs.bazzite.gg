@@ -130,7 +130,8 @@ There are a few options for TDP Controls that work with Bazzite:
 
 Press, hold, or double-tap the Quick Access Menu button.
 
-> **Note**: GPD devices do not support double-tapping the QAM button!
+!!! note 
+    GPD devices do not support double-tapping the QAM button!
 
 ### Controller Information
 
