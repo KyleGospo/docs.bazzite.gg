@@ -25,7 +25,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
 - [**Marco Ceppi**](https://github.com/marcoceppi)
 - [**Adam Israel**](https://github.com/AdamIsrael)
-- [**Cassidy James Blaede**](https://github.com/cassidyjames)
+- [**Cassidy James Blaede**](https://github.com/cassidyjames) ([**Sponsor**](https://github.com/sponsors/cassidyjames))
 
 ### Bazzite Contributors
 - [**Antheas Kapenekakis**](https://github.com/antheas) ([**Sponsor**](https://github.com/sponsors/antheas))
