@@ -30,7 +30,9 @@ Bazzite updates all of the changes made specifically in Bazzite itself, updates 
 
 ## How do I update manually on Desktop images?
 
-> **Note**: This manual method also works in Desktop Mode on Handheld/HTPC images in Desktop Mode.
+!!! note
+    
+    This manual method also works in Desktop Mode on Handheld/HTPC images in Desktop Mode.
 
 - You can force an update with the System Update tool at your own convenience.
   - Reboot your device after it has finished.
