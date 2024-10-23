@@ -38,7 +38,9 @@ Bazzite offers multiple images, but most images will be following _one of these 
 
 ### 1. Desktop Edition
 
-> **Steam Gaming Mode is not on these specific images!**
+!!! important
+    
+    **Steam Gaming Mode is not on these specific images!**
 
 Intended specifically for desktops and laptops with a focus on gaming which is influenced by SteamOS's Desktop Mode and the maintenance-free nature of ChromeOS. Nvidia hardware can currently only use the Desktop Images since their drivers do not support Steam Gaming Mode.
 
@@ -52,7 +54,9 @@ Mimics SteamOS with "**Steam Gaming Mode**" and its features fully functional. T
 
 Images also includes a Desktop Mode session with the choice of GNOME or KDE Plasma and is based on our Desktop images. **Updates are manually installed by the user and applied on a restart**.
 
-> Steam Gaming Mode **requires** a modern AMD graphics card or an Intel Arc graphics card.
+!!! important
+    
+    Steam Gaming Mode **requires** a modern AMD graphics card or an Intel Arc graphics card.
 
 #### Desktop Environments & Specific Hardware Variants
 
