@@ -13,7 +13,9 @@ Steam can run Windows games on Linux. It utilizes a wide range of projects and p
 
 ### Enabling Proton For All Steam Games
 
-> **Note**: Skip this section if you're using a [_Handheld/HTPC_](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) image.
+!!! attention
+    
+    Skip this section if you're using a [_Handheld/HTPC_](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) image.
 
 - Currently Steam only allows whitelisted games to run by default on the desktop Steam client.
   - You can change this by enabling this in **Settings** > **Compatibility** > **Enable Steam Play for all other titles**
