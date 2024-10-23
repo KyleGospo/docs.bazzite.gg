@@ -11,7 +11,9 @@ authors:
 
 ## Secure Boot Notes and Gotchas
 
-> **Note**: Skip this section if Secure Boot is not enabled or unsupported with your hardware.
+!!! note
+    
+    Skip this section if Secure Boot is not enabled or unsupported with your hardware.
 
 - Entering the password will register invisible characters for security purposes, so you will not be able to see what you are typing!
 
