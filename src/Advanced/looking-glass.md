@@ -23,7 +23,9 @@ ujust setup-virtualization kvmfr
 Create a `fedora:latest` distrobox that we will use to compile the binary, use the following command to make the container, when asked about what image to use, select the default one as I have verified this guide works with that image for building. 
 This distrobox has to be made manually without the `--nvidia` flag which our ujust automatically applies to enable hardware acceleration, however we explicitly do not want it in order to make `cmake-data` successfully install.
 
->**NOTE**: If you are not using the latest Fedora version, please change `latest` to match your version number, this is to avoid dependency versioning issues.
+!!! note
+    
+    If you are not using the latest Fedora version, please change `latest` to match your version number, this is to avoid dependency versioning issues.
 
 ```bash
 distrobox create -i "fedora:latest" -n "tmp-lookingglass"
