@@ -7,11 +7,11 @@ title: Donations & Credits
 Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.
 
 ### Universal Blue
-- [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**_Sponsor_**](https://github.com/sponsors/KyleGospo))
+- [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
 - [**RJ Trujillo**](https://github.com/EyeCantCU)
-- [**Jorge Castro**](https://github.com/castrojo) ([**_Sponsor_**](https://github.com/sponsors/castrojo/))
-- [**HikariKnight**](https://github.com/HikariKnight) ([**_Sponsor_**](https://github.com/sponsors/HikariKnight))
-- [**Noel Miller**](https://github.com/noelmiller) ([**_Sponsor_**](https://github.com/sponsors/noelmiller))
+- [**Jorge Castro**](https://github.com/castrojo) ([**Sponsor**](https://github.com/sponsors/castrojo/))
+- [**HikariKnight**](https://github.com/HikariKnight) ([**Sponsor**](https://github.com/sponsors/HikariKnight))
+- [**Noel Miller**](https://github.com/noelmiller) ([**Sponsor**](https://github.com/sponsors/noelmiller))
 - [**Benjamin Sherman**](https://github.com/bsherman)
 - [**Robert Sturla**](https://github.com/p5)
 - [**Brian Ketelsen**](https://github.com/bketelsen)
@@ -22,11 +22,11 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
 
 ### Bazzite Contributors
-- [**Antheas Kapenekakis**](https://github.com/antheas) ([**_Sponsor_**](https://github.com/sponsors/antheas))
+- [**Antheas Kapenekakis**](https://github.com/antheas) ([**Sponsor**](https://github.com/sponsors/antheas))
 - [**Aarron Lee**](https://github.com/aarron-lee)
 - [**Matthew Schwartz**](https://github.com/matte-schwartz)
 - [**sentry**](https://copr.fedorainfracloud.org/coprs/sentry/)
-- [**Pat Connors**](https://github.com/nicknamenamenick) ([**_Sponsor_**](https://github.com/sponsors/nicknamenamenick))
+- [**Pat Connors**](https://github.com/nicknamenamenick) ([**Sponsor**](https://github.com/sponsors/nicknamenamenick))
 - [**Zeglius**](https://github.com/Zeglius)
 - [**wolfyreload**](https://github.com/wolfyreload)
 - [**CharlieBros**](https://github.com/CharlieBros)
