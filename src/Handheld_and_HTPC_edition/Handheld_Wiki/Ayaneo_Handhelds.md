@@ -62,13 +62,9 @@ sudo systemctl enable --now hhd@$(whoami)
 
 7000 series and newer AMD APU's no longer support S3 sleep, and unfortunately many handheld manufacturers don't configure their firmware to take advantage of modern standby by default. Fortunately, modern standby can be configured manually with Smokeless UMAF.
 
-> **Warning!**
->
-> The Smokeless UMAF tool has been known to brick devices even by reading values in the BIOS.
->
-> **There is a good chance that setting something incorrectly in the BIOS with this tool will brick your device and void your warranty.**
->
-> Bazzite takes no responsibility for any harm caused by following these steps. By following this guide you acknowledge that you are solely responsible for the outcome.
+!!! warning
+    
+    The Smokeless UMAF tool has been known to brick devices even by reading values in the BIOS.  There is a good chance that setting something incorrectly in the BIOS with this tool will brick your device and void your warranty.  The Bazzite team and Universal Blue takes no responsibility for any harm caused by following these steps. By following this guide you acknowledge that you are solely responsible for the outcome.
 
 ### Modern Standby Enablement Methods
 
@@ -87,7 +83,9 @@ sudo systemctl enable --now hhd@$(whoami)
 3. Under `Modern Standby Type` select `Modern Standby + S0i2 + S0i3`.
 4. Save changes and exit, allowing the device to reboot.
 
-Note: The first restart after this change may take longer than usual.
+!!! note 
+    
+    The first restart after this change may take longer than usual.
 
 ### External Resource
 
