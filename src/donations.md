@@ -19,6 +19,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Primož Ajdišek**](https://github.com/bigpod98)
 - [**m2**](https://github.com/m2Giles)
 - [**xyny**](https://github.com/xynydev)
+- [**Gerblesh**](https://github.com/gerblesh)
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
 
 ### Bazzite Contributors
@@ -33,7 +34,6 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**rei.svg**](https://github.com/reisvg)
 - [**Sean**](https://github.com/SuperRiderTH)
 - [**Alex Banna**](https://github.com/abanna)
-- [**Gerblesh**](https://github.com/gerblesh)
 - [**BoukeHaarsma23**](https://github.com/BoukeHaarsma23)
 - [**Marco Rodolfi**](https://github.com/RodoMa92)
 - [**fiftydinar**](https://github.com/fiftydinar)
