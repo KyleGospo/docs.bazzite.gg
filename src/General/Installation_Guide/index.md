@@ -12,7 +12,7 @@ authors:
 
 ### **Important Installation Notes**:
 
-- Use a download manager if the direct download fails or is downloading too slow.
+- Use a download manager like [Motrix](https://motrix.app/) if the direct download fails or is downloading too slow.
 
 - A physical wired keyboard is **recommended** and **required for devices without a touchscreen**.
 
