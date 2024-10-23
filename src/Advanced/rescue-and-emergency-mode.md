@@ -3,6 +3,8 @@ authors:
   - "@bsherman"
 ---
 
+## Preface
+
 Fedora already has a built-in mechanism (provided by `systemd`) for booting into [rescue](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/kernel-module-driver-configuration/Working_with_the_GRUB_2_Boot_Loader/#sec-Booting_to_Rescue_Mode) and [emergency](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/kernel-module-driver-configuration/Working_with_the_GRUB_2_Boot_Loader/#sec-Booting_to_Emergency_Mode) modes.
 
 However, those documents have limitations as by default, Fedora (and thus Universal Blue systems), do not set a `root` password during install. Thus, when the emergency or rescue mode is reached, the user is shown the error:
