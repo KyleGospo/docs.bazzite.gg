@@ -13,7 +13,7 @@ authors:
 
 # Frequently Asked Questions
 
-![Bazzite Tagline|938x775 70%](../img/Bazzite_Tagline_Light_BG.png)
+![Bazzite Tagline|938x775 40%](../img/Bazzite_Tagline_Light_BG.png)
 
 ## Why is it called Bazzite?
 
