@@ -71,7 +71,7 @@ There are 3 branches you can switch to:
 - Unstable (`:unstable`) **(DO NOT USE**)
   - **Not recommended**
   - Testing playground for developers/contributors
-  - Can be **several months behind** compared to both `:stable` and `:testing` updates
+  - Can be **several months behind** compared to both `:stable` and `:testing` updates when not in use
   - Intended for testing desktop environments and other radically changed functionality to Bazzite for the future
 
 Handheld/HTPC images can switch branches in `Settings > System > OS Update Channel` in Steam Gaming Mode.
