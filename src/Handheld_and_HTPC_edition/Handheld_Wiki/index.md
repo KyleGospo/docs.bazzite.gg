@@ -68,7 +68,9 @@ You can access Decky Loader by pressing the 'side menu button', also known as th
 
 ## Decky Plugins
 
-> **Note**: Decky may break or uninstall after updates especially if the Steam client or Gamescope is updated.
+!!! attention
+    
+    Decky may break or uninstall after updates especially if the Steam client or Gamescope is updated.
 
 Install optional [Decky plugins](https://plugins.deckbrew.xyz/) for your handheld. If you experience any major issues then it is recommended to uninstall Decky before reporting Bazzite bugs.
 
@@ -80,13 +82,13 @@ Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an 
 
 > eGPU is **not** a fully supported feature and has many caveats.
 
-**Notes**:
+### Caveats:
 
 - The same [GPU hardware requirements](https://docs.bazzite.gg/Gaming/Hardware_compatibility_for_gaming/#steam-gaming-mode-requirements) that apply for Steam Gaming Mode also apply for e-GPUs.
   - Nvidia GPUs are **unsupported**. 
 - Proprietary connectors, like the one for the ASUS ROG Ally, will not work.
 
-### **Recommended External Guide & Script**:
+#### **Recommended External Guide & Script**:
 
 Read this [guide](https://github.com/ewagner12/all-ways-egpu) for eGPU usage on Linux, and use the script at your own risk.
 
