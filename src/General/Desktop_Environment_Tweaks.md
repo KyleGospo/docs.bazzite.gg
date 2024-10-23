@@ -9,7 +9,7 @@ authors:
 
 ## Customizing KDE Plasma
 
-> Resource on KDE themes can be found [here](https://itsfoss.com/properly-theme-kde-plasma/) for more information.
+> [Check out this external resource on KDE themes for more information](https://itsfoss.com/properly-theme-kde-plasma/).
 
 KDE Plasma is the default Bazzite desktop environment and is highly customizable. One of the various customization that can be done is installing custom styles, cursors, and icons to your system with custom themes made by the community.
 
@@ -51,7 +51,7 @@ SDDM themes can also be layered at your own risk if they are available as RPM pa
 
 Some Flatpaks need filesystem permissions for applications that have issues with cursor themes.
 
->**Example**: (`~/.icons/:ro` in "Filesystem" in each problematic application or globally in Flatseal).
+**Example**: (`~/.icons/:ro` in "Filesystem" in each problematic application or globally in Flatseal).
 
 #### Themes that require `kvantum`
 
@@ -65,7 +65,9 @@ rpm-ostree install kvantum
 
 ## Wallpaper Engine Guide (_Only on KDE Images_)
 
-> **Note**: Not all wallpapers are compatible and may even cause issues since most are not intended for use on the Linux desktop.
+!!! note
+    
+    Not all wallpapers are compatible and may even cause issues since most are not intended for use on the Linux desktop.
 
 ![KDE Wallpaper Settings|682x500, 75%](../img/KDE_Wallpaper_Settings.jpeg)
 
@@ -84,8 +86,8 @@ Read this [guide](https://github.com/catsout/wallpaper-engine-kde-plugin/blob/ma
 View the [Bluefin documentation](https://docs.projectbluefin.io/administration#managing-extensions) since most of the information will be relevant to Bazzite as well.
 
 ### Steam Gaming Mode Tweaks (`-deck` Images)
-
-> Decky Loader will sometimes have issues with new Steam and Gamescope updates, and may need to be uninstalled temporarily.
+!!! warning
+    Decky Loader will sometimes have issues with new Steam and Gamescope updates, and may need to be uninstalled temporarily.
 
 Install [Decky Loader](https://decky.xyz/) then install [CSS Loader](https://docs.deckthemes.com/) to customize how Steam Gaming Mode looks. Be aware that third-party plugins may cause issues. Read Bazzite's [Steam Gaming Mode documentation](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) to resolve common issues if you run into them after using Decky Loader.
 
