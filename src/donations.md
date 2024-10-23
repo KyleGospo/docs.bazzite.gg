@@ -83,6 +83,8 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 
 ## Collaborated Projects
 
+Similar projects that share resources with us.
+
 - [**ChimeraOS**](https://opencollective.com/chimeraos/donate)
 - [**Ultramarine Linux**](https://github.com/sponsors/FyraLabs)
 - [**Nobara Project**](https://www.patreon.com/gloriouseggroll)
