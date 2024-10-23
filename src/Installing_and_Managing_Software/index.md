@@ -40,7 +40,8 @@ Read the [Bazzite Gaming Guide](https://docs.bazzite.gg/Gaming/) for more inform
 
 Follow the [Waydroid Setup Guide](./Waydroid_Setup_Guide.md) to install Android applications on Bazzite.
 
-> **Note**: Waydroid is **not supported** on other Universal Blue images like [Aurora](https://getaurora.dev/) and [Bluefin](https://projectbluefin.io/).
+!!! note 
+    Waydroid is **not supported** on other Universal Blue images like [Aurora](https://getaurora.dev/) and [Bluefin](https://projectbluefin.io/).
 
 ## Tutorials for Installing Other Software
 
@@ -50,7 +51,9 @@ Follow the [Waydroid Setup Guide](./Waydroid_Setup_Guide.md) to install Android 
 
 ### Video Showcase of Installing Software
 
-> **Note**: This video is missing Homebrew.
+!!! note
+    
+    This video is missing Homebrew.
 
 https://www.youtube.com/watch?v=ITuT23YrgPs
 
