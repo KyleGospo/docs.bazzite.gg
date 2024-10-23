@@ -83,9 +83,9 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
 
 ### Tinkering
 
-- Access to multiple package managers and repositories in [containers](https://universal-blue.discourse.group/docs?topic=44)
-- [Layer](https://universal-blue.discourse.group/docs?topic=513) Fedora packages to the system which survive between updates
-- [`ujust`](https://universal-blue.discourse.group/docs?topic=42) commands to setup anything from virtualization support to supporting specific input peripherals
+- Access to multiple package managers and repositories in [containers](https://docs.bazzite.gg/Installing_and_Managing_Software/Distrobox/)
+- [Layer](https://docs.bazzite.gg/Installing_and_Managing_Software/rpm-ostree/) Fedora packages to the system which survive between updates
+- [`ujust`](https://docs.bazzite.gg/Installing_and_Managing_Software/ujust/) commands to setup anything from virtualization support to supporting specific input peripherals
 
 ## Will there be any performance improvements with Bazzite?
 
