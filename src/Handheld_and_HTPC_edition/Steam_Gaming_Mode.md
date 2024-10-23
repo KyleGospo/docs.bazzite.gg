@@ -18,7 +18,9 @@ authors:
 <sub>Steam Gaming Mode requires a modern AMD graphics card or an Intel Arc graphics card. Nvidia is **not** supported. </sub>
 
 ### What is Steam Gaming Mode?
-> **Note**: The Steam beta client is **not** supported, please revert to the stable client before reporting issues.
+!!! important 
+    
+    The Steam beta client is **not** supported, please revert to the stable client before reporting issues.
 
 https://www.youtube.com/watch?v=zXK1CXUyzXQ
 <sub>**Steam Deck UI Tour by [Linux For Everyone](https://www.youtube.com/@LinuxForEveryone)**</sub>
@@ -106,7 +108,7 @@ As of writing, `gamescope-session` has no way to change the physical keyboard la
 
 If you want to change the layout for Gamescope, you can set the environment variable `XKB_DEFAULT_LAYOUT=no` replacing `no` with the correct layout for you. Add this to `~/.config/environment.d/10-gamescope-session.conf`
 
-> If the file or folder does not exist then create it.
+If the file or folder does not exist already, then create it.
 
 This works on desktop mode including running Nested Gamescope and also works for Steam Gaming Mode, but it has its own quirks: <kbd>altgr</kbd> + <kbd>2</kbd> to write "<kbd>@</kbd>" on the Norwegian layout will still not work, but the basic keyboard layout will always work, `altgr` is luckily not needed for normal typing on the norwegian layout, however <kbd>altgr</kbd> has been reported to work on the French layout, but your mileage may vary.
 
