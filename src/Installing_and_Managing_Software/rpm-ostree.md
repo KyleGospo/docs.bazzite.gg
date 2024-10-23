@@ -81,9 +81,10 @@ There is also an experimental `copr` utility script that ships with Bazzite. Run
 
 Layering packages can cause **severe consequences** including:
 
-- Break upgrades or prevent rebasing.
+- Pause system updates until package(s) are uninstalled.
+- Prevent rebasing to different images until package(s) are uninstalled.
 - Conflict with existing packages as part of the image leading to dependency issues.
-- Updates will take longer to download as you layer more packages to your system.
+- Updates taking longer to download as you layer more packages to your system.
 
 Layering packages are mostly intended for system-level applications, libraries, and other dependencies. It is recommended to use Flatpak, Homebrew, Distrobox containers, AppImage, etc. **before** installing software with `rpm-ostree`. Typical users should **not** be using `rpm-ostree` to install end-user graphical applications at all to avoid problems in the future.  It is **highly recommended** to only layer packages when absolutely necessary especially if the application can be obtained through other methods.
 
