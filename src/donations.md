@@ -11,7 +11,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**RJ Trujillo**](https://github.com/EyeCantCU)
 - [**Jorge Castro**](https://github.com/castrojo) ([**Sponsor**](https://github.com/sponsors/castrojo/))
 - [**HikariKnight**](https://github.com/HikariKnight) ([**Sponsor**](https://github.com/sponsors/HikariKnight))
-- [**Noel Miller**](https://github.com/sponsors/noelmiller) ([**Sponsor**](https://github.com/sponsors/noelmiller))
+- [**Noel Miller**](https://github.com/noelmiller) ([**Sponsor**](https://github.com/sponsors/noelmiller))
 - [**Benjamin Sherman**](https://github.com/bsherman)
 - [**Robert Sturla**](https://github.com/p5)
 - [**Brian Ketelsen**](https://github.com/bketelsen)
