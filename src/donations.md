@@ -1,3 +1,46 @@
+---
+title: Donations & Credits
+---
+
+## Bazzite Maintainers and Contributors
+
+Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.
+
+### Universal Blue
+- [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
+- [**RJ Trujillo**](https://github.com/EyeCantCU)
+- [**Jorge Castro**](https://github.com/castrojo) ([**Sponsor**](https://github.com/sponsors/castrojo/))
+- [**HikariKnight**](https://github.com/HikariKnight) ([**Sponsor**](https://github.com/sponsors/HikariKnight))
+- [**Noel Miller**](https://github.com/sponsors/noelmiller) ([**Sponsor**](https://github.com/sponsors/noelmiller))
+- [**Benjamin Sherman**](https://github.com/bsherman)
+- [**Robert Sturla**](https://github.com/p5)
+- [**Brian Ketelsen**](https://github.com/bketelsen)
+- [**Ryan Brue**](https://github.com/ryanabx)
+- [**Primož Ajdišek**](https://github.com/bigpod98)
+- [**m2**](https://github.com/m2Giles)
+- [**xyny**](https://github.com/xynydev)
+- [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
+
+### Bazzite Contributors
+- [**Antheas Kapenekakis**](https://github.com/antheas) ([**Sponsor**](https://github.com/sponsors/antheas))
+- [**Aarron Lee**](https://github.com/aarron-lee)
+- [**Matthew Schwartz**](https://github.com/matte-schwartz)
+- [**sentry**](https://copr.fedorainfracloud.org/coprs/sentry/)
+- [**Pat Connors**](https://github.com/nicknamenamenick) ([**Sponsor**](https://github.com/sponsors/nicknamenamenick))
+- [**Zeglius**](https://github.com/Zeglius)
+- [**wolfyreload**](https://github.com/wolfyreload)
+- [**CharlieBros**](https://github.com/CharlieBros)
+- [**rei.svg**](https://github.com/reisvg)
+- [**Sean**](https://github.com/SuperRiderTH)
+- [**Alex Banna**](https://github.com/abanna)
+- [**Gerblesh**](https://github.com/gerblesh)
+- [**BoukeHaarsma23 (bouhaa)**](https://github.com/BoukeHaarsma23)
+- [**Marco Rodolfi**](https://github.com/RodoMa92)
+- [**fiftydinar**](https://github.com/fiftydinar)
+- [**Sterophonick**](https://github.com/Sterophonick)
+- [**tulilirockz**](https://github.com/tulilirockz)
+- [**Gecked-Deck**](https://github.com/Gecked-Deck)
+
 ## Fedora
 
 Fedora does not take monetary donations, but values hardware donations and contributions to the project.
@@ -45,46 +88,6 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 - [**Nobara Project**](https://www.patreon.com/gloriouseggroll)
 - [**Jovian NixOS**](https://github.com/Jovian-Experiments/Jovian-NixOS/blob/development/CONTRIBUTING.md)
 - [**CachyOS**](https://www.patreon.com/CachyOS)
-
-## Bazzite Maintainers and Contributors
-
-Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  If they don't have a Gitub Sponsors page, then give them a follow.
-
-### Universal Blue
-- [**Kyle Gospodnetich**](https://github.com/sponsors/KyleGospo)
-- [**RJ Trujillo**](https://github.com/EyeCantCU)
-- [**Jorge Castro**](https://github.com/sponsors/castrojo/)
-- [**HikariKnight**](https://github.com/sponsors/HikariKnight)
-- [**Noel Miller**](https://github.com/sponsors/noelmiller)
-- [**Benjamin Sherman**](https://github.com/bsherman)
-- [**Robert Sturla**](https://github.com/p5)
-- [**Brian Ketelsen**](https://github.com/bketelsen)
-- [**Ryan Brue**](https://github.com/ryanabx)
-- [**Primož Ajdišek**](https://github.com/bigpod98)
-- [**m2**](https://github.com/m2Giles)
-- [**xyny**](https://github.com/xynydev)
-- [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
-
-
-### Bazzite Contributors
-- [**Antheas Kapenekakis**](https://github.com/sponsors/antheas)
-- [**Aarron Lee**](https://github.com/aarron-lee)
-- [**Matthew Schwartz**](https://github.com/matte-schwartz)
-- [**sentry**](https://copr.fedorainfracloud.org/coprs/sentry/)
-- [**Pat Connors**](https://github.com/sponsors/nicknamenamenick)
-- [**Zeglius**](https://github.com/Zeglius)
-- [**wolfyreload**](https://github.com/wolfyreload)
-- [**CharlieBros**](https://github.com/CharlieBros)
-- [**rei.svg**](https://github.com/reisvg)
-- [**Sean**](https://github.com/SuperRiderTH)
-- [**Alex Banna**](https://github.com/abanna)
-- [**Gerblesh**](https://github.com/gerblesh)
-- [**BoukeHaarsma23 (bouhaa)**](https://github.com/BoukeHaarsma23)
-- [**Marco Rodolfi**](https://github.com/RodoMa92)
-- [**fiftydinar**](https://github.com/fiftydinar)
-- [**Sterophonick**](https://github.com/Sterophonick)
-- [**tulilirockz**](https://github.com/tulilirockz)
-- [**Gecked-Deck**](https://github.com/Gecked-Deck)
 
 ### Community 
 - [**View the full contributors list on Github**](https://github.com/ublue-os/bazzite/graphs/contributors)
