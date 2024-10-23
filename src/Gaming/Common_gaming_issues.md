@@ -25,7 +25,9 @@ Some Linux ports may have missing functionality or worse performance than on the
 
 ## Valve/Source Engine Games Problems
 
-> **Note**: This only applies to specific games running on the [Source engine](https://www.pcgamingwiki.com/wiki/Engine:Source).
+!!! note
+    
+    This only applies to specific games running on the [Source engine](https://www.pcgamingwiki.com/wiki/Engine:Source).
 
 ### Audio & Custom Content Bugs
 
