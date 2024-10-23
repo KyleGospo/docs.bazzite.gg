@@ -115,7 +115,9 @@ Waydroid has an [issue](https://github.com/waydroid/waydroid/issues/135) where i
 
 Disable this functionality:
 
-> Note: **Waydroid must be running**!
+!!! note
+    
+    Waydroid must be running!
 
 In a host terminal, **run this command**:
 
