@@ -19,7 +19,9 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Primož Ajdišek**](https://github.com/bigpod98)
 - [**m2**](https://github.com/m2Giles)
 - [**xyny**](https://github.com/xynydev)
+- [**Alex Díaz**](https://github.com/akdev1l)
 - [**Gerblesh**](https://github.com/gerblesh)
+- [**bobslept**](https://github.com/bobslept)
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
 
 ### Bazzite Contributors
@@ -40,6 +42,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Sterophonick**](https://github.com/Sterophonick)
 - [**tulilirockz**](https://github.com/tulilirockz)
 - [**Gecked-Deck**](https://github.com/Gecked-Deck)
+- [**termdisc**](https://github.com/termdisc)
 
 ## Fedora
 
