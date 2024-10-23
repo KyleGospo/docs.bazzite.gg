@@ -40,9 +40,9 @@ authors:
 
 ## Issues Installing Bazzite?
 
-> The workarounds detailed in the guide are also useful for **downloading a smaller ISO size**.
+The workarounds detailed in the guide are also useful for **downloading a smaller ISO size**.
 
-View the [**Troubleshooting Guide**](./troubleshoot_guide.md) for installation workarounds.
+>View the [**Troubleshooting Guide**](./troubleshoot_guide.md) for installation workarounds.
 
 <hr>
 
