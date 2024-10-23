@@ -102,7 +102,9 @@ For the **testing** branch on the generic AMD/Intel Desktop image.
     
     You will have to rebase back to `:stable` once you want to upgrade to the next Fedora version.
 
-> **Note:** Switching to older Fedora versions will not bring new updates until you upgrade back to `:stable` and this also means **no security updates** for the time being.
+!!! important
+    
+    Switching to older Fedora versions will not bring new updates until you upgrade back to `:stable` and this also means **no security updates** for the time being.
 
 **Yes**, but only if that version of Fedora is still currently supported upstream.
 
