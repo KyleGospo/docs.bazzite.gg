@@ -23,6 +23,9 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Gerblesh**](https://github.com/gerblesh)
 - [**bobslept**](https://github.com/bobslept)
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
+- [**Marco Ceppi**](https://github.com/marcoceppi)
+- [**Adam Israel**](https://github.com/AdamIsrael)
+- [**Cassidy James Blaede**](https://github.com/cassidyjames)
 
 ### Bazzite Contributors
 - [**Antheas Kapenekakis**](https://github.com/antheas) ([**Sponsor**](https://github.com/sponsors/antheas))
@@ -45,6 +48,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**tulilirockz**](https://github.com/tulilirockz)
 - [**Gecked-Deck**](https://github.com/Gecked-Deck)
 - [**termdisc**](https://github.com/termdisc)
+- [**Nathaniel Warburton**](https://github.com/storyaddict)
 
 ## Fedora
 
