@@ -63,7 +63,8 @@ For games on Steam, they are located in your `~/.steam/root/steamapps/compatdata
 
 ![Delete Proton Prefix|382x341, 75%](../img/Steam_Delete_Prefix.png)
 
-> **Note**: Save files are located in the prefix, so backup the save file in there before deleting especially if the game does not support cloud saving.
+!!! attention
+    Save files are located in the prefix, so backup the save file in there before deleting especially if the game does not support cloud saving.
 
 1. Steam allows users to delete and reset their prefix only in Big Picture Mode (and Gaming Mode) by going into the game's "Developer" settings (accessed with the 'cog' / game settings icon)
 2. Select **Delete Proton files**
