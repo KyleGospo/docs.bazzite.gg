@@ -27,7 +27,8 @@ systemctl start hhd@yourusername
 systemctl enable hhd@yourusername
 ```
 
-> **Note**: Replace `yourusername` with your Bazzite username.
+!!! important
+    Replace `yourusername` with your Bazzite username.
 
 <hr>
 
