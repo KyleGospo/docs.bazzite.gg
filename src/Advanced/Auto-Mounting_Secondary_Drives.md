@@ -75,7 +75,9 @@ The drive will now be mounted in a directory known as `games`.
 sudo chown $USER:$USER /var/mnt/games
 ```
 
-> **Note**: If you plan to reformat the partition, remember to edit the mount point and "Remove" the mount path before you reformat! If not you will have to manually edit `/etc/fstab`.
+!!! note
+    
+    If you plan to reformat the partition, remember to edit the mount point and "Remove" the mount path before you reformat! If not you will have to manually edit `/etc/fstab`.
 
 ## Graphical User Interface (GUI) Methods for Auto-Mounting
 
