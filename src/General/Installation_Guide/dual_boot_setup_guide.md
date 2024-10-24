@@ -11,7 +11,9 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2743", "fetched_at": "2024-09-03 16:43:23.309649+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-> **Note**: Make sure to read the [**Installation Guide**](./index.md) for your device first before proceeding.
+!!! note
+    
+    Make sure to read the [**Installation Guide**](./index.md) for your device first before proceeding.
 
 ## Two Methods: Method _A_ or Method _B_
 
