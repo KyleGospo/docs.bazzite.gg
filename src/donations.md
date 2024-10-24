@@ -4,7 +4,7 @@ title: Donations & Credits
 
 ## Bazzite Maintainers and Contributors
 
-Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.
+Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  This list contains members who have contributed heavily to Universal Blue and/or Bazzite since 2021.
 
 ### Universal Blue
 - [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
