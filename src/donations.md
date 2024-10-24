@@ -104,6 +104,8 @@ Similar projects that share resources with us.
 ### Community 
 - [**View the full contributors list on Github**](https://github.com/ublue-os/bazzite/graphs/contributors)
 
->**See also**: [Special Thanks](https://github.com/ublue-os/bazzite/blob/main/README.md#special-thanks)
+<hr>
+
+**See also**: [Special Thanks](https://github.com/ublue-os/bazzite/blob/main/README.md#special-thanks)
 
 
