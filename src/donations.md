@@ -22,6 +22,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Alex Díaz**](https://github.com/akdev1l)
 - [**gerblesh**](https://github.com/gerblesh)
 - [**bobslept**](https://github.com/bobslept)
+- [**Niklas Haiden**](https://github.com/NiHaiden)
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
 - [**Marco Ceppi**](https://github.com/marcoceppi)
 - [**Adam Israel**](https://github.com/AdamIsrael)
