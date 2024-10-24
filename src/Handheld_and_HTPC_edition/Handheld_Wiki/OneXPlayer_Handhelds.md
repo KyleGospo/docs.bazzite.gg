@@ -32,8 +32,8 @@ ujust install-hhd-controller-glyph-theme
 
 ### Workarounds / Known Issues
 - Fan curves do not work
-- Battery capacity limits
-- Vibration intensity
+- Battery capacity limits do not work
+- Vibration intensity does not work
 
 
 <hr>
