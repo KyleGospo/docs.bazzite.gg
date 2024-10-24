@@ -67,7 +67,9 @@ defaults,noatime,errors=remount-ro,nofail,rw,users,exec
 defaults,noatime,nofail,rw,users,exec
 ```
 
-> **Note**: Do not use the NTFS filesystem for game library storage in Bazzite, and it is not supported and you will get lots of issues with it. NTFS is **not** intended as a game drive for Bazzite.
+!!! note
+    
+    Do not use the NTFS filesystem for game library storage in Bazzite, and it is not supported and you will get lots of issues with it. NTFS is **not** intended as a game drive for Bazzite.
 
 ### Permissions for the drive
 
@@ -77,7 +79,9 @@ sudo chown $USER:$USER /mnt/games
 
 #### Advanced Options (Not required for most setups)
 
-> Change at your own risk!
+!!! warning
+
+    Change at your own risk!
 
 #### Information about compression:
 
