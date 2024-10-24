@@ -20,7 +20,9 @@ tags:
   
     MicroSD cards automatically mount without any manual intervention required on Bazzite.
 
-**Important**: Do **not** use the NTFS, exFAT, or FAT32 filesystems for game library storage.
+!!! important
+    
+    Do **not** use the NTFS, exFAT, or FAT32 filesystems for game library storage.
 
 Follow this guide **at your own discretion** and make sure to read the entire document relevant to your method, so you do not miss anything!
 
@@ -40,7 +42,9 @@ Use a disk graphical user interface like KDE Plasma or GNOME Disks to format you
 
 ### Creating a secondary drive directory and where to mount drives?
 
-> **Note**: Drive directories should be **lowercase** with **no spaces** for best practice.
+!!! note
+    
+    Drive directories should be **lowercase** with **no spaces** for best practice.
 
 !!! attention 
     
@@ -61,7 +65,9 @@ sudo mkdir /var/mnt/games
 
 The drive will now be mounted in a directory known as `games`.
 
-> **Note**: `games` can be named anything you desire that fits best practices.
+!!! note
+     
+     The `games` directory can be named anything you desire that fits best practices.
 
 #### Permissions for the drive
 
