@@ -148,7 +148,9 @@ We provide several different images that all get the same additions and fixes th
 
 ## Is Secure Boot supported?
 
-> **WARNING (Steam Deck hardware only):** The Steam Deck does not come with secure boot enabled and does not ship with any keys enrolled by default, so do not enable this on Steam Deck hardware unless you absolutely know what you're doing!
+!!! warning
+    
+    The Steam Deck does not come with secure boot enabled and does not ship with any keys enrolled by default, so do not enable this on Steam Deck hardware unless you absolutely know what you're doing! (Steam Deck hardware only)
 
 **Yes**, but you will have to enroll our key.  More information on enrolling the key in our [Secure Boot guide](https://universal-blue.discourse.group/docs?topic=2742).
 
