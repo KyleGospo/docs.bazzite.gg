@@ -45,7 +45,9 @@ Also a Display Name should be added to the drive too. Name it whatever you want 
 Use the below generic options depending on your filesystem (these are just good defaults)
 You can copy+paste these into the "More.." dialog and they will be valid
 
-> **Note**: "Users can mount and unmount" is an **optional** setting.
+!!! note
+    
+    "Users can mount and unmount" is an **optional** setting.
 
 ### Filesystem arguments
 
@@ -55,7 +57,7 @@ You can copy+paste these into the "More.." dialog and they will be valid
 
 ![btrfs example|290x317](../img/btrfs_example.png)
 
-> **Example: btrfs requires these additional options.**
+**Example: btrfs requires these additional options.**
 
 #### **BTRFS**:
 
@@ -75,11 +77,15 @@ defaults,noatime,errors=remount-ro,nofail,rw,users,exec
 defaults,noatime,nofail,rw,users,exec
 ```
 
-> **Note**: Do not use the NTFS filesystem for game library storage in Bazzite, and it is not supported and you will get lots of issues with it. NTFS is **not** intended as a game drive for Bazzite.
+!!! note
+    
+    Do not use the NTFS filesystem for game library storage in Bazzite, and it is not supported and you will get lots of issues with it. NTFS is **not** intended as a game drive for Bazzite.
 
 ### Advanced Options (Not required for most setups)
 
-> Change at your own risk!
+!!! warning
+    
+    Change at your own risk!
 
 #### Information about compression:
 
