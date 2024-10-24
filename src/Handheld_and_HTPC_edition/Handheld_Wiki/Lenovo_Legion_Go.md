@@ -51,6 +51,8 @@ Read the [tutorial](/Handheld_and_HTPC_edition/update-bios-lenovo-legion-go.md) 
 
 ### BIOS update breaks Secure Boot key
 
+![secure-boot|603x500, 100%](../../img/secure-boot.png)
+
 Read our [Secure Boot guide](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
 
 ### Changing the resolution in Desktop Mode or connecting an external monitor has dire consequences!
