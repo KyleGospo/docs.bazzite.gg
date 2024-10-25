@@ -16,11 +16,17 @@ A generic error may appear during installation.
 **Workaround Video Tutorial**:
 https://www.youtube.com/watch?v=GRdz08hJByo
 
-### Device is Active Error
+### "Device is Active" Error
 
 **Watch this video for a workaround**:
 
 https://www.youtube.com/watch?v=FBGLLkIKp-w
+
+### "Error checking storage configuration"
+
+**Watch this video for a workaround**:
+
+https://www.youtube.com/watch?v=VTnm9EiBdPA
 
 ## Worst Case Scenario: Alternative Installation Method
 
