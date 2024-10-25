@@ -1,5 +1,6 @@
 ---
 authors:
+  - "@zetarancio"
   - "@nicknamenamenick"
   - "@aarron-lee"
 ---
