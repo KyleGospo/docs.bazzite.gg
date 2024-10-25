@@ -18,4 +18,6 @@
 
 >## [:elephant: Mastodon](https://fosstodon.org/@UniversalBlue)
 
+>## [🦋 Bluesky](https://bsky.app/profile/bazzite.bsky.social)
+
 >## [:joystick: Steam Group](https://steamcommunity.com/groups/Bazzite)
