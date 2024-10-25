@@ -65,11 +65,11 @@ While it will work out of the box, if you are on kernel 6.10.10, you will notice
 - Your cursor seems to be missing. Motion your touchpad to the left, it will appear. If you wish to remain on gts or stable, you can simply disable the ghost display.
 
 **Ghost display:**
-![ghost|690x477](../../img/ghost.jpeg)
+![ghost|690x477](../../img/ghost.png)
 
 
 **Disabled ghost display:**
-![no-ghost|690x477](../../img/no-ghost.jpeg)
+![no-ghost|690x477](../../img/no-ghost.png)
 
 
 - If you are on Framework Laptop 13 (Intel® Core™ Ultra Series 1) and wish to get the best experience with VRR and avoiding the ghost display, open a terminal and run `ujust --choose` then select` rebase-helper`.
