@@ -14,10 +14,12 @@
 
 >## [:thread: Discord Archive](https://www.answeroverflow.com/c/1072614816579063828/1143023993041993769)
 
->## [ :alien: Reddit](https://www.reddit.com/r/bazzite)
+>## [:alien: Reddit](https://www.reddit.com/r/bazzite)
 
 >## [:elephant: Mastodon](https://fosstodon.org/@UniversalBlue)
 
 >## [🦋 Bluesky](https://bsky.app/profile/bazzite.bsky.social)
+
+>## [❌ X/Twitter](https://x.com/bazzite_gg)
 
 >## [:joystick: Steam Group](https://steamcommunity.com/groups/Bazzite)
