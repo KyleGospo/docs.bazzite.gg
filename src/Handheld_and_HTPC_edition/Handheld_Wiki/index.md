@@ -2,7 +2,6 @@
 title: Handheld Wiki
 authors:
   - "@nicknamenamenick"
-  - "@zetarancio"
   - "@aarron-lee"
   - "@antheas"
   - "@wolfyreload"
