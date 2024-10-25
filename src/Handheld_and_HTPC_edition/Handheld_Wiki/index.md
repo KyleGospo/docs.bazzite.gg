@@ -48,7 +48,7 @@ Bazzite takes a similar approach to [ProtonDB’s medal system](https://www.prot
 
 # HHD Setup
 
-! attention
+!!! attention
     
     HHD is intended and functional for handhelds that are **not** the Steam Deck.
 
@@ -86,7 +86,9 @@ Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an 
 
 ## eGPU Support
 
-> eGPU is **not** a fully supported feature and has many caveats.
+!!! warning
+    
+    eGPU is **not** a fully supported feature and has many caveats.
 
 ### Caveats:
 
