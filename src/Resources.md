@@ -8,9 +8,9 @@
 
 >## [📰 Newsletters & Dev Diaries](https://universal-blue.discourse.group/t/bazzite-newsletters/2252)
 
->## [🗨️ Forums](https://universal-blue.discourse.group/c/bazzite/5)
+>## [🗨 Forums](https://universal-blue.discourse.group/c/bazzite/5)
 
->## [💬 Discord](https://discord.gg/WEu6BdFEtp)
+>## [🗣️ Discord](https://discord.gg/WEu6BdFEtp)
 
 >## [🧵 Discord Archive](https://www.answeroverflow.com/c/1072614816579063828/1143023993041993769)
 
