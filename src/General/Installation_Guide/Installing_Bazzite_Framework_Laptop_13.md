@@ -55,3 +55,27 @@ Download the Framework Laptop image of [Bazzite](https://bazzite.gg/). Make sure
 ![12|690x432](../../img/Installing_Framework_12.jpeg)
 
 ![13|690x388](../../img/Installing_Framework_13.jpeg)
+
+----------
+
+**An additional note on Framework Laptop 13 (Intel® Core™ Ultra Series 1)**
+
+While it will work out of the box, if you are on kernel 6.10.10, you will notice two things:
+
+- Your cursor seems to be missing. Motion your touchpad to the left, it will appear. If you wish to remain on gts or stable, you can simply disable the ghost display.
+
+**Ghost display:**
+![ghost|690x477](upload://gBn2bSDbC4dqcfJ4qY10ZjRbJ5E.png)
+
+
+**Disabled ghost display:**
+![no-ghost|690x477](upload://r4QsHSrTA8DogCisLSxezYKPuQA.png)
+
+
+- If you are on Framework Laptop 13 (Intel® Core™ Ultra Series 1) and wish to get the best experience with VRR and avoiding the ghost display, open a terminal and run `ujust --choose` then select` rebase-helper`.
+
+- Select `rebase` and then arrow down to `latest`. Let the rebase happen.
+
+- `systemctl reboot` when complete. This is going to get you onto a newer kernel that is going to play better with the 2.8k display.
+
+- If you wish to enable GNOME VRR, `ujust --choose`, select `toggle-gnome-vrr`, select `enable` and when complete you can log off and log back in. Go to Settings, Displays, you will see it available under Refresh Rate.
