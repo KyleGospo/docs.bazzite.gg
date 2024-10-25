@@ -13,7 +13,7 @@ authors:
 
 A generic error may appear during installation.
 
-**Workaround Video Tutorial**:
+**Watch this video for a workaround**:
 https://www.youtube.com/watch?v=GRdz08hJByo
 
 ### "Device is Active" Error
@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=VTnm9EiBdPA
 
 !!! attention 
 
-    The workaround method may have scaling issues with the installer depending on the hardware especially if it is a handheld PC.
+    This method may have scaling issues with the installer depending on the hardware especially if it is a handheld PC.
 
 The workaround below is also useful for **downloading a smaller ISO size**.
 
