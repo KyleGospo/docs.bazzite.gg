@@ -48,7 +48,9 @@ Bazzite takes a similar approach to [ProtonDB’s medal system](https://www.prot
 
 # HHD Setup
 
-> HHD is intended and functional for handhelds that are **not** the Steam Deck.
+! attention
+    
+    HHD is intended and functional for handhelds that are **not** the Steam Deck.
 
 **Read the [HHD README](https://github.com/hhd-dev/hhd/blob/master/readme.md) for more information.**
 
@@ -56,7 +58,9 @@ Bazzite takes a similar approach to [ProtonDB’s medal system](https://www.prot
 
 2. Select the controller emulation and RGB color you want
 
-> **Note**: Gyro functionality **requires** DualSense emulation
+!!! note
+    
+    Gyro functionality **requires** DualSense emulation
 
 ## Decky Setup
 
