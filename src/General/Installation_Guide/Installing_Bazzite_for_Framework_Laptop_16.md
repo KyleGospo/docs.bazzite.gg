@@ -1,6 +1,6 @@
 ---
 authors:
-  -"@ctsdownloads"
+  - "@ctsdownloads"
 ---
 
 <!-- ANCHOR: METADATA -->
