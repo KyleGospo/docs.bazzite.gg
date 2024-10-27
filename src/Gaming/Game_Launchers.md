@@ -74,9 +74,9 @@ However if your game is not listed or doesn't work with the provided script, the
 
 Right clicking a game on Lutris gives the option to add it as a non-Steam game (useful for Steam Gaming Mode), create a desktop shortcut, or an application menu shortcut.
 
-### Heroic Setup
+### Heroic Games Launcher Setup
 
-Heroic is recommended for games that were purchased from Epic Games Launcher, GOG, and Amazon Games Launcher.
+Heroic Games Launcher is recommended for games that were purchased from Epic Games Launcher, GOG, and Amazon Games Launcher.
 ![Heroic|421x447, 75%](../img/checks.png)
 
 Make sure "**Apply known fixes automatically**" and "**Use UMU as Proton runtime**" are both checked in the settings.
