@@ -33,11 +33,6 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 - Adjust RGB with Steam Gaming Mode in Handheld Daemon
 - Adjust the scaling of the UI in the Display Settings
 - Set a charge limit in HHD with Handheld Daemon
-- Install Decky + the [CSS Loader plugin](https://deckthemes.com/download/deck) and then in Desktop Mode, open the "Terminal" application and enter:
-
-```
-ujust install-hhd-controller-glyph-theme
-```
 
 ## Workarounds / Known Issues
 - Changing A/C power sometimes leads to a stuck TDP.
