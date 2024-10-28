@@ -31,7 +31,9 @@ ujust configure-grub
 
 Select the "**unhide**" opiton to have GRUB appear on boot.
 
-> Controls may vary with different handheld or HTPC navigate the menu and an external physical keyboard may be needed.
+!!! note
+    
+    Controls may vary with different handheld or HTPC navigate the menu and an external physical keyboard may be needed.
 
 ## How do I save my **current** deployment?
 
