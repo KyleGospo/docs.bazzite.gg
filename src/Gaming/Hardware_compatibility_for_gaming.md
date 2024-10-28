@@ -80,7 +80,7 @@ Any secondary drives that you plan to play video games on should be **backed up 
 
 You can use KDE Partition Manager (KDE images) or GNOME Disks (GNOME images) to format the drives appropriately **at your own risk**.
 
-There is a [guide](https://github.com/ValveSoftware/Proton/wiki/Using-a-NTFS-disk-with-Linux-and-Windows) for using Proton with NTFS drive, but issues may occur with this setup.
+>There is a [**guide**](https://github.com/ValveSoftware/Proton/wiki/Using-a-NTFS-disk-with-Linux-and-Windows) for using Proton with NTFS drive, but issues may occur with this setup.
 
 ### exFAT and FAT32
 
