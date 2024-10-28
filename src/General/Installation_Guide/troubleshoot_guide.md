@@ -7,7 +7,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2495", "fetched_at": "2024-09-03 16:43:22.238775+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## ISO Workarounds
+## Error Workarounds
 
 ### Error Code 1
 
@@ -27,6 +27,14 @@ https://www.youtube.com/watch?v=FBGLLkIKp-w
 **Watch this video for a workaround**:
 
 https://www.youtube.com/watch?v=VTnm9EiBdPA
+
+### "Bad shim signature, you need to load the kernel first" error
+
+**Watch this video for a workaround**:
+
+https://www.youtube.com/watch?v=Z_DsWqTuipU
+
+>**See also**: [Secure Boot Guide](https://docs.bazzite.gg/General/Installation_Guide/secure_boot/)
 
 ## Worst Case Scenario: Alternative Installation Method
 
