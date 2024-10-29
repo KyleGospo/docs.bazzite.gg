@@ -50,8 +50,6 @@ Manage Flatpaks with [Flatseal](https://github.com/tchx84/Flatseal) and [Warehou
 
 ### Flatseal
 
-![Flatseal|690x376](../img/Flatseal.png)
-
 **Flatseal** is for changing [application permissions](https://github.com/tchx84/Flatseal/blob/92e675e5ad2129f2aabf324261570eef442494f6/DOCUMENTATION.md) if necessary.
 
 Alternatively, use KDE Plasma's system settings which has application permissions to adjust as well on KDE Plasma images.
@@ -59,8 +57,6 @@ Alternatively, use KDE Plasma's system settings which has application permission
 Sometimes a project's website or [Github repository](<https://github.com/flathub/com.discordapp.Discord/wiki/Rich-Precense-(discord-rpc)#flatpak-applications>) contain information on what permissions need to be changed to perform certain functionality.
 
 ### Warehouse
-
-![Warehouse|690x376](../img/Warehouse.png)
 
 **Warehouse** is a utility that gives users a graphical interface to downgrade applications, add other Flatpak sources outside of Flathub, and backup application user data. Its also a helpful tool for installing Flatpaks outside of Flathub, **at your own risk**.
 
