@@ -35,24 +35,18 @@ outputs:
 runs:
   using: composite
   steps:
-    - uses: actions/setup-python@v5
-      with:
-        python-version: "3.12"
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
 
-    - name: Install Poetry
-      uses: abatilo/actions-poetry@v2
-
-    - name: Configure Poetry
+    - name: Configure uv
       working-directory: ${{ inputs.working_dir }}
       shell: bash
-      run: |
-        poetry config virtualenvs.create true --local
-        poetry config virtualenvs.in-project true --local
+      run: uv python install
 
-    - name: Poetry install deps
+    - name: uv install deps
       shell: bash
       working-directory: ${{ inputs.working_dir }}
-      run: poetry install
+      run: uv sync --all-extras --dev
 
     - name: Build book
       shell: bash
