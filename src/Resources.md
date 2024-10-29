@@ -16,7 +16,7 @@
 
 >## [🐘 Mastodon](https://fosstodon.org/@UniversalBlue)
 
->## [🦋 Bluesky](https://bsky.app/profile/bazzite.bsky.social)
+>## [🦋 Bluesky](https://bsky.app/profile/bazzite.gg)
 
 >## [❌ X/Twitter](https://x.com/bazzite_gg)
 
