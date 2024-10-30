@@ -25,6 +25,12 @@ Open a host terminal and **enter**:
 bazzite-rollback-helper
 ```
 
+There is also an **alias** which is less typing for those on handhelds or HTPC setups without a keyboard:
+
+```command
+brh
+```
+
 ### Options Available:
 
 - `list` = List images from the last 90 days that can rebased to.
