@@ -17,7 +17,7 @@
 			]
 		}
 	},
-	"onCreateCommand": "sudo apt-get update -y && sudo apt install -y libcairo2 && ./utils/install-deps.sh"
+	"onCreateCommand": "sudo apt-get update -y && sudo apt install -y libcairo2 && sudo apt clean -y && ./utils/install-deps.sh"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
