@@ -13,7 +13,8 @@
 				"-ms-python.autopep8",
 				"ms-python.black-formatter",
 				"donjayamanne.python-environment-manager",
-				"njpwerner.autodocstring"
+				"njpwerner.autodocstring",
+				"GitHub.vscode-pull-request-github"
 			]
 		}
 	},
