@@ -24,6 +24,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**bobslept**](https://github.com/bobslept)
 - [**Niklas Haiden**](https://github.com/NiHaiden)
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
+- [**Justin Garrison**](https://github.com/rothgar)
 - [**Marco Ceppi**](https://github.com/marcoceppi)
 - [**Adam Israel**](https://github.com/AdamIsrael)
 - [**Cassidy James Blaede**](https://github.com/cassidyjames) ([**Sponsor**](https://github.com/sponsors/cassidyjames))
@@ -51,9 +52,9 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**termdisc**](https://github.com/termdisc)
 - [**Nathaniel Warburton**](https://github.com/storyaddict)
 
-## Fedora
+## Fedora Project
 
-Fedora does not take monetary donations, but values hardware donations and contributions to the project.
+The Fedora Project does not take monetary donations, but values hardware donations and contributions to the project.
 
 - [**Donating Hardware**](https://fedoraproject.org/wiki/Donations)
 - [**Contributing**](https://fedoraproject.org/wiki/Contribute)
