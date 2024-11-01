@@ -8,8 +8,8 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 
 ### Universal Blue
 - [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
-- [**RJ Trujillo**](https://github.com/EyeCantCU)
 - [**Jorge Castro**](https://github.com/castrojo) ([**Sponsor**](https://github.com/sponsors/castrojo/))
+- [**RJ Trujillo**](https://github.com/EyeCantCU)
 - [**HikariKnight**](https://github.com/HikariKnight) ([**Sponsor**](https://github.com/sponsors/HikariKnight))
 - [**Noel Miller**](https://github.com/noelmiller) ([**Sponsor**](https://github.com/sponsors/noelmiller))
 - [**Benjamin Sherman**](https://github.com/bsherman)
