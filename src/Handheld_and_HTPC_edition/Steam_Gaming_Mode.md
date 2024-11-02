@@ -223,6 +223,8 @@ Select the GPU to use for Steam Gaming Mode.
 7. Go back into the Steam Gaming Mode settings
 8. Under the "Valve Internal" section towards the back of the settings, check "**Show display scaling settings for Internal Display**" under "Display"
 
+Once it works to your liking, it is recommended to disable Developer Mode to avoid accidentally breaking your installation with other experimental settings.  The internal scaling setting will continue to work properly after disabling Developer Mode.
+
 >[**Read the original source**](https://github.com/aarron-lee/gpd-win-tricks?tab=readme-ov-file#how-to-change-display-scaling-on-internal-display).
 
 ### "Something went wrong while displaying this content" Error
