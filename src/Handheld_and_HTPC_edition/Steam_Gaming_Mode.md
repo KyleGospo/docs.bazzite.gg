@@ -3,6 +3,7 @@ authors:
   - "@nicknamenamenick"
   - "@HikariKnight"
   - "@AkazaRenn"
+  - @"snipem"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -207,17 +208,22 @@ export-gpu
 
 Select the GPU to use for Steam Gaming Mode.
 
-### How do I enable UI scaling, if not available?
+### How do I enable UI scaling in Steam Gaming Mode? (If not available)
 
-1. Install Decky Loader
-2. Go into Decky Settings
-3. Go to "Developer" and check "Enable Valve Internal"
-4. Go into Settings of Gaming Mode
-5. Go to "System" and check "Enable Developer Mode"
-6. Be extra careful from here, since checking the wrong settings could render your setup unusable
-7. Go back to the Settings of Gaming Mode
-8. Go to "Valve Internal" at the back of the settings
-9. Check "Show display scaling settings for Internal Display" under "Display"
+!!! warning
+
+    Follow the instructions properly and do not mess with any other Valve internal settings since it can break your installation of Bazzite and Steam!
+
+1. Install Decky Loader with the [`ujust` command](https://docs.bazzite.gg/Installing_and_Managing_Software/ujust/)
+2. Go into Decky's settings
+3. Under the "Developer" category, check "**Enable Valve Internal**"
+4. Go into the Steam Gaming Mode settings
+5. Under "System" make sure to check "**Enable Developer Mode**"
+6. **Be extra careful from here**, since checking the wrong settings could **render your setup unusable**
+7. Go back into the Steam Gaming Mode settings
+8. Under the "Valve Internal" section towards the back of the settings, check "**Show display scaling settings for Internal Display**" under "Display"
+
+>[**Read the original source**](https://github.com/aarron-lee/gpd-win-tricks?tab=readme-ov-file#how-to-change-display-scaling-on-internal-display).
 
 ### "Something went wrong while displaying this content" Error
 
