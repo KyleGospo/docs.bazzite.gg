@@ -207,6 +207,18 @@ export-gpu
 
 Select the GPU to use for Steam Gaming Mode.
 
+### How do I enable UI scaling, if not available?
+
+1. Install Decky Loader
+2. Go into Decky Settings
+3. Go to "Developer" and check "Enable Valve Internal"
+4. Go into Settings of Gaming Mode
+5. Go to "System" and check "Enable Developer Mode"
+6. Be extra careful from here, since checking the wrong settings could render your setup unusable
+7. Go back to the Settings of Gaming Mode
+8. Go to "Valve Internal" at the back of the settings
+9. Check "Show display scaling settings for Internal Display" under "Display"
+
 ### "Something went wrong while displaying this content" Error
 
 This is most likely due to a broken Decky Loader plugin you have installed. Uninstall the broken plugin. Specific CSS Loader themes can also cause this issue.
