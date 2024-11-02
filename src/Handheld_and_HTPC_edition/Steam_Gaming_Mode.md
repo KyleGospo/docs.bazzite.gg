@@ -3,7 +3,7 @@ authors:
   - "@nicknamenamenick"
   - "@HikariKnight"
   - "@AkazaRenn"
-  - @"snipem"
+  - "@snipem"
 ---
 
 <!-- ANCHOR: METADATA -->
