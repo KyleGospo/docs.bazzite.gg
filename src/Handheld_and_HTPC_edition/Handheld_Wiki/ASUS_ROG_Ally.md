@@ -11,6 +11,10 @@ authors:
 
 ![ally|603x500, 100%](../../img/ally.png)
 
+!!! disclaimer
+
+    This wiki may contain outdated information.
+
 **Status**: Gold
 
 ## Installing Bazzite
