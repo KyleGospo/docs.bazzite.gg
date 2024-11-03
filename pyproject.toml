@@ -1,24 +1,21 @@
-[tool.poetry]
-name = "bazzite-docs"
+[project]
+name = "docs-bazzite-gg"
 version = "0.1.0"
-description = ""
-authors = ["Zeglius <33781398+Zeglius@users.noreply.github.com>"]
+description = "Add your description here"
 readme = "README.md"
-package-mode = false
+requires-python = ">=3.12"
+dependencies = [
+    "bs4>=0.0.2",
+    "mdx-truly-sane-lists>=1.3",
+    "mkdocs>=1.6.1",
+    "mkdocs-glightbox>=0.4.0",
+    "mkdocs-material[imaging]>=9.5.42",
+    "requests>=2.32.3",
+    "bazzite-docs-ext",
+    "mkdocs-static-i18n>=1.2.3",
+    "mkdocs-git-revision-date-localized-plugin>=1.3.0",
+    "mkdocs-git-committers-plugin-2>=2.4.1",
+]
 
-[tool.poetry.dependencies]
-python = "^3.12"
-mkdocs = "^1.6.0"
-requests = "^2.32.3"
-mkdocs-material = {extras = ["imaging"], version = "^9.5.33"}
-mkdocs-static-i18n = {extras = ["material"], version = "^1.2.3"}
-mdx-truly-sane-lists = "^1.3"
-mkdocs-git-revision-date-localized-plugin = "^1.2.7"
-mkdocs-git-committers-plugin-2 = "^2.3.0"
-bs4 = "^0.0.2"
-mkdocs-glightbox = "^0.4.0"
-bazzite-docs-ext = {path = "plugins", develop = true}
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv.sources]
+bazzite-docs-ext = { path = "plugins", editable = true }

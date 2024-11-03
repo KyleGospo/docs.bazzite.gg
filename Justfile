@@ -12,7 +12,7 @@ install_dependencies:
 
 mkdocs +ARGS="":
     rm -rf {{ MKDOCS_DIR }}/.cache/cmdrun
-    poetry run mkdocs {{ ARGS }}
+    uv run mkdocs {{ ARGS }}
 
 mkdocs_clean:
     rm -rf {{ MKDOCS_DIR }}/.cache

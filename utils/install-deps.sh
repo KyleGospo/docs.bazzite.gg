@@ -4,34 +4,27 @@ REPO_DIR="$(git rev-parse --show-toplevel)"
 
 function echod() { echo "[DEBUG]: $*"; }
 
+brew_installs=(
+    uv
+    just
+    prettier
+    rg
+)
+
 if ! command -v brew >/dev/null; then
     echod "This script needs 'brew' to run"
     exit 1
 fi
-if ! command -v poetry >/dev/null; then
-    echod "Installing Poetry"
-    brew install poetry
-fi
-if ! command -v just >/dev/null; then
-    echod "Installing just"
-    brew install just
-fi
-if ! command -v prettier >/dev/null; then
-    brew install prettier
-fi
-if ! command -v rg >/dev/null; then
-    echod "Installing ripgrep"
-    brew install ripgrep
-fi
 
-# Install poetry project
-echod "Setting up poetry project"
+brew install ${brew_installs[@]}
+
+# Install project
+echod "Setting up python project"
 (
     cd "$REPO_DIR"
-    mkdir -p .venv
-    poetry install
+    uv venv
 ) || {
-    echod "Error setting up poetry project"
+    echod "Error setting up python project"
     exit 1
 }
 echod "Dependencies installed succesfully"
