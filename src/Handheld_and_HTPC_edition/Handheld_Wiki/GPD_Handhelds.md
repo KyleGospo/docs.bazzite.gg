@@ -7,6 +7,11 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2418", "fetched_at": "2024-09-03 16:43:21.260488+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
+
+!!! disclaimer
+
+    This wiki may contain outdated information.
+
 ## GPD Win 4
 
 ![gpdwin4|690x328, 100%](../../img/gpdwin4.jpeg)
