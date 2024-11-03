@@ -7,6 +7,11 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2416", "fetched_at": "2024-09-03 16:43:21.928758+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
+
+!!! disclaimer
+
+    This wiki may contain outdated information.
+
 ## Ayn Loki Max
 
 ![Loki Max|375x500, 100%](../../img/Loki_Max.jpeg)
