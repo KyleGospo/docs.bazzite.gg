@@ -7,13 +7,14 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2414", "fetched_at": "2024-09-03 16:43:21.670173+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-# ASUS ROG Ally / ASUS ROG Ally X
-
-![ally|603x500, 100%](../../img/ally.png)
 
 !!! disclaimer
 
     This wiki may contain outdated information.
+
+# ASUS ROG Ally / ASUS ROG Ally X
+
+![ally|603x500, 100%](../../img/ally.png)
 
 **Status**: Gold
 
