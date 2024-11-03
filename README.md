@@ -68,7 +68,7 @@ bash utils/install-deps.sh
 <sup>Ignore if using install-deps.sh</sup>
 </summary>
 
-- [Poetry](https://python-poetry.org/) (can be installed with Homebrew)
+- [uv](https://docs.astral.sh/uv/) (can be installed with Homebrew)
 - [Just](https://just.systems/man/en/) (preinstalled in all [Universal Blue](https://universal-blue.org/) images)
 
 </details>
