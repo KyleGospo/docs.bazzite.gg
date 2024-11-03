@@ -37,6 +37,9 @@ runs:
   steps:
     - name: Install uv
       uses: astral-sh/setup-uv@v3
+      with:
+        enable-cache: true
+        cache-dependency-glob: "uv.lock"
 
     - name: Configure uv
       working-directory: ${{ inputs.working_dir }}
