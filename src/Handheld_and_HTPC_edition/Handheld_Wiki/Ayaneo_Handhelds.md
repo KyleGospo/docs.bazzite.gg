@@ -9,6 +9,11 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2417", "fetched_at": "2024-09-03 16:43:20.646543+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
+
+!!! disclaimer
+
+    This wiki may contain outdated information.
+
 # Ayaneo Geek 1S
 
 ![photo_5875160389711413569_y|663x500, 100%](../../img/Ayaneo_Geek_1S.jpeg)
