@@ -11,7 +11,7 @@ authors:
 
 !!! attention
 
-    It is recommended to have at least 30GB of free space left on the the drive that Bazzite is installed to avoid issues updating your system.
+    It is required to have **3% free storage of your total drive that Bazzite is installed on** to update properly.
 
 ## How do updates work?
 
