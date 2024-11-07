@@ -60,6 +60,6 @@ Linux gaming being a viable competitor to Windows is a relatively new paradigm. 
 
 <hr>
 
-**See also**: [Steam Deck Gaming Mode Overview](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
+**See also**: [Steam Gaming Mode Overview](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
 <-- [**View all Bazzite documentation**](../index.md)
