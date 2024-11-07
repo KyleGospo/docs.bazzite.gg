@@ -54,35 +54,6 @@ This documentation may not cover specific areas with the assumption that the use
 - For other handhelds it may require turning on Desktop Controls and configuring it manually.
   - After that it is usually a combination of <kbd>X</kbd> (or equivalent) + one of the specific buttons your handheld has and it may also not be configured for your device out of the box.
 
-### Update and Changelog Inaccuracy
-
-!!! important
-    
-    Updates will also look for and upgrade Linux applications like installed [Flatpaks](/Installing_and_Managing_Software/Flatpak.md).
-
-#### Steam Gaming Mode
-
-The update indicator is not accurate and will most likely look it's stuck at "99%" for a long time. This is due to the update component not containing a live progress indicator, so it cannot hook into Steam Gaming Mode properly. After a while, the update progress bar will appear done and ask for a reboot.
-
-#### Desktop Mode
-
-In Desktop Mode, run our _System Update_ tool for an accurate update visual if you are unsure if your system has actually updated properly in Gaming Mode. When the update has finished, it will output what has completed successfully. Alternatively, open a host terminal and **enter**:
-
-```command
-ujust update
-```
-
-#### Changelog
-
-The changelog is specifically for SteamOS by Valve, so the upgrade for Bazzite may not apply.
-View the [news section on our website](https://universal-blue.discourse.group/tag/announcements) for recent changes.
-
-You can also view recent changelogs in the terminal by **entering**:
-
-```
-ujust changelogs
-```
-
 ### How do I access GRUB?
 
 [GRUB](https://www.gnu.org/software/grub/manual/grub/grub.html#Overview) used to be hidden by default, but new Bazzite installations now show it on boot.
