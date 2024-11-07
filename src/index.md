@@ -4,10 +4,6 @@ hide:
   - navigation
 ---
 
-!!! Protip
-
-    Use the search to quickly find the information that you are looking for.
-
 # Getting Started
 
 <div class="grid cards _bz" markdown>
