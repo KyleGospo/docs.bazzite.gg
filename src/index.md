@@ -4,7 +4,7 @@ hide:
   - navigation
 ---
 
-!!! Pro Tip
+!!! Protip
 
     Use the search to quickly find the information that you are looking for.
 
