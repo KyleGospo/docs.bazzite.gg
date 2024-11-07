@@ -23,7 +23,7 @@ Bazzite updates all of the changes made specifically in Bazzite itself, updates 
   - There is a check in-place to only update the image when your CPU, battery, and RAM usage meets certain requirements.
 - Updates will be downloaded in the background and will **apply on the next reboot** and should contain the newest build of Bazzite.
 
-### Handheld/HTPC Images
+### Handheld/HTPC Images (Bazzite-Deck)
 
 - Updates can be managed in Steam Gaming Mode **manually** by the user.
   - Open: **Steam Menu** > **Settings** > **System** > **Check for Updates** > **Apply**
@@ -34,7 +34,7 @@ Bazzite updates all of the changes made specifically in Bazzite itself, updates 
 
 !!! note
     
-    This manual method also works in Desktop Mode on Handheld/HTPC images in Desktop Mode.
+    This manual method also works in Desktop Mode on Bazzite-Deck images in Desktop Mode.
 
 - You can force an update with the System Update tool at your own convenience.
   - Reboot your device after it has finished.
