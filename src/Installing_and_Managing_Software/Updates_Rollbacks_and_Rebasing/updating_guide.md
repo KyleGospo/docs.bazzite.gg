@@ -28,9 +28,7 @@ Bazzite updates all of the changes made specifically in Bazzite itself, updates 
 - Updates can be managed in Steam Gaming Mode **manually** by the user.
   - Open: **Steam Menu** > **Settings** > **System** > **Check for Updates** > **Apply**
     - **Reboot** to apply system upgrades.
-- Updates upgrade system packages, containers and installed applications.
-- The progress indicator and changelogs are not accurate currently.
-  - There's more information about this [here](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md#update-and-changelog-inaccuracy).
+- Updates upgrade system packages, Steam, containers and installed applications when available.
 
 ## How do I update manually on Desktop images?
 
@@ -58,33 +56,15 @@ ujust update
 
 ## How do I view the changelog for each update?
 
-Open a host terminal and enter this **command**:
-
-```
-ujust changelogs
-```
-
-If you want to see what packages were upgraded/downgraded then enter this **command**:
-
-```
-rpm-ostree db diff
-```
-
-If the package update contains a formal changelog:
-
-```
-rpm-ostree db diff --changelogs
-```
-
-Alternatively, you can subscribe to the [RSS feed](https://universal-blue.discourse.group/t/tutorial-subscribing-to-bazzite-news-for-major-update-information/3672) for major announcements regarding the project.
+Changelogs can be found on the [Github repository](https://github.com/ublue-os/bazzite/releases).
 
 ## How often is there a new Bazzite build?
 
-Usually Bazzite is built twice a week which includes the new changes from us, but it can also be built more than this. Updates may happen multiple times a day regardless due to updates from upstream (Universal Blue and Fedora), applications installed, firmware upgrades, and any containers that exist on your system updating their packages.
+Usually Bazzite is built twice a week which includes the new changes from us and from Fedora Linux. Updates may happen multiple times a day regardless due to updates from application updates, firmware upgrades, and any container environments that exist on your system.
 
 ## How does updating to a new Fedora major release work?
 
-Bazzite should automatically update when our new builds based on that new major release are ready, and usually aims for the around the same day when the new Fedora Linux release is out.
+Bazzite should automatically update when our new builds based on that new major release are ready, and usually aims for the around the same day when the new Fedora Linux major release is out.
 
 ## Can I enable update notifications for Desktop images?
 
@@ -103,6 +83,10 @@ Save the file as `/etc/ublue-update/ublue-update.toml`
 Notifications for updates are now active.
 
 ## How do I disable automatic updates for Desktop images?
+
+!!! note
+
+    There is a check in-place to disable automatic updates if the metered connection setting is enabled.
 
 Open a host terminal and enter this **command**:
 ```
