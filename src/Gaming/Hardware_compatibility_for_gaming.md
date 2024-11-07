@@ -57,8 +57,9 @@ vulkaninfo | grep 'Instance Version'
 
 ![Vulkan Command](https://github.com/user-attachments/assets/ccca14ca-3001-4aa6-bf47-e0dcbdb73936)
 
+Try using [Proton-Sarek](https://github.com/pythonlover02/Proton-Sarek) if your have hardware that can utilize Vulkan 1.1 or later.
 
-Using insufficient hardware requires utilizing older Proton versions and use this **launch option for most Steam games**:
+However if your GPU does not support Vulkan at all then you must use an older Proton version (Proton 3, 4, or 5) and use this **launch option for most Steam games**:
 
 ```command
 PROTON_USE_WINED3D=1 %command%
