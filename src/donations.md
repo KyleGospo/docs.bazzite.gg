@@ -52,6 +52,13 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**termdisc**](https://github.com/termdisc)
 - [**Nathaniel Warburton**](https://github.com/storyaddict)
 
+### Early Testers
+
+- [**jerb**](https://github.com/jerbmega)
+- [**bored squirrel**](https://github.com/boredsquirrel)
+- [**weavermarquez**](https://github.com/weavermarquez)
+
+
 ## Fedora Project
 
 The Fedora Project does not take monetary donations, but values hardware donations and contributions to the project.
