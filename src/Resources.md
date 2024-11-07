@@ -4,7 +4,7 @@
 
 >## [✅ Features](https://github.com/ublue-os/bazzite/blob/main/README.md)
 
->## [📢 Bazzite Changelogs](https://github.com/ublue-os/bazzite/releases)
+>## [📢 Changelogs](https://github.com/ublue-os/bazzite/releases)
 
 >## [🗨 Forums](https://universal-blue.discourse.group/c/bazzite/5)
 
