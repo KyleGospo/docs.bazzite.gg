@@ -55,8 +55,8 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 ### Early Testers
 
 - [**jerb**](https://github.com/jerbmega)
-- [**bored squirrel**](https://github.com/boredsquirrel)
-- [**weavermarquez**](https://github.com/weavermarquez)
+- [**boredsquirrel**](https://github.com/boredsquirrel)
+- [**Weaver Marquez**](https://github.com/weavermarquez)
 
 
 ## Fedora Project
