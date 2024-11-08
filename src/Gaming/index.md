@@ -19,7 +19,7 @@ authors:
 
 Linux gaming being a viable competitor to Windows is a relatively new paradigm. Most Windows exclusive games can run on Bazzite using modern hardware. There are still some rough edges, but gaming on Linux does offer advantages on the appropriate hardware such as better frame-times than on Windows.
 
-### [Game Launchers](Game_Launchers.md)
+### [**Game Launchers**](Game_Launchers.md)
 
 - [Setting Up Steam](/Gaming/Game_Launchers.md#steam-setup)
 - [Non-Steam Games](/Gaming/Game_Launchers.md#non-steam-games)
@@ -29,7 +29,7 @@ Linux gaming being a viable competitor to Windows is a relatively new paradigm. 
   - [Gamepass Using Xbox Cloud Gaming](/Gaming/Game_Launchers.md#gamepass-microsoft-store-games-cloud-streaming)
 - [Auto-Mounting Game Drives](/Gaming/Game_Launchers.md#auto-mounting-game-drives)
 
-### [Managing & Modding Games](Managing_and_modding_games.md)
+### [**Managing & Modding Games**](Managing_and_modding_games.md)
 
 - [Compatibility Layers](/Gaming/Managing_and_modding_games.md#compatibility-layers)
 - [Protontricks / Winetricks](/Gaming/Managing_and_modding_games.md#protontricks-winetricks)
@@ -38,13 +38,13 @@ Linux gaming being a viable competitor to Windows is a relatively new paradigm. 
 - [Modding Quick-Start](/Gaming/Managing_and_modding_games.md#modding-quick-start)
 - [Pre-Installed Enhancements](/Gaming/Managing_and_modding_games.md#enhancements-pre-installed-on-bazzite)
 
-### [Common Gaming Issues](Common_gaming_issues.md)
+### [**Common Gaming Issues**](Common_gaming_issues.md)
 
 - [Proton Logs](/Gaming/Common_gaming_issues.md#steam-logs)
 - [Native Linux Builds vs. Proton](/Gaming/Common_gaming_issues.md#native-linux-port-versus-windows-version)
 - [Issues with Valve/Source Games](/Gaming/Common_gaming_issues.md#valvesource-engine-games-problems)
 
-### [Hardware Compatibility for Gaming](Hardware_compatibility_for_gaming.md)
+### [**Hardware Compatibility for Gaming**](Hardware_compatibility_for_gaming.md)
 
 - [Compatible Hardware / Handhelds](/Gaming/Hardware_compatibility_for_gaming.md#minimum-system-requirements)
 - [Vulkan Capable GPU for Desktop/HTPC Hardware](/Gaming/Hardware_compatibility_for_gaming.md#vulkan-compatible-gpu)
