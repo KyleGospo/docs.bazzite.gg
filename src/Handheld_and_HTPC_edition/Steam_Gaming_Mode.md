@@ -106,9 +106,11 @@ You cannot use SteamDeckGyroDSU outside of the Steam Deck, but you can try disab
 
 **Scenarios**:
 
-- Example 1: Keyboard and mouse is not working for this title.
-- Example 2: The game’s launcher for adjusting video settings or adding mods does not launch.
-- Example 3: Certain features/options are not available for Steam Deck.
+*>* **Example 1**: Keyboard and mouse is not working for this title.
+
+*>* **Example 2**: The game’s launcher for adjusting video settings or adding mods does not launch.
+
+*>* **Example 3**: Certain features/options are not available that should be.
 
 Open the game's properties on Steam and **enter this launch option**:
 
