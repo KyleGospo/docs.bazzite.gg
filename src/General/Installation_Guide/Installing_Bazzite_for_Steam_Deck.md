@@ -36,7 +36,9 @@ Read the [Handheld Wiki entry](https://universal-blue.discourse.group/docs?topic
 
 #### Installer Requirements
 
-> **Note**: Bazzite requires a stable internet connection with no bandwidth cap in place.
+!!! note
+    
+    Bazzite requires a stable internet connection with no bandwidth cap in place.
 
 
 - A USB flash drive with 10GB free space
