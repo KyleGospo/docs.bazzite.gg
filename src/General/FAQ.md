@@ -87,10 +87,13 @@ Both types of images also come with the choice of using [KDE Plasma](https://kde
 
 ### Who are the target audiences?
 
-- Desktop users who want an operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance.
-- Steam Deck users who feel limited by SteamOS and also want newer system packages.
-- Home Theater PC setups for a console-like experience.
-- [Handheld PC](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) users who would prefer a SteamOS-like experience.
+*>* Desktop users who want an operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance.
+
+*>* Steam Deck users who feel limited by SteamOS and also want newer system packages.
+
+*>* Home Theater PC setups for a console-like experience.
+
+*>* [Handheld PC](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) users who would prefer a SteamOS-like experience.
 
 ## SteamOS is based on Arch Linux, so why use Fedora Atomic Desktop?
 
