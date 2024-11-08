@@ -63,7 +63,7 @@ hide:
   Run Android applications in a container using [Waydroid](https://waydro.id/)!
 
   - Launch anything from productivity software to games.
-  - Support for the Google Play Store and [F-Droid](https://f-droid.org/).
+  - Support for the [Google Play Store](https://play.google.com/store/games) and [F-Droid](https://f-droid.org/).
 
 - [:fontawesome-solid-handshake: **Contributing**][contrib]{ style="font-size: 1.1rem" }
 
