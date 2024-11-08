@@ -75,7 +75,9 @@ ujust --show <command>
 Alternatively, you can find the `ujust` commands locally in:
 `/usr/share/ublue-os/just`
 
-> This directory also shows **hidden** `ujust` commands.
+!!! note
+    
+    This directory also shows **hidden** `ujust` commands.
 
 ## Uninstalling applications installed through `ujust`
 
