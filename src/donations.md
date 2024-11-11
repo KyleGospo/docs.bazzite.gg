@@ -4,7 +4,7 @@ title: Credits and Donating
 
 ## Bazzite Maintainers and Contributors
 
-Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  This list contains members who have contributed heavily to Universal Blue and/or Bazzite since 2021.
+Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  This list contains members who have contributed heavily to [Universal Blue](https://ublue.it) and/or Bazzite since 2021.
 
 ### Universal Blue
 - [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
@@ -58,10 +58,13 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**boredsquirrel**](https://github.com/boredsquirrel)
 - [**Weaver Marquez**](https://github.com/weavermarquez)
 
+### Community 
+- [**BlueBuild**](https://blue-build.org/)
+- [**Community Contributors**](https://github.com/ublue-os/bazzite/graphs/contributors)
 
 ## Fedora Project
 
-The Fedora Project does not take monetary donations, but values hardware donations and contributions to the project.
+Bazzite would not exist without [Fedora Linux](https://fedoraproject.org/).  The Fedora Project does not take monetary donations, but values hardware donations and contributions to the project.
 
 - [**Donating Hardware**](https://fedoraproject.org/wiki/Donations)
 - [**Contributing**](https://fedoraproject.org/wiki/Contribute)
@@ -101,7 +104,7 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 
 ## Collaborated Projects
 
-Similar projects that share resources with us.
+Similar desktop Linux projects that share resources with us.
 
 - [**ChimeraOS**](https://chimeraos.org/) ([**Support**](https://opencollective.com/chimeraos/donate))
 - [**Ultramarine Linux**](https://ultramarine-linux.org/) ([**Support**](https://github.com/sponsors/FyraLabs))
@@ -110,11 +113,15 @@ Similar projects that share resources with us.
 - [**CachyOS**](https://cachyos.org/) ([**Support**](https://www.patreon.com/CachyOS))
 - [**SteamFork**](https://wiki.steamfork.org/) ([**Contribute**](https://github.com/SteamFork#support))
 
-### Community 
-- [**View the full contributors list on Github**](https://github.com/ublue-os/bazzite/graphs/contributors)
+## Bluefin and Aurora
+
+Check out the other Universal Blue end-user images especially if you want an experience similar to Bazzite on other hardware that you do not intend to game on.
+
+- [**Bluefin**](https://projectbluefin.io/)
+- [**Aurora**](https://getaurora.dev/)
+
+Read about the difference between Bazzite and Bluefin/Aurora on our [**FAQ**](https://docs.bazzite.gg/General/FAQ/#what-is-the-difference-between-bluefin-aurora-and-bazzite).
 
 <hr>
 
 **See also**: [Special Thanks](https://github.com/ublue-os/bazzite/blob/main/README.md#special-thanks)
-
-
