@@ -103,12 +103,12 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 
 Similar projects that share resources with us.
 
-- [**ChimeraOS**](https://opencollective.com/chimeraos/donate)
-- [**Ultramarine Linux**](https://github.com/sponsors/FyraLabs)
-- [**Nobara Project**](https://www.patreon.com/gloriouseggroll)
-- [**Jovian NixOS**](https://github.com/Jovian-Experiments/Jovian-NixOS/blob/development/CONTRIBUTING.md)
-- [**CachyOS**](https://www.patreon.com/CachyOS)
-- [**SteamFork**](https://github.com/SteamFork#support)
+- [**ChimeraOS**](https://chimeraos.org/) ([**Support**](https://opencollective.com/chimeraos/donate))
+- [**Ultramarine Linux**](https://ultramarine-linux.org/) ([**Support**](https://github.com/sponsors/FyraLabs))
+- [**Nobara Project**](https://nobaraproject.org/download-nobara/) ([**Support**](https://www.patreon.com/gloriouseggroll))
+- [**Jovian NixOS**](https://jovian-experiments.github.io/Jovian-NixOS/) ([**Contribute**](https://github.com/Jovian-Experiments/Jovian-NixOS/blob/development/CONTRIBUTING.md))
+- [**CachyOS**](https://cachyos.org/) ([**Support**](https://www.patreon.com/CachyOS))
+- [**SteamFork**](https://wiki.steamfork.org/) ([**Contribute**](https://github.com/SteamFork#support))
 
 ### Community 
 - [**View the full contributors list on Github**](https://github.com/ublue-os/bazzite/graphs/contributors)
