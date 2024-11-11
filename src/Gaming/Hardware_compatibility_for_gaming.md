@@ -8,7 +8,9 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2659", "fetched_at": "2024-09-03 16:43:08.896738+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## Minimum System Requirements
+## General Hardware
+
+### Minimum System Requirements
 
 - **Architecture**: x86_64
 - **Firmware**: UEFI (CSM Support should be **disabled** if available)
@@ -20,7 +22,7 @@ authors:
 - **Additional Notes**: Certain drivers are **not** compatible with Bazzite
   - For example: [A list of compatible USB Wi-Fi adapters](https://github.com/morrownr/USB-WiFi/blob/f3001d8e5b897e5671302cb2faf18954dd34e3d7/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) 
 
-## Steam Gaming Mode Requirements
+### Steam Gaming Mode Requirements
 
 !!! note
     
@@ -36,11 +38,13 @@ authors:
 - Nvidia GPUs are **not** supported
 - [Steam](https://store.steampowered.com/) account
 
-## Compatible Handhelds
+### Compatible Handhelds
 
 The [Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) lists tested handhelds with proper support for the Steam Deck, ASUS ROG Ally, Lenovo Legion Go, and a handful of other handhelds.
 
 ## Vulkan Compatible GPU
+
+### Vulkan Capable Graphics Required
 
 Linux gaming is heavily dependent on having compatible hardware with Vulkan.
 
@@ -57,7 +61,9 @@ vulkaninfo | grep 'Instance Version'
 
 ![Vulkan Command](https://github.com/user-attachments/assets/ccca14ca-3001-4aa6-bf47-e0dcbdb73936)
 
-Try using [Proton-Sarek](https://github.com/pythonlover02/Proton-Sarek) if your have hardware that can utilize Vulkan 1.1 or later.
+Try using [Proton-Sarek](https://github.com/pythonlover02/Proton-Sarek) if your have hardware that can utilize Vulkan 1.1, but not newer Vulkan versions.
+
+### GPUs Without Vulkan Support
 
 However if your GPU does not support Vulkan at all then you must use an older Proton version (Proton 3, 4, or 5) and use this **launch option for most Steam games**:
 
@@ -65,7 +71,11 @@ However if your GPU does not support Vulkan at all then you must use an older Pr
 PROTON_USE_WINED3D=1 %command%
 ```
 
-## Unsupported Filesystems for Secondary Drives
+This will use the OpenGL translation as opposed to Vulkan.
+
+## Storage Filesystems
+
+### Unsupported Filesystems for Secondary Drives
 
 !!! warning 
     
@@ -73,7 +83,7 @@ PROTON_USE_WINED3D=1 %command%
 
 See also: [**Auto-Mounting Secondary Drives**](../Advanced/Auto-Mounting_Secondary_Drives.md)
 
-### NTFS
+#### NTFS
 
 If you are coming from Windows and plan to game on a secondary drive with games already installed on it, then we regret to inform you that the NTFS filesystem is **unsupported** for gaming.
 
@@ -83,13 +93,13 @@ You can use KDE Partition Manager (KDE images) or GNOME Disks (GNOME images) to 
 
 >There is a [**guide**](https://github.com/ValveSoftware/Proton/wiki/Using-a-NTFS-disk-with-Linux-and-Windows) for using Proton with NTFS drive, but issues may occur with this setup.
 
-### exFAT and FAT32
+#### exFAT and FAT32
 
 exFAT and FAT32 are **unsupported** entirely. Both filesystems **do not support symbolic links** which is what Proton prefixes use.
 
 However, scenarios where a microSD card is formatted to exFAT _may work_ in some cases, but it is entirely unsupported by Universal Blue if something goes horribly wrong using it.
 
-#### Sharing Games w/ Windows Installation
+### Sharing Games with a Windows Dual-Boot
 
 Install the unofficial [WinBtrfs](https://github.com/maharmstone/btrfs) driver on your Windows installation at your own risk. Please note that Gamepass games and games installed and launched through the Epic Games Launcher do **not** work with BTRFS under Windows.
 
