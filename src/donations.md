@@ -91,6 +91,7 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 - [**GNOME**](https://www.gnome.org/donate/)
 - [**GNOME themes for Firefox and Thunderbird**](https://www.patreon.com/rafaelmardojai)
 - [**Hanabi**](https://ko-fi.com/jeffshee)
+- [**Handheld Daemon**](https://github.com/sponsors/antheas)
 - [**Homebrew**](https://github.com/Homebrew/brew#donations)
 - [**KDE**](https://kde.org/donate/)
 - [**Logo Menu**](https://github.com/sponsors/Aryan20)
