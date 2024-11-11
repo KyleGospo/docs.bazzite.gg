@@ -1,5 +1,5 @@
 ---
-title: Donations & Credits
+title: Credits and Donating
 ---
 
 ## Bazzite Maintainers and Contributors
