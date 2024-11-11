@@ -16,7 +16,7 @@ Use the [**official template image**](https://github.com/ublue-os/image-template
 
 Sometimes you don't want to make a whole new image from scratch, you just want to change some things without too much extra work by forking Bazzite.  It is highly recommended to use the [Pull application for Github](https://github.com/apps/pull) to keep your fork in sync.
 
-## Using Blue-Build
+## Using BlueBuild
 
 [Blue-Build](https://blue-build.org/learn/universal-blue/) is a project that orginally started as a starting point base for Universal Blue images and eventually became its own separate entity.  All support for Blue-Build images should be directed to the appropriate [communication channels](https://blue-build.org/community/) outside of Universal Blue.
  
