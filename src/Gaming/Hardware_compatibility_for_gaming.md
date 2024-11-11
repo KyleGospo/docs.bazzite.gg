@@ -10,6 +10,10 @@ authors:
 
 ## General Hardware
 
+!!! note
+    
+    Most x86_64 PCs from the last decade should run Bazzite.
+
 ### Minimum System Requirements
 
 - **Architecture**: x86_64
@@ -44,13 +48,13 @@ The [Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) lists t
 
 ## Vulkan Compatible GPU
 
-### Vulkan Capable Graphics Required
+!!! attention 
 
-Linux gaming is heavily dependent on having compatible hardware with Vulkan.
+    Linux gaming is heavily dependent on having compatible hardware with Vulkan.  
 
-If you're using a device with an older or weaker GPU that does not support **Vulkan 1.3 or later**, then you need to use older Proton and Wine builds like **Proton/WINE 6** or earlier.
+### Viewing Your GPU's Vulkan Version
 
-Check which Vulkan version your GPU uses, enter this in the terminal:
+If you're using a device with an older or weaker GPU that does not support **Vulkan 1.3 or later**, then you need to use older Proton and Wine builds like **Proton/WINE 6** or earlier.  Check which Vulkan version your GPU uses, enter this in the **terminal**:
 
 ```command
 vulkaninfo | grep 'Instance Version'
@@ -74,6 +78,10 @@ PROTON_USE_WINED3D=1 %command%
 This will use the OpenGL translation as opposed to Vulkan.
 
 ## Storage Filesystems
+
+!!! note
+
+    BTRFS is the default and recommended filesystem for Bazzite.
 
 ### Unsupported Filesystems for Secondary Drives
 
