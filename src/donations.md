@@ -108,6 +108,7 @@ Similar projects that share resources with us.
 - [**Nobara Project**](https://www.patreon.com/gloriouseggroll)
 - [**Jovian NixOS**](https://github.com/Jovian-Experiments/Jovian-NixOS/blob/development/CONTRIBUTING.md)
 - [**CachyOS**](https://www.patreon.com/CachyOS)
+- [**SteamFork**](https://github.com/SteamFork#support)
 
 ### Community 
 - [**View the full contributors list on Github**](https://github.com/ublue-os/bazzite/graphs/contributors)
