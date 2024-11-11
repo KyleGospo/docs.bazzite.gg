@@ -4,7 +4,7 @@ title: Credits and Donating
 
 ## Bazzite Maintainers and Contributors
 
-Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  This list contains members who have contributed heavily to [Universal Blue](https://ublue.it) and/or Bazzite since 2021.
+Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  This list contains members who have contributed heavily to [**Universal Blue**](https://ublue.it) and/or Bazzite since 2021.
 
 ### Universal Blue
 - [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
@@ -64,7 +64,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 
 ## Fedora Project
 
-Bazzite would not exist without [Fedora Linux](https://fedoraproject.org/).  The Fedora Project does not take monetary donations, but values hardware donations and contributions to the project.
+Bazzite would not exist without [**Fedora Linux**](https://fedoraproject.org/).  The Fedora Project does not take monetary donations, but values hardware donations and contributions to the project.
 
 - [**Donating Hardware**](https://fedoraproject.org/wiki/Donations)
 - [**Contributing**](https://fedoraproject.org/wiki/Contribute)
