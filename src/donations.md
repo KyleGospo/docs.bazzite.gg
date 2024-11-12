@@ -59,8 +59,8 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Weaver Marquez**](https://github.com/weavermarquez)
 
 ### Community 
-- [**BlueBuild**](https://blue-build.org/) ([**Contribute**](https://blue-build.org/learn/contributing/)
-- [**Community Contributors**](https://github.com/ublue-os/bazzite/graphs/contributors)
+- [**BlueBuild**](https://blue-build.org/) ([**Contribute**](https://blue-build.org/learn/contributing/))
+- [**Community Contributors**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Do your part!**](https://docs.bazzite.gg/Advanced/contributing/))
 
 ## Fedora Project
 
