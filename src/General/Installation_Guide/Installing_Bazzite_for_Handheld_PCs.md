@@ -190,16 +190,19 @@ An application will pop up welcoming you to Bazzite when you boot into the deskt
 - If you would like to customize any of the options, then press the arrow next to the toggle switch button if available.
 - Installing items from the portal **may take a long time**.
 
-> **Note**: If you only check a few items in a category, then it will only install those selected items. The switch is only toggled to install **everything** in that category.
+!!! note
+
+    If you only check a few items in a category, then it will only install those selected items. The switch is only toggled to install **everything** in that category.
 
 
 !!! attention
     
     There is a rare chance you will be asked to setup KDE Wallet or GNOME Keyring and set a password to continue installing items from the Bazzite Portal.
 
-### Installing additional software
+### Installing Additional Software
 
 The [Installing and Managing Applications documentation](../../Installing_and_Managing_Software/index.md) is useful to learn how to install additional software on Bazzite outside of the Bazzite Portal.
+
 
 #### Post-Setup and Known Issues for Handhelds and Steam Gaming Mode
 
