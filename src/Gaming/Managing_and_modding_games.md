@@ -17,6 +17,7 @@ Windows games need to run through a **compatibility layer** (like Proton) on Baz
 
 > **KDE Plasma Images**: [**ProtonUp-Qt**](https://davidotek.github.io/protonup-qt/)
 
+
 > **GNOME Images**: [**ProtonPlus**](https://github.com/Vysp3r/protonplus)
 
 Install and update to the latest [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Luxtorpeda](https://github.com/luxtorpeda-dev/luxtorpeda), and other useful [SteamPlay tools](https://steamcommunity.com/games/221410/announcements/detail/1696055855739350561).
@@ -24,6 +25,7 @@ Install and update to the latest [GE-Proton](https://github.com/GloriousEggroll/
 #### Steamplay Tools
 
 > [View the tested games with **GE-Proton**](https://github.com/GloriousEggroll/proton-ge-custom/blob/master/README.md#tested-games).
+
 
 > [View the compatible games with **Luxtorpeda**](https://luxtorpeda-dev.github.io/packages).
 
@@ -88,8 +90,9 @@ Replace files and directories is still supported in both the game directory and 
 
 Some mods require a "WINE DLL OVERRIDE" environment variable in the Steam launch options.
 
-> **Example for DirectInput8 DLL Override**:
-> `WINEDLLOVERRIDES="dinput8=n,b" %command%`
+!!! example
+    
+    **DirectInput8 DLL Override**: `WINEDLLOVERRIDES="dinput8=n,b" %command%`
 
 ## Enhancements Pre-Installed on Bazzite
 
