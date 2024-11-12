@@ -47,7 +47,7 @@ It's the glue that holds everything together when you run a game through Proton 
 
 !!! important
     
-    _This installation folder for Steam games is usually in_: `.../steamapps/common/<game>`
+    This installation folder for **Steam games** is usually in: `.../steamapps/common/<game>`
 
 ### Equivalent Windows Folders
 
