@@ -187,7 +187,7 @@ Not recommended and due to technical limitations. The uninstalled packages will 
 
 ### Can I use AMD Fluid Motion Frames?
 
-The AMD drivers for Linux does not support this at a driver-level like it does on Windows.  Most of these graphical effects that work at a driver-level on Windows only work for games that support it in their options menu on Bazzite (or other Linux operating systems) outside of AMD'S FSR 1 which is at a driver-level.
+The AMD drivers for Linux does not support this at a driver-level like it does on Windows.  Most of these graphical effects that work at a driver-level on Windows only work for games that support it in their options menu on Bazzite (or other Linux operating systems) outside of AMD'S FSR 1 and Nvidia's DLSS which are at a driver-level.
 
 ### Can I change the hostname of my device?
 
