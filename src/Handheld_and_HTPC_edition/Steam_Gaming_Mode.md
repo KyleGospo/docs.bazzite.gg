@@ -42,7 +42,7 @@ This documentation may not cover specific areas with the assumption that the use
 
 !!! important
     
-    Not all of the information will be accurate in regards to Bazzite.
+    Not all of the information will be accurate in regards to Bazzite-Deck images.
 
 Valve wrote a [guide](https://help.steampowered.com/en/faqs/view/7DD4-C618-182E-0E49) for the Steam Deck which may have some relevant information in regards to Bazzite.
 
