@@ -45,8 +45,9 @@ These directories and files all start with a `.` before it
 
 It's the glue that holds everything together when you run a game through Proton and also is responsible for containing any of the files the game would drop outside of the installation folder.
 
-> _This installation folder for Steam games is usually in_:
-> `.../steamapps/common/<game>`
+!!! important
+    
+    _This installation folder for Steam games is usually in_: `.../steamapps/common/<game>`
 
 ### Equivalent Windows Folders
 
