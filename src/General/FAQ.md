@@ -87,11 +87,11 @@ Both types of images also come with the choice of using [KDE Plasma](https://kde
 
 ### Who are the target audiences?
 
-*>* A desktop operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance.
+*>* Individuals who desire a desktop operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance.
 
 *>* Steam Deck users who feel limited by SteamOS and also want newer system packages.
 
-*>* Those who want a console-like experience.
+*>* Individuals who want a console-like experience.
 
 *>* [Handheld PC](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) users who would prefer a SteamOS-like experience.
 
