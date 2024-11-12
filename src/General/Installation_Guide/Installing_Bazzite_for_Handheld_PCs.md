@@ -212,9 +212,9 @@ Read the [Handheld Wiki](https://universal-blue.discourse.group/docs?topic=1038)
 
 ## **Video Tutorial**
 
-> **Note**: We strongly recommend **manual partitioning + creating a separate EFI partition** for dual-booting, **not** automatic partitioning.
->
-> See instructions for manual partitioning [here.](https://universal-blue.discourse.group/t/dual-boot-preliminary-setup-and-post-setup-guide/2743#p-6361-manual-partitioning-to-the-same-drive-for-dual-boot-setups-6)
+!!! attention
+    
+    We strongly recommend **manual partitioning + creating a separate EFI partition** for dual-booting, **not** automatic partitioning.  See instructions for manual partitioning [here.](https://docs.bazzite.gg/General/Installation_Guide/dual_boot_setup_guide/#manual-partitioning-to-the-same-drive-for-dual-boot-setups)
 
 https://www.youtube.com/watch?v=H4226yq0ZwY
 
