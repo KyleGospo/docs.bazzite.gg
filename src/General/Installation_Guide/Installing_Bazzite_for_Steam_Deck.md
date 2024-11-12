@@ -185,7 +185,9 @@ An application will pop up welcoming you to Bazzite when you boot into the deskt
 - If you would like to customize any of the options, then press the arrow next to the toggle switch button if available.
 - Installing items from the portal **may take a long time**.
 
-> **Note**: If you only check a few items in a category, then it will only install those selected items. The switch is only toggled to install **everything** in that category.
+!!! note
+    
+    If you only check a few items in a category, then it will only install those selected items. The switch is only toggled to install **everything** in that category.
 
 !!! attention 
     
