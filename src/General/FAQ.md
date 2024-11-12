@@ -117,11 +117,11 @@ If you're familiar with [Fedora Workstation](https://www.fedoraproject.org/works
 
 #### Software & Updates
 
-There are **read-only root files** and an emphasis on installing applications as a Flatpak or inside [containers.](https://distrobox.it/)
+There are **read-only root files** and an emphasis on installing applications as a [Flatpak](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/), [Homebrew](https://docs.bazzite.gg/Installing_and_Managing_Software/Homebrew/), or inside of a [Distrobox container.](https://docs.bazzite.gg/Installing_and_Managing_Software/Distrobox/)
 
 >**Read more about [obtaining software on Bazzite](../Installing_and_Managing_Software/index.md)**.
 
-Users can also rollback to a previous deployment if a system update breaks their workflow, or rebase entirely back to a stock Fedora Atomic image, [Aurora](https://getaurora.dev/), [Bluefin](https://projectbluefin.io/), or a [custom image by the community](https://universal-blue.discourse.group/docs?topic=340). Do **not** rebase between different desktop environments. 
+Users can also rollback to a previous deployment if a system update breaks their workflow, or rebase entirely back to a stock Fedora Atomic image, [Aurora](https://getaurora.dev/), [Bluefin](https://projectbluefin.io/), or a [custom image by the community](https://universal-blue.discourse.group/t/list-of-community-created-custom-images/340). Do **not** rebase between different desktop environments. 
 
 >**Read more about how [updates, rolling back, and rebasing works on Bazzite](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md)**.
 
