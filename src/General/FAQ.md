@@ -182,7 +182,7 @@ Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. c
 
 ## Can I...?
 
-### Can I uninstall pre-installed applications (that are not [Flatpak](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/))
+### Can I uninstall pre-installed applications (that are not [Flatpaks](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/))
 Not recommended and due to technical limitations. The uninstalled packages will result in slower updates and take up more storage space.  We recommend hiding it from the application menu instead.
 
 ### Can I use AMD Fluid Motion Frames?
