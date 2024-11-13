@@ -65,7 +65,7 @@ vulkaninfo | grep 'Instance Version'
 
 ![Vulkan Command](https://github.com/user-attachments/assets/ccca14ca-3001-4aa6-bf47-e0dcbdb73936)
 
-Try using [Proton-Sarek](https://github.com/pythonlover02/Proton-Sarek) if your have hardware that can utilize Vulkan 1.1, but not newer Vulkan versions.
+>Try using [Proton-Sarek](https://github.com/pythonlover02/Proton-Sarek) if your have hardware that can utilize Vulkan 1.1, but not newer Vulkan versions.
 
 ### GPUs Without Vulkan Support
 
