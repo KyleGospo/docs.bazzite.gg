@@ -6,7 +6,7 @@ title: Credits and Donating
 
 Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  This list contains members who have contributed heavily to [**Universal Blue**](https://ublue.it) and/or Bazzite since 2021.
 
-### Universal Blue
+### Universal Blue (Current Members & "Alumni" Contributors)
 - [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
 - [**Jorge Castro**](https://github.com/castrojo) ([**Sponsor**](https://github.com/sponsors/castrojo/))
 - [**RJ Trujillo**](https://github.com/EyeCantCU)
@@ -25,6 +25,8 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Niklas Haiden**](https://github.com/NiHaiden)
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
 - [**Justin Garrison**](https://github.com/rothgar)
+- [**RoyalOughtness**](https://github.com/RoyalOughtness) ([**Sponsor**](https://github.com/sponsors/RoyalOughtness))
+- [**Joshua Stone**](https://github.com/joshua-stone)
 - [**Marco Ceppi**](https://github.com/marcoceppi)
 - [**Adam Israel**](https://github.com/AdamIsrael)
 - [**Cassidy James Blaede**](https://github.com/cassidyjames) ([**Sponsor**](https://github.com/sponsors/cassidyjames))
@@ -48,6 +50,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Sterophonick**](https://github.com/Sterophonick)
 - [**xAlphaKat**](https://github.com/xAlphaKAT)
 - [**tulilirockz**](https://github.com/tulilirockz)
+- [**dreamyuki**](https://github.com/dreamyukii)
 - [**Gecked-Deck**](https://github.com/Gecked-Deck)
 - [**termdisc**](https://github.com/termdisc)
 - [**Nathaniel Warburton**](https://github.com/storyaddict)
