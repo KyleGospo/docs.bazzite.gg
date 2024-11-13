@@ -188,7 +188,9 @@ The AMD drivers for Linux does not support this at a driver-level like it does o
 
 ### Can I change the hostname of my device?
 
-Hostnames must be **under 20 characters** due to a limitation with Distrobox containers.
+!!! note
+
+    Hostnames must be **under 20 characters** due to a limitation with Distrobox containers.
 
 Edit the `/etc/hostname` file with a new hostname, save it, and reboot.
 
