@@ -26,10 +26,9 @@ If you feel comfortable with bash scripting, programming, working with container
 
 <hr>
 
-# General Universal Blue Contributor's Guidelines
-<sub>Taken from the old **CONTRIBUTING.MD**</sub>
+# Universal Blue's `CONTRIBUTING.MD` Section
 
-We welcome pull requests! Here's a quick howto:
+We welcome pull requests! Here's a quick how-to:
 
 1. Find what to work on via our [help wanted issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Aublue-os+archived%3Afalse+label%3A%22help+wanted%22)
 1. Ask questions in your PR or file an issue if you need help.
