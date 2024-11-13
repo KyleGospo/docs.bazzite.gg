@@ -42,17 +42,14 @@ Bazzite offers multiple images, but most images will be following _one of these 
     
     **Steam Gaming Mode is not on these specific images!**
 
-Intended specifically for desktops and laptops with a focus on gaming which is influenced by SteamOS's Desktop Mode and the maintenance-free nature of ChromeOS. Nvidia hardware can currently only use the Desktop Images since their drivers do not support Steam Gaming Mode.
+Intended specifically for desktops and laptops with a focus on gaming which is influenced by SteamOS's Desktop Mode and the maintenance-free nature of ChromeOS. A gaming-focused Fedora Atomic Desktop (Kinoite/Silverblue) operating system.  Steam and other gaming utilities are part of the base operating system. System rollbacks available with a rock-solid stable Fedora Linux base. Most modern PC hardware should be compatible outside of specific drivers that do not work well on desktop Linux.  [Flathub](https://flathub.org/) is enabled out of the box, so all of the applications that you would find on SteamOS are available on Bazzite.  System and application updates are automatically downloaded in the background and applied on a restart by default. 
 
-Steam and other gaming utilities are part of the base operating system. System rollbacks available with a rock-solid stable Fedora Linux base. **Updates are automatically downloaded in the background and applied on a restart**. Most modern hardware should be compatible outside of specific drivers that do not work well on desktop Linux.
+**All Nvidia hardware can currently only use the Desktop Edition since the graphic drivers do not support Steam Gaming Mode**.
 
-The choice of KDE Plasma and GNOME for the desktop environment with others planned for the future. [Flathub](https://flathub.org/) is enabled out of the box, so all of the applications that you would find on SteamOS are available on Bazzite.
 
 ### [2. Handheld/HTPC Edition (`-deck` Images)](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
-Mimics SteamOS with "**Steam Gaming Mode**" and its features fully functional. This version of Bazzite boots directly into the Steam Gaming Mode session and are intended for handheld PCs and home theater setups.  You can still run `-deck` images on your desktop if desired.
-
-Images also includes a Desktop Mode session with the choice of GNOME or KDE Plasma and is based on our Desktop images. **Updates are manually installed by the user and applied on a restart**.
+Mimics SteamOS with "**Steam Gaming Mode**" and its features fully functional. This version of Bazzite boots directly into the Steam Gaming Mode session and are intended for handheld PCs and home theater setups.  You can still run `-deck` images on your desktop if desired.  Images also includes a Desktop Mode session based on the Desktop images. System and application updates are manually installed in Steam Gaming Mode and applied on a restart.
 
 !!! important
     
