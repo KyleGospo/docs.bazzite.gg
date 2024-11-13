@@ -122,7 +122,7 @@ Check out the other Universal Blue end-user images especially if you want an exp
 - [**Aurora**](https://getaurora.dev/)
 - [**uCore**](https://projectucore.io)*
 
-Read about the difference between Bazzite and Bluefin/Aurora on our [**FAQ**](https://docs.bazzite.gg/General/FAQ/#what-is-the-difference-between-bluefin-aurora-and-bazzite).  
+Read about the difference between Bazzite and Bluefin/Aurora in [**Bazzite's FAQ**](https://docs.bazzite.gg/General/FAQ/#what-is-the-difference-between-bluefin-aurora-and-bazzite).  
 
 <sub>*uCore is specifically designed for server usage.</sub>
 
