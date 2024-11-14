@@ -58,6 +58,7 @@ theme:
     - content.action.edit
     - content.action.view
     - announce.dismiss
+    - content.tabs.link
 
 docs_dir: src
 site_dir: book
