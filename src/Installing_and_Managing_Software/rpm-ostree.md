@@ -1,6 +1,7 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@Zeglius"
 preview:
   src: "../img/rpm-ostree.png"
   contain: true
