@@ -62,35 +62,55 @@ You may need to copy the full path (`/path/to/rpmfile.rpm`) for it to install pr
 
     The downside of installing local RPM files outside of the Fedora repositories is updates for the specific RPM package will not apply automatically.
 
-## How do I add [COPR](https://copr.fedorainfracloud.org) repositories?
+## How do I add/remove [COPR](https://copr.fedorainfracloud.org) repositories?
 
 !!! warning
 
     It is highly advised to **not** use third-party COPR repos if possible, so be aware there are risks associated with it including broken updates until removed.
 
-=== "DNF5 (Fedora Copr)"
+=== "Enable COPR"
 
-    ```sh
-    sudo dnf5 copr enable <USER>/<PROJECT>
-    ```
+    === "DNF5 (Fedora COPR)"
 
-=== "DNF5 (repo file)"
+        ```sh
+        sudo dnf5 copr enable <USER>/<PROJECT>
+        ```
 
-    This method works with Coprs other than Fedora's (ex.: [Docker](https://docs.docker.com/engine/install/fedora/#set-up-the-repository))
+    === "DNF5 (repo file)"
 
-    ```sh
-    sudo dnf5 config-manager addrepo --from-repofile=https://url/to/file.repo
-    ```
+        This method works with Coprs other than Fedora's (ex.: [Docker](https://docs.docker.com/engine/install/fedora/#set-up-the-repository))
 
-=== "Manually"
+        ```sh
+        sudo dnf5 config-manager addrepo --from-repofile=https://url/to/file.repo
+        ```
 
-    1. Download the .repo file and save it to `/etc/yum.repos.d/`
+    === "Manually"
 
-    2. Then install the package(s) with `rpm-ostree`
+        1. Download the .repo file and save it to `/etc/yum.repos.d/`
 
-    3. Reboot
+        2. Then install the package(s) with `rpm-ostree`
 
-    If you experience issues updating your system due to GPG signature issues, then this can be fixed by either removing the COPR repository, or editing the file by changing `gpgcheck=1` to `gpgcheck=0` (or similar) and saving it **at your own risk**.
+        3. Reboot
+
+        If you experience issues updating your system due to GPG signature issues, then this can be fixed by either removing the COPR repository, or editing the file by changing `gpgcheck=1` to `gpgcheck=0` (or similar) and saving it **at your own risk**.
+
+=== "Disable COPR"
+
+    !!! warning "Ensure to remove any package installed with the COPR beforehand"
+
+    === "DNF5 (Fedora COPR)"
+
+        ```sh
+        sudo dnf5 copr disable <USER>/<PROJECT>
+        ```
+
+    === "DNF5 (repo file)"
+
+        Remove the `.repo` at `/etc/yum.repos.d/`
+
+    === "Manually"
+
+        Remove the `.repo` at `/etc/yum.repos.d/`
 
 ## **MAJOR** caveats using `rpm-ostree`
 
