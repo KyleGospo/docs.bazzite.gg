@@ -16,7 +16,7 @@ description: rpm-ostree is Fedora's enterprise tool for managing immutable opera
 # `rpm-ostree` Overview
 
 !!! attention
-    
+
     Layering packages irresponsibly can be **destructive** and may prevent updates as well as other issues until the layered packages are uninstalled.
 
 Install Fedora Linux packages by installing them with `rpm-ostree`.
@@ -64,18 +64,33 @@ You may need to copy the full path (`/path/to/rpmfile.rpm`) for it to install pr
 ## How do I add [COPR](https://copr.fedorainfracloud.org) repositories?
 
 !!! warning
-    
+
     It is highly advised to **not** use third-party COPR repos if possible, so be aware there are risks associated with it including broken updates until removed.
 
-1. Download the .repo file and save it to `/etc/yum.repos.d/`
+=== "DNF5 (Fedora Copr)"
 
-2. Then install the package(s) with `rpm-ostree`
+    ```sh
+    dnf5 copr enable <USER>/<PROJECT>
+    ```
 
-3. Reboot
+=== "DNF5 (repo file)"
+This method works with Coprs other than Fedora's (ex.: [Docker](https://docs.docker.com/engine/install/fedora/#set-up-the-repository))
 
-If you experience issues updating your system due to GPG signature issues, then this can be fixed by either removing the COPR repository, or editing the file by changing `gpgcheck=1` to `gpgcheck=0` (or similar) and saving it **at your own risk**.
+    ```sh
+    dnf5 config-manager addrepo --from-repofile=https://url/to/file.repo
+    ```
 
-There is also an experimental `copr` utility script that ships with Bazzite. Run `copr --help` in the terminal for to see usage documentation, and the source code for the helper script can be found [here](https://github.com/ublue-os/COPR-command).
+=== "Manually"
+
+    1. Download the .repo file and save it to `/etc/yum.repos.d/`
+
+    2. Then install the package(s) with `rpm-ostree`
+
+    3. Reboot
+
+    If you experience issues updating your system due to GPG signature issues, then this can be fixed by either removing the COPR repository, or editing the file by changing `gpgcheck=1` to `gpgcheck=0` (or similar) and saving it **at your own risk**.
+
+    There is also an experimental `copr` utility script that ships with Bazzite. Run `copr --help` in the terminal for to see usage documentation, and the source code for the helper script can be found [here](https://github.com/ublue-os/COPR-command).
 
 ## **MAJOR** caveats using `rpm-ostree`
 
@@ -86,7 +101,7 @@ Layering packages can cause **severe consequences** including:
 - Conflict with existing packages as part of the image leading to dependency issues.
 - Updates taking longer to download as you layer more packages to your system.
 
-Layering packages are mostly intended for system-level applications, libraries, and other dependencies. It is recommended to use Flatpak, Homebrew, Distrobox containers, AppImage, etc. **before** installing software with `rpm-ostree`. Typical users should **not** be using `rpm-ostree` to install end-user graphical applications at all to avoid problems in the future.  It is **highly recommended** to only layer packages when absolutely necessary especially if the application can be obtained through other methods.
+Layering packages are mostly intended for system-level applications, libraries, and other dependencies. It is recommended to use Flatpak, Homebrew, Distrobox containers, AppImage, etc. **before** installing software with `rpm-ostree`. Typical users should **not** be using `rpm-ostree` to install end-user graphical applications at all to avoid problems in the future. It is **highly recommended** to only layer packages when absolutely necessary especially if the application can be obtained through other methods.
 
 ## How to remove **ALL** layered packages
 
@@ -107,7 +122,7 @@ rpm-ostree status
 ## Additional Commmands
 
 !!! warning
-    
+
     Certain `rpm-ostree` and `ostree` commands can permanently remove deployments and cause other destructive behavior, so enter them at your own risk.
 
 View the full range of `rpm-ostree` and `ostree` commands with the following two commands:
