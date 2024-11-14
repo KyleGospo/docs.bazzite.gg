@@ -1,12 +1,8 @@
 # Bazzite Resources
 
-## `>` [📢 Update Changelogs](https://github.com/ublue-os/bazzite/releases)
-
 ## `>` [:simple-discourse: Forums](https://universal-blue.discourse.group/c/bazzite/5)
 
-## `>` [:simple-discord: Discord](https://discord.gg/WEu6BdFEtp)
-
-## `>` [🧵 Answer Overflow](https://www.answeroverflow.com/c/1072614816579063828/1143023993041993769)
+## `>` [:simple-discord: Discord](https://discord.gg/WEu6BdFEtp) [[Answer Overflow](https://www.answeroverflow.com/c/1072614816579063828/1143023993041993769)]
 
 ## `>` [:simple-reddit: Reddit](https://www.reddit.com/r/bazzite)
 
