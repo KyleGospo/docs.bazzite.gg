@@ -112,6 +112,16 @@ You may need to copy the full path (`/path/to/rpmfile.rpm`) for it to install pr
 
         Remove the `.repo` at `/etc/yum.repos.d/`
 
+## How to restore default COPRs
+
+```sh
+# Remove all current repos
+sudo rm -r
+
+# Now copy the default repo files fro /usr/etc to /etc
+sudo cp /usr/etc/yum.repos.d/* /etc/yum.repos.d/
+```
+
 ## **MAJOR** caveats using `rpm-ostree`
 
 Layering packages can cause **severe consequences** including:
