@@ -71,14 +71,15 @@ You may need to copy the full path (`/path/to/rpmfile.rpm`) for it to install pr
 === "DNF5 (Fedora Copr)"
 
     ```sh
-    dnf5 copr enable <USER>/<PROJECT>
+    sudo dnf5 copr enable <USER>/<PROJECT>
     ```
 
 === "DNF5 (repo file)"
-This method works with Coprs other than Fedora's (ex.: [Docker](https://docs.docker.com/engine/install/fedora/#set-up-the-repository))
+
+    This method works with Coprs other than Fedora's (ex.: [Docker](https://docs.docker.com/engine/install/fedora/#set-up-the-repository))
 
     ```sh
-    dnf5 config-manager addrepo --from-repofile=https://url/to/file.repo
+    sudo dnf5 config-manager addrepo --from-repofile=https://url/to/file.repo
     ```
 
 === "Manually"
