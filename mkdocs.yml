@@ -58,6 +58,7 @@ theme:
     - content.action.edit
     - content.action.view
     - announce.dismiss
+    - content.tabs.link
 
 docs_dir: src
 site_dir: book
@@ -108,6 +109,10 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   #endregion Enable Admonitions
+  #region Enable Content Tabs
+  - pymdownx.tabbed:
+      alternate_style: true
+  #endregion Enable Content Tabs
 
 nav:
   - index.md
