@@ -15,7 +15,7 @@ authors:
 
 ## How do updates work?
 
-Bazzite updates all of the changes made specifically in Bazzite itself, updates from Fedora's base packages upstream, and most user installed applications. Bazzite typically has new builds twice a week and you can see when it builds [here](https://github.com/ublue-os/bazzite/actions/workflows/build.yml?query=branch%3Amain).
+Bazzite updates all of the changes made specifically in Bazzite itself, updates from Fedora's base packages upstream, graphic drivers, and most user installed applications. Bazzite typically has new builds twice a week and you can see when it builds [here](https://github.com/ublue-os/bazzite/actions/workflows/build.yml?query=branch%3Amain).
 
 ### Desktop Images
 
