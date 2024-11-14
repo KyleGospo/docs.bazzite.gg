@@ -1,4 +1,5 @@
 ---
+title: Contributing to Bazzite
 authors:
   - "@castrojo"
   - "@nicknamenamenick"
@@ -26,7 +27,7 @@ If you feel comfortable with bash scripting, programming, working with container
 
 <hr>
 
-# Universal Blue's `CONTRIBUTING.MD` Section
+# Universal Blue's General Contributing Guidelines
 
 We welcome pull requests! Here's a quick how-to:
 
