@@ -90,8 +90,6 @@ This method works with Coprs other than Fedora's (ex.: [Docker](https://docs.doc
 
     If you experience issues updating your system due to GPG signature issues, then this can be fixed by either removing the COPR repository, or editing the file by changing `gpgcheck=1` to `gpgcheck=0` (or similar) and saving it **at your own risk**.
 
-    There is also an experimental `copr` utility script that ships with Bazzite. Run `copr --help` in the terminal for to see usage documentation, and the source code for the helper script can be found [here](https://github.com/ublue-os/COPR-command).
-
 ## **MAJOR** caveats using `rpm-ostree`
 
 Layering packages can cause **severe consequences** including:
