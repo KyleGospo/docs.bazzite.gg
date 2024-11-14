@@ -31,7 +31,7 @@ Some Linux ports may have missing functionality or worse performance than on the
 
 ### Audio & Custom Content Bugs
 
-!!! attention**
+!!! attention
     
     Do **not** attempt to follow this workaround until you run into issues with audio or the specific scenario mentioned below regarding _Left 4 Dead 2_.
 
