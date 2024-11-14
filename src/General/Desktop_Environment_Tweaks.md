@@ -9,8 +9,6 @@ authors:
 
 ## Customizing KDE Plasma
 
-> [Check out this external resource on KDE themes for more information](https://itsfoss.com/properly-theme-kde-plasma/).
-
 KDE Plasma is the default Bazzite desktop environment and is highly customizable. One of the various customization that can be done is installing custom styles, cursors, and icons to your system with custom themes made by the community.
 
 Do **not** install themes with the built-in KDE system settings installer since it may not install properly because the filesystem is slightly different than most Linux operating systems. Install themes manually into your Home directory and follow instructions from the author if necessary.
@@ -62,6 +60,8 @@ Install it with this **command**:
 ```
 rpm-ostree install kvantum
 ```
+
+> [Check out this external resource on KDE themes for more information](https://itsfoss.com/properly-theme-kde-plasma/).
 
 ## Wallpaper Engine Guide (_Only on KDE Images_)
 

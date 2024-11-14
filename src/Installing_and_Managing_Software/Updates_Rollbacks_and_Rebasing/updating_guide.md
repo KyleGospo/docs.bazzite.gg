@@ -15,7 +15,7 @@ authors:
 
 ## How do updates work?
 
-Bazzite updates all of the changes made specifically in Bazzite itself, updates from Fedora's base packages upstream, and most user installed applications. Bazzite typically has new builds twice a week and you can see when it builds [here](https://github.com/ublue-os/bazzite/actions/workflows/build.yml?query=branch%3Amain).
+Bazzite updates all of the changes made specifically in Bazzite itself, updates from Fedora's base packages upstream, graphic drivers, and most user installed applications. Bazzite typically has new scheduled builds twice a week and you can see when it builds [here](https://github.com/ublue-os/bazzite/actions/workflows/build.yml?query=branch%3Amain).
 
 ### Desktop Images
 
@@ -68,9 +68,7 @@ Bazzite should automatically update when our new builds based on that new major 
 
 ## Can I enable update notifications for Desktop images?
 
-**Yes**
-
-Open a host terminal and **enter**:
+**Yes!** Open a host terminal and **enter**:
 
 ```command
 sudo nano /etc/ublue-update/ublue-update.toml

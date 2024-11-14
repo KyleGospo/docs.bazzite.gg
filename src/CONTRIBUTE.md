@@ -9,7 +9,9 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=38", "fetched_at": "2024-09-03 16:43:12.863190+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## Contributing to Bazzite
+# Contributing to Bazzite
+
+## Good Contribution Examples
 
 - Adding features or fixing bugs by submitting a [pull request](https://github.com/ublue-os/bazzite/pulls).
 - Reporting issues you experience on our [issue tracker](https://github.com/ublue-os/bazzite/issues).
