@@ -47,7 +47,7 @@ Intended specifically for desktops and laptops with a focus on gaming which is i
 **All Nvidia hardware can currently only use the Desktop Edition since the graphic drivers do not support Steam Gaming Mode**.
 
 
-### [2. Handheld/HTPC Edition (`-deck` Images)](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
+### [2. Bazzite-Deck Edition](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
 Mimics SteamOS with "**Steam Gaming Mode**" and its features fully functional. This version of Bazzite boots directly into the Steam Gaming Mode session and are intended for handheld PCs and home theater setups.  You can still run `-deck` images on your desktop if desired.  Images also includes a Desktop Mode session based on the Desktop images. System and application updates are manually installed in Steam Gaming Mode and applied on a restart.
 
