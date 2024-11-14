@@ -78,7 +78,7 @@ You may need to copy the full path (`/path/to/rpmfile.rpm`) for it to install pr
 
     === "DNF5 (repo file)"
 
-        This method works with Coprs other than Fedora's (ex.: [Docker](https://docs.docker.com/engine/install/fedora/#set-up-the-repository))
+        This method works with COPR other than Fedora's (ex.: [Docker](https://docs.docker.com/engine/install/fedora/#set-up-the-repository))
 
         ```sh
         sudo dnf5 config-manager addrepo --from-repofile=https://url/to/file.repo
