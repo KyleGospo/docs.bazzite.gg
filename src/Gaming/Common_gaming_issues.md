@@ -67,7 +67,7 @@ Reboot your device
 
 #### If you want to undo this change eventually:
 
-> Disable **or** remove the module.
+**Disable or remove the module.**
 
 ##### Disable it:
 
