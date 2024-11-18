@@ -43,6 +43,10 @@ Desktop Linux contains hidden files and directories that may include important f
 
 These directories and files all start with a `.` before it
 
+!!! note
+
+    Winecfg contains the option to show hidden files for Windows programs that require the filepicker.
+
 ## What is a Proton/WINE Prefix?
 
 It's the glue that holds everything together when you run a game through Proton and also is responsible for containing any of the files the game would drop outside of the installation folder.
