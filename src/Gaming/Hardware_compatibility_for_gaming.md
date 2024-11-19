@@ -28,7 +28,7 @@ authors:
 
 !!! Protip
 
-    [The Hardware for Linux website](https://linux-hardware.org/?view=computers) is a good indicator for how well OEM hardware is supported and how well drivers are detected.
+    [The Hardware for Linux website](https://linux-hardware.org/?view=computers) is a good indicator for how well OEM hardware is supported and driver supoport on the Linux desktop.
 
 ### Steam Gaming Mode Requirements
 
