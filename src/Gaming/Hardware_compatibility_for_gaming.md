@@ -26,6 +26,10 @@ authors:
 - **Additional Notes**: Certain drivers are **not** compatible with Bazzite
   - For example: [A list of compatible USB Wi-Fi adapters](https://github.com/morrownr/USB-WiFi/blob/f3001d8e5b897e5671302cb2faf18954dd34e3d7/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) 
 
+!!! Protip
+
+    [The Hardware for Linux website](https://linux-hardware.org/?view=computers) is a good indicator for how well OEM hardware is supported and how well drivers are detected.
+
 ### Steam Gaming Mode Requirements
 
 !!! note
