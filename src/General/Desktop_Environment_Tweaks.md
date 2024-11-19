@@ -37,9 +37,7 @@ Global themes are placed in `~/.local/share/plasma/look-and-feel/` (_you may nee
 
 #### SDDM (Login Manager) Themes
 
-SDDM themes are placed in `/etc/sddm/themes` (_you may need to make this directory_).
-
-SDDM themes can also be layered at your own risk if they are available as RPM packages.
+Use Discover to install SDDM themes.  SDDM themes can also be layered **at your own risk** if they are available as RPM packages using [`rpm-ostree`](https://docs.bazzite.gg/Installing_and_Managing_Software/rpm-ostree/).
 
 #### Icon / Cursor Themes
 
