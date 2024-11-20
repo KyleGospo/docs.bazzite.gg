@@ -265,6 +265,12 @@ This issue happens usually with HDMI TV audio.  Go into Desktop Mode and into th
 
 Most of the time this is because you're connecting the device via HDMI which does not support VRR on Linux. Here is the [source](https://www.phoronix.com/news/HDMI-2.1-OSS-Rejected) of that information.
 
+#### Rainbow display
+
+![My-Eyes|690x430](../img/hdr-woes.png)
+
+Toggle HDR on and off in the Quick Access Menu
+
 #### Stuck at the Bazzite logo
 1.  Opening a TTY session with an **external physical keyboard** using this **keyboard combination and entering this command**:
     <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F4</kbd>
