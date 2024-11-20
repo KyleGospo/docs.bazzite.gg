@@ -133,8 +133,8 @@ nav:
           - "Installation Troubleshoot Guide": General/Installation_Guide/troubleshoot_guide.md
           - "Secure Boot Instructions": General/Installation_Guide/secure_boot.md
           - "Dual Boot Preliminary and Post-Installation Setup Guide": General/Installation_Guide/dual_boot_setup_guide.md
-- Gaming:
-          - "Gaming Index": Gaming/index.md
+        - Gaming:
+          - Gaming/index.md
           - "Game Launchers": Gaming/Game_Launchers.md
           - "Managing & Modding Games": Gaming/Managing_and_modding_games.md
           - "Common Gaming Issues": Gaming/Common_gaming_issues.md
