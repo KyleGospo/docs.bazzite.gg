@@ -1,4 +1,6 @@
-# Bazzite Resources
+---
+title: Social Platforms
+---
 
 ## [:simple-discourse: Forums](https://universal-blue.discourse.group/c/bazzite/5)
 
