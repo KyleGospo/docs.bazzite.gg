@@ -203,6 +203,12 @@ An application will pop up welcoming you to Bazzite when you boot into the deskt
 
 The [Installing and Managing Applications documentation](../../Installing_and_Managing_Software/index.md) is useful to learn how to install additional software on Bazzite outside of the Bazzite Portal.
 
+### Changing Default Password
+<sub> (If it wasn't changed in the installer) </sub>
+
+![KDE Plasma's Change Password|584x500, 75%](../../img/change-pass.png)
+
+Change it in the settings of Desktop Mode under the "User" category.
 
 #### Post-Setup and Known Issues for Handhelds and Steam Gaming Mode
 
