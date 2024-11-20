@@ -193,9 +193,17 @@ An application will pop up welcoming you to Bazzite when you boot into the deskt
     
     There is a rare chance you will be asked to setup KDE Wallet or GNOME Keyring and set a password to continue installing items from the Bazzite Portal.
 
-### Installing additional software
+### Installing Additional Software
 
 The [Installing and Managing Applications documentation](../../Installing_and_Managing_Software/index.md) is useful to learn how to install additional software on Bazzite outside of the Bazzite Portal.
+
+
+### Changing Default Password
+<sub> (If it wasn't changed in the installer) </sub>
+
+![KDE Plasma's Change Password|584x500, 75%](../../img/change-pass.png)
+
+Change it in the settings of Desktop Mode under the "User" category.
 
 <hr>
 
