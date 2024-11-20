@@ -178,6 +178,6 @@ nav:
       - "How to Modify Initramfs and Dracut": Advanced/dracut-and-initramfs.md
       - "Creating A Custom Bazzite Image": Advanced/creating_custom_image.md
   - Contribute: CONTRIBUTE.md
-  - Resources: Resources.md
+  - Social Platforms: Resources.md
   - Credits & Donating: donations.md
   - Main Website: https://bazzite.gg
