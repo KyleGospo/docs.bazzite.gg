@@ -18,7 +18,7 @@ Sometimes you don't want to make a whole new image from scratch, you just want t
 
 ## Using BlueBuild
 
-[Blue-Build](https://blue-build.org/learn/universal-blue/) is a project that orginally started as a starting point base for Universal Blue images and eventually became its own separate entity.  All support for Blue-Build images should be directed to the appropriate [communication channels](https://blue-build.org/community/) outside of Universal Blue.
+[BlueBuild](https://blue-build.org/learn/universal-blue/) is a project that orginally started as a starting point base for Universal Blue images and eventually became its own separate entity.  All support for Blue-Build images should be directed to the appropriate [communication channels](https://blue-build.org/community/) outside of Universal Blue.
  
 ## Use Cases
  
