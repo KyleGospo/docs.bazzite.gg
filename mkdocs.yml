@@ -169,8 +169,8 @@ nav:
           - "Bazzite Rollback Helper": "Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md"
   - Advanced:
       - "Booting to Rescue & Emergency Mode": Advanced/rescue-and-emergency-mode.md
-      - "Reset Forgotten User Password": Advanced/Reset_Forgotten_User_Password.md
       - "Auto-Mounting Secondary Drives": Advanced/Auto-Mounting_Secondary_Drives.md
+      - "Reset Forgotten User Password": Advanced/Reset_Forgotten_User_Password.md
       - "Best Shell Practices": Advanced/Best_Shell_Practices.md
       - "Bazzite Command Line Tools": Advanced/bazzite-cli.md
       - "Using Looking-Glass": Advanced/looking-glass.md
