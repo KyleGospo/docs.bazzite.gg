@@ -133,12 +133,12 @@ nav:
           - "Installation Troubleshoot Guide": General/Installation_Guide/troubleshoot_guide.md
           - "Secure Boot Instructions": General/Installation_Guide/secure_boot.md
           - "Dual Boot Preliminary and Post-Installation Setup Guide": General/Installation_Guide/dual_boot_setup_guide.md
-        - Gaming:
-          - Gaming/index.md
-          - "Game Launchers": Gaming/Game_Launchers.md
-          - "Managing & Modding Games": Gaming/Managing_and_modding_games.md
-          - "Common Gaming Issues": Gaming/Common_gaming_issues.md
-          - "Hardware Compatibility for Gaming": Gaming/Hardware_compatibility_for_gaming.md
+  - Gaming:
+          - "Gaming Guide": General/Gaming/Index.md
+          - "Game Launchers": General/Gaming/Game_Launchers.md
+          - "Managing & Modding Games": General/Gaming/Managing_and_modding_games.md
+          - "Common Gaming Issues": General/Gaming/Common_gaming_issues.md
+          - "Hardware Compatibility for Gaming": General/Gaming/Hardware_compatibility_for_gaming.md
   - Handheld & HTPC Hardware:
       - "Steam Gaming Mode": Handheld_and_HTPC_edition/Steam_Gaming_Mode.md
       - "Handheld Wiki":
