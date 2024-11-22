@@ -90,13 +90,12 @@ Select "unhide" to have GRUB appear on boot.
 
 #### Change physical keyboard layout for Steam Gaming Mode
 
-As of writing, `gamescope-session` has no way to change the physical keyboard layout and will default to the US layout.
+Steam Gaming Mode has no official way to change the physical keyboard layout and will always default to the US layout.  If you want to change the layout, then you can set the environment variable `XKB_DEFAULT_LAYOUT=no` replacing `no` with the correct layout for you. 
+Add this environment variable to `~/.config/environment.d/10-gamescope-session.conf` Make sure hidden files is turned on and move into the Home directory > .config > environment.d > 10-gamescope-session.conf file.
+ 
+<sub>(If the file or folder does not exist already, then create it.)</sub>
 
-If you want to change the layout for Gamescope, you can set the environment variable `XKB_DEFAULT_LAYOUT=no` replacing `no` with the correct layout for you. Add this to `~/.config/environment.d/10-gamescope-session.conf`
-
-If the file or folder does not exist already, then create it.
-
-This works on desktop mode including running Nested Gamescope and also works for Steam Gaming Mode, but it has its own quirks: <kbd>altgr</kbd> + <kbd>2</kbd> to write "<kbd>@</kbd>" on the Norwegian layout will still not work, but the basic keyboard layout will always work, `altgr` is luckily not needed for normal typing on the norwegian layout, however <kbd>altgr</kbd> has been reported to work on the French layout, but your mileage may vary.
+This works in desktop mode including running Nested Gamescope and also works for Nested Desktop, but it has its own quirks: <kbd>altgr</kbd> + <kbd>2</kbd> to write "<kbd>@</kbd>" on the Norwegian layout will still not work, but the basic keyboard layout will always work.  The `altgr` key is luckily not needed for normal typing on the Norwegian layout, however <kbd>altgr</kbd> has been reported to work on the French layout, but your mileage may vary.
 
 #### Why do specific Decky Loader plugins not function on Bazzite?
 
