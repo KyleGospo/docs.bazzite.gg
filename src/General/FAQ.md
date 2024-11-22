@@ -71,16 +71,16 @@ Both types of images also come with the choice of using [KDE Plasma](https://kde
 | `bazzite-gnome`             | GNOME               | No                | AMD/Intel GPUs                           | Desktop       |
 | `bazzite-gnome-nvidia`      | GNOME               | No                | Nvidia GPUs                              | Desktop       |
 | `bazzite-gnome-nvidia-open`      | GNOME               | No                | Nvidia GPUs (open kernel modules, newer Nvidia GPUs only)                            | Desktop       |
-| `bazzite-deck`              | KDE Plasma          | Yes               | AMD/Intel Arc GPUs                       | Handheld/HTPC |
-| `bazzite-deck-gnome`        | GNOME               | Yes               | AMD/Intel Arc GPUs                       | Handheld/HTPC |
+| `bazzite-deck`              | KDE Plasma          | Yes               | AMD/Intel Arc GPUs                       | Bazzite-Deck |
+| `bazzite-deck-gnome`        | GNOME               | Yes               | AMD/Intel Arc GPUs                       | Bazzite-Deck |
 | `bazzite-asus`              | KDE Plasma          | No                | ASUS Laptops (AMD/Intel GPUs             | Desktop       |
 | `bazzite-asus-gnome`        | GNOME               | No                | ASUS Laptops (AMD/Intel GPUs)            | Desktop       |
 | `bazzite-asus-nvidia`       | KDE Plasma          | No                | ASUS Laptops (Nvidia GPUs)               | Desktop       |
 | `bazzite-asus-nvidia-open`       | KDE Plasma          | No                | ASUS Laptops (Newer Nvidia GPUs)               | Desktop       |
 | `bazzite-gnome-asus-nvidia` | GNOME               | No                | ASUS Laptops (Nvidia GPUs)               | Desktop       |
 | `bazzite-gnome-asus-nvidia-open` | GNOME               | No                | ASUS Laptops (Newer Nvidia GPUs)               | Desktop       |
-| `bazzite-ally`              | KDE Plasma          | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Handheld/HTPC |
-| `bazzite-ally-gnome`        | GNOME               | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Handheld/HTPC |
+| `bazzite-ally`              | KDE Plasma          | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Bazzite-Deck |
+| `bazzite-ally-gnome`        | GNOME               | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Bazzite-Deck |
 
 ### Who are the target audiences?
 
