@@ -31,7 +31,7 @@ If you feel comfortable with bash scripting, programming, working with container
 
 <hr>
 
-# Universal Blue's General Contributing Guidelines
+# [Universal Blue's General Contributing Guidelines](https://universal-blue.org/contributing.html)
 
 We welcome pull requests! Here's a quick how-to:
 
