@@ -1,7 +1,10 @@
 ---
+title: Home
 hide:
   - navigation
 ---
+
+# Introduction to Bazzite
 
 <div class="grid cards _bz" markdown>
 
