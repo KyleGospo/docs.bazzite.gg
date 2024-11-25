@@ -15,7 +15,7 @@ Report bugs experienced with Bazzite in our [**issue tracker**](https://github.c
 
 ## Before submitting an issue
 
->**Read [how to file an issue properly](https://universal-blue.discourse.group/docs?topic=1470) before proceeding!**
+>**Read [how to file an issue properly](https://universal-blue.discourse.group/t/how-to-file-issues/1470) before proceeding!**
 
 #### **Bazzite Issue Template Walkthrough**
 
