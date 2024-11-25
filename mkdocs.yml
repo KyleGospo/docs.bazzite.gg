@@ -125,9 +125,9 @@ nav:
          - "Installing Bazzite for Home Theater PC (HTPC) Setups": General/Installation_Guide/Installing_Bazzite_for_HTPC_Setups.md
          - "Installing Bazzite on the Steam Deck": General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md
          - "Installing Bazzite on Handheld PCs": General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md
-         - "Installation Troubleshoot Guide": General/Installation_Guide/troubleshoot_guide.md
+         - "Dual Boot Preliminary and Post-Installation Setup Guide": General/Installation_Guide/dual_boot_setup_guide.md
          - "Secure Boot Instructions": General/Installation_Guide/secure_boot.md
-         - "Dual Boot Preliminary and Post-Installation Setup Guide": General/Installation_Guide/dual_boot_setup_guide.md  
+         - "Installation Troubleshoot Guide": General/Installation_Guide/troubleshoot_guide.md         
   - General:
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
       - "Reporting Bugs": General/reporting_bugs.md
