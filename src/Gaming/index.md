@@ -8,7 +8,7 @@ authors:
   - "@storyaddict"
   - "@castrojo"
 tags:
-  - guide
+  - Guide
 ---
 
 <!-- ANCHOR: METADATA -->
