@@ -5,6 +5,7 @@ authors:
   - "@HikariKnight"
   - "@AkazaRenn"
   - "@snipem"
+---
 
 ## Common Questions & Issues for Steam Gaming Mode
 
