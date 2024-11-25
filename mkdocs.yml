@@ -140,6 +140,7 @@ nav:
           - "Hardware Compatibility for Gaming": Gaming/Hardware_compatibility_for_gaming.md
   - Bazzite-Deck:
       - "Steam Gaming Mode": Handheld_and_HTPC_edition/Steam_Gaming_Mode.md
+      - "Quirks and Workarounds": Handheld_and_HTPC_edition/quirks.md
       - "Handheld Wiki":
           - Handheld_and_HTPC_edition/Handheld_Wiki/index.md
           - "Steam Deck": Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck.md
