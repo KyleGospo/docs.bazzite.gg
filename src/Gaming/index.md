@@ -7,6 +7,8 @@ authors:
   - "@bsherman"
   - "@storyaddict"
   - "@castrojo"
+tags:
+  - guide
 ---
 
 <!-- ANCHOR: METADATA -->
