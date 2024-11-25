@@ -66,7 +66,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 
 ### Community 
 - [**BlueBuild**](https://blue-build.org/) ([**Contribute**](https://blue-build.org/learn/contributing/))
-- [**Community Contributors**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Do your part!**](https://docs.bazzite.gg/Advanced/contributing/))
+- [**Community Contributors**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Do your part!**](https://docs.bazzite.gg/CONTRIBUTE/))
 
 ## Fedora Project
 
