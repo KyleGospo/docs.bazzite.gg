@@ -92,7 +92,7 @@ Steam Workshop is the most straightforward method to obtain mods, but is not sup
 
 Replace files and directories is still supported in both the game directory and prefix, but there may be some extra steps involved.
 
-Some mods require a "WINE DLL OVERRIDE" environment variable in the Steam launch options.
+Some mods require a "WINE DLL OVERRIDE" environment variable in the Steam launch options.  For non-Steam Games, use Lutris to open "Wine Configuration" and select the "Libraries" tab to add new overrides.
 
 !!! example
     
