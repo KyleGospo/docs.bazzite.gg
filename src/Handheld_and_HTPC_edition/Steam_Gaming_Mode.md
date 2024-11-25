@@ -1,4 +1,5 @@
 ---
+title: Bazzite-Deck Images
 authors:
   - "@nicknamenamenick"
   - "@HikariKnight"
