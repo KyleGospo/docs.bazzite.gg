@@ -21,7 +21,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Gareth Widlansky**](https://github.com/gerblesh)
 - [**Niklas Haiden**](https://github.com/NiHaiden)
 - [**xyny**](https://github.com/xynydev)
-- [**tulilirockz**](https://github.com/tulilirockz)
+- [**Tulip Blossom**](https://github.com/tulilirockz)
 - [**bobslept**](https://github.com/bobslept)
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary)
 - [**Justin Garrison**](https://github.com/rothgar)
