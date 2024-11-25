@@ -1,5 +1,5 @@
 ---
-title: Bazzite-Deck Images
+title: Steam Gaming Mode Images
 authors:
   - "@nicknamenamenick"
   - "@HikariKnight"
