@@ -4,8 +4,6 @@ hide:
   - navigation
 ---
 
-# Getting Started
-
 <div class="grid cards _bz" markdown>
 
 - [:material-harddisk: **Installing Bazzite**](General/Installation_Guide/index.md){ style="font-size: 1.1rem" }
