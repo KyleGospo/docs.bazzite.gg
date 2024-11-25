@@ -2,6 +2,8 @@
 authors:
   - "@nicknamenamenick"
   - "@m2Giles"
+tags:
+  - Guide
 ---
 
 <!-- ANCHOR: METADATA -->
