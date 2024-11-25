@@ -2,6 +2,8 @@
 authors:
   - "@nicknamenamenick"
   - "@termdisc"
+tags:
+  - Guide
 ---
 
 <!-- ANCHOR: METADATA -->
