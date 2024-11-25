@@ -59,15 +59,6 @@ Valve wrote a [guide](https://help.steampowered.com/en/faqs/view/7DD4-C618-182E-
 
     Typical questions related to Steam Gaming Mode.
 
-#### How do I open the on-screen keyboard?
-
-!!! attention
-    
-    Steam must be running to access the keyboard.
-
-- By default it is bound to the <kbd>Steam</kbd> + <kbd>X</kbd> on the Steam Deck.
-- For other handhelds it may require turning on Desktop Controls and configuring it manually.
-  - After that it is usually a combination of <kbd>X</kbd> (or equivalent) + one of the specific buttons your handheld has and it may also not be configured for your device out of the box.
 
 #### How do I open the Quick Access Menu (QAM) with a physical keyboard?
 
@@ -88,6 +79,16 @@ ujust configure-grub
 Select "unhide" to have GRUB appear on boot.
 
 > View the [Rollback Guide](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md) for more information.
+
+#### How do I open the on-screen keyboard?
+
+!!! attention
+    
+    Steam must be running to access the keyboard.
+
+- By default it is bound to the <kbd>Steam</kbd> + <kbd>X</kbd> on the Steam Deck.
+- For other handhelds it may require turning on Desktop Controls and configuring it manually.
+  - After that it is usually a combination of <kbd>X</kbd> (or equivalent) + one of the specific buttons your handheld has and it may also not be configured for your device out of the box.
 
 #### Change physical keyboard layout for Steam Gaming Mode
 
