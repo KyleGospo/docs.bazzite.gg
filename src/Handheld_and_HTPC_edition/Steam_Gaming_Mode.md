@@ -28,7 +28,7 @@ Bazzite utilizes Steam Gaming Mode by [forking ChimeraOS’s `gamescope-session`
 
 Steam Gaming Mode is what SteamOS on the Steam Deck is built around. A simple interface that is controller-friendly built around Steam's "Big Picture Mode" UI/UX. The minimal session only runs the bare minimum in the background, so most of the hardware resources is going towards the game being played. [Gamescope](https://github.com/ValveSoftware/gamescope) is the main ingredient in Steam Gaming Mode which gives users options to set a framerate cap, resolution scaling options, etc.
 
-### What are the HTPC/Handheld (`-deck`) Images?
+### What is Bazzite-Deck?
 
 Bazzite for Steam Deck hardware, Home Theater PC setups, and other Handheld PCs like the Lenovo Legion Go and Asus ROG Ally.
 
