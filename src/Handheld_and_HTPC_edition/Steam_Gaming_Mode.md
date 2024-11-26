@@ -44,6 +44,10 @@ This documentation may not cover specific areas with the assumption that the use
 
 Valve wrote a [guide](https://help.steampowered.com/en/faqs/view/7DD4-C618-182E-0E49) for the Steam Deck which may have some relevant information in regards to Bazzite.
 
+## Steam Gaming Mode Quirks and Workarounds
+
+Read the documentation [**here**](https://docs.bazzite.gg/Handheld_and_HTPC_edition/quirks/).
+
 <hr>
 
 **See also**: [Gaming Guide](../Gaming/index.md)
