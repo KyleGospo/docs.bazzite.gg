@@ -42,7 +42,7 @@ brh
 
 `bazzite-rollback-helper list` will list available bazzite images.
 
-`bazzite-rollback-helper rebase <image-name:stable>` to rebase to an earlier image, update branch, or different Bazzite image (Desktop vs. Handheld/HTPC).  Find a version from the `list` command.
+`bazzite-rollback-helper rebase <image-name:stable>` to rebase to an earlier image, update branch, or different Bazzite image (Desktop vs. Bazzite-Deck).  Find a version from the `list` command.
 
 #### Rebasing to an older Bazzite image
 
