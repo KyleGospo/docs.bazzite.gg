@@ -74,7 +74,7 @@ There are 3 branches you can switch to:
   - Can be **several months behind** compared to both `:stable` and `:testing` updates when not in use
   - Intended for testing desktop environments and other radically changed functionality to Bazzite for the future
 
-Handheld/HTPC images can switch branches in `Settings > System > OS Update Channel` in Steam Gaming Mode.
+Bazzite-Deck images can switch branches in `Settings > System > OS Update Channel` in Steam Gaming Mode.
 
 If you enabled **advanced update channel**, then additional options will appear. The options map as the following:
 
