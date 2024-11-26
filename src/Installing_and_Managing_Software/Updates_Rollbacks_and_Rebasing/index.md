@@ -12,7 +12,7 @@ authors:
 
 ## Updates
 
-Updates are automatic on Desktop images and manually done on Handheld/HTPC images, and both Bazzite variants upgrade everything at both a system-level and user-installed applications during the updating process.
+Updates are automatic on Desktop images and manually done on Bazzite-Deck images, and both Bazzite variants upgrade everything at both a system-level and user-installed applications during the updating process.
 
 > **Full Documentation**:
 > [Updating guide](./updating_guide.md)
@@ -26,7 +26,7 @@ Swap back to a previous system update if there are major issues after updating v
 
 ## Rebasing
 
-Rebase to Bazzite builds from the last 90 days, change Bazzite update channels, swap between the Desktop and Handheld/HTPC images, or move completely to a different Fedora Atomic Desktop image.
+Rebase to Bazzite builds from the last 90 days, change Bazzite update channels, swap between the Desktop and Bazzite-Deck images, or move completely to a different Fedora Atomic Desktop image.
 
 !!! important 
     
