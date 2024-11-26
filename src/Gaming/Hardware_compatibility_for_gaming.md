@@ -36,7 +36,7 @@ tags:
 
 !!! note
     
-    These specific requirements only apply to [Handheld/HTPC (`-deck`) Bazzite images](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
+    These specific requirements only apply to [Bazzite-Deck images](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
 - AMD GPU
   - Modern AMD GPUs
