@@ -95,7 +95,7 @@ Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an 
   - Nvidia GPUs are **unsupported**. 
 - Proprietary connectors, like the one for the ASUS ROG Ally, will not work.
 
-#### **Recommended External Guide & Script**:
+### Recommended External Guide & Script:
 
 Read this [guide](https://github.com/ewagner12/all-ways-egpu) for eGPU usage on Linux, and use the script at your own risk.
 
