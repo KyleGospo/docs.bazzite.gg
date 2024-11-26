@@ -23,7 +23,7 @@ Rollback can also be done in the GRUB menu (the menu you see before booting into
 
 ### Unhide The GRUB Menu (If you opted to hide the GRUB menu)
 
-Unhide GRUB on Handheld/HTPC images with this **command**:
+Unhide GRUB on Bazzite-Deck images with this **command**:
 
 ```
 ujust configure-grub
