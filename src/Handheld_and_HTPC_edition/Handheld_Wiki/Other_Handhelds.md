@@ -15,7 +15,7 @@ authors:
     
     Certain handhelds have been confirmed to boot Bazzite, but are plagued by missing driver support for Linux including missing audio drivers.
 
-Unsupported handhelds _could work_ with Bazzite and the "**Other Handhelds**" section should cover unsupported handhelds, but there may be major issues encountered that are undocumented. If your handheld hardware is not listed, then you can still give Bazzite a try with our Handheld/HTPC image.
+Unsupported handhelds _could work_ with Bazzite and the "**Other Handhelds**" section should cover unsupported handhelds, but there may be major issues encountered that are undocumented. If your handheld hardware is not listed, then you can still give Bazzite a try with our Bazzite-Deck image.
 
 Your mileage may vary with untested hardware. Bazzite does **not** have the required setup for unsupported handheld, so setup will be manually done by the end user with unsupported handhelds.
 
