@@ -74,7 +74,7 @@ More information can be found on our [FAQ](https://faq.bazzite.gg) about the dif
     Your device will automatically boot into the Steam Gaming Mode session at startup, and Desktop Mode can be accessed from the "**power menu**" in Steam Gaming Mode.
 
 - **Requires a [Steam](https://store.steampowered.com/) account**
-- Included in the [Handheld/HTPC images](../../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
+- Included in the [Bazzite-Deck images](../../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 - Interface is designed for handheld and couch gaming
 - Controller friendly
 - Choice of KDE Plasma or GNOME in Desktop Mode
