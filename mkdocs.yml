@@ -129,8 +129,8 @@ nav:
          - "Secure Boot Instructions": General/Installation_Guide/secure_boot.md
          - "Installation Troubleshoot Guide": General/Installation_Guide/troubleshoot_guide.md         
   - General:
+      - "Reporting Bugs": General/reporting_bugs.md  
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
-      - "Reporting Bugs": General/reporting_bugs.md
       - "Bazzite's README": "Bazzite_README.md"      
   - Gaming:
           - "Gaming Guide": Gaming/index.md
