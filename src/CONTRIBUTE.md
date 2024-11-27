@@ -15,7 +15,7 @@ authors:
 
 - Adding features or fixing bugs by submitting a [pull request](https://github.com/ublue-os/bazzite/pulls).
 - Reporting issues you experience on our [issue tracker](https://github.com/ublue-os/bazzite/issues).
-- Adding and contributing to [documentation](https://docs.bazzite.gg).
+- Adding and contributing to [documentation](https://github.com/KyleGospo/docs.bazzite.gg).
   - Language translations are encouraged for documentation and the [README](https://github.com/ublue-os/bazzite/blob/main/README.md).
 - Testing Bazzite on unique hardware configurations.
   - Troubleshooting issues with handheld hardware is appreciated.
