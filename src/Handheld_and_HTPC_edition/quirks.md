@@ -197,7 +197,7 @@ nano ~/.config/environment.d/10-gamescope-session.conf
 Then add this to the file:
 
 `OUTPUT_CONNECTOR=DP-1`
-change `DP-1` to the correct output.
+Change `DP-1` to the correct output.
 You can find your display outputs on KDE using the command
 
 ```
