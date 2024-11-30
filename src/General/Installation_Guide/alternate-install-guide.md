@@ -49,4 +49,4 @@ Replace **`<IMAGE>`** with the image you're using which can be found from the "*
 
 ### Video Tutorial
 
-https://www.youtube.com/watch?v=Vs4cneBW5ck
+https://www.youtube.com/watch?v=0NKEfVvdiOs
