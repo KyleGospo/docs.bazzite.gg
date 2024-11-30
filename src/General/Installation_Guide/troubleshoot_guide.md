@@ -7,78 +7,41 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=2495", "fetched_at": "2024-09-03 16:43:22.238775+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## Error Workarounds
-
-### Error Code 1
+## Error Code 1
 
 A generic error may appear during installation.
 
 **Watch this video for a workaround**:
 https://www.youtube.com/watch?v=GRdz08hJByo
 
-### "Device is Active" Error
+## "Device is Active" Error
 
 **Watch this video for a workaround**:
 
 https://www.youtube.com/watch?v=FBGLLkIKp-w
 
-### "Error checking storage configuration"
+## "Error checking storage configuration"
 
 **Watch this video for a workaround**:
 
 https://www.youtube.com/watch?v=VTnm9EiBdPA
 
-### "Bad shim signature, you need to load the kernel first" error
+## "Bad shim signature, you need to load the kernel first" error
 
 **Watch this video for a workaround**:
 
 https://www.youtube.com/watch?v=Z_DsWqTuipU
 
->**See also**: [Secure Boot Guide](https://docs.bazzite.gg/General/Installation_Guide/secure_boot/)
+>[**Secure Boot Guide**](https://docs.bazzite.gg/General/Installation_Guide/secure_boot/)
 
-## Worst Case Scenario: Alternative Installation Method
+<hr>
 
-!!! attention 
+## Alternative Installation Method
 
-    This method may have scaling issues with the installer depending on the hardware especially if it is a handheld PC.
+If none of the above errors are relevant to your issue, or you still have problems installing Bazzite, then try following our alternative installation method:
 
-The workaround below is also useful for **downloading a smaller ISO size**.
+[**Try installing Bazzite by rebasing from Fedora Kinoite (KDE Plasma) or Fedora Silverblue (GNOME)**](https://docs.bazzite.gg/General/Installation_Guide/alternate-install-guide).
 
-### Rebasing from a Fedora Atomic Desktop Image
+!!! note
 
-If you experience issues with installing our ISO or the bootable drive you have is too small for Bazzite, then download the [Fedora Kinoite (**KDE Plasma**)](https://fedoraproject.org/atomic-desktops/kinoite/) or [Fedora Silverblue (**GNOME**)](https://fedoraproject.org/atomic-desktops/silverblue/) depending on which desktop environment you prefer.
-
-1. The installation setup is similar to Bazzite and includes the same installer with the same instructions, but do **not** set a root account if its an option in the installer.
-
-2. Once installed, you will not be on Bazzite until you enter the command found on our website that appears under ["**Existing Fedora Atomic Desktop Users**" section](https://download.bazzite.gg) when the download is ready.
-
-3. Open the terminal and enter this command, and keep in mind this process has **no progress indicator** and will take a long time.
-
-4. Reboot when the rebase has finished, and Bazzite should be installed after rebooting and your username as well as the user password will carry over from the upstream Fedora Atomic Desktop to Bazzite.
-
-5. You will also be **missing the default applications** until you open a host terminal and **enter**:
-
-```command
-ujust _install-system-flatpaks
-```
-
-Choose the "Flathub" remote.
-
-> **This command installs:**
->
-> - [Flatpak applications for **KDE Plasma** images](https://github.com/ublue-os/bazzite/blob/9f6f5e143b7545d06803e70e7723997400bd8b88/system_files/desktop/kinoite/usr/share/ublue-os/bazzite/flatpak/install)
-> - [Flatpak applications for **GNOME** images](https://github.com/ublue-os/bazzite/blob/9f6f5e143b7545d06803e70e7723997400bd8b88/system_files/desktop/silverblue/usr/share/ublue-os/bazzite/flatpak/install)
-
-#### Rebasing to a signed image
-
-Once everything is setup properly, then you should rebase from the **unsigned image** to the **signed image** for security reasons, so **enter this command** in the host terminal:
-
-```command
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/<IMAGE>
-```
-
-Replace `<IMAGE>` with the image you're using which can be found from the "**Existing Fedora Atomic Desktop Users**" section as well.
-
-#### Video Tutorial
-
-https://www.youtube.com/watch?v=Vs4cneBW5ck
+    The alternative installation method is also useful for **downloading a smaller ISO** and **may resolve issues with downloading Bazzite's ISO**.
