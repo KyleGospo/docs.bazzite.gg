@@ -127,7 +127,8 @@ nav:
          - "Installing Bazzite on Handheld PCs": General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md
          - "Dual Boot Preliminary and Post-Installation Setup Guide": General/Installation_Guide/dual_boot_setup_guide.md
          - "Secure Boot Instructions": General/Installation_Guide/secure_boot.md
-         - "Installation Troubleshoot Guide": General/Installation_Guide/troubleshoot_guide.md         
+         - "Installation Troubleshoot Guide": General/Installation_Guide/troubleshoot_guide.md
+         - "Alternative Installation Method": General/Installation_Guide/alternate-install-guide.md
   - General:
       - "Reporting Bugs": General/reporting_bugs.md  
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
