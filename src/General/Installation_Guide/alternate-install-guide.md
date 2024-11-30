@@ -8,10 +8,6 @@ authors:
 
     This method may have scaling issues with the installer depending on the hardware especially if it is a handheld PC.
 
-!!! note
-
-    The workaround below is also useful for **downloading a smaller ISO size**.
-
 ## Rebasing from an Fedora Atomic Desktop Image
 
 If you experience issues with installing our ISO or the bootable drive you have is too small for Bazzite, then download the [Fedora Kinoite (**KDE Plasma**)](https://fedoraproject.org/atomic-desktops/kinoite/) or [Fedora Silverblue (**GNOME**)](https://fedoraproject.org/atomic-desktops/silverblue/) depending on which desktop environment you prefer.
