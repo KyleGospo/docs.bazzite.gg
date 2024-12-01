@@ -14,7 +14,7 @@ If you experience issues with installing our ISO or the bootable drive you have 
 
 1. The installation setup is similar to Bazzite and includes the same installer with the same instructions, but do **not** set a root account if its an option in the installer.
 
-2. Once installed, you will not be on Bazzite until you enter the command found on our website that appears under ["**Existing Fedora Atomic Desktop Users**" section](https://download.bazzite.gg) when the download is ready.
+2. Once installed, you will not be on Bazzite until you enter the command found on our website that appears under ["**Existing Fedora Atomic Desktop Users**" section](https://download.bazzite.gg) when the download is ready or by referencing the [full image list in the FAQ](https://docs.bazzite.gg/General/FAQ/#bazzite-image-chart)
 
 3. Open the terminal and enter this command, and keep in mind this process has **no progress indicator** and will take a long time.
 
@@ -45,7 +45,7 @@ Once everything is setup properly, then you should rebase from the **unsigned im
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/<IMAGE>
 ```
 
-Replace **`<IMAGE>`** with the image you're using which can be found from the "**Existing Fedora Atomic Desktop Users**" section as well or by referencing the [full image list in the FAQ](https://docs.bazzite.gg/General/FAQ/#bazzite-image-chart)
+Replace **`<IMAGE>`** with the image you're using.
 
 ### Video Tutorial
 
