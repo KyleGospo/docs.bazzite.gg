@@ -12,6 +12,6 @@ title: Social Platforms
 
 ## [:simple-bluesky: Bluesky](https://bsky.app/profile/bazzite.gg)
 
-## [:simple-x: X/Twitter](https://x.com/bazzite_gg)
+## [:simple-x: X/Twitter](https://x.com/bazzite_gg) / [Nitter](https://xcancel.com/bazzite_gg)
 
 ## [:simple-steam: Steam Group](https://steamcommunity.com/groups/Bazzite)
