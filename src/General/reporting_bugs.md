@@ -45,7 +45,3 @@ Attach the link that it outputs for system logs.
 ```command
 ujust logs-last-boot
 ```
-
-<hr>
-
-[**<-- View all Bazzite documentation**](https://docs.bazzite.gg)
