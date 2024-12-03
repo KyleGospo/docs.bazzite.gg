@@ -102,7 +102,3 @@ Command Line Interface methods are intended for advanced users, and it is recomm
 This video tutorial shows how to recover from your mounting mistakes.
 
 https://www.youtube.com/watch?v=-2wca_0CpXY
-
-<hr>
-
-<-- [**View all Bazzite documentation**](https://docs.bazzite.gg)

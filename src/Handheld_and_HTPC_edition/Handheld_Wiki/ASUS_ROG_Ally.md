@@ -135,6 +135,8 @@ Hold down the "**select**" button on your device to force a reboot. This feature
 
 This page and all of the links to each specific handheld are **wikis**, edit it to add any relevant information you may have regarding the handheld and your experience with Bazzite on it. Make sure to follow proper [contributing guidelines](https://docs.bazzite.gg/CONTRIBUTE/) before adding any edits.
 
+<hr>
+
 **See also**: [Steam Gaming Mode Overview](../Steam_Gaming_Mode.md)
 
 **<-- Back to [Handheld Wiki](./index.md)**

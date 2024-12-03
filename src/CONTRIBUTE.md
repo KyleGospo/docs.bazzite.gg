@@ -350,7 +350,3 @@ If you're interested in _maintaining_ something then check the [membership page]
 
 ## Attribution
 This guide is based on the **contributing.md**. [Make your own](https://contributing.md/)!
-
-<hr>
-
-<-- [**View all Bazzite documentation**](../index.md)
