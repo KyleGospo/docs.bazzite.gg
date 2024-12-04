@@ -38,11 +38,11 @@ Distrobox containers run sub-systems of other popular [Linux distributions](http
 | OS                                  | Package Manager    | Search for Packages                                                       |
 | ----------------------------------- | ------------------ | ------------------------------------------------------------------------- |
 | [Fedora][fedora]                    | [`dnf`][dnf]       | [Fedora Packages][fedora_pkgs] / [COPR Packages][copr]                    |
-| [Arch Linux][arch]                  | [`pacman`][pacman] | [Arch Linux Packages][arch_pkgs] / [AUR Packages][aur_pkgs]               |
+| [Arch][arch]                  | [`pacman`][pacman] | [Arch Linux Packages][arch_pkgs] / [AUR Packages][aur_pkgs]               |
 | [Debian][debian] / [Ubuntu][ubuntu] | [`apt`][apt]       | [Debian Packages][deb_pkgs] / [Ubuntu Packages][ubuntu_pkgs] ([PPA][ppa]) |
 | [openSUSE][osuse]                   | [`zypper`][zypper] | [openSUSE Packages][osuse_pkgs]                                           |
-| [Void Linux][void]                  | [`xbps`][xbps]     | [Void Linux Packages][void_pkgs]                                          |
-| [Alpine Linux][alpine]              | [`apk`][apk]       | [Alpine Linux Packages][alpine_pkgs]                                      |
+| [Void][void]                  | [`xbps`][xbps]     | [Void Linux Packages][void_pkgs]                                          |
+| [Alpine][alpine]              | [`apk`][apk]       | [Alpine Linux Packages][alpine_pkgs]                                      |
 
 ## Use Cases
 
