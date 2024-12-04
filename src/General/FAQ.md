@@ -63,6 +63,16 @@ Both types of images also come with the choice of using [KDE Plasma](https://kde
 
 ### Bazzite Image Chart
 
+Verify your image by entering this **commmand**:
+
+```
+rpm-ostree status
+```
+
+Every Bazzite image should be `ostree-image-signed:docker://ghcr.io/ublue-os/...`
+
+<sub> The `...` is a placeholder for the actual image name which can be referenced in the chart below. </sub>
+
 | Image                       | Desktop Environment | Steam Gaming Mode | Hardware                                 | Edition       |
 | --------------------------- | ------------------- | ----------------- | ---------------------------------------- | ------------- |
 | `bazzite`                   | KDE Plasma          | No                | AMD/Intel GPUs                           | Desktop       |
@@ -81,16 +91,6 @@ Both types of images also come with the choice of using [KDE Plasma](https://kde
 | `bazzite-gnome-asus-nvidia-open` | GNOME               | No                | ASUS Laptops (Newer Nvidia GPUs)               | Desktop       |
 | `bazzite-ally`              | KDE Plasma          | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Bazzite-Deck |
 | `bazzite-ally-gnome`        | GNOME               | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Bazzite-Deck |
-
-Verify your image by entering this **commmand**:
-
-```
-rpm-ostree status
-```
-
-Every Bazzite image should be `ostree-image-signed:docker://ghcr.io/ublue-os/...`
-
-<sub> The `...` is a placeholder for the actual image name which can be referenced in the chart above. </sub>
 
 ### Who are the target audiences?
 
