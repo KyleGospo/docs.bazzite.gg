@@ -1,6 +1,8 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@HikariKnight"
+  - "@asen23"
 tags:
   - Guide
 ---
