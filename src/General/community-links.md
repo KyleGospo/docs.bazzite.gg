@@ -33,7 +33,7 @@ title: Community Resources
 - [Change Start Icon for KDE Plasma](https://docs.getaurora.dev/guides/start-icon/)
 - [GRUB Theming](https://universal-blue.discourse.group/t/grub-theming-guide-for-silverblue-ublue/370)
 
-## Custom Image Tooling
+## Image Resources
 
 - [Installing Universal Blue's Base Images](https://universal-blue.discourse.group/t/how-to-install-universal-blues-base-images/868)
 - [List of Community Created Custom Images](https://universal-blue.discourse.group/t/list-of-community-created-custom-images/340)
