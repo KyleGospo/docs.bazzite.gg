@@ -96,11 +96,11 @@ Every Bazzite image should be `ostree-image-signed:docker://ghcr.io/ublue-os/...
 
 *>* Individuals who desire a desktop operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance involved in comparison to other desktop Linux operating systems.
 
-*>* Steam Deck users who feel limited by SteamOS and also want newer system packages.
+*>* Individuals who want a controller-friendly experience for couch gaming.
 
-*>* Individuals who want a console-like experience.
+*>* Individuals who own a [Handheld PC](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) who would prefer a SteamOS-like experience.
 
-*>* [Handheld PC](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) users who would prefer a SteamOS-like experience.
+*>* Individuals who own a Steam Deck who feel limited by SteamOS and also want newer system packages.
 
 ## SteamOS is based on Arch Linux, so why use Fedora Atomic Desktop?
 
