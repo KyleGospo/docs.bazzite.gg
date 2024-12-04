@@ -20,7 +20,7 @@ title: Community Resources
 ## Software / Gaming
 
 - [Restored Bazzite Portal Application List](https://universal-blue.discourse.group/t/old-bazzite-portal-flatpak-list-restored-as-a-forum-post/5440)
-- [Microsoft's Tutorial on Xbox Cloud Streaming for Gamepass (and Fortnite)](https://support.microsoft.com/en-us/topic/xbox-cloud-gaming-in-microsoft-edge-with-steam-deck-43dd011b-0ce8-4810-8302-965be6d53296)
+- [Microsoft's Tutorial on Xbox Cloud Streaming for Gamepass Ultimate (and Fortnite)](https://support.microsoft.com/en-us/topic/xbox-cloud-gaming-in-microsoft-edge-with-steam-deck-43dd011b-0ce8-4810-8302-965be6d53296)
 - [Installing Mullvad VPN](https://docs.getaurora.dev/guides/layerapp/)
 - [Browser Games w/ Web Apps](https://universal-blue.discourse.group/t/how-to-run-old-browser-games-with-web-apps/486)
 - [Plex Media Server Tutorial Using Distrobox](https://universal-blue.discourse.group/t/video-tutorial-how-to-install-plex-media-server-using-distrobox-on-bazzite/1999)
