@@ -77,10 +77,10 @@ Every Bazzite image should be `ostree-image-signed:docker://ghcr.io/ublue-os/...
 | --------------------------- | ------------------- | ----------------- | ---------------------------------------- | ------------- |
 | `bazzite`                   | KDE Plasma          | No                | AMD/Intel GPUs                           | Desktop       |
 | `bazzite-nvidia`            | KDE Plasma          | No                | Nvidia GPUs                              | Desktop       |
-| `bazzite-nvidia-open`            | KDE Plasma          | No                | Nvidia GPUs (open kernel modules, newer Nvidia GPUs only)                             | Desktop       |
+| `bazzite-nvidia-open`            | KDE Plasma          | No                | Nvidia GPUs (Newer Nvidia GPUs)                             | Desktop       |
 | `bazzite-gnome`             | GNOME               | No                | AMD/Intel GPUs                           | Desktop       |
 | `bazzite-gnome-nvidia`      | GNOME               | No                | Nvidia GPUs                              | Desktop       |
-| `bazzite-gnome-nvidia-open`      | GNOME               | No                | Nvidia GPUs (open kernel modules, newer Nvidia GPUs only)                            | Desktop       |
+| `bazzite-gnome-nvidia-open`      | GNOME               | No                | Nvidia GPUs (Newer Nvidia GPUs)                            | Desktop       |
 | `bazzite-deck`              | KDE Plasma          | Yes               | AMD/Intel Arc GPUs                       | Bazzite-Deck |
 | `bazzite-deck-gnome`        | GNOME               | Yes               | AMD/Intel Arc GPUs                       | Bazzite-Deck |
 | `bazzite-asus`              | KDE Plasma          | No                | ASUS Laptops (AMD/Intel GPUs             | Desktop       |
