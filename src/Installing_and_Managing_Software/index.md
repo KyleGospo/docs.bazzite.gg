@@ -43,17 +43,11 @@ Follow the [Waydroid Setup Guide](./Waydroid_Setup_Guide.md) to install Android 
 !!! note 
     Waydroid is **not supported** on other Universal Blue images like [Aurora](https://getaurora.dev/) and [Bluefin](https://projectbluefin.io/).
 
-## Tutorials for Installing Other Software
-
-- [Plex Media Server](https://universal-blue.discourse.group/t/video-tutorial-how-to-install-plex-media-server-using-distrobox-on-bazzite/1999)
-  - **DISCLAIMER**: Podman, Docker, or [linuxserver.io](https://www.linuxserver.io/) is recommended over Distrobox for most software that you host services for.
-- [Flash Games](https://universal-blue.discourse.group/t/how-to-run-old-browser-games-with-web-apps/486)
-
 ### Video Showcase of Installing Software
 
 !!! note
     
-    This video is missing Homebrew.
+    This video is missing a Homebrew walkthrough.
 
 https://www.youtube.com/watch?v=ITuT23YrgPs
 
