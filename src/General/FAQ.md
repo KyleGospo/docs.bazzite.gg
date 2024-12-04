@@ -88,13 +88,13 @@ Verify your image by entering this **commmand**:
 rpm-ostree status
 ```
 
-Every Bazzite image should be `rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/...`
+Every Bazzite image should be `ostree-image-signed:docker://ghcr.io/ublue-os/...`
 
 <sub> The `...` is a placeholder for the actual image name which can be referenced in the chart above. </sub>
 
 ### Who are the target audiences?
 
-*>* Individuals who desire a desktop operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance.
+*>* Individuals who desire a desktop operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance involved in comparison to other desktop Linux operating systems.
 
 *>* Steam Deck users who feel limited by SteamOS and also want newer system packages.
 
