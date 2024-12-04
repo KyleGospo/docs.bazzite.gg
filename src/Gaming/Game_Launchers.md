@@ -83,9 +83,13 @@ Heroic Games Launcher is recommended for games that were purchased from Epic Gam
 
 Make sure "**Apply known fixes automatically**" and "**Use UMU as Proton runtime**" are both checked in the settings.
 
-### Gamepass / Microsoft Store Games (Cloud Streaming)
+### Game Pass and Microsoft Store Games (Xbox Cloud Gaming)
 
-Games installed from the Microsoft Store do **not** run on desktop Linux unless you use a xCloud client like [Greenlight](https://github.com/unknownskl/greenlight). Fortnite can also be played via xCloud without a Gamepass subscription using this method.
+!!! note
+    
+    A Game Pass Ultimate subscription is required to use [Xbox Cloud Gaming](https://www.xbox.com/en-us/play) except for select games like Fornite.
+
+Games installed from the Microsoft Store do **not** run unless you use a Xbox Cloud Gaming client like [Greenlight](https://github.com/unknownskl/greenlight). Fortnite can also be played via this method **without** a Game Pass subscription with Xbox Cloud Gaming.
 
 ## Auto-Mounting Game Drives
 
