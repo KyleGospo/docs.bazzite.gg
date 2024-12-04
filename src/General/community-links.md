@@ -3,7 +3,7 @@ title: Community Resources
 ---
 !!! warning
 
-    These are links to other sources that are not considered official documentation, but are considered to be good community oriented resources, guides, and enhancements regarding Bazzite and the hardware that it is commonly installed on.
+    These are links to other sources that are not considered official documentation, but are good community-oriented resources, guides, and enhancements for Bazzite and the hardware that it is commonly installed on.
 
 ## Hardware
 
