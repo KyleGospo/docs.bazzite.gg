@@ -82,6 +82,16 @@ Both types of images also come with the choice of using [KDE Plasma](https://kde
 | `bazzite-ally`              | KDE Plasma          | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Bazzite-Deck |
 | `bazzite-ally-gnome`        | GNOME               | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Bazzite-Deck |
 
+Verify your image by entering this **commmand**:
+
+```
+rpm-ostree status
+```
+
+Every Bazzite image should be `rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/...`
+
+<sub> The `...` is a placeholder for the actual image name which can be referenced in the chart above. </sub>
+
 ### Who are the target audiences?
 
 *>* Individuals who desire a desktop operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance.
