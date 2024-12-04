@@ -132,6 +132,7 @@ nav:
   - General:
       - "Reporting Bugs": General/reporting_bugs.md  
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
+      - "Community Resources": General/community-links.md
       - "Bazzite's README": "Bazzite_README.md"      
   - Gaming:
           - "Gaming Guide": Gaming/index.md
