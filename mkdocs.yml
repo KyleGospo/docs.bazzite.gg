@@ -171,6 +171,7 @@ nav:
           - "Rebase Guide": "Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md"
           - "Bazzite Rollback Helper": "Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md"
   - Advanced:
+      - "Advanced Guides": Advanced/index.md
       - "Booting to Rescue & Emergency Mode": Advanced/rescue-and-emergency-mode.md
       - "Auto-Mounting Secondary Drives": Advanced/Auto-Mounting_Secondary_Drives.md
       - "Reset Forgotten User Password": Advanced/Reset_Forgotten_User_Password.md
