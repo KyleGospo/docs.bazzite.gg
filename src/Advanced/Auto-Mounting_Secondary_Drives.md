@@ -82,7 +82,8 @@ sudo chown $USER:$USER /var/mnt/games
 ## Graphical User Interface (GUI) Methods for Auto-Mounting
 
 !!! warning 
-  Do not set up auto-mount, unmount then format a drive! It can confuse the software you are configuring drives with. Instead, **remove the auto-mount first before formatting the drive**.
+
+    Do not set up auto-mount, unmount then format a drive! It can confuse the software you are configuring drives with. Instead, **remove the auto-mount first before formatting the drive**.
 
 - [**KDE Partition Manager**](./KDE_Partition_Manager_Auto_Mount_Guide.md)
 - [**GNOME Disks**](./GNOME_Disks_Auto-Mount_Guide.md)
