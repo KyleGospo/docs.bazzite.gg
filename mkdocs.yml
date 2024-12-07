@@ -130,6 +130,7 @@ nav:
          - "Installation Troubleshoot Guide": General/Installation_Guide/troubleshoot_guide.md
          - "Alternative Installation Method": General/Installation_Guide/alternate-install-guide.md
   - General:
+      - "General Guides": General/index.md
       - "Reporting Bugs": General/reporting_bugs.md  
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
       - "Community Resources": General/community-links.md
