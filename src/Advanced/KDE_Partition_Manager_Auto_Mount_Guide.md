@@ -3,6 +3,7 @@ authors:
   - "@nicknamenamenick"
   - "@HikariKnight"
   - "@asen23"
+  - "@lethedata"
 tags:
   - Guide
 ---
