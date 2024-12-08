@@ -70,7 +70,7 @@ defaults,noatime,nofail,rw,users,exec
 
 !!! note
     
-    Do not use the NTFS filesystem for game library storage in Bazzite, and it is not supported and you will get lots of issues with it. NTFS is **not** intended as a game drive for Bazzite.
+    Bazzite does **not** support NTFS. Using the NTFS filesystem will lead to a lot of issues and should be avoided.
 
 ### Permissions for the drive
 
