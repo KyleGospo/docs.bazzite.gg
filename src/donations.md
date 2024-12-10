@@ -120,12 +120,12 @@ Similar desktop Linux projects that share resources with us.
 - [**CachyOS**](https://cachyos.org/) ([**Support**](https://www.patreon.com/CachyOS))
 - [**SteamFork**](https://wiki.steamfork.org/) ([**Contribute**](https://github.com/SteamFork#support))
 
-## Bluefin, Aurora, and uCore
+## Aurora, Bluefin, and uCore
 
 Check out the other Universal Blue end-user images especially if you want an experience similar to Bazzite on other hardware that you do not intend to game on.
 
-- [**Bluefin**](https://projectbluefin.io/)
 - [**Aurora**](https://getaurora.dev/)
+- [**Bluefin**](https://projectbluefin.io/)
 - [**uCore**](https://projectucore.io)
 
 <hr>
