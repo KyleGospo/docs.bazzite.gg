@@ -226,16 +226,6 @@ It is **not recommended to rebase between desktop environments** due to configur
 
 Please try searching for your question on **https://docs.bazzite.gg** first before proceeding with the next steps. Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite/5) or [Discord](https://discord.gg/WEu6BdFEtp) if you have a specific question about something, but if it's an issue or bug you are encountering then [report it to the issue tracker](https://docs.bazzite.gg/General/reporting_bugs/).  Keep in mind that certain areas and topics are out of our control especially when it comes to Nvidia driver problems, game compatibility, or other problems that plague the modern day Linux desktop.
 
-## What is the difference between Bluefin, Aurora, and Bazzite?
-
-**TL;DR**: Bazzite is the gaming-centric version of Bluefin (GNOME) and Aurora (KDE Plasma), and all three are Universal Blue Fedora custom images intended for end users.
-
-[Bluefin](https://projectbluefin.io/) and [Aurora](https://getaurora.dev) are nearly identical outside of branding and desktop environment. Bazzite is a different image that shares similarities with both Bluefin and Aurora, and all three function relatively the same for desktop PCs and share contributors between projects. Bluefin and Aurora target two audiences: 
-- Individuals who want a maintenance-free Linux desktop experience
-- Developers who work with containers (using their `-dx` images)
-
-Bazzite exclusively focuses on having an out of the box Linux gaming experience for desktop, HTPC hardware, and handhelds as a priority. Bazzite can be summed up as Bluefin and Aurora designed for PC gaming.  Bazzite, Bluefin, and Aurora are community-centric custom Fedora Atomic Desktop that are configured for their specific target audience. Bazzite specifically targets PC gamers who want to use the Linux desktop as an alternative to Windows on a wide variety of hardware setups.
-
 ## Why are builds failing?
 
 ![Builds Failing|178x43](../img/Builds_Failing.png)
