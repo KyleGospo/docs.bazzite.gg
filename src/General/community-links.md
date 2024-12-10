@@ -16,6 +16,7 @@ title: Community Resources
 - [GPD Win Tips and Tricks](https://github.com/aarron-lee/gpd-win-tricks)
 - [Minisforum V3 Tips and Tricks](https://github.com/aarron-lee/awesome-minisforum-v3)
 - [Beelink GTR6 Compatibility List](https://docs.google.com/spreadsheets/d/1stEL43uuNny6HV4HhV347T0iEprstmahngEJEOqz_b4/)
+- [Wake on Lan Via Ethernet Tutorial](https://universal-blue.discourse.group/t/is-wake-on-lan-supported/1165/6)
 
 ## Software / Gaming
 
