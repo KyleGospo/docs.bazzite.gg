@@ -56,10 +56,6 @@ Use a disk graphical user interface like KDE Plasma or GNOME Disks to format you
 You can make a directory in `/var/mnt/` by opening a host terminal and **entering this command in a host terminal**:
 
 ```command
-cd /var/mnt
-```
-
-```command
 sudo mkdir /var/mnt/games
 ```
 
