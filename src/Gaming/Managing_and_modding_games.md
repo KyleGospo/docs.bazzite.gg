@@ -92,9 +92,7 @@ Steam Workshop is the most straightforward method to obtain mods, but is not sup
 
 [Steam Tinker Launch](https://github.com/sonic2kk/steamtinkerlaunch) may have useful settings for modding certain titles. It can be installed via ProtonUp-Qt (for KDE images) or ProtonPlus (for GNOME images).
 
-Replace files and directories is still supported in both the game directory and prefix, but there may be some extra steps involved.
-
-Some mods require a "WINE DLL OVERRIDE" environment variable in the Steam launch options.  For non-Steam Games, use Lutris to open "Wine Configuration" and select the "Libraries" tab to add new overrides.
+Replace files and directories is still supported in both the game directory and prefix, but there may be some extra steps involved.  Some mods require a "WINE DLL OVERRIDE" environment variable in the Steam launch options.  For non-Steam Games, use Lutris to open "Wine Configuration" and select the "Libraries" tab to add new overrides.
 
 !!! example
     
