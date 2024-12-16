@@ -28,7 +28,7 @@ Linux gaming being a viable competitor to Windows is a relatively new paradigm. 
   - [Available Options](/Gaming/Game_Launchers.md#non-steam-games)
   - [Configuring Lutris](/Gaming/Game_Launchers.md#lutris-setup)
   - [Configuring Heroic Games Launcher](/Gaming/Game_Launchers.md#heroic-games-launcher-setup)
-  - [Gamepass Using Xbox Cloud Gaming](/Gaming/Game_Launchers.md#gamepass-microsoft-store-games-cloud-streaming)
+  - [Gamepass Using Xbox Cloud Gaming](/Gaming/Game_Launchers.md#game-pass-and-microsoft-store-games-xbox-cloud-gaming)
 - [Auto-Mounting Game Drives](/Gaming/Game_Launchers.md#auto-mounting-game-drives)
 
 ### [**Managing & Modding Games**](Managing_and_modding_games.md)
