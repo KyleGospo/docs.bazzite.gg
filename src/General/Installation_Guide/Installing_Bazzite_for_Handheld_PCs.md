@@ -210,9 +210,13 @@ The [Installing and Managing Applications documentation](../../Installing_and_Ma
 
 Change it in the settings of Desktop Mode under the "User" category.
 
-#### Post-Setup and Known Issues for Handhelds and Steam Gaming Mode
+### Post-Setup and Known Issues for Handhelds and Steam Gaming Mode
 
 Read the [Handheld Wiki](https://universal-blue.discourse.group/docs?topic=1038) and [Steam Gaming Mode Overview documentation][Steam_Gaming_Mode] for information regarding Bazzite on handheld PCs.
+
+### Calculating ISO SHA256 Checksum Hash
+
+https://www.youtube.com/watch?v=wUDbMJtR1sM
 
 <hr>
 
