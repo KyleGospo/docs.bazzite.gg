@@ -183,6 +183,10 @@ An application will pop up welcoming you to Bazzite when you boot into the deskt
 
 The [Installing and Managing Applications documentation](../../Installing_and_Managing_Software/index.md) is useful to learn how to install additional software on Bazzite outside of the Bazzite Portal.
 
+### Calculating ISO SHA256 Checksum Hash
+
+https://www.youtube.com/watch?v=wUDbMJtR1sM
+
 ## Ready to Game
 
 **You have now installed Bazzite!**
