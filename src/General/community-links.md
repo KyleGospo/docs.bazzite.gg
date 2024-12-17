@@ -15,7 +15,7 @@ title: Community Resources
 - [Lenovo Legion Go Tips and Tricks](https://github.com/aarron-lee/legion-go-tricks)
 - [GPD Win Tips and Tricks](https://github.com/aarron-lee/gpd-win-tricks)
 - [Minisforum V3 Tips and Tricks](https://github.com/aarron-lee/awesome-minisforum-v3)
-- [HUION H1060P Drawing Tablet Workaround] (Also useful information for other non-Wacom tablets that have issues with OpenTabletDriver)(https://www.answeroverflow.com/m/1275988149402861709)
+- [HUION H1060P Drawing Tablet Workaround (Also useful information for other non-Wacom tablets that have issues with OpenTabletDriver)](https://www.answeroverflow.com/m/1275988149402861709)
 - [Beelink GTR6 Compatibility List](https://docs.google.com/spreadsheets/d/1stEL43uuNny6HV4HhV347T0iEprstmahngEJEOqz_b4/)
 - [Wake on Lan Via Ethernet Tutorial](https://universal-blue.discourse.group/t/is-wake-on-lan-supported/1165/6)
 
