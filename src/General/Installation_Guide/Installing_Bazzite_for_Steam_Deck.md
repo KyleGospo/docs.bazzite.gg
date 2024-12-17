@@ -205,6 +205,10 @@ The [Installing and Managing Applications documentation](../../Installing_and_Ma
 
 Change it in the settings of Desktop Mode under the "User" category.
 
+### Calculating ISO SHA256 Checksum Hash
+
+https://www.youtube.com/watch?v=wUDbMJtR1sM
+
 <hr>
 
 ## Issues Installing Bazzite?
