@@ -117,6 +117,10 @@ However, scenarios where a microSD card is formatted to exFAT _may work_ in some
 
 Install the unofficial [WinBtrfs](https://github.com/maharmstone/btrfs) driver on your Windows installation at your own risk. Please note that Gamepass games and games installed and launched through the Epic Games Launcher do **not** work with BTRFS under Windows.
 
+#### Video Tutorial
+
+https://www.youtube.com/watch?v=h6fc-3CCXbA
+
 <hr>
 
 [**<-- Back to Gaming Guide**](./index.md)
