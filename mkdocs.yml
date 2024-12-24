@@ -131,10 +131,10 @@ nav:
          - "Alternative Installation Method": General/Installation_Guide/alternate-install-guide.md
   - General:
       - "General Guides": General/index.md
-      - "Reporting Bugs": General/reporting_bugs.md  
+      - "Reporting Bugs": General/reporting_bugs.md
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
       - "Community Resources": General/community-links.md
-      - "Bazzite's README": "Bazzite_README.md"      
+      - "Bazzite's README": "Bazzite_README.md"
   - Gaming:
           - "Gaming Guide": Gaming/index.md
           - "Game Launchers": Gaming/Game_Launchers.md
@@ -160,6 +160,7 @@ nav:
           - "Flatpak": Installing_and_Managing_Software/Flatpak.md
           - "ujust": Installing_and_Managing_Software/ujust.md
           - "Homebrew": Installing_and_Managing_Software/Homebrew.md
+          - "Quadlet": Installing_and_Managing_Software/Quadlet.md
           - "Distrobox": Installing_and_Managing_Software/Distrobox.md
           - "Appimage": Installing_and_Managing_Software/AppImage.md
           - "rpm-ostree": Installing_and_Managing_Software/rpm-ostree.md

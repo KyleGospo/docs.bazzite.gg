@@ -18,9 +18,10 @@ authors:
 1. [Flatpak](./Flatpak.md) - Universal package format using a permissions-based model and should be used for most graphical applications.
 2. [`ujust`](./ujust.md) - Custom scripts maintained by Bazzite & Universal Blue contributors that can install applications.
 3. [Homebrew](./Homebrew.md) - Install applications intended to run inside of the terminal (CLI/TUI).
-4. [Distrobox](./Distrobox.md) - Intended for legacy applications that do not support Flatpak and Homebrew, or for use as development boxes.
-5. [AppImage](./AppImage.md) - Portable universal package format that relies on specific host libraries at a system-level, usually obtained from a project's website.
-6. [`rpm-ostree`](./rpm-ostree.md) - Layer Fedora packages at a system-level (**not recommended, use as a last resort**)
+4. [Quadlet](./Quadlet.md) - Run containerized application as systemd service.
+5. [Distrobox](./Distrobox.md) - Intended for legacy applications that do not support Flatpak and Homebrew, or for use as development boxes.
+6. [AppImage](./AppImage.md) - Portable universal package format that relies on specific host libraries at a system-level, usually obtained from a project's website.
+7. [`rpm-ostree`](./rpm-ostree.md) - Layer Fedora packages at a system-level (**not recommended, use as a last resort**)
 
 ## How do I run Windows applications?
 
@@ -40,13 +41,13 @@ authors:
 
 Follow the [Waydroid Setup Guide](./Waydroid_Setup_Guide.md) to install Android applications on Bazzite.
 
-!!! note 
+!!! note
     Waydroid is **not supported** on other Universal Blue images like [Aurora](https://getaurora.dev/) and [Bluefin](https://projectbluefin.io/).
 
 ### Video Showcase of Installing Software
 
 !!! note
-    
+
     This video is missing a Homebrew walkthrough.
 
 https://www.youtube.com/watch?v=ITuT23YrgPs
