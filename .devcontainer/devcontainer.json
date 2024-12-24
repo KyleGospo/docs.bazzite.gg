@@ -5,7 +5,7 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
 	"features": {
-		"ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
+		"ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
 	},
 	"customizations": {
 		"vscode": {
@@ -14,7 +14,8 @@
 				"ms-python.black-formatter",
 				"donjayamanne.python-environment-manager",
 				"njpwerner.autodocstring",
-				"GitHub.vscode-pull-request-github"
+				"GitHub.vscode-pull-request-github",
+				"yzhang.markdown-all-in-one"
 			]
 		}
 	},
