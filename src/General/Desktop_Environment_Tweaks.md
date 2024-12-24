@@ -37,6 +37,10 @@ Global themes are placed in `~/.local/share/plasma/look-and-feel/` (_you may nee
 
 "Plasma themes" are placed in `~/.local/share/plasma/desktoptheme/` (_you may need to make this directory_).
 
+#### Plasma Window Decorations
+
+"Window decoration themes" are placed in `~/.local/share/aurorae/themes/` (_you may need to make this directory_).
+
 #### SDDM (Login Manager) Themes
 
 Use Discover to install SDDM themes.  SDDM themes can also be layered **at your own risk** if they are available as RPM packages using [`rpm-ostree`](https://docs.bazzite.gg/Installing_and_Managing_Software/rpm-ostree/).
