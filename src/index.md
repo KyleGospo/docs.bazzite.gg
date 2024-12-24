@@ -42,9 +42,10 @@ hide:
      {style="list-style-type: decimal;"}
   3. [Homebrew][homebrew] for command-line apps.
      {style="list-style-type: decimal;"}
-  4. [Distrobox][distrobox] for legacy Linux apps or as development containers.
+  4. [Quadlet][quadlet] for hosting services.
+  5. [Distrobox][distrobox] for legacy Linux apps or as development containers.
      {style="list-style-type: decimal;"}
-  5. [Appimage][appimage] for portable apps found on the web.
+  6. [Appimage][appimage] for portable apps found on the web.
      {style="list-style-type: decimal;"}
 
   There is also [package layering with `rpm-ostree`][rpm-ostree] but it is [advised to avoid using it if possible][rpm-ostree_caveats].
@@ -105,3 +106,4 @@ hide:
 [rollback-helper]: Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md/
 [waydroid]: Installing_and_Managing_Software/Waydroid_Setup_Guide.md
 [gaming]: Gaming/index.md
+[quadlet]: Installing_and_Managing_Software/Quadlet.md
