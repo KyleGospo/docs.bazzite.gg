@@ -12,7 +12,7 @@ description: "Podman Icon"
 
 ![podman|385x358, 50%](../img/podman.png)
 
-Quadlet are a features of [podman](https://podman.io/) that enable user to run container as [systemd](https://systemd.io/) units. It works by using a declarative syntax like [docker compose](https://docs.docker.com/compose/) but integrates to systemd and use podman as a backend.
+Quadlet is a features of [podman](https://podman.io/) that enable user to run container as [systemd](https://systemd.io/) units. It works by using a declarative syntax like [docker compose](https://docs.docker.com/compose/) but integrates to systemd and use podman as a backend.
 
 ### Quick Example:
 
