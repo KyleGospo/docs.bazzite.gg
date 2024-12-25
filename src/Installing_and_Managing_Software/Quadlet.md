@@ -64,7 +64,7 @@ You can put your quadlet in these location sorted by priority.
 
 ### Running Quadlet on Startup
 
-You may want to run your quadlet automatically on startup, but if you tried to enable the unit you will find the command errored out. Thats because the quadlet haven't defined when to autostart. To fix it you can add these lines to your quadlet file. Most of the time `default.target` is what you want but if you need other target you can read on systemd docs.
+You may want to run your quadlet automatically on startup, just add an install section to the quadlet file if you want it to autostart. Most of the time `default.target` is what you want but if you need other target you can read on systemd docs.
 ```
 [Install]
 WantedBy=default.target
@@ -81,11 +81,9 @@ PublishPort=8080:8080
 WantedBy=default.target
 ```
 
-After that you can run `systemctl --user enable --now nginx`
-
 !!! note
 
-    You can skip the `--now` part if you already started it before.
+    You don't need to run `systemctl enable` as the service file are generated. You also cannot run it anyway.
 
 ### Converting Docker Compose to Quadlet Unit
 
