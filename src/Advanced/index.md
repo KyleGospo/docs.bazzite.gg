@@ -11,3 +11,4 @@ title: Advanced Guides
 ## - [Show Detailed Init Logs During Boot](https://docs.bazzite.gg/Advanced/plymouth_init/)
 ## - [How to Modify Initramfs and Dracut](https://docs.bazzite.gg/Advanced/dracut-and-initramfs/)
 ## - [Creating A Custom Bazzite Image](https://docs.bazzite.gg/Advanced/creating_custom_image/)
+## - [Issues & Resolutions](https://docs.bazzite.gg/Advanced/issues_and_resolutions.md)
