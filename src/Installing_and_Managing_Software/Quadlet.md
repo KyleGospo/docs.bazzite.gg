@@ -91,6 +91,10 @@ After that you can run `systemctl --user enable --now nginx`
 
 You will find that most of containerized app in the web are built using docker compose. Even the Linux Server that is linked above have all container documented using compose file. So you will need to convert it first before running it as quadlet, fortunately you can use [podlet](https://github.com/containers/podlet) to help converting it.
 
+!!! note
+
+    By default quadlet require full repository name. Most image are in docker hub so you can just add `docker.io/` (e.g "nginxinc/nginx-unprivileged" become "docker.io/nginxinc/nginx-unprivileged")
+
 ### Running Rootful Container as Quadlet
 
 While ideally you would run all container using rootless podman, sadly not all container will work with it. If you noticed in the beginning, this guide used nginx-unprivileged rather than the normal nginx, this because it need root to function. To use rootful podman, you will need to use different quadlet path and run using root systemctl (without `--user`).
