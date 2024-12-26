@@ -108,6 +108,7 @@ Documentation: https://docker-minecraft-server.readthedocs.io/en/latest
 Quadlet File:
 ```
 [Container]
+ContainerName=minecraft
 Environment=EULA=TRUE
 Image=docker.io/itzg/minecraft-server
 PublishPort=25565:25565
