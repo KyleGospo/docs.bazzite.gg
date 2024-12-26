@@ -1,21 +1,22 @@
 ---
+title: Issues & Resolution
 authors:
   - "@wolfyreload"
 ---
 
-## Steam Big Picture Mode laggy
+## Steam Big Picture Mode is slow
 
 **Issue:** When you select **Steam Menu >> View >> Big Picture** Big Picture mode is very laggy. However, when you open a game the games run smoothly.
 
 **Resolution:** Close Steam completely and start Steam using the **Steam Big Picture Mode** menu shortcut. Also make sure that **Steam Settings >> Interface >> Enable GPU accelerated rendering in web views (requires restart)** is enabled.
 
-## Audio very soft on Rog Ally
+## Audio is soft on ASUS ROG Ally hardware
 
 **Issue:** If you turn up the volume to the maximum, the sound is still quiet.
 
 **Resolution:** There are two audio devices that appear on the Rog Ally **Family 17h/19h/1ah HD Audio Controller** and **ROG Ally** that affect each other's audio volume.
 
-## Discord screen sharing not working
+## Discord screen-sharing is not working
 
 **Issue:** When you try to share your screen in Discord, it simply closes the dialogue box and does not share the screen.
 
@@ -27,11 +28,9 @@ flatpak install flathub-beta com.discordapp.DiscordCanary
 flatpak override --user --socket=wayland com.discordapp.DiscordCanary
 ```
 
-Then run **Discord Canary** instead of regular Discord when you want to share your screen. 
+Then run **Discord Canary** instead of regular Discord when you want to share your screen. Alternative Discord clients such as **Vesktop** are also a possible solution, but they do violate Discord's terms of service. There are currently no known cases of users being banned for using client mods or alternative Discord clients, but this may change.
 
-Alternative Discord clients such as **Vesktop** are also a possible solution, but they do violate Discord's terms of service. There are currently no known cases of users being banned for using client mods or alternative Discord clients, but this may change.
-
-# Rog Ally joystick don't work in desktop mode
+## Rog Ally joystick don't work in desktop mode
 
 **Issue:** Neither of the Rog Ally's joysticks work in desktop mode, so you have to use the touchscreen or connect an external mouse.
 
@@ -63,7 +62,7 @@ On the right hand side of the screen there will be a button labelled **Behaviour
 
 Now tick **Automatically log in**, select your user and for the session, select **Plasma (Wayland)** and don't forget to to click on the **Apply** button.
 
-# HTPC Nvidia GPU setup
+## HTPC Nvidia GPU setup
 
 **Issue:** How do you set up your NVidia GPU powered gaming machine as an HTPC as Gaming Mode is not available for NVidia GPUs?
 
