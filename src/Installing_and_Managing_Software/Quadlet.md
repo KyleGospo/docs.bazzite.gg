@@ -104,6 +104,19 @@ Rootful Quadlet Path
 - `/etc/containers/systemd/` - Recommended location
 - `/usr/share/containers/systemd/` - Image defined
 
+### Common Quadlet Key Description
+| Option        | Example                                     | Description                                                                              |
+| ------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| ContainerName | ContainerName=nginx                         | Name of the container.                                                                   |
+| Image         | Image=docker.io/nginxinc/nginx-unprivileged | Container image that you want to use.                                                    |
+| PublishPort   | PublishPort=8080:8080                       | Port opened by container. (HOST_PORT:CONTAINER_PORT)                                     |
+| Volume        | Volume=/path/to/data:/data:z                | Link host folder with container folder. (HOST_FOLDER:CONTAINER_FOLDER:OPTION)            |
+| Network       | Network=host                                | Network used by container. The value can be `host`, `none`, or user defined network name |
+
+!!! note
+
+    The `z` option in volume is to prevent selinux from blocking access to the folder. You can read more [here](https://docs.podman.io/en/stable/markdown/podman-run.1.html#volume-v-source-volume-host-dir-container-dir-options).
+
 ## Example
 
 ### Minecraft Server
