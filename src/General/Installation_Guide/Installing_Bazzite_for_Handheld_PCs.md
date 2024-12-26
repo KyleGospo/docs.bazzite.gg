@@ -114,7 +114,7 @@ You may need to research your handheld on how to boot from removable storage. It
 
 ### 3. Installer Setup
 
-> **NOTE**: If you do not have a usb physical keyboard connected, do **NOT** press “_User Creation_”, since it will remove the default username and password, and you will be unable to type a username or password without a physical keyboard.
+> **NOTE**: If you do not have a physical wired keyboard connected, do **NOT** press “_User Creation_”, as it will remove the default username and password, and you will be unable to type a username or password without a physical keyboard.
 
 > **default user**: `bazzite` > **default password**: `bazzite`
 
@@ -136,7 +136,7 @@ You may need to research your handheld on how to boot from removable storage. It
 - Optionally encrypt the drive with a password if desired.
   - **If you lose this password, then it cannot be decrypted**.
   - **A PHYSICAL WIRED KEYBOARD IS REQUIRED TO UNLOCK THE DEVICE!**
-- Setup a user account and begin the installation. (If you do not have a physical, skip this step and begin the installation)
+- Setup a user account and begin the installation. (If you do not have a physical keyboard, skip this step and begin the installation)
   - Give administrative privileges and set a user password. (**required**)
 - Begin the installation.
 - Reboot device after it has finished installing.
