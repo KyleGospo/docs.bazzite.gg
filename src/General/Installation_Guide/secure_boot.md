@@ -56,6 +56,11 @@ universalblue
 ```
 
 **You can now turn Secure Boot back on in the BIOS.**
+Use the following command to boot straight into your system's BIOS (if supported):
+
+```command
+ujust bios
+```
 
 ## Secure Boot Instructions for Upstream Fedora Atomic Desktop Images
 
