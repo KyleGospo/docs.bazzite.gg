@@ -89,6 +89,10 @@ WantedBy=default.target
 
 You will find that most of containerized app in the web are built using docker compose. Even the Linux Server that is linked above have all container documented using compose file. So you will need to convert it first before running it as quadlet, fortunately you can use [podlet](https://github.com/containers/podlet) to help converting it.
 
+!!! note
+
+    By default quadlet require full repository name. Most image are in docker hub so you can just add `docker.io/` (e.g "nginxinc/nginx-unprivileged" become "docker.io/nginxinc/nginx-unprivileged")
+
 ### Running Rootful Container as Quadlet
 
 While ideally you would run all container using rootless podman, sadly not all container will work with it. If you noticed in the beginning, this guide used nginx-unprivileged rather than the normal nginx, this because it need root to function. To use rootful podman, you will need to use different quadlet path and run using root systemctl (without `--user`).
@@ -98,6 +102,19 @@ Rootful Quadlet Path
 - `/etc/containers/systemd/` - Recommended location
 - `/usr/share/containers/systemd/` - Image defined
 
+### Common Quadlet Key Description
+| Option        | Example                                     | Description                                                                              |
+| ------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| ContainerName | ContainerName=nginx                         | Name of the container.                                                                   |
+| Image         | Image=docker.io/nginxinc/nginx-unprivileged | Container image that you want to use.                                                    |
+| PublishPort   | PublishPort=8080:8080                       | Port opened by container. (HOST_PORT:CONTAINER_PORT)                                     |
+| Volume        | Volume=/path/to/data:/data:z                | Link host folder with container folder. (HOST_FOLDER:CONTAINER_FOLDER:OPTION)            |
+| Network       | Network=host                                | Network used by container. The value can be `host`, `none`, or user defined network name |
+
+!!! note
+
+    The `z` option in volume is to prevent selinux from blocking access to the folder. You can read more [here](https://docs.podman.io/en/stable/markdown/podman-run.1.html#volume-v-source-volume-host-dir-container-dir-options).
+
 ## Example
 
 ### Minecraft Server
@@ -106,10 +123,15 @@ Documentation: https://docker-minecraft-server.readthedocs.io/en/latest
 Quadlet File:
 ```
 [Container]
+ContainerName=minecraft
 Environment=EULA=TRUE
 Image=docker.io/itzg/minecraft-server
 PublishPort=25565:25565
 Volume=/path/to/data:/data:z
+
+# Remove if you don't want autostart
+[Install]
+WantedBy=default.target
 ```
 !!! note
 
@@ -128,6 +150,10 @@ Network=host
 Volume=/path/to/config:/config:z
 Volume=/path/to/transcode:/transcode:z
 Volume=/path/to/media:/data:z
+
+# Remove if you don't want autostart
+[Install]
+WantedBy=default.target
 ```
 !!! note
 
