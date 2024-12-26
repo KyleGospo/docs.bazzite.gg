@@ -1,5 +1,5 @@
 ---
-title: Issues & Resolution
+title: Issues & Resolutions
 authors:
   - "@wolfyreload"
 ---
