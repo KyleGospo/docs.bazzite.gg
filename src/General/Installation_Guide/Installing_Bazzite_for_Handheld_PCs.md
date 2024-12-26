@@ -8,6 +8,7 @@ authors:
   - "@rothgar"
   - "@aarron-lee"
   - "@HikariKnight"
+  - "@ryanpolasky"
 ---
 
 <!-- ANCHOR: METADATA -->
