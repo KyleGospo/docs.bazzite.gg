@@ -113,6 +113,10 @@ Environment=EULA=TRUE
 Image=docker.io/itzg/minecraft-server
 PublishPort=25565:25565
 Volume=/path/to/data:/data:z
+
+# Remove if you don't want autostart
+[Install]
+WantedBy=default.target
 ```
 !!! note
 
@@ -131,6 +135,10 @@ Network=host
 Volume=/path/to/config:/config:z
 Volume=/path/to/transcode:/transcode:z
 Volume=/path/to/media:/data:z
+
+# Remove if you don't want autostart
+[Install]
+WantedBy=default.target
 ```
 !!! note
 
