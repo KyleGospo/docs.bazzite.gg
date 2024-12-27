@@ -52,7 +52,7 @@ You'll often need to reduce the **Right Joystick Sensitivity** to somewhere betw
 
 **Issue:** How do you configure automatic login in Bazzite?
 
-<h3>Bazzite Gnome Resolution</h3>
+<h3>Bazzite GNOME Resolution</h3>
 
 Open the **Settings application >> Users**. Click the **Unlock** button in the top right corner. Then switch on **Automatic Login**.
 
