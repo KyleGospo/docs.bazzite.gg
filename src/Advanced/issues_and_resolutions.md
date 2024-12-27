@@ -78,4 +78,4 @@ If you are using the Bazzite KDE edition, you can skip the "Making Gnome look mo
 
 <hr>
 
-**See also**: [Steam Gaming Mode Quirks](../Handheld_and_HTPC_edition/quirks)
+**See also**: [Steam Gaming Mode Quirks](https://docs.bazzite.gg/Handheld_and_HTPC_edition/quirks/)
