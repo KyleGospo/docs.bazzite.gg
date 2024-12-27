@@ -4,6 +4,8 @@ authors:
   - "@wolfyreload"
 ---
 
+# Issues & Resolution
+
 ## Steam Big Picture Mode is slow
 
 **Issue:** When you select **Steam Menu >> View >> Big Picture** Big Picture mode is very laggy. However, when you open a game the games run smoothly.
@@ -73,3 +75,7 @@ There is a video guide that you can follow for Bazzite Gnome.
 https://www.youtube.com/watch?v=F9l-RQvCPMo
 
 If you are using the Bazzite KDE edition, you can skip the "Making Gnome look more familiar to Windows users" section, use the steps above to get auto login working in Bazzite KDE. Then finally set Steam Big Picture Mode to autostart in **Settings >> Autostart**
+
+<hr>
+
+**See also**: [Steam Gaming Mode Quirks](../Handheld_and_HTPC_edition/quirks)
