@@ -26,6 +26,7 @@ title: Community Resources
 - [Microsoft's Tutorial on Xbox Cloud Streaming for Game Pass Ultimate (and Fortnite)](https://support.microsoft.com/en-us/topic/xbox-cloud-gaming-in-microsoft-edge-with-steam-deck-43dd011b-0ce8-4810-8302-965be6d53296)
 - [Installing Mullvad VPN](https://docs.getaurora.dev/guides/layerapp/)
 - [Browser Games w/ Web Apps](https://universal-blue.discourse.group/t/how-to-run-old-browser-games-with-web-apps/486)
+- [Crunchyroll for Linux](https://github.com/aarron-lee/crunchyroll-linux)
 - [boxkit: Template to build your own OCI Distrobox container](https://github.com/ublue-os/boxkit) 
 - [bazzite-arch: Gaming packages inside of a Distrobox container](https://github.com/ublue-os/bazzite-arch)
 
