@@ -47,13 +47,13 @@ Use Discover to install SDDM themes.  SDDM themes can also be layered **at your 
 
 #### Icon / Cursor Themes
 
-"Icon/Cursor themes" are placed in `~/.icons`
+"Icon/Cursor themes" are placed in `~/.local/share/icons`
 
 #### Application Permissions to Use Themes
 
 Some Flatpaks need filesystem permissions for applications that have issues with cursor themes.
 
-**Example**: (`~/.icons/:ro` in "Filesystem" in each problematic application or globally in Flatseal).
+**Example**: (`~/.local/share/icons/:ro` in "Filesystem" in each problematic application or globally in Flatseal).
 
 #### Themes that require `kvantum`
 
