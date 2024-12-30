@@ -36,6 +36,11 @@ It is intended to be a controller-friendly environment and give users a "console
 
 This documentation may not cover specific areas with the assumption that the user is already aware of SteamOS and how it works. If you are unfamiliar with something that cannot be found in our [documentation](https://docs.bazzite.gg), then research your specific question with "SteamOS" or "Steam Deck" as keywords in your search. Otherwise, ask your question on our [forums](https://universal-blue.discourse.group/c/bazzite/5) or [Discord](https://discord.gg/f8MUghG5PB).
 
+### Steam Input Visual Guide
+
+A [ community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2804823261) that goes over **tips and tricks for controls on the Steam Deck, but contains information that can still apply to all devices running Bazzite-Deck**.
+
+
 ### Valve's Official SteamOS Guide
 
 !!! important
