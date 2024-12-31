@@ -199,7 +199,7 @@ Check out the additional [documentation](https://docs.bazzite.gg) surrounding th
 
 ## **Video Tutorial - Dual Boot Setup w/ Secure Boot Enabled**:
 
-https://www.youtube.com/watch?v=dXBN9OM7mSE
+https://www.youtube.com/watch?v=pbxM_1ZJCCc
 
 <hr>
 
