@@ -42,7 +42,7 @@ hide:
      {style="list-style-type: decimal;"}
   3. [Homebrew][homebrew] for command-line apps.
      {style="list-style-type: decimal;"}
-  4. [Quadlet][quadlet] for hosting services on your host.
+  4. [Quadlet][quadlet] for hosting services.
      {style="list-style-type: decimal;"}
   5. [Distrobox][distrobox] for legacy Linux apps or as development containers.
      {style="list-style-type: decimal;"}
