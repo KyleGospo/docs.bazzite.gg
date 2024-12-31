@@ -131,7 +131,7 @@ nav:
          - "Alternative Installation Method": General/Installation_Guide/alternate-install-guide.md
   - General:
       - "General Guides": General/index.md
-      - "Issues & Resolutions": General/issues_and_resolutions.md
+      - "Issues & Resolutions": "General/issues_and_resolutions.md"
       - "Reporting Bugs": General/reporting_bugs.md
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
       - "Community Resources": General/community-links.md
