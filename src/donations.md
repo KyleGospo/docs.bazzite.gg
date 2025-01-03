@@ -11,6 +11,7 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Jorge Castro**](https://github.com/castrojo) ([**Sponsor**](https://github.com/sponsors/castrojo/))
 - [**RJ Trujillo**](https://github.com/EyeCantCU)
 - [**HikariKnight**](https://github.com/HikariKnight) ([**Sponsor**](https://github.com/sponsors/HikariKnight))
+- [**Antheas Kapenekakis**](https://github.com/antheas) ([**Sponsor**](https://github.com/sponsors/antheas))
 - [**Noel Miller**](https://github.com/noelmiller) ([**Sponsor**](https://github.com/sponsors/noelmiller))
 - [**Benjamin Sherman**](https://github.com/bsherman)
 - [**Robert Sturla**](https://github.com/p5)
@@ -36,7 +37,6 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Cassidy James Blaede**](https://github.com/cassidyjames) ([**Sponsor**](https://github.com/sponsors/cassidyjames))
 
 ### Bazzite Contributors
-- [**Antheas Kapenekakis**](https://github.com/antheas) ([**Sponsor**](https://github.com/sponsors/antheas))
 - [**Aarron Lee**](https://github.com/aarron-lee)
 - [**Matthew Schwartz**](https://github.com/matte-schwartz)
 - [**sentry**](https://copr.fedorainfracloud.org/coprs/sentry/)
