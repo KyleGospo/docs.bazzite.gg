@@ -37,13 +37,17 @@ title: Community Resources
 - [Change Start Icon for KDE Plasma Images](https://docs.getaurora.dev/guides/start-icon/)
 - [GRUB Theming](https://universal-blue.discourse.group/t/grub-theming-guide-for-silverblue-ublue/370)
 
-## Misc.
+## Bootable Container Topics.
 
 - [List of Bootable Container Images](https://workshop.blue-build.org/images)
 - [Installing Universal Blue's Base Images](https://universal-blue.discourse.group/t/how-to-install-universal-blues-base-images/868)
 - [List of Community Created Custom Images](https://universal-blue.discourse.group/t/list-of-community-created-custom-images/340)
 - [Self-Hosting Images](https://universal-blue.discourse.group/t/self-hosters-the-forge-needs-your-eyes-and-hands/1566)
 - [BlueBuild Project](https://blue-build.org/)
+
+## Misc.
+
+- [Bazzite Buzz Newsletters Archive](https://universal-blue.discourse.group/t/bazzite-newsletters/2252)
 
 <hr>
 
