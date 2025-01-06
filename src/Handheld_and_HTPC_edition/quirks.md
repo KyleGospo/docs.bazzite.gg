@@ -173,7 +173,7 @@ Save it and place it in the `Desktop` directory.
 Open a host terminal and **enter**:
 
 ```
-ujust fix-steam
+ujust fix-reset-steam
 ```
 
 ##### TTY (if you cannot access Desktop Mode)
@@ -182,7 +182,7 @@ Access a TTY session with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F4</kbd> and login
 **Enter**:
 
 ```
-ujust fix-steam
+ujust fix-reset-steam
 ```
 
 #### How do I specify the correct monitor for Gaming Mode to use? (HTPC only)
