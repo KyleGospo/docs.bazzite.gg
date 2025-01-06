@@ -9,17 +9,17 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 
 <sub>This list contains members who have contributed heavily to [**Universal Blue**](https://ublue.it) and/or Bazzite since 2021 including alumni members who have contributed in the past and may not be as involved with the project anymore.</sub>
 
+### Bazzite Contributors
+
 - [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
-- [**Jorge Castro**](https://github.com/castrojo) ([**Sponsor**](https://github.com/sponsors/castrojo/))
-- [**RJ Trujillo**](https://github.com/EyeCantCU)
-- [**Pat Connors**](https://github.com/nicknamenamenick) ([**Sponsor**](https://github.com/sponsors/nicknamenamenick))
-- [**HikariKnight**](https://github.com/HikariKnight) ([**Sponsor**](https://github.com/sponsors/HikariKnight))
+    - Founder of Bazzite
 - [**Antheas Kapenekakis**](https://github.com/antheas) ([**Sponsor**](https://github.com/sponsors/antheas))
-- [**Noel Miller**](https://github.com/noelmiller) ([**Sponsor**](https://github.com/sponsors/noelmiller))
+    - This directly sponsors [Handheld Daemon](https://github.com/hhd-dev/hhd) development. (This is the thing that makes your joysticks work)
 - [**Aarron Lee**](https://github.com/aarron-lee)
 - [**Matthew Schwartz**](https://github.com/matte-schwartz)
 - [**sentry**](https://copr.fedorainfracloud.org/coprs/sentry/)
 - [**Zeglius**](https://github.com/Zeglius)
+    - Maintains <https://docs.bazzite.gg> CI/CD pipeline.
 - [**wolfyreload**](https://github.com/wolfyreload)
 - [**CharlieBros**](https://github.com/CharlieBros)
 - [**rei.svg**](https://github.com/reisvg)
