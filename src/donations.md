@@ -93,6 +93,8 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 {{ contributor("Cassidy James Blaede", "cassidyjames", "Universal Blue alumni", "https://github.com/sponsors/cassidyjames") }}
 {{ contributor("Marco Ceppi", "marcoceppi", "Co-Creator of Universal Blue, alumni") }}
 {{ contributor("Adam Israel", "AdamIsrael", "Co-Creator of Universal Blue, alumni") }}
+</div>
+
 <div style="display: flex; flex-wrap: wrap; gap: 0.3rem;">
     {{ contributor("jerb", "jerbmega") }}
     {{ contributor("boredsquirrel", "boredsquirrel") }}
