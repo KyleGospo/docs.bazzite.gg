@@ -98,12 +98,6 @@ You can do this by:
 
 Now if you now select the Shutdown option, Windows will shut down completely and not interfere with Bazzite.
 
-## Issues expanding storage size in a Windows dual-boot scenario
-
-Watch this video tutorial on how to expand the storage
-
-https://www.youtube.com/watch?v=uy8mi1pAj8E
-
 <hr>
 
 **See also**: [Steam Gaming Mode Quirks](https://docs.bazzite.gg/Handheld_and_HTPC_edition/quirks/)
