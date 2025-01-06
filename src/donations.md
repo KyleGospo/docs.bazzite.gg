@@ -7,9 +7,9 @@ title: Credits and Donating
 
 Love Bazzite and want to help sustain it's development?  Consider **sponsoring** the maintainers and contributors of the project.
 
-<sub>This list contains members who have contributed heavily to [**Universal Blue**](https://ublue.it) and/or Bazzite since 2021 including alumni members who have contributed in the past and may not be as involved with the project anymore.</sub>
+This list contains members who have contributed heavily to [**Universal Blue**](https://ublue.it) and/or Bazzite since 2021 including alumni members who have contributed in the past and may not be as involved with the project anymore.
 
-(*If we missed a major contributor, then [**please let use know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)
+<sub>(*If we missed a major contributor, then [**please let use know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
 
 - [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo)) - Creator & lead maintainer of Bazzite
 - [**Jorge Castro**](https://github.com/castrojo) ([**Sponsor**](https://github.com/sponsors/castrojo/)) - Creator of Universal Blue
