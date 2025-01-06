@@ -14,12 +14,14 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 - [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
     - Founder of Bazzite
 - [**Antheas Kapenekakis**](https://github.com/antheas) ([**Sponsor**](https://github.com/sponsors/antheas))
-    - This directly sponsors [Handheld Daemon](https://github.com/hhd-dev/hhd) development. (This is the thing that makes your joysticks work)
+    - [Handheld Daemon](https://github.com/hhd-dev/hhd) development. (This is the thing that makes your joysticks work)
+    - [kernel-bazzite](https://github.com/hhd-dev/kernel-bazzite)
 - [**Aarron Lee**](https://github.com/aarron-lee)
 - [**Matthew Schwartz**](https://github.com/matte-schwartz)
 - [**sentry**](https://copr.fedorainfracloud.org/coprs/sentry/)
 - [**Pat Connors**](https://github.com/nicknamenamenick) ([**Sponsor**](https://github.com/sponsors/nicknamenamenick))
 - [**HikariKnight**](https://github.com/HikariKnight) ([**Sponsor**](https://github.com/sponsors/HikariKnight))
+    - Tester and maintainer of numerous `ujust` scripts regarding virtualization, VFIO (gpu passthrough), and other utils.
 - [**Zeglius**](https://github.com/Zeglius)
     - Maintains <https://docs.bazzite.gg> CI/CD pipeline.
 - [**wolfyreload**](https://github.com/wolfyreload)
