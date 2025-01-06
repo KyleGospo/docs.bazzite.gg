@@ -78,7 +78,10 @@ plugins:
           build: true
 
   - search
-  - glightbox
+  - macros
+  - glightbox:
+      skip_classes:
+        - "no-lightbox"
   - git-revision-date-localized:
       enable_creation_date: !ENV [CI, false]
       fallback_to_build_date: true
