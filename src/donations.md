@@ -18,6 +18,8 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 - [**Aarron Lee**](https://github.com/aarron-lee)
 - [**Matthew Schwartz**](https://github.com/matte-schwartz)
 - [**sentry**](https://copr.fedorainfracloud.org/coprs/sentry/)
+- [**Pat Connors**](https://github.com/nicknamenamenick) ([**Sponsor**](https://github.com/sponsors/nicknamenamenick))
+- [**HikariKnight**](https://github.com/HikariKnight) ([**Sponsor**](https://github.com/sponsors/HikariKnight))
 - [**Zeglius**](https://github.com/Zeglius)
     - Maintains <https://docs.bazzite.gg> CI/CD pipeline.
 - [**wolfyreload**](https://github.com/wolfyreload)
