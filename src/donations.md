@@ -47,7 +47,7 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 - [**xyny**](https://github.com/xynydev) - Custom image tooling, branding
 - [**Gecked-Deck**](https://github.com/Gecked-Deck) - Social media
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary) - Social media
-- [**Justin Garrison**](https://github.com/rothgar) - Presentation
+- [**Justin Garrison**](https://github.com/rothgar) - Presentation consultant
 - [**RoyalOughtness**](https://github.com/RoyalOughtness) ([**Sponsor**](https://github.com/sponsors/RoyalOughtness)) - Security consulting
 - [**bobslept**](https://github.com/bobslept) - Universal Blue alumni
 - [**Primož Ajdišek**](https://github.com/bigpod98) - Universal Blue alumni
