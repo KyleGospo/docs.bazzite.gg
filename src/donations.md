@@ -2,17 +2,37 @@
 title: Credits and Donating
 ---
 
-## Bazzite Maintainers and Contributors
 
-Love Bazzite and want to help sustain it's development?  Consider sponsoring the maintainers and contributors of the project.  This list contains members who have contributed heavily to [**Universal Blue**](https://ublue.it) and/or Bazzite since 2021.
+## Universal Blue & Bazzite Maintainers/Contributors
 
-### Universal Blue (Current Members & "Alumni" Contributors)
+Love Bazzite and want to help sustain it's development?  Consider **sponsoring** the maintainers and contributors of the project.  This list contains members who have contributed heavily to [**Universal Blue**](https://ublue.it) and/or Bazzite since 2021 including alumni members who have contributed in the past and may not be as involved with the project anymore.
+
 - [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
 - [**Jorge Castro**](https://github.com/castrojo) ([**Sponsor**](https://github.com/sponsors/castrojo/))
 - [**RJ Trujillo**](https://github.com/EyeCantCU)
+- [**Pat Connors**](https://github.com/nicknamenamenick) ([**Sponsor**](https://github.com/sponsors/nicknamenamenick))
 - [**HikariKnight**](https://github.com/HikariKnight) ([**Sponsor**](https://github.com/sponsors/HikariKnight))
 - [**Antheas Kapenekakis**](https://github.com/antheas) ([**Sponsor**](https://github.com/sponsors/antheas))
 - [**Noel Miller**](https://github.com/noelmiller) ([**Sponsor**](https://github.com/sponsors/noelmiller))
+- [**Aarron Lee**](https://github.com/aarron-lee)
+- [**Matthew Schwartz**](https://github.com/matte-schwartz)
+- [**sentry**](https://copr.fedorainfracloud.org/coprs/sentry/)
+- [**Zeglius**](https://github.com/Zeglius)
+- [**wolfyreload**](https://github.com/wolfyreload)
+- [**CharlieBros**](https://github.com/CharlieBros)
+- [**rei.svg**](https://github.com/reisvg)
+- [**Sean**](https://github.com/SuperRiderTH)
+- [**Alex Banna**](https://github.com/abanna)
+- [**Bouhaa**](https://github.com/BoukeHaarsma23)
+- [**Marco Rodolfi**](https://github.com/RodoMa92)
+- [**Jason Nagin**](https://github.com/JasonN3)
+- [**fiftydinar**](https://github.com/fiftydinar)
+- [**Sterophonick**](https://github.com/Sterophonick)
+- [**xAlphaKat**](https://github.com/xAlphaKAT)
+- [**dreamyuki**](https://github.com/dreamyukii)
+- [**Gecked-Deck**](https://github.com/Gecked-Deck)
+- [**termdisc**](https://github.com/termdisc)
+- [**Nathaniel Warburton**](https://github.com/storyaddict)
 - [**Benjamin Sherman**](https://github.com/bsherman)
 - [**Robert Sturla**](https://github.com/p5)
 - [**Brian Ketelsen**](https://github.com/bketelsen)
@@ -36,37 +56,14 @@ Love Bazzite and want to help sustain it's development?  Consider sponsoring the
 - [**Adam Israel**](https://github.com/AdamIsrael)
 - [**Cassidy James Blaede**](https://github.com/cassidyjames) ([**Sponsor**](https://github.com/sponsors/cassidyjames))
 
-### Bazzite Contributors
-- [**Aarron Lee**](https://github.com/aarron-lee)
-- [**Matthew Schwartz**](https://github.com/matte-schwartz)
-- [**sentry**](https://copr.fedorainfracloud.org/coprs/sentry/)
-- [**Pat Connors**](https://github.com/nicknamenamenick) ([**Sponsor**](https://github.com/sponsors/nicknamenamenick))
-- [**Zeglius**](https://github.com/Zeglius)
-- [**wolfyreload**](https://github.com/wolfyreload)
-- [**CharlieBros**](https://github.com/CharlieBros)
-- [**rei.svg**](https://github.com/reisvg)
-- [**Sean**](https://github.com/SuperRiderTH)
-- [**Alex Banna**](https://github.com/abanna)
-- [**Bouhaa**](https://github.com/BoukeHaarsma23)
-- [**Marco Rodolfi**](https://github.com/RodoMa92)
-- [**Jason Nagin**](https://github.com/JasonN3)
-- [**fiftydinar**](https://github.com/fiftydinar)
-- [**Sterophonick**](https://github.com/Sterophonick)
-- [**xAlphaKat**](https://github.com/xAlphaKAT)
-- [**dreamyuki**](https://github.com/dreamyukii)
-- [**Gecked-Deck**](https://github.com/Gecked-Deck)
-- [**termdisc**](https://github.com/termdisc)
-- [**Nathaniel Warburton**](https://github.com/storyaddict)
-
-### Early Testers
-
+### Early Bazzite Testers
 - [**jerb**](https://github.com/jerbmega)
 - [**boredsquirrel**](https://github.com/boredsquirrel)
 - [**Weaver Marquez**](https://github.com/weavermarquez)
 
-### Community 
-- [**BlueBuild**](https://blue-build.org/) ([**Contribute**](https://blue-build.org/learn/contributing/))
-- [**Community Contributors**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Do your part!**](https://docs.bazzite.gg/CONTRIBUTE/))
+### Community Contributors
+- [**BlueBuild Project**](https://blue-build.org/) ([**Contribute**](https://blue-build.org/learn/contributing/))
+- [**Full list of Bazzite Contributors in the Gitub repository**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Do your part!**](https://docs.bazzite.gg/CONTRIBUTE/))
 
 ## Fedora Project
 
@@ -122,7 +119,7 @@ Similar desktop Linux projects that share resources with us.
 
 ## Aurora, Bluefin, and uCore
 
-Check out the other Universal Blue end-user images especially if you want an experience similar to Bazzite on other hardware that you do not intend to game on.
+Check out the other Universal Blue end-user custom Fedora images especially if you want an experience similar to Bazzite on other hardware that does not require all of the extra gaming packages.
 
 - [**Aurora**](https://getaurora.dev/)
 - [**Bluefin**](https://projectbluefin.io/)
