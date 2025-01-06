@@ -76,7 +76,7 @@ https://www.youtube.com/watch?v=F9l-RQvCPMo
 
 If you are using Bazzite's KDE image, then you can skip the "Making Gnome look more familiar to Windows users" section, and use the steps above to get auto login working in Bazzite KDE. Then finally set Steam Big Picture Mode to auto-start in **Settings >> Autostart**
 
-## No Wifi or Ethernet connectivity in Bazzite when dual-booting with Windows
+## No Wi-Fi or Ethernet connectivity in Bazzite when dual-booting with Windows
 
 **Issue:** You are dual-booting Windows 10/11 with Bazzite and your wifi/ethernet connection works in Windows but fails in Bazzite sometimes.
 
@@ -97,6 +97,12 @@ You can do this by:
 ![how to disable fast startup in Windows](../img/disable-windows-fast-startup.gif)
 
 Now if you now select the Shutdown option, Windows will shut down completely and not interfere with Bazzite.
+
+## Issues expanding storage size in a Windows dual-boot scenario
+
+Watch this video tutorial on how to expand the storage
+
+https://www.youtube.com/watch?v=uy8mi1pAj8E
 
 <hr>
 
