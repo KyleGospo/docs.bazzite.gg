@@ -96,9 +96,9 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 0.3rem;">
-    {{ contributor("jerb", "jerbmega") }}
-    {{ contributor("boredsquirrel", "boredsquirrel") }}
-    {{ contributor("Weaver Marquez", "weavermarquez") }}
+    {{ contributor("jerb", "jerbmega", "Early tester") }}
+    {{ contributor("boredsquirrel", "boredsquirrel", "Early tester") }}
+    {{ contributor("Weaver Marquez", "weavermarquez", "Early tester") }}
 </div>
 
 ### Community Contributors
