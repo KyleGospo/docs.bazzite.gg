@@ -37,17 +37,17 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 - [**termdisc**](https://github.com/termdisc) - Technical support
 - [**Nathaniel Warburton**](https://github.com/storyaddict) - Documentation
 - [**Benjamin Sherman**](https://github.com/bsherman) - Kernel modules, uCore maintainer
-- [**Robert Sturla**](https://github.com/p5) - Image CD/CI
-- [**Brian Ketelsen**](https://github.com/bketelsen) - Experimental tooling
+- [**Brian Ketelsen**](https://github.com/bketelsen) - Universal Blue image maintenance, experimental tooling
+- [**Robert Sturla**](https://github.com/p5) - Universal Blue image maintenance
+- [**m2**](https://github.com/m2Giles) - Universal Blue image maintenance
+- [**Niklas Haiden**](https://github.com/NiHaiden) - Universal Blue image maintenance
+- [**Tulip Blossom**](https://github.com/tulilirockz) - Universal Blue image maintenance
 - [**Ryan Brue**](https://github.com/ryanabx) - COSMIC desktop environment testing
-- [**m2**](https://github.com/m2Giles) - Bluefin maintainer
 - [**Gareth Widlansky**](https://github.com/gerblesh) - Image features and enhancements
-- [**Niklas Haiden**](https://github.com/NiHaiden) - Aurora lead maintainer
 - [**xyny**](https://github.com/xynydev) - Custom image tooling, branding
-- [**Tulip Blossom**](https://github.com/tulilirockz) - Achillobator maintainer
 - [**Gecked-Deck**](https://github.com/Gecked-Deck) - Social media
 - [**Joseph of Earth**](https://universal-blue.discourse.group/u/joseph_of_earth/summary) - Social media
-- [**Justin Garrison**](https://github.com/rothgar) - Marketing
+- [**Justin Garrison**](https://github.com/rothgar) - Presentation
 - [**RoyalOughtness**](https://github.com/RoyalOughtness) ([**Sponsor**](https://github.com/sponsors/RoyalOughtness)) - Security consulting
 - [**bobslept**](https://github.com/bobslept) - Universal Blue alumni
 - [**Primož Ajdišek**](https://github.com/bigpod98) - Universal Blue alumni
@@ -57,8 +57,8 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 - [**Joshua Stone**](https://github.com/joshua-stone) - Universal Blue alumni
 - [**dhoell**](https://github.com/dhoell) - Universal Blue alumni
 - [**Cassidy James Blaede**](https://github.com/cassidyjames) ([**Sponsor**](https://github.com/sponsors/cassidyjames)) - Universal Blue alumni
-- [**Marco Ceppi**](https://github.com/marcoceppi) - Co-Creator of Universal Blue 
-- [**Adam Israel**](https://github.com/AdamIsrael) - Co-Creator of Universal Blue
+- [**Marco Ceppi**](https://github.com/marcoceppi) - Co-Creator of Universal Blue, alumni 
+- [**Adam Israel**](https://github.com/AdamIsrael) - Co-Creator of Universal Blue, alumni
 
 ### Early Bazzite Testers
 - [**jerb**](https://github.com/jerbmega)
