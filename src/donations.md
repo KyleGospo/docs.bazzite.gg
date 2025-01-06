@@ -5,7 +5,9 @@ title: Credits and Donating
 
 ## Universal Blue & Bazzite Maintainers/Contributors
 
-Love Bazzite and want to help sustain it's development?  Consider **sponsoring** the maintainers and contributors of the project.  This list contains members who have contributed heavily to [**Universal Blue**](https://ublue.it) and/or Bazzite since 2021 including alumni members who have contributed in the past and may not be as involved with the project anymore.
+Love Bazzite and want to help sustain it's development?  Consider **sponsoring** the maintainers and contributors of the project.  
+
+<sub>This list contains members who have contributed heavily to [**Universal Blue**](https://ublue.it) and/or Bazzite since 2021 including alumni members who have contributed in the past and may not be as involved with the project anymore.</sub>
 
 - [**Kyle Gospodnetich**](https://github.com/KyleGospo) ([**Sponsor**](https://github.com/sponsors/KyleGospo))
 - [**Jorge Castro**](https://github.com/castrojo) ([**Sponsor**](https://github.com/sponsors/castrojo/))
