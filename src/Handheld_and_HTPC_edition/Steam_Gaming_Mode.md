@@ -14,7 +14,7 @@ authors:
 
 ![Steam Gaming Mode UI|690x430](../img/Steam_Gaming_Mode_UI.jpeg)
 
-<sub>Steam Gaming Mode requires a modern AMD graphics card or an Intel Arc graphics card. Nvidia is **not** supported. </sub>
+<sub>Steam Gaming Mode requires a modern AMD graphics card or an Intel Arc graphics card. Nvidia hardware is currently in **beta** and not recommended unless for testing purposes. </sub>
 
 ### What is Steam Gaming Mode?
 !!! important 
