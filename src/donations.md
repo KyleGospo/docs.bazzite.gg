@@ -70,7 +70,7 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 {{ contributor("dreamyuki", "dreamyukii", "Indonesian translation for support literature") }}
 {{ contributor("termdisc", "termdisc", "Technical support") }}
 {{ contributor("Nathaniel Warburton", "storyaddict", "Documentation") }}
-{{ contributor("Benjamin Sherman", "bsherman", "Kernel modules, uCore maintainer") }}
+{{ contributor("Benjamin Sherman", "bsherman", "Kernel modules, Universal Blue image maintenance") }}
 {{ contributor("Brian Ketelsen", "bketelsen", "Universal Blue image maintenance, experimental tooling") }}
 {{ contributor("Robert Sturla", "p5", "Universal Blue image maintenance") }}
 {{ contributor("m2", "m2Giles", "Universal Blue image maintenance") }}
