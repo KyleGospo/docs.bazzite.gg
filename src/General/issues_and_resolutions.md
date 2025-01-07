@@ -66,6 +66,10 @@ Now tick **"Automatically log in"**, select your user and for the session, selec
 
 ## HTPC Nvidia GPU setup
 
+!!! note
+
+    Nvidia hardware running Steam Gaming Mode is now available in **beta** with major caveats and known issues.
+
 **Issue:** How do you set up your Nvidia GPU powered gaming machine as an HTPC as Steam Gaming Mode is not available for Nvidia GPUs?
 
 **Resolution:** You can enable auto-login and set Steam to automatically launch in Steam's Big Picture Mode for a decent couch gaming experience if you have an NVidia GPU.
