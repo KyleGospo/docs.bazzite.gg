@@ -51,16 +51,16 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Noel Miller", "noelmiller", "ISO enhancements, custom image tooling, marketing", "https://github.com/sponsors/noelmiller") }}
 {{ contributor("Pat Connors", "nicknamenamenick", "Documentation", "https://github.com/sponsors/nicknamenamenick") }}
 {{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD pipeline, support for alternate desktop environments") }}
+{{ contributor("Zeglius", "Zeglius", "CI/CD pipeline") }}
 {{ contributor("Aarron Lee", "aarron-lee", "SimpleDeckyTDP, scripting, command-line utilities") }}
 {{ contributor("Matthew Schwartz", "matte-schwartz", "Steam Gaming Mode consulting and testing") }}
 {{ contributor("Bouhaa", "BoukeHaarsma23", "Steam Gaming Mode consulting and testing") }}
 {{ contributor("sentry", "sentry", "Kernel patches") }}
-{{ contributor("Zeglius", "Zeglius", "CI/CD pipeline") }}
+{{ contributor("Jason Nagin", "JasonN3", "Installer assistance") }}
+{{ contributor("Sterophonick", "Sterophonick", "Driver backports and game fixes") }}
 {{ contributor("wolfyreload", "wolfyreload", "Video tutorials") }}
 {{ contributor("rei.svg", "reisvg", "Branding") }}
 {{ contributor("Sean", "SuperRiderTH", "Animations") }}
-{{ contributor("Jason Nagin", "JasonN3", "Installer assistance") }}
-{{ contributor("Sterophonick", "Sterophonick", "Driver backports and game fixes") }}
 {{ contributor("Benjamin Sherman", "bsherman", "Image maintenance") }}
 {{ contributor("Brian Ketelsen", "bketelsen", "Image maintenance") }}
 {{ contributor("Robert Sturla", "p5", "Image maintenance") }}
