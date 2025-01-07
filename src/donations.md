@@ -72,6 +72,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Gareth Widlansky", "gerblesh", "Image maintenance") }}
 {{ contributor("Ryan Brue", "ryanabx", "Image maintenance") }}
 {{ contributor("xyny", "xynydev", "Alternate custom image tooling, early branding") }}
+{{ contributor("fiftydinar", "fiftydinar", "Alternate custom image tooling, bug fixes") }}
 {{ contributor("RoyalOughtness", "RoyalOughtness", "Security consulting", "https://github.com/sponsors/RoyalOughtness") }}
 {{ contributor("Gecked-Deck", "Gecked-Deck", "Social media") }}
 {{ contributor("termdisc", "termdisc", "Technical support") }}
@@ -81,7 +82,6 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Marco Ceppi", "marcoceppi", "Contributor Emeritus") }}
 {{ contributor("Adam Israel", "AdamIsrael", "Contributor Emeritus") }}
 {{ contributor("Joseph of Earth", "", "Contributor Emeritus") }}
-{{ contributor("fiftydinar", "fiftydinar", "Contributor Emeritus") }}
 {{ contributor("CharlieBros", "CharlieBros", "Contributor Emeritus") }}
 {{ contributor("xAlphaKat", "xAlphaKAT", "Contributor Emeritus") }}
 {{ contributor("Justin Garrison", "rothgar", "Contributor Emeritus") }}
