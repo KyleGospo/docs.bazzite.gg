@@ -46,56 +46,56 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 
 <div style="display: flex; flex-wrap: wrap; gap: 0.3rem;">
 {{ contributor("Kyle Gospodnetich", "KyleGospo", "Creator & lead maintainer of Bazzite", "https://github.com/sponsors/KyleGospo") }}
-{{ contributor("Jorge Castro", "castrojo", "Creator of Universal Blue", "https://github.com/sponsors/castrojo/") }}
-{{ contributor("RJ Trujillo", "EyeCantCU", "Early foundation building, support for alternate desktop environments") }}
-{{ contributor("HikariKnight", "HikariKnight", "Virtualization support, scripting", "https://github.com/sponsors/HikariKnight") }}
 {{ contributor("Antheas Kapenekakis", "antheas", "Handheld support", "https://github.com/sponsors/antheas") }}
-{{ contributor("Pat Connors", "nicknamenamenick", "Documentation", "https://github.com/sponsors/nicknamenamenick") }}
+{{ contributor("HikariKnight", "HikariKnight", "Virtualization support, scripting", "https://github.com/sponsors/HikariKnight") }}
 {{ contributor("Noel Miller", "noelmiller", "ISO enhancements, custom image tooling, marketing", "https://github.com/sponsors/noelmiller") }}
+{{ contributor("Pat Connors", "nicknamenamenick", "Documentation", "https://github.com/sponsors/nicknamenamenick") }}
+{{ contributor("RJ Trujillo", "EyeCantCU", "Early foundation building, support for alternate desktop environments") }}
 {{ contributor("Aarron Lee", "aarron-lee", "SimpleDeckyTDP, scripting, command-line utilities") }}
 {{ contributor("Matthew Schwartz", "matte-schwartz", "Steam Gaming Mode consulting and testing") }}
+{{ contributor("Bouhaa", "BoukeHaarsma23", "Steam Gaming Mode consulting and testing") }}
 {{ contributor("sentry", "sentry", "Kernel patches, original kernel maintainer") }}
 {{ contributor("Zeglius", "Zeglius", "CI/CD pipeline") }}
 {{ contributor("wolfyreload", "wolfyreload", "Video tutorials") }}
-{{ contributor("CharlieBros", "CharlieBros", "Spanish translations for support literature") }}
 {{ contributor("rei.svg", "reisvg", "Branding") }}
 {{ contributor("Sean", "SuperRiderTH", "Animations") }}
 {{ contributor("Alex Banna", "abanna", "Bazzite Portal prototyping") }}
-{{ contributor("Bouhaa", "BoukeHaarsma23", "Steam Gaming Mode support and features") }}
 {{ contributor("Marco Rodolfi", "RodoMa92", "Scripting, bug fixes") }}
 {{ contributor("Jason Nagin", "JasonN3", "Installer assistance") }}
-{{ contributor("fiftydinar", "fiftydinar", "Early bug fixes") }}
 {{ contributor("Sterophonick", "Sterophonick", "Driver backports and game fixes") }}
-{{ contributor("xAlphaKat", "xAlphaKAT", "Early bug fixes") }}
-{{ contributor("dreamyuki", "dreamyukii", "Indonesian translation for support literature") }}
+{{ contributor("Benjamin Sherman", "bsherman", "Image maintenance") }}
+{{ contributor("Brian Ketelsen", "bketelsen", "Image maintenance") }}
+{{ contributor("Robert Sturla", "p5", "Image maintenance") }}
+{{ contributor("m2", "m2Giles", "Image maintenance") }}
+{{ contributor("Niklas Haiden", "NiHaiden", "Image maintenance") }}
+{{ contributor("Tulip Blossom", "tulilirockz", "Image maintenance") }}
+{{ contributor("Gareth Widlansky", "gerblesh", "Image maintenance") }}
+{{ contributor("Ryan Brue", "ryanabx", "Image maintenance") }}
+{{ contributor("xyny", "xynydev", "Alternate custom image tooling, early branding") }}
+{{ contributor("RoyalOughtness", "RoyalOughtness", "Security consulting", "https://github.com/sponsors/RoyalOughtness") }}
+{{ contributor("Gecked-Deck", "Gecked-Deck", "Social media") }}
 {{ contributor("termdisc", "termdisc", "Technical support") }}
 {{ contributor("jerb", "jerbmega", "Early Bazzite tester") }}
 {{ contributor("boredsquirrel", "boredsquirrel", "Early Bazzite tester") }}
 {{ contributor("Weaver Marquez", "weavermarquez", "Early Bazzite tester") }}
-{{ contributor("Benjamin Sherman", "bsherman", "Kernel modules, Universal Blue image maintenance") }}
-{{ contributor("Brian Ketelsen", "bketelsen", "Universal Blue image maintenance, experimental tooling") }}
-{{ contributor("Robert Sturla", "p5", "Universal Blue image maintenance") }}
-{{ contributor("m2", "m2Giles", "Universal Blue image maintenance") }}
-{{ contributor("Niklas Haiden", "NiHaiden", "Universal Blue image maintenance") }}
-{{ contributor("Tulip Blossom", "tulilirockz", "Universal Blue image maintenance") }}
-{{ contributor("Ryan Brue", "ryanabx", "COSMIC desktop environment testing") }}
-{{ contributor("Gareth Widlansky", "gerblesh", "Universal Blue image maintenance") }}
-{{ contributor("xyny", "xynydev", "Alternate custom image tooling, branding") }}
-{{ contributor("Gecked-Deck", "Gecked-Deck", "Social media") }}
-{{ contributor("Joseph of Earth", "", "Social media") }}
-{{ contributor("Justin Garrison", "rothgar", "Presentation consultant") }}
-{{ contributor("RoyalOughtness", "RoyalOughtness", "Security consulting", "https://github.com/sponsors/RoyalOughtness") }}
-{{ contributor("bobslept", "bobslept", "Universal Blue alumni") }}
-{{ contributor("Primož Ajdišek", "bigpod98", "Universal Blue alumni") }}
-{{ contributor("Alex Díaz", "akdev1l", "Universal Blue alumni") }}
-{{ contributor("Johnny Arcitec", "Arcitec", "Universal Blue alumni") }}
-{{ contributor("Dylan M. Taylor", "dylanmtaylor", "Universal Blue alumni") }}
-{{ contributor("Nathaniel Warburton", "storyaddict", "Universal Blue alumni") }}
-{{ contributor("Joshua Stone", "joshua-stone", "Universal Blue alumni") }}
-{{ contributor("dhoell", "dhoell", "Universal Blue alumni") }}
-{{ contributor("Cassidy James Blaede", "cassidyjames", "Universal Blue alumni", "https://github.com/sponsors/cassidyjames") }}
-{{ contributor("Marco Ceppi", "marcoceppi", "Co-Creator of Universal Blue, alumni") }}
-{{ contributor("Adam Israel", "AdamIsrael", "Co-Creator of Universal Blue, alumni") }}
+{{ contributor("Marco Ceppi", "marcoceppi", "Contributor Emeritus") }}
+{{ contributor("Adam Israel", "AdamIsrael", "Contributor Emeritus") }}
+{{ contributor("Joseph of Earth", "", "Contributor Emeritus") }}
+{{ contributor("fiftydinar", "fiftydinar", "Contributor Emeritus") }}
+{{ contributor("CharlieBros", "CharlieBros", "Contributor Emeritus") }}
+{{ contributor("xAlphaKat", "xAlphaKAT", "Contributor Emeritus") }}
+{{ contributor("Justin Garrison", "rothgar", "Contributor Emeritus") }}
+{{ contributor("dreamyuki", "dreamyukii", "Contributor Emeritus") }}
+{{ contributor("bobslept", "bobslept", "Contributor Emeritus") }}
+{{ contributor("Primož Ajdišek", "bigpod98", "Contributor Emeritus") }}
+{{ contributor("Alex Díaz", "akdev1l", "Contributor Emeritus") }}
+{{ contributor("Johnny Arcitec", "Arcitec", "Contributor Emeritus") }}
+{{ contributor("Dylan M. Taylor", "dylanmtaylor", "Contributor Emeritus") }}
+{{ contributor("Nathaniel Warburton", "storyaddict", "Contributor Emeritus") }}
+{{ contributor("Joshua Stone", "joshua-stone", "Contributor Emeritus") }}
+{{ contributor("dhoell", "dhoell", "Contributor Emeritus") }}
+{{ contributor("Cassidy James Blaede", "cassidyjames", "Contributor Emeritus", "https://github.com/sponsors/cassidyjames") }}
+{{ contributor("Jorge Castro", "castrojo", "Creator of Universal Blue", "https://github.com/sponsors/castrojo/") }}
 </div>
 
 ### Community Contributors
