@@ -66,7 +66,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Robert Sturla", "p5", "Image maintenance") }}
 {{ contributor("m2", "m2Giles", "Image maintenance") }}
 {{ contributor("Niklas Haiden", "NiHaiden", "Image maintenance") }}
-{{ contributor("Tulip Blossom", "tulilirockz", "Image maintenance") }}
+{{ contributor("Tulip Blossom", "tulilirockz", "Image maintenance", "https://github.com/sponsors/tulilirockz") }}
 {{ contributor("Gareth Widlansky", "gerblesh", "Image maintenance") }}
 {{ contributor("Ryan Brue", "ryanabx", "Image maintenance") }}
 {{ contributor("xyny", "xynydev", "Alternate custom image tooling, early branding") }}
