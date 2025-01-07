@@ -40,8 +40,8 @@ title: Community Resources
 ## Bootable Container Topics
 
 - [List of Bootable Container Images](https://workshop.blue-build.org/images)
-- [Installing Universal Blue's Base Images](https://universal-blue.discourse.group/t/how-to-install-universal-blues-base-images/868)
 - [List of Community Created Custom Images](https://universal-blue.discourse.group/t/list-of-community-created-custom-images/340)
+- [Installing Universal Blue's Base Images](https://universal-blue.discourse.group/t/how-to-install-universal-blues-base-images/868)
 - [Self-Hosting Images](https://universal-blue.discourse.group/t/self-hosters-the-forge-needs-your-eyes-and-hands/1566)
 - [BlueBuild Project](https://blue-build.org/)
 
