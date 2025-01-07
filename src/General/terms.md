@@ -2,13 +2,16 @@
 title: Dictonary & Terminology
 ---
 
-## General 
+## General
 
 - **[[Desktop] Linux](https://www.ubuntudocs.com/bdesktop/)**: A family of operating systems that share many of the same core software including the [Linux kernel](https://www.kernel.org/), [systemd](https://systemd.io/) and the [GNU core utilities](https://www.gnu.org/software/coreutils/).
 - **[Desktop Environment](https://en.wikipedia.org/wiki/Desktop_environment)**: The graphical user interface (UI) and user experience (UX) for the Desktop Mode / Desktop images for Bazzite. Also known as a *DE*.
 - **[Fedora Linux](https://fedoraproject.org/)**: A Linux operating system that has a new major release every 6 months.
-- **[Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/)**: An experimental version of Fedora Linux created to be as reliable as possible. Also known as **[Fedora Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/)** and **[Fedora Kinoite](https://fedoraproject.org/atomic-desktops/kinoite/)** for the specific desktop environments that they use (GNOME and KDE Plasma respectively).
+- **[Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/)**: An experimental version of Fedora Linux created to be as reliable and reproducible. Also known as **[Fedora Silverblue](https://fedoraproject.org/atomic-desktops/silverblue/)** and **[Fedora Kinoite](https://fedoraproject.org/atomic-desktops/kinoite/)** for the specific desktop environments that they use (GNOME and KDE Plasma respectively).
 - ["**Immutable**"](https://blog.verbum.org/2020/08/22/immutable-%E2%86%92-reprovisionable-anti-hysteresis/): A term to describe Linux operating systems that do not follow the traditional filesystem layout where every single file can be removed by the user with root privileges.  It is more [nuanced than this in the case of Bazzite](https://docs.fedoraproject.org/en-US/fedora-silverblue/technical-information/#filesystem-layout), but is still considered "immutable" from the point of view of the extended Linux community.
+
+## Bazzite-Deck Images
+
 - **[Steam Deck](https://store.steampowered.com/steamdeck)**: Valve's gaming handheld PC that utilizes their own operating system which runs their own Linux operating system based around the [Steam client](https://store.steampowered.com/about/download).
 - **[SteamOS](https://www.steamdeck.com/en/software)**: Valve's Linux operating system based on [Arch Linux](https://archlinux.org/) that the Steam Deck runs.
 - **[Gamescope](https://github.com/ValveSoftware/gamescope)**: Micro-compositor developed for SteamOS.  Usage includes scaling, filtering, framerate limiting, and HDR support.
@@ -16,13 +19,11 @@ title: Dictonary & Terminology
 
 ## Software
 
->It is advised to read the [Installing and Managing Software guide](https://docs.bazzite.gg/Installing_and_Managing_Software/) for more information.
-
 - **[Proton](https://github.com/ValveSoftware/Proton)**: Gaming-focused compatibility layer maintained by Valve to run Windows games using [WINE](https://www.winehq.org/), [DXVK](https://github.com/doitsujin/dxvk), [VKD3D](https://github.com/HansKristian-Work/vkd3d-proton), and other components.
 - [**Vulkan**](https://www.vulkan.org/): Cross-platform, open standard graphics API derived from AMD's Mantle as an alternative to DirectX, which is Windows exclusive.
 - [**OpenGL**](https://www.opengl.org/): Legacy graphics API when Vulkan is not available.
 - **[Flatpak](https://flatpak.org/)**: Universal applications for Linux.  The default remote is from [Flathub](https://www.flathub.org).
-- [**[Tool]Boxes**](https://github.com/89luca89/distrobox) - Containers used to install applications and their dependencies separated from the rest of your system.
+- [**Containers**](https://www.redhat.com/en/topics/containers) - Isolated environments for software.
 
 ## Underlying Technology
 
