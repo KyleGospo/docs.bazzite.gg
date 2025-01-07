@@ -34,7 +34,7 @@ authors:
 
 - A modern AMD GPU
   - Intel Arc GPUs may work with **major caveats**
-  - Nvidia GPUs are **not** supported
+  - Nvidia GPUs are currently in beta with **major caveats**
 - [Steam](https://store.steampowered.com/) account
 
 #### Installer Requirements
