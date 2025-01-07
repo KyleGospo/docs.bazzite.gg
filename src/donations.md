@@ -82,7 +82,7 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 {{ contributor("Gareth Widlansky", "gerblesh", "Universal Blue image maintenance") }}
 {{ contributor("xyny", "xynydev", "Alternate custom image tooling, branding") }}
 {{ contributor("Gecked-Deck", "Gecked-Deck", "Social media") }}
-{{ contributor("Joseph of Earth", "", "Social media", "https://universal-blue.discourse.group/u/joseph_of_earth/summary") }}
+{{ contributor("Joseph of Earth", "", "Social media") }}
 {{ contributor("Justin Garrison", "rothgar", "Presentation consultant") }}
 {{ contributor("RoyalOughtness", "RoyalOughtness", "Security consulting", "https://github.com/sponsors/RoyalOughtness") }}
 {{ contributor("bobslept", "bobslept", "Universal Blue alumni") }}
