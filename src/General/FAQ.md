@@ -187,16 +187,15 @@ Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. c
 
 >**See also**: [Rolling Back System Updates](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates/)
 
-## Can I...?
 
-### Can I uninstall pre-installed applications (that are not [Flatpaks](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/))
+## Can I uninstall pre-installed applications (that are not [Flatpaks](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/))
 Not recommended and due to technical limitations. The uninstalled packages will result in slower updates and take up more storage space.  We recommend hiding it from the application menu instead.
 
-### Can I use AMD Fluid Motion Frames?
+## Am I able to use AMD Fluid Motion Frames?
 
 The AMD drivers for Linux does not support this at a driver-level like it does on Windows.  Most of these graphical effects that work at a driver-level on Windows only work for games that support it in their options menu on Bazzite (or other Linux operating systems) outside of AMD'S FSR 1 and Nvidia's DLSS which are at a driver-level.
 
-### Can I change the hostname of my device?
+## Can I change the hostname of my device?
 
 !!! note
 
@@ -208,15 +207,15 @@ Edit the `/etc/hostname` file with a new hostname, save it, and reboot.
 hostnamectl hostname <hostname>
 ```
 
-### Can I use _this_ desktop environment or _that_ standalone window manager?
+## Am I able to install and use _this_ desktop environment or _that_ standalone window manager?
 
 Make your own [custom image based off Bazzite](https://docs.bazzite.gg/Advanced/creating_custom_image/) with the DE and WM change that you want.
 
-### Can I use or modify Java?
+## What about changing the Java version?
 
-If its for Minecraft, then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) for mods that require anything Java related. If Java needs to be modified for development or a mod then use [Distrobox](../Installing_and_Managing_Software/Distrobox.md). You will **not** be able to change Java on your host at a system level.
+If its for Minecraft modding then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) since this would not affect your host java installation. If Java needs to be modified for development or a mod then use [**Distrobox**](../Installing_and_Managing_Software/Distrobox.md). You will **not** be able to change Java on your host at a system level.
 
-### Can I rebase to a different desktop environment?  (Example: KDE Plasma to GNOME)
+## Can I rebase to a different desktop environment?  (Example: KDE Plasma to GNOME)
 
 It is **not recommended to rebase between desktop environments** due to configuration files having different standards which usually lead to broken installations after rebasing between two different DEs.
 
