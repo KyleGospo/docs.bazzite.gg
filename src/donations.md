@@ -59,8 +59,6 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("wolfyreload", "wolfyreload", "Video tutorials") }}
 {{ contributor("rei.svg", "reisvg", "Branding") }}
 {{ contributor("Sean", "SuperRiderTH", "Animations") }}
-{{ contributor("Alex Banna", "abanna", "Bazzite Portal prototyping") }}
-{{ contributor("Marco Rodolfi", "RodoMa92", "Scripting, bug fixes") }}
 {{ contributor("Jason Nagin", "JasonN3", "Installer assistance") }}
 {{ contributor("Sterophonick", "Sterophonick", "Driver backports and game fixes") }}
 {{ contributor("Benjamin Sherman", "bsherman", "Image maintenance") }}
@@ -82,10 +80,12 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Marco Ceppi", "marcoceppi", "Contributor Emeritus") }}
 {{ contributor("Adam Israel", "AdamIsrael", "Contributor Emeritus") }}
 {{ contributor("Joseph of Earth", "", "Contributor Emeritus") }}
+{{ contributor("Marco Rodolfi", "RodoMa92", "Contributor Emeritus") }}
 {{ contributor("CharlieBros", "CharlieBros", "Contributor Emeritus") }}
 {{ contributor("xAlphaKat", "xAlphaKAT", "Contributor Emeritus") }}
 {{ contributor("Justin Garrison", "rothgar", "Contributor Emeritus") }}
 {{ contributor("dreamyuki", "dreamyukii", "Contributor Emeritus") }}
+{{ contributor("Alex Banna", "abanna", "Contributor Emeritus") }}
 {{ contributor("bobslept", "bobslept", "Contributor Emeritus") }}
 {{ contributor("Primož Ajdišek", "bigpod98", "Contributor Emeritus") }}
 {{ contributor("Alex Díaz", "akdev1l", "Contributor Emeritus") }}
