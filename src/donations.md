@@ -69,7 +69,6 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 {{ contributor("xAlphaKat", "xAlphaKAT", "Early bug fixes") }}
 {{ contributor("dreamyuki", "dreamyukii", "Indonesian translation for support literature") }}
 {{ contributor("termdisc", "termdisc", "Technical support") }}
-{{ contributor("Nathaniel Warburton", "storyaddict", "Documentation") }}
 {{ contributor("Benjamin Sherman", "bsherman", "Kernel modules, Universal Blue image maintenance") }}
 {{ contributor("Brian Ketelsen", "bketelsen", "Universal Blue image maintenance, experimental tooling") }}
 {{ contributor("Robert Sturla", "p5", "Universal Blue image maintenance") }}
@@ -88,6 +87,7 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 {{ contributor("Alex Díaz", "akdev1l", "Universal Blue alumni") }}
 {{ contributor("Johnny Arcitec", "Arcitec", "Universal Blue alumni") }}
 {{ contributor("Dylan M. Taylor", "dylanmtaylor", "Universal Blue alumni") }}
+{{ contributor("Nathaniel Warburton", "storyaddict", "Universal Blue alumni") }}
 {{ contributor("Joshua Stone", "joshua-stone", "Universal Blue alumni") }}
 {{ contributor("dhoell", "dhoell", "Universal Blue alumni") }}
 {{ contributor("Cassidy James Blaede", "cassidyjames", "Universal Blue alumni", "https://github.com/sponsors/cassidyjames") }}
