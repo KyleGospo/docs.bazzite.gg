@@ -50,7 +50,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("HikariKnight", "HikariKnight", "Virtualization support, scripting", "https://github.com/sponsors/HikariKnight") }}
 {{ contributor("Noel Miller", "noelmiller", "ISO enhancements, custom image tooling, marketing", "https://github.com/sponsors/noelmiller") }}
 {{ contributor("Pat Connors", "nicknamenamenick", "Documentation", "https://github.com/sponsors/nicknamenamenick") }}
-{{ contributor("RJ Trujillo", "EyeCantCU", "Early foundation building, support for alternate desktop environments") }}
+{{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD pipeline, support for alternate desktop environments") }}
 {{ contributor("Aarron Lee", "aarron-lee", "SimpleDeckyTDP, scripting, command-line utilities") }}
 {{ contributor("Matthew Schwartz", "matte-schwartz", "Steam Gaming Mode consulting and testing") }}
 {{ contributor("Bouhaa", "BoukeHaarsma23", "Steam Gaming Mode consulting and testing") }}
