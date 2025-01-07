@@ -154,9 +154,9 @@ Similar desktop Linux projects that share resources with us.
 - [**CachyOS**](https://cachyos.org/) ([**Support**](https://www.patreon.com/CachyOS))
 - [**SteamFork**](https://wiki.steamfork.org/) ([**Contribute**](https://github.com/SteamFork#support))
 
-## Aurora, Bluefin, and uCore
+## Other Universal Blue Images: Aurora, Bluefin, and uCore
 
-Check out the other Universal Blue end-user custom Fedora images especially if you want an experience similar to Bazzite on other hardware that does not require all of the extra gaming packages.
+Check out the other Universal Blue end-user custom Fedora images especially if you want an experience similar to Bazzite on other hardware that does not require all of the extra gaming packages.  The contributors and maintainers involved with the other Universal Blue projects will usually fix bugs in their images that will eventually be fixed in Bazzite if the same issues occurs in both.
 
 - [**Aurora**](https://getaurora.dev/)
 - [**Bluefin**](https://projectbluefin.io/)
