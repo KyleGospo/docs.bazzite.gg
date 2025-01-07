@@ -156,7 +156,9 @@ Similar desktop Linux projects that share resources with us.
 
 ## Other Universal Blue Images: Aurora, Bluefin, and uCore
 
-Check out the other Universal Blue end-user custom Fedora images especially if you want an experience similar to Bazzite on other hardware that does not require all of the extra gaming packages.  The contributors and maintainers involved with the other Universal Blue projects will usually fix bugs in their images that will eventually be fixed in Bazzite if the same issues occurs in both.
+Check out the other Universal Blue end-user custom Fedora images especially if you want an experience similar to Bazzite on other hardware that does not require all of the extra gaming packages.  
+
+The contributors and maintainers involved with the other Universal Blue projects will usually fix bugs in their images that will eventually be fixed in Bazzite if the same issues occur in both.
 
 - [**Aurora**](https://getaurora.dev/)
 - [**Bluefin**](https://projectbluefin.io/)
