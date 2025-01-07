@@ -47,7 +47,7 @@ Follow the [Waydroid Setup Guide](./Waydroid_Setup_Guide.md) to install Android 
 
 !!! note
 
-    This video is missing a Homebrew walkthrough.
+    This video is missing a Homebrew and Quadlet walkthrough.
 
 https://www.youtube.com/watch?v=ITuT23YrgPs
 
