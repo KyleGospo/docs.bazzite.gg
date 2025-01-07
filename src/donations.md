@@ -54,7 +54,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Aarron Lee", "aarron-lee", "SimpleDeckyTDP, scripting, command-line utilities") }}
 {{ contributor("Matthew Schwartz", "matte-schwartz", "Steam Gaming Mode consulting and testing") }}
 {{ contributor("Bouhaa", "BoukeHaarsma23", "Steam Gaming Mode consulting and testing") }}
-{{ contributor("sentry", "sentry", "Kernel patches, original kernel maintainer") }}
+{{ contributor("sentry", "sentry", "Kernel patches") }}
 {{ contributor("Zeglius", "Zeglius", "CI/CD pipeline") }}
 {{ contributor("wolfyreload", "wolfyreload", "Video tutorials") }}
 {{ contributor("rei.svg", "reisvg", "Branding") }}
