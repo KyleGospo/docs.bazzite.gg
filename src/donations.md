@@ -95,7 +95,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Joshua Stone", "joshua-stone", "Contributor Emeritus") }}
 {{ contributor("dhoell", "dhoell", "Contributor Emeritus") }}
 {{ contributor("Cassidy James Blaede", "cassidyjames", "Contributor Emeritus", "https://github.com/sponsors/cassidyjames") }}
-{{ contributor("Jorge Castro", "castrojo", "Creator of Universal Blue", "https://github.com/sponsors/castrojo/") }}
+{{ contributor("Jorge Castro", "castrojo", "Dinosaur Guy", "https://github.com/sponsors/castrojo/") }}
 </div>
 
 ### Community Contributors
