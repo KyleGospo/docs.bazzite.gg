@@ -69,6 +69,9 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 {{ contributor("xAlphaKat", "xAlphaKAT", "Early bug fixes") }}
 {{ contributor("dreamyuki", "dreamyukii", "Indonesian translation for support literature") }}
 {{ contributor("termdisc", "termdisc", "Technical support") }}
+{{ contributor("jerb", "jerbmega", "Early Bazzite tester") }}
+{{ contributor("boredsquirrel", "boredsquirrel", "Early Bazzite tester") }}
+{{ contributor("Weaver Marquez", "weavermarquez", "Early Bazzite tester") }}
 {{ contributor("Benjamin Sherman", "bsherman", "Kernel modules, Universal Blue image maintenance") }}
 {{ contributor("Brian Ketelsen", "bketelsen", "Universal Blue image maintenance, experimental tooling") }}
 {{ contributor("Robert Sturla", "p5", "Universal Blue image maintenance") }}
@@ -76,8 +79,8 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 {{ contributor("Niklas Haiden", "NiHaiden", "Universal Blue image maintenance") }}
 {{ contributor("Tulip Blossom", "tulilirockz", "Universal Blue image maintenance") }}
 {{ contributor("Ryan Brue", "ryanabx", "COSMIC desktop environment testing") }}
-{{ contributor("Gareth Widlansky", "gerblesh", "Image features and enhancements") }}
-{{ contributor("xyny", "xynydev", "Custom image tooling, branding") }}
+{{ contributor("Gareth Widlansky", "gerblesh", "Universal Blue image maintenance") }}
+{{ contributor("xyny", "xynydev", "Alternate custom image tooling, branding") }}
 {{ contributor("Gecked-Deck", "Gecked-Deck", "Social media") }}
 {{ contributor("Joseph of Earth", "", "Social media", "https://universal-blue.discourse.group/u/joseph_of_earth/summary") }}
 {{ contributor("Justin Garrison", "rothgar", "Presentation consultant") }}
@@ -93,12 +96,6 @@ This list contains members who have contributed heavily to [**Universal Blue**](
 {{ contributor("Cassidy James Blaede", "cassidyjames", "Universal Blue alumni", "https://github.com/sponsors/cassidyjames") }}
 {{ contributor("Marco Ceppi", "marcoceppi", "Co-Creator of Universal Blue, alumni") }}
 {{ contributor("Adam Israel", "AdamIsrael", "Co-Creator of Universal Blue, alumni") }}
-</div>
-
-<div style="display: flex; flex-wrap: wrap; gap: 0.3rem;">
-    {{ contributor("jerb", "jerbmega", "Early tester") }}
-    {{ contributor("boredsquirrel", "boredsquirrel", "Early tester") }}
-    {{ contributor("Weaver Marquez", "weavermarquez", "Early tester") }}
 </div>
 
 ### Community Contributors
