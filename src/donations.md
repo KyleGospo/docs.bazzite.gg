@@ -40,7 +40,7 @@ title: Credits and Donating
 
 Love Bazzite and want to help sustain it's development?  Consider **sponsoring** the maintainers and contributors of the project.
 
-This list contains members who have contributed heavily to [**Universal Blue**](https://ublue.it) and/or Bazzite since 2021 including alumni members who have contributed in the past and may not be as involved with the project anymore.
+This list contains members who have contributed heavily to Bazzite and/or the [**Universal Blue project**](https://ublue.it) since 2021 which includes alumni members who have contributed in the past and may not be active with the project currently.
 
 <sub>(*If we missed a major contributor, then [**please let use know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
 
