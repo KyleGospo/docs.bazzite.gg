@@ -45,7 +45,7 @@ tags:
   - May work with **major caveats**:
     - Polaris (RX 500 series)
 - Intel Arc GPUs may work with **major caveats**
-- Nvidia GPUs are **not** supported
+- Nvidia GPUs are currently in beta with **major caveats**
 - [Steam](https://store.steampowered.com/) account
 
 ### Compatible Handhelds
