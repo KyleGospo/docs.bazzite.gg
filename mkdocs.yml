@@ -64,10 +64,10 @@ docs_dir: src
 site_dir: book
 
 hooks:
+  - hooks/fail_on_hardcoded_url.py
   - hooks/cmdrun.py # 100-99
   - hooks/embed_youtube.py # 80
   - hooks/md_image_sizing.py
-  - hooks/fail_on_hardcoded_url.py
 
 plugins:
   - privacy
