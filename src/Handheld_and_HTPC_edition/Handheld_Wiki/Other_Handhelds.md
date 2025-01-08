@@ -33,13 +33,13 @@ authors:
 - AOKZOE A1 Normal/Pro
 
 ### Anbernic
-Anbernic Win600
+- Anbernic Win600
 
 ### MSI
-MSI Claw
+- MSI Claw
 
 ### TECNO
-TECNO Pocket Go
+- TECNO Pocket Go
 
 ## HHD Setup
 
