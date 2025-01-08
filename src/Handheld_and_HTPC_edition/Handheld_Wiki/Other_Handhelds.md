@@ -11,6 +11,38 @@ authors:
 
 ![generic handheld|348x158, 100%](../../img/generic_handheld.jpeg)
 
+## Known Supported Bazzite Handhelds
+
+### GPD
+- GPD Win Mini
+
+### OneXPlayer
+- OneXPlayer X1 Mini
+- OneXPlayer F1 
+- OneXPlayer F1 EVA-01 
+- OneXPlayer F1L 
+- OneXPlayer F1 OLED
+- OneXPlayer F1 Pro2 
+- OneXPlayer 2 APR23 
+- OneXPlayer 2 PRO APR23 
+- OneXPlayer 2 PRO APR23 EVA-01
+- OneXPlayer Mini A07
+- OneXPlayer ONE XPLAYER
+
+### AOKZOE
+- AOKZOE A1 Normal/Pro
+
+### Anbernic
+Anbernic Win600
+
+### MSI
+MSI Claw
+
+### TECNO
+TECNO Pocket Go
+
+## HHD Setup
+
 !!! note
     
     Certain handhelds have been confirmed to boot Bazzite, but are plagued by missing driver support for Linux including missing audio drivers.
