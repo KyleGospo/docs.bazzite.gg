@@ -3,7 +3,7 @@ from mkdocs.config.defaults import MkDocsConfig
 from mkdocs.structure.pages import Page
 
 
-pattern = r"\[[^]]+\]\(https?:\/\/docs\.bazzite\.gg"
+pattern = r"[^[]\(https?:\/\/docs\.bazzite\.gg"
 
 
 def on_page_markdown(markdown: str, page: Page, config: MkDocsConfig, files):
