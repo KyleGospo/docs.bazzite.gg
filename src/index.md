@@ -32,7 +32,7 @@ hide:
   - ...And [more][run_win_game]!
 
   <small>\*<sup>1</sup> Desktop images require [**enabling Proton for all Steam games**][enable_proton]</small>.
-   <small>\*<sup>2</sup> PC games that are known to work on the Linux desktop, please visit [ProtonDB](https://protondb.com) and [Are We Anti-Cheat Yet?](https://areweanticheatyet.com) for more information</small>.
+   <small>\*<sup>2</sup> PC games that are known to work on the Linux desktop, please visit [**ProtonDB**](https://protondb.com) and [**Are We Anti-Cheat Yet?**](https://areweanticheatyet.com) for more information</small>.
 
 - [:material-download-circle: **Installing Software**][installing_software]{ style="font-size: 1.1rem" }
 
