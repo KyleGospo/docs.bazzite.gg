@@ -10,7 +10,9 @@ hide:
 
 - [:material-harddisk: **Installing Bazzite**](General/Installation_Guide/index.md){ style="font-size: 1.1rem" }
 
-  Bazzite supports PC hardware from [most desktop and laptops][install_pc_laptop] and specific laptops like the <br>[Framework 13][frame_13] and [Framework 16][frame_16] to [home theater PC setups][htpc] and a [multitude of handhelds][install_handheld]:
+  Bazzite supports PC hardware from [most desktop and laptops][install_pc_laptop] to specific laptops like the <br>[Framework 13][frame_13] and [Framework 16][frame_16].
+
+  Bazzite also supports controller-friendly hardware like [home theater PC setups][htpc] and a [multitude of handhelds][install_handheld]:
 
   - [Steam Deck (and OLED)][deck]
   - [Lenovo Legion Go][legion_go]
