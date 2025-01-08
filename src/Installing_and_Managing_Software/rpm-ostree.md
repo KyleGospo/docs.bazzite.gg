@@ -48,7 +48,7 @@ Searches for Fedora packages that can be installed.
 
 ## Installing RPM files
 
-Fedora [Distrobox containers](https://docs.bazzite.gg/Installing_and_Managing_Software/Distrobox/) should be used for most `.rpm` files, but sometimes they need to be installed to your host.
+Fedora [Distrobox containers](/Installing_and_Managing_Software/Distrobox.md) should be used for most `.rpm` files, but sometimes they need to be installed to your host.
 
 You can install RPM binaries **to your host** with `rpm-ostree` by entering:
 

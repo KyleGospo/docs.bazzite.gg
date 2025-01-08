@@ -27,7 +27,7 @@ authors:
 
 ## Building Your Own Bazzite for Testing
 
->**See also**: [Creating A Custom Bazzite Image](https://docs.bazzite.gg/Advanced/creating_custom_image/)
+>**See also**: [Creating A Custom Bazzite Image](/Advanced/creating_custom_image.md)
 
 If you feel comfortable with bash scripting, programming, working with containers, or anything upstream (Fedora, Flatpak, etc.) then feel free to contribute to Bazzite if you have want to add a feature or bug fix.  Building your own Bazzite will give you a sandbox to play in with your own personal changes to it. Also, this can be your own version of Bazzite to daily drive. This is useful to receive the same updates upstream, but with your spin on it with differences that we cannot or will not include regarding specific packages, drivers, etc.  
 

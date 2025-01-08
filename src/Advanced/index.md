@@ -2,12 +2,12 @@
 title: Advanced Guides
 ---
 
-- [Booting to Rescue Mode](https://docs.bazzite.gg/Advanced/rescue-and-emergency-mode/)
-- [Auto-Mounting Secondary Drives](https://docs.bazzite.gg/Advanced/Auto-Mounting_Secondary_Drives/)
-- [Reset Forgotten User Password](https://docs.bazzite.gg/Advanced/Reset_Forgotten_User_Password/)
-- [Best Shell Practices](https://docs.bazzite.gg/Advanced/Best_Shell_Practices/)
-- [Bazzite Command-Line Tools](https://docs.bazzite.gg/Advanced/bazzite-cli/)
-- [Using Looking-Glass](https://docs.bazzite.gg/Advanced/looking-glass/)
-- [Show Detailed Init Logs During Boot](https://docs.bazzite.gg/Advanced/plymouth_init/)
-- [How to Modify Initramfs and Dracut](https://docs.bazzite.gg/Advanced/dracut-and-initramfs/)
-- [Creating A Custom Bazzite Image](https://docs.bazzite.gg/Advanced/creating_custom_image/)
+- [Booting to Rescue Mode](/Advanced/rescue-and-emergency-mode.md)
+- [Auto-Mounting Secondary Drives](/Advanced/Auto-Mounting_Secondary_Drives.md)
+- [Reset Forgotten User Password](/Advanced/Reset_Forgotten_User_Password.md)
+- [Best Shell Practices](/Advanced/Best_Shell_Practices.md)
+- [Bazzite Command-Line Tools](/Advanced/bazzite-cli.md)
+- [Using Looking-Glass](/Advanced/looking-glass.md)
+- [Show Detailed Init Logs During Boot](/Advanced/plymouth_init.md)
+- [How to Modify Initramfs and Dracut](/Advanced/dracut-and-initramfs.md)
+- [Creating A Custom Bazzite Image](/Advanced/creating_custom_image.md)

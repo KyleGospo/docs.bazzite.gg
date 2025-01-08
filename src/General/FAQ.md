@@ -21,9 +21,9 @@ authors:
 
 ## What is the difference between SteamOS and Bazzite?
 
-Bazzite originally was developed for the Steam Deck targeting users who used their Steam Deck as their primary PC. Bazzite is a collection of custom Fedora Atomic Desktop images (with the power of [libostree](https://ostreedev.github.io/ostree/)) built with Universal Blue's tooling (with the power of [OCI](https://opencontainers.org/about/overview/)) as opposed to using an [Arch Linux](https://archlinux.org/) base with A/B updates utilizing [RAUC](https://github.com/rauc/rauc).  The main advantages of Bazzite versus SteamOS is receiving system packages in updates at a much faster rate, choice of an alternative desktop environment, [Waydroid support](https://docs.bazzite.gg/Installing_and_Managing_Software/Waydroid_Setup_Guide/), [layering system-level packages at your own risk without messing with the filesystem](https://docs.bazzite.gg/Installing_and_Managing_Software/rpm-ostree/), and printing support.
+Bazzite originally was developed for the Steam Deck targeting users who used their Steam Deck as their primary PC. Bazzite is a collection of custom Fedora Atomic Desktop images (with the power of [libostree](https://ostreedev.github.io/ostree/)) built with Universal Blue's tooling (with the power of [OCI](https://opencontainers.org/about/overview/)) as opposed to using an [Arch Linux](https://archlinux.org/) base with A/B updates utilizing [RAUC](https://github.com/rauc/rauc).  The main advantages of Bazzite versus SteamOS is receiving system packages in updates at a much faster rate, choice of an alternative desktop environment, [Waydroid support](/Installing_and_Managing_Software/Waydroid_Setup_Guide.md), [layering system-level packages at your own risk without messing with the filesystem](/Installing_and_Managing_Software/rpm-ostree.md), and printing support.
 
->A full list of major differences can be found in the [Steam Deck wiki entry](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck/#how-similar-is-bazzite-to-steamos-on-steam-deck-hardware) and the [Bazzite README](https://github.com/ublue-os/bazzite/blob/main/README.md).
+>A full list of major differences can be found in the [Steam Deck wiki entry](/Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck.md#how-similar-is-bazzite-to-steamos-on-steam-deck-hardware) and the [Bazzite README](https://github.com/ublue-os/bazzite/blob/main/README.md).
 
 ## What Bazzite image do I use?
 
@@ -124,7 +124,7 @@ If you're familiar with [Fedora Workstation](https://www.fedoraproject.org/works
 
 #### Software & Updates
 
-There are **read-only root files** and an emphasis on installing applications as a [Flatpak](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/), [Homebrew](https://docs.bazzite.gg/Installing_and_Managing_Software/Homebrew/), or inside of a [Distrobox container.](https://docs.bazzite.gg/Installing_and_Managing_Software/Distrobox/)
+There are **read-only root files** and an emphasis on installing applications as a [Flatpak](/Installing_and_Managing_Software/Flatpak.md), [Homebrew](/Installing_and_Managing_Software/Homebrew.md), or inside of a [Distrobox container.](/Installing_and_Managing_Software/Distrobox.md)
 
 >**Read more about [obtaining software on Bazzite](../Installing_and_Managing_Software/index.md)**.
 
@@ -185,10 +185,10 @@ These are deployments and **there's a bug where they get duplicated**, which is 
 
 Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. can also exist as long as you have the storage for it.
 
->**See also**: [Rolling Back System Updates](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates/)
+>**See also**: [Rolling Back System Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md)
 
 
-## Can I uninstall pre-installed applications (that are not [Flatpaks](https://docs.bazzite.gg/Installing_and_Managing_Software/Flatpak/))
+## Can I uninstall pre-installed applications (that are not [Flatpaks](/Installing_and_Managing_Software/Flatpak.md))
 Not recommended and due to technical limitations. The uninstalled packages will result in slower updates and take up more storage space.  We recommend hiding it from the application menu instead.
 
 ## Am I able to use AMD Fluid Motion Frames?
@@ -209,7 +209,7 @@ hostnamectl hostname <hostname>
 
 ## Am I able to install and use _this_ desktop environment or _that_ standalone window manager?
 
-Make your own [custom image based off Bazzite](https://docs.bazzite.gg/Advanced/creating_custom_image/) with the DE and WM change that you want.
+Make your own [custom image based off Bazzite](/Advanced/creating_custom_image.md) with the DE and WM change that you want.
 
 ## What about changing the Java version?
 
@@ -219,11 +219,11 @@ If its for Minecraft modding then install the [Prism Launcher](https://flathub.o
 
 It is **not recommended to rebase between desktop environments** due to configuration files having different standards which usually lead to broken installations after rebasing between two different DEs.
 
->[Read more about Rebasing on Bazzite.](https://docs.bazzite.gg/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide/)
+>[Read more about Rebasing on Bazzite.](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md)
 
 ## I have questions or concerns that cannot be answered in the documentation
 
-Please try searching for your question on **https://docs.bazzite.gg** first before proceeding with the next steps. Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite/5) or [Discord](https://discord.gg/WEu6BdFEtp) if you have a specific question about something, but if it's an issue or bug you are encountering then [report it to the issue tracker](https://docs.bazzite.gg/General/reporting_bugs/).  Keep in mind that certain areas and topics are out of our control especially when it comes to Nvidia driver problems, game compatibility, or other problems that plague the modern day Linux desktop.
+Please try searching for your question on **https://docs.bazzite.gg** first before proceeding with the next steps. Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite/5) or [Discord](https://discord.gg/WEu6BdFEtp) if you have a specific question about something, but if it's an issue or bug you are encountering then [report it to the issue tracker](/General/reporting_bugs.md).  Keep in mind that certain areas and topics are out of our control especially when it comes to Nvidia driver problems, game compatibility, or other problems that plague the modern day Linux desktop.
 
 ## Why are builds failing?
 

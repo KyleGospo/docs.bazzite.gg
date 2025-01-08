@@ -34,7 +34,7 @@ authors:
 - [itch](https://flathub.org/apps/io.itch.itch) for games on itch.io.
 - [WineZGUI](https://github.com/fastrizwaan/WineZGUI) (_pre-installed_) for Windows applications that don’t require special considerations for their prefix.
 
->Read the [Bazzite Gaming Guide](https://docs.bazzite.gg/Gaming/) for more information on running Windows games on Linux.
+>Read the [Bazzite Gaming Guide](/Gaming/index.md) for more information on running Windows games on Linux.
 
 ## How do I install Android applications?
 

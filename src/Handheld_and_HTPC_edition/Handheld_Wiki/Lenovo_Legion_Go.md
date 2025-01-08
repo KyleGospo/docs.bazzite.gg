@@ -59,7 +59,7 @@ Read our [Secure Boot guide](/General/Installation_Guide/secure_boot.md#method-b
 
 ![grainy|690x387, 100%](../../img/grainy.jpeg)
 
-Try not to change the resolution in Desktop Mode!  Connecting to an external monitor may also cause issues.  If your screen doesn't display the correct output or looks grainy, noisy, or oddly colorful then you will have to **enter a [TTY session](https://docs.bazzite.gg/Handheld_and_HTPC_edition/Steam_Gaming_Mode/?h=tt#tty-if-you-cannot-access-desktop-mode) and enter this command**:
+Try not to change the resolution in Desktop Mode!  Connecting to an external monitor may also cause issues.  If your screen doesn't display the correct output or looks grainy, noisy, or oddly colorful then you will have to **enter a [TTY session](/Handheld_and_HTPC_edition/quirks.md#tty-if-you-cannot-access-desktop-mode) and enter this command**:
 
 ```
 rm ~/.config/kwin*
@@ -133,7 +133,7 @@ Hold down the "**select**" button on your device to force a reboot. This feature
 
 ## Contributing
 
-This page is a **wiki**, edit it to add any relevant information you may have regarding the handheld and your experience with Bazzite on it. Make sure to follow proper [contributing guidelines](https://docs.bazzite.gg/CONTRIBUTE/) before adding any edits.
+This page is a **wiki**, edit it to add any relevant information you may have regarding the handheld and your experience with Bazzite on it. Make sure to follow proper [contributing guidelines](/CONTRIBUTE.md) before adding any edits.
 
 <hr>
 

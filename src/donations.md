@@ -100,7 +100,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 
 ### Community Contributors
 - [**BlueBuild Project**](https://blue-build.org/) ([**Contribute**](https://blue-build.org/learn/contributing/))
-- [**Full list of Bazzite Contributors in the Gitub repository**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Do your part!**](https://docs.bazzite.gg/CONTRIBUTE/))
+- [**Full list of Bazzite Contributors in the Gitub repository**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Do your part!**](/CONTRIBUTE.md))
 
 ## Fedora Project
 
