@@ -16,7 +16,7 @@ authors:
 
 ![gpdwin4|690x328, 100%](../../img/gpdwin4.jpeg)
 
-**Status**: Gold
+**Status**: Platinum
 
 ### Installing Bazzite
 
@@ -58,7 +58,7 @@ For more information, check out the [GPD Win Tips and Tricks guide](https://gith
 
 ![placeholder_gpdwinmax2|407x312, 100%](../../img/GPD_Win_Max_2.png)
 
-**Status**: Gold
+**Status**: Platinum
 
 ### Installing Bazzite
 
