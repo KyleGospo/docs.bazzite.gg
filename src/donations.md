@@ -113,7 +113,7 @@ Bazzite would not exist without [**Fedora Linux**](https://fedoraproject.org/). 
 
 We also encourage you to donate to the projects that are used in Bazzite which helps us keep open source sustainable!
 
-<sub>(*If we missed anything, then [**please let use know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
+<sub>(*If we missed software that is part of Bazzite and can be donated to, then [**please let use know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
 
 - [**Atuin**](https://github.com/sponsors/atuinsh)
 - [**BORE Scheduler**](https://ko-fi.com/firelzrd)
