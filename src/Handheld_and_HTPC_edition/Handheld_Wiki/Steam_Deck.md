@@ -10,6 +10,7 @@ authors:
 ## Steam Deck (LCD & OLED)
 
 ![Steam Deck LCD|690x348, 100%](../../img/Steam_Deck_LCD.jpeg)
+
 <sub>Steam Deck LCD running Waydroid</sub>
 
 **Status**: Platinum
