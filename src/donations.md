@@ -58,7 +58,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("sentry", "sentry", "Kernel patches") }}
 {{ contributor("Jason Nagin", "JasonN3", "Installer assistance") }}
 {{ contributor("Sterophonick", "Sterophonick", "Driver backports and game fixes") }}
-{{ contributor "Adelia", "reisvg", "Branding") }}
+{{ contributor ("Adelia", "reisvg", "Branding") }}
 {{ contributor("Sean", "SuperRiderTH", "Animations") }}
 {{ contributor("wolfyreload", "wolfyreload", "Video tutorials") }}
 {{ contributor("Benjamin Sherman", "bsherman", "Image maintenance") }}
