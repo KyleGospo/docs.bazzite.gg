@@ -225,7 +225,7 @@ https://www.youtube.com/watch?v=wUDbMJtR1sM
 
 !!! attention
     
-    We strongly recommend **manual partitioning + creating a separate EFI partition** for dual-booting, **not** automatic partitioning.  See instructions for manual partitioning [here.](/General/Installation_Guide/dual_boot_setup_guide.md#manual-partitioning-to-the-same-drive-for-dual-boot-setups                                                                                                                                                                                                                                                                           General/Installation_Guide/alternate-install-guide.md /General/FAQ/#bazzite-image-chart /General/FAQ.md#bazzite-image-chart)
+    We strongly recommend **manual partitioning + creating a separate EFI partition** for dual-booting, **not** automatic partitioning.  See instructions for manual partitioning [here.](/General/FAQ.md#bazzite-image-chart)
 
 https://www.youtube.com/watch?v=H4226yq0ZwY
 
