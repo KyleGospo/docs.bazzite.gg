@@ -19,6 +19,7 @@ hide:
   - [OneXPlayer Handhelds][onex]
   - [Ayn Handhelds][ayn]
   - [Ayaneo Handhelds][ayaneo]
+  - [Other PC Handhelds][otherhand]
 
 - [:material-controller: **Running Video Games**][gaming]{ style="font-size: 1.1rem" }
 
@@ -108,3 +109,4 @@ hide:
 [waydroid]: Installing_and_Managing_Software/Waydroid_Setup_Guide.md
 [gaming]: Gaming/index.md
 [quadlet]: Installing_and_Managing_Software/Quadlet.md
+[otherhand]: Handheld_and_HTPC_edition/Handheld_Wiki/Other_Handhelds.md
