@@ -21,17 +21,18 @@ hide:
   - [Ayaneo Handhelds][ayaneo]
   - [Other PC Handhelds][otherhand]
 
-- [:material-controller: **Running Video Games**][gaming]{ style="font-size: 1.1rem" }
+- [:material-controller: **Playing Video Games**][gaming]{ style="font-size: 1.1rem" }
 
-  Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup) to run all of your PC games.
+  Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup) to run all of your PC games* on multiple hardware configurations!
 
-  It is also compatible with other tools as well:
+  It is also compatible with other tools like:
 
-  - [Heroic Games Launcher](https://heroicgameslauncher.com/) for Epic Games, GOG, and Amazon Games integration.
-  - [Games and emulators from Flathub](https://flathub.org/apps/category/Game/1) that range from [Friday Night Funkin'](https://flathub.org/apps/io.github.shadowmario.fnf-psychengine) to [Minecraft](https://flathub.org/apps/org.prismlauncher.PrismLauncher).
+  - [Heroic Games Launcher](https://heroicgameslauncher.com/) for seamless Epic Games, GOG, and Amazon Games integration.
+  - [Games and emulators from the built-in app store](https://flathub.org/apps/category/Game/1) that range from [Friday Night Funkin'](https://flathub.org/apps/io.github.shadowmario.fnf-psychengine) to [Minecraft](https://flathub.org/apps/org.prismlauncher.PrismLauncher).
   - ...And [more][run_win_game]!
 
-  <small>\* Desktop images require [**enabling Proton for all Steam games**][enable_proton]</small>.
+  <small>\*<sup>1</sup> Desktop images require [**enabling Proton for all Steam games**][enable_proton]</small>.
+   <small>\*<sup>2</sup> PC games that are known to work on the Linux desktop, please visit [ProtonDB](https://protondb.com) and [Are We Anti-Cheat Yet?](https://areweanticheatyet.com) for more information</small>.
 
 - [:material-download-circle: **Installing Software**][installing_software]{ style="font-size: 1.1rem" }
 
