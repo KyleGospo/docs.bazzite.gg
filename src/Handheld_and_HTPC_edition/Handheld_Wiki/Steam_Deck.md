@@ -19,11 +19,12 @@ Read the [**Installing Bazzite on Steam Deck**](/General/Installation_Guide/Inst
 
 ### Post-Installation Setup
 
-- No additional setup required, but make sure to read the [installation Guide](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
+- No additional setup required, but make sure to read the [Installation Guide](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
 - It should function nearly identical to SteamOS with the benefits of [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/):
   - Layer Fedora packages to the image without losing them between updates/reboots.
   - Newer package upgrades including the Linux kernel and drivers.
   - Printing support and other basic features that would make Bazzite viable for daily usage.
+- Regressions may occur since this Bazzite upgrades base packages faster than SteamOS.
 - View our [FAQ](https://faq.bazzite.gg) for more information.
 
 ## Steam Deck OLED
@@ -38,16 +39,19 @@ Read the [**Installing Bazzite on Steam Deck**](/General/Installation_Guide/Inst
 
 ### Post-Installation Setup
 
-- No additional setup required, but make sure to read the [installation Guide](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
+- No additional setup required, but make sure to read the [Installation Guide](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
 - It should function nearly identical to SteamOS with the benefits of [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/):
   - Layer Fedora packages to the image without losing them between updates/reboots.
   - Newer package upgrades including the Linux kernel and drivers.
   - Printing support and other basic features that would make Bazzite viable for daily usage.
+- Regressions may occur since this Bazzite upgrades base packages faster than SteamOS.
 - View our [FAQ](https://faq.bazzite.gg) for more information.
 
-<hr>
+## SteamOS and Bazzite Comparison
 
-## How similar is Bazzite to SteamOS on Steam Deck hardware?
+Both run Steam Gaming Mode and share packages, but what about under the hood?
+
+### How similar is Bazzite to SteamOS on Steam Deck hardware?
 
 Bazzite should have most of the functionality from SteamOS with Steam Gaming Mode working as intended.
 
@@ -57,11 +61,11 @@ The Quick Access Menu (accessed with the <kbd>...</kbd> button on Steam Deck) is
 
 Third-party software like [Decky Loader](https://decky.xyz/), [Emudeck](https://www.emudeck.com/), [RetroDeck](https://retrodeck.net/), etc. should install and function properly.
 
-## Why should I use Bazzite over SteamOS?
+### Why should I use Bazzite over SteamOS?
 
 Bazzite is great for users who feel that the device is too limited by SteamOS in comparison to other Linux operating systems, but do not want to sacrifice Steam Gaming Mode, stability, and the user friendliness of SteamOS.
 
-### Enhancements
+#### Enhancements
 
 - Shares packages from SteamOS
 - Works on different hardware configurations (desktops, handhelds, etc.)
@@ -72,7 +76,7 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
   - GNOME
   - Budgie (**coming soon**)
 
-### Daily Driving
+#### Daily Driving
 
 - System packages that get updated on a regular basis
   - Follows Fedora's [update cycle](https://docs.fedoraproject.org/en-US/releases/lifecycle/) and receive updates directly from upstream
@@ -81,13 +85,13 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
 - Printing support out of the box
 - Wayland is the default session for Desktop Mode
 
-### Tinkering
+#### Tinkering
 
 - Access to multiple package managers and repositories in [containers](https://docs.bazzite.gg/Installing_and_Managing_Software/Distrobox/)
 - [Layer](https://docs.bazzite.gg/Installing_and_Managing_Software/rpm-ostree/) Fedora packages to the system which survive between updates
 - [`ujust`](https://docs.bazzite.gg/Installing_and_Managing_Software/ujust/) commands to setup anything from virtualization support to supporting specific input peripherals
 
-## Will there be any performance improvements with Bazzite?
+### Will there be any performance improvements with Bazzite?
 
 Performance should be on par with SteamOS, and every game capable of running on SteamOS should run on Bazzite. Bazzite and SteamOS share the same packages, so the difference is usually negligible.
 
@@ -106,7 +110,7 @@ However there are some **advantages** that Bazzite may have in some edge cases:
 
 > Performance tweaks are sourced from this [Medium article](https://medium.com/@a.b.t./here-are-some-possibly-useful-tweaks-for-steamos-on-the-steam-deck-fcb6b571b577).
 
-## Does the Steam Deck image receive BIOS updates like SteamOS?
+### Does the Steam Deck image receive BIOS updates like SteamOS?
 
 **Yes**.
 
@@ -118,13 +122,13 @@ If desired, there is a **command to disable BIOS updates** at your own risk:
 ujust disable-bios-updates
 ```
 
-## Why is the stock 64GB Steam Deck not supported on Bazzite?
+### Why is the stock 64GB Steam Deck not supported on Bazzite?
 
 It has **filesystem corruptions**.
 
 You will have booting issues, freezes, and will not be able to update the image.
 
-### Solution
+#### Solution
 
 **At your own risk**:
 Upgrade the storage to resolve this.
