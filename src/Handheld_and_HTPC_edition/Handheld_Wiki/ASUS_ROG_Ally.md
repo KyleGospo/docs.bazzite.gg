@@ -16,7 +16,7 @@ authors:
 
 ![ally|603x500, 100%](../../img/ally.png)
 
-**Status**: Gold
+**Status**: Platinum
 
 ## Installing Bazzite
 
