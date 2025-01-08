@@ -30,7 +30,7 @@ hide:
   It is also compatible with other tools like:
 
   - [Heroic Games Launcher](https://heroicgameslauncher.com/) for seamless Epic Games, GOG, and Amazon Games integration.
-  - [Games and emulators from the built-in app store](https://flathub.org/apps/category/Game/1) that range from [Friday Night Funkin'](https://flathub.org/apps/io.github.shadowmario.fnf-psychengine) to [Minecraft](https://flathub.org/apps/org.prismlauncher.PrismLauncher).
+  - [Games and emulators from the built-in app store](https://flathub.org/apps/category/Game/1) that range from [osu!](https://flathub.org/apps/sh.ppy.osu) to [Minecraft](https://flathub.org/apps/org.prismlauncher.PrismLauncher).
   - ...And [more][run_win_game]!
 
   <small>\*<sup>1</sup> Desktop images require [**enabling Proton for all Windows Steam games**][enable_proton]</small>.
