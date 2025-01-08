@@ -69,13 +69,16 @@ hide:
   Run Android applications in a container using [Waydroid](https://waydro.id/)!
 
   - Launch anything from productivity software to games.
-  - Support for the [Google Play Store](https://play.google.com/store/games) and [F-Droid](https://f-droid.org/).
+  - ARM translation support for most applications.
+  - Use your favorite streaming service without the limitations of DRM.
+  - Install software through [Google Play Store](https://play.google.com/store/games) and [F-Droid](https://f-droid.org/).
 
 - [:fontawesome-solid-handshake: **Contributing**][contrib]{ style="font-size: 1.1rem" }
 
   One of the strengths of Bazzite (inherited from [Universal Blue](https://universal-blue.org/)) is how easy is to contribute.
 
   - Something seems broken? You might want to [report a bug](General/reporting_bugs.md).
+  - Add new changes by testing them in a [custom image][customimage]
   - Editing current documentation and [adding translations](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/README.md#translate-documentation) are also appreciated.
 
 </div>
@@ -113,3 +116,4 @@ hide:
 [gaming]: Gaming/index.md
 [quadlet]: Installing_and_Managing_Software/Quadlet.md
 [otherhand]: Handheld_and_HTPC_edition/Handheld_Wiki/Other_Handhelds.md
+[customimage]: Advanced/creating_custom_image.md
