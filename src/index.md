@@ -10,7 +10,7 @@ hide:
 
 - [:material-harddisk: **Installing Bazzite**](General/Installation_Guide/index.md){ style="font-size: 1.1rem" }
 
-  From [desktop/laptops][install_pc_laptop], <br>Framework [13][frame_13]/[16][frame_16], [home theater PC setups][htpc] to a [multitude of handhelds][install_handheld]:
+  Bazzite supports PC hardware from [most desktop and laptops][install_pc_laptop] and specific laptops like the <br>[Framework 13][frame_13] and [Framework 16][frame_16] to [home theater PC setups][htpc] and a [multitude of handhelds][install_handheld]:
 
   - [Steam Deck (and OLED)][deck]
   - [Lenovo Legion Go][legion_go]
@@ -31,8 +31,8 @@ hide:
   - [Games and emulators from the built-in app store](https://flathub.org/apps/category/Game/1) that range from [Friday Night Funkin'](https://flathub.org/apps/io.github.shadowmario.fnf-psychengine) to [Minecraft](https://flathub.org/apps/org.prismlauncher.PrismLauncher).
   - ...And [more][run_win_game]!
 
-  <small>\*<sup>1</sup> Desktop images require [**enabling Proton for all Steam games**][enable_proton]</small>.
-   <small>\*<sup>2</sup> PC games that are known to work on the Linux desktop, please visit [**ProtonDB**](https://protondb.com) and [**Are We Anti-Cheat Yet?**](https://areweanticheatyet.com) for more information</small>.
+  <small>\*<sup>1</sup> Desktop images require [**enabling Proton for all Windows Steam games**][enable_proton]</small>.
+   <small>\*<sup>2</sup> PC games that are known to work on the Linux desktop, visit [**ProtonDB**](https://protondb.com) and [**Are We Anti-Cheat Yet?**](https://areweanticheatyet.com) for more information</small>.
 
 - [:material-download-circle: **Installing Software**][installing_software]{ style="font-size: 1.1rem" }
 
@@ -51,7 +51,7 @@ hide:
   6. [Appimage][appimage] for portable apps found on the web.
      {style="list-style-type: decimal;"}
 
-  There is also [package layering with `rpm-ostree`][rpm-ostree] but it is [advised to avoid using it if possible][rpm-ostree_caveats].
+  There is also [package layering with `rpm-ostree`][rpm-ostree], however it is [advised to avoid using it if possible][rpm-ostree_caveats] since they can break future upgrades until packages are removed.  Use as a last resort.
 
 - [:fontawesome-solid-circle-arrow-down: **Updates & Rollbacks**][updateindex]{ style="font-size: 1.1rem" }
 
