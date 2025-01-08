@@ -59,7 +59,7 @@ Lutris is game management software that doubles as a WINE front-end for Windows 
 
 #### Manually adding a Windows game to Lutris
 
-However if your game is not listed or doesn't work with the provided script, then manually add the executable. Add locally installed game and make sure to configure it properly within the game and runner options.  It will need a [prefix directory](/Gaming/Managing_and_modding_games.md#non-steam-games-prefix-management) created or inside the default `~/.wine` directory for each game.
+However if your game is not listed or doesn't work with the provided script, then manually add the executable. Add locally installed game and make sure to configure it properly within the game and runner options.  It will need a [prefix directory](https://docs.bazzite.gg/Gaming/Managing_and_modding_games.md#non-steam-games-prefix-management) created or inside the default `~/.wine` directory for each game.
 
 ![Add Locally Installed Game|632x496, 75%](../img/Lutris_Setup_Add_Local_Game.png)
 
