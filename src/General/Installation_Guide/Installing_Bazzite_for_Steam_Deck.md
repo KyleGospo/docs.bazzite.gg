@@ -23,7 +23,7 @@ authors:
 
 ### Status
 
-Bazzite functions properly on the Steam Deck LCD (256GB+) and Steam Deck OLED models.
+Bazzite functions properly on the Steam Deck LCD and Steam Deck OLED models.
 
 #### **Bazzite and SteamOS** Comparison:
 Read the [Handheld Wiki entry](https://universal-blue.discourse.group/docs?topic=1849) for a quick rundown of differences between the two operating systems.
