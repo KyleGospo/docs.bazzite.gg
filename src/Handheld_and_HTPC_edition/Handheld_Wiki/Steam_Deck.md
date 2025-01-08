@@ -7,29 +7,10 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=1849", "fetched_at": "2024-09-03 16:43:16.550432+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## Steam Deck LCD
+## Steam Deck (LCD & OLED)
 
 ![Steam Deck LCD|690x348, 100%](../../img/Steam_Deck_LCD.jpeg)
-
-**Status**: Platinum
-
-## Installing Bazzite
-
-Read the [**Installing Bazzite on Steam Deck**](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
-
-### Post-Installation Setup
-
-- No additional setup required, but make sure to read the [Installation Guide](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
-- It should function nearly identical to SteamOS with the benefits of [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/):
-  - Layer Fedora packages to the image without losing them between updates/reboots.
-  - Newer package upgrades including the Linux kernel and drivers.
-  - Printing support and other basic features that would make Bazzite viable for daily usage.
-- Regressions may occur since this Bazzite upgrades base packages faster than SteamOS.
-- View our [FAQ](https://faq.bazzite.gg) for more information.
-
-## Steam Deck OLED
-
-![Steam Deck OLED|667x500, 100%](../../img/Steam_Deck_OLED.jpeg)
+<sub>Steam Deck LCD running Waydroid</sub>
 
 **Status**: Platinum
 
