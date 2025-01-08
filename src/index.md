@@ -61,8 +61,8 @@ hide:
 
   - [Updating Guide][updates]
   - [Rollback System Updates][rollbacks]
-    - [Rebasing to Other Images][rebasing]
-    - [`bazzite-rollback-helper`][rollback-helper]
+  - [Rebasing to Other Images][rebasing]
+  - [`bazzite-rollback-helper`][rollback-helper]
 
 - [:fontawesome-brands-android: **Android Applications**][waydroid]{ style="font-size: 1.1rem" }
 
