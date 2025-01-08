@@ -11,7 +11,7 @@ authors:
 
 ![generic handheld|348x158, 100%](../../img/generic_handheld.jpeg)
 
-## Known Supported Bazzite Handhelds
+## Known Supported Unlisted Handhelds
 
 ### GPD
 - GPD Win Mini
