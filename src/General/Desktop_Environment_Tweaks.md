@@ -43,7 +43,7 @@ Global themes are placed in `~/.local/share/plasma/look-and-feel/` (_you may nee
 
 #### SDDM (Login Manager) Themes
 
-Use Discover to install SDDM themes.  SDDM themes can also be layered **at your own risk** if they are available as RPM packages using [`rpm-ostree`](https://docs.bazzite.gg/Installing_and_Managing_Software/rpm-ostree/).
+Use Discover to install SDDM themes.  SDDM themes can also be layered **at your own risk** if they are available as RPM packages using [`rpm-ostree`](/Installing_and_Managing_Software/rpm-ostree.md).
 
 #### Icon / Cursor Themes
 

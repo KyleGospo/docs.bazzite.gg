@@ -1,9 +1,9 @@
 ---
 title: General Documentation
 ---
-## - [README](https://docs.bazzite.gg/Bazzite_README/)
-## - [Dictionary & Terminology](https://docs.bazzite.gg/General/terms)
-## - [Issues & Resolutions](https://docs.bazzite.gg/General/issues_and_resolutions)
-## - [Reporting Bugs](https://docs.bazzite.gg/General/reporting_bugs/)
-## - [Desktop Mode Tweaks](https://docs.bazzite.gg/General/Desktop_Environment_Tweaks/)
-## - [Community Links](https://docs.bazzite.gg/General/community-links/)
+## - [README](/Bazzite_README.md)
+## - [Dictionary & Terminology](/General/terms.md)
+## - [Issues & Resolutions](/General/issues_and_resolutions.md)
+## - [Reporting Bugs](/General/reporting_bugs.md)
+## - [Desktop Mode Tweaks](/General/Desktop_Environment_Tweaks.md)
+## - [Community Links](/General/community-links.md)

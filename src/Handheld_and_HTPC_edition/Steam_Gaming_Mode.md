@@ -51,7 +51,7 @@ Valve wrote a [guide](https://help.steampowered.com/en/faqs/view/7DD4-C618-182E-
 
 ## Steam Gaming Mode Quirks and Workarounds
 
-Read the documentation [**here**](https://docs.bazzite.gg/Handheld_and_HTPC_edition/quirks/).
+Read the documentation [**here**](/Handheld_and_HTPC_edition/quirks.md).
 
 <hr>
 

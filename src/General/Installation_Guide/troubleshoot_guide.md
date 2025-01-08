@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=VTnm9EiBdPA
 
 https://www.youtube.com/watch?v=Z_DsWqTuipU
 
->[**Secure Boot Guide**](https://docs.bazzite.gg/General/Installation_Guide/secure_boot/)
+>[**Secure Boot Guide**](/General/Installation_Guide/secure_boot.md)
 
 <hr>
 
@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=Z_DsWqTuipU
 
 If none of the above errors are relevant to your issue, or you still have problems installing Bazzite, then try following our alternative installation method:
 
-[**Try installing Bazzite by rebasing from Fedora Kinoite (KDE Plasma) or Fedora Silverblue (GNOME)**](https://docs.bazzite.gg/General/Installation_Guide/alternate-install-guide).
+[**Try installing Bazzite by rebasing from Fedora Kinoite (KDE Plasma) or Fedora Silverblue (GNOME)**](/General/Installation_Guide/alternate-install-guide.md).
 
 !!! note
 

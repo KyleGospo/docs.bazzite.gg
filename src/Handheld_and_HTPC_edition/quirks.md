@@ -114,7 +114,7 @@ Select the GPU to use for Steam Gaming Mode.
 
     Follow the instructions properly and do not mess with any other Valve internal settings since it can break your installation of Bazzite and Steam!
 
-1. If not already installed, install Decky Loader with the [`ujust` command](https://docs.bazzite.gg/Installing_and_Managing_Software/ujust/)
+1. If not already installed, install Decky Loader with the [`ujust` command](/Installing_and_Managing_Software/ujust.md)
 2. Go into Decky's settings
 3. Under the "Developer" category, check "**Enable Valve Internal**"
 4. Go into the Steam Gaming Mode settings
@@ -256,4 +256,4 @@ https://www.youtube.com/watch?v=gE1ff72g2Gk
 
 <hr>
 
-**See also**: [Issues & Resolutions](https://docs.bazzite.gg/Advanced/issues_and_resolutions/)
+**See also**: [Issues & Resolutions](/Advanced/issues_and_resolutions/)

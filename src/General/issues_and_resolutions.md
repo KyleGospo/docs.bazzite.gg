@@ -104,4 +104,4 @@ Now if you now select the Shutdown option, Windows will shut down completely and
 
 <hr>
 
-**See also**: [Steam Gaming Mode Quirks](https://docs.bazzite.gg/Handheld_and_HTPC_edition/quirks/)
+**See also**: [Steam Gaming Mode Quirks](/Handheld_and_HTPC_edition/quirks.md)
