@@ -25,7 +25,7 @@ hide:
 
 - [:material-controller: **Playing Video Games**][gaming]{ style="font-size: 1.1rem" }
 
-  Bazzite comes bundled with :fontawesome-brands-steam: [Steam](store.steampowered.com)\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup) to run all of your PC games* on multiple hardware configurations!
+  Bazzite comes bundled with :fontawesome-brands-steam: [Steam](https://store.steampowered.com)\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup) to run all of your PC games* on multiple hardware configurations!
 
   It is also compatible with other tools like:
 
