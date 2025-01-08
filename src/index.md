@@ -20,14 +20,13 @@ hide:
   - [Ayn Handhelds][ayn]
   - [Ayaneo Handhelds][ayaneo]
 
-- [:fontawesome-brands-windows: **Running Windows Games**][gaming]{ style="font-size: 1.1rem" }
+- [:fontawesome-brands-gamepad: **Running Video Games**][gaming]{ style="font-size: 1.1rem" }
 
-  Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup).
+  Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup) to run all of your PC games.
 
   It is also compatible with other tools as well:
 
   - [Heroic Games Launcher](https://heroicgameslauncher.com/) for Epic Games, GOG, and Amazon Games integration.
-  - [Bottles](https://usebottles.com/) for general-purposen non-gaming Windows applications.
   - [Games and emulators from Flathub](https://flathub.org/apps/category/Game/1) that range from [Friday Night Funkin'](https://flathub.org/apps/io.github.shadowmario.fnf-psychengine) to [Minecraft](https://flathub.org/apps/org.prismlauncher.PrismLauncher).
   - ...And [more][run_win_game]!
 
