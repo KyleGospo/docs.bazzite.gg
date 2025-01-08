@@ -7,7 +7,7 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=1849", "fetched_at": "2024-09-03 16:43:16.550432+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## Steam Deck LCD (256GB+)
+## Steam Deck LCD
 
 ![Steam Deck LCD|690x348, 100%](../../img/Steam_Deck_LCD.jpeg)
 
@@ -121,19 +121,6 @@ If desired, there is a **command to disable BIOS updates** at your own risk:
 ```
 ujust disable-bios-updates
 ```
-
-### Why is the stock 64GB Steam Deck not supported on Bazzite?
-
-It has **filesystem corruptions**.
-
-You will have booting issues, freezes, and will not be able to update the image.
-
-#### Solution
-
-**At your own risk**:
-Upgrade the storage to resolve this.
-
-This [post](https://universal-blue.discourse.group/t/my-experience-using-bazzite-on-the-64gb-steam-deck/125/1) covers a detailed explanation and first-hand experience of using Bazzite on the stock 64GB Steam Deck.
 
 <hr>
 
