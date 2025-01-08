@@ -20,7 +20,7 @@ hide:
   - [Ayn Handhelds][ayn]
   - [Ayaneo Handhelds][ayaneo]
 
-- [:fontawesome-brands-gamepad: **Running Video Games**][gaming]{ style="font-size: 1.1rem" }
+- [:material-joystick: **Running Video Games**][gaming]{ style="font-size: 1.1rem" }
 
   Bazzite comes bundled with :fontawesome-brands-steam: Steam\* and [Lutris](Gaming/Game_Launchers.md#lutris-setup) to run all of your PC games.
 
