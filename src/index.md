@@ -57,7 +57,9 @@ hide:
 
 - [:fontawesome-solid-circle-arrow-down: **Updates & Rollbacks**][updateindex]{ style="font-size: 1.1rem" }
 
-  If a regression occurs then rollback to the previous deployment.
+  Upgrades for Desktop images are automatic daily and apply on a reboot while Bazzite-Deck images let you handle updating through Steam.
+
+  If a regression occurs then rollback to the previous deployment or rebase back temporarily to a good Bazzite Build within the last 90 days without losing personal files!
 
   - [Updating Guide][updates]
   - [Rollback System Updates][rollbacks]
