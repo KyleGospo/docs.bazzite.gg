@@ -64,7 +64,7 @@ docs_dir: src
 site_dir: book
 
 hooks:
-  - hooks/fail_on_hardcoded_url.py
+  - hooks/fail_on_hardcoded_url.py # This hook must be set before cmdrun.py, otherwise it will fail
   - hooks/cmdrun.py # 100-99
   - hooks/embed_youtube.py # 80
   - hooks/md_image_sizing.py
