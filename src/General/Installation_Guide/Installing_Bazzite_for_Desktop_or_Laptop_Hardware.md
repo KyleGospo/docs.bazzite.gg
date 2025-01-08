@@ -193,7 +193,7 @@ https://www.youtube.com/watch?v=wUDbMJtR1sM
 
 View our [Gaming Guide](../../Gaming/index.md) for a quick rundown of Linux gaming, useful resources, and setting up Proton on Steam.
 
-Check out the additional [documentation](https://docs.bazzite.gg) surrounding the project.
+Check out the additional [documentation](/index.md) surrounding the project.
 
 <hr>
 

@@ -101,4 +101,4 @@ Read this [guide](https://github.com/ewagner12/all-ways-egpu) for eGPU usage on 
 
 <hr>
 
-← [**View all Bazzite documentation**](https://docs.bazzite.gg)
+← [**View all Bazzite documentation**](/index.md)
