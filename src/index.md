@@ -78,7 +78,7 @@ hide:
   One of the strengths of Bazzite (inherited from [Universal Blue](https://universal-blue.org/)) is how easy is to contribute.
 
   - Something seems broken? You might want to [report a bug](General/reporting_bugs.md).
-  - Add new changes by testing them in a [custom image][customimage]
+  - Add new changes by testing them in a [custom image][customimage].
   - Editing current documentation and [adding translations](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/README.md#translate-documentation) are also appreciated.
 
 </div>
