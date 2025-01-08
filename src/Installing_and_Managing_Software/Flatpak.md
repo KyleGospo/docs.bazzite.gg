@@ -34,15 +34,9 @@ flatpak install <application>
 
 ## Flatpak Remotes
 
-Flatpaks can be hosted anywhere, but by default Bazzite ships with the [Flathub](https://flathub.org/) remote which is a centralized repository of Linux applications.
+Flatpaks can be hosted anywhere, but by default Bazzite ships with the [Flathub](https://flathub.org/) system remote which is a centralized repository of Linux applications.
 
-The Flathub App Store is the definitive Linux app store and several Linux operating systems like SteamOS and Linux Mint ship with full support for it.
-
-### System & User Flathub Remotes
-
-Flathub has different remotes, Bazzite enables both "**system**" and "**user**" Flathub by default. Bazzite pre-installs default applications with the system remote, and is mainly intended for multi-user systems. Some applications may require the system remote however.
-
-Read more about system versus user Flathub remotes in the [upstream documentation](https://docs.flathub.org/docs/for-users/user-vs-system-install/).
+The Flathub App Store is the definitive Linux app store and several Linux operating systems ship it out of the box which means the software ecosystem is one of the largest in the Linux community.
 
 ## Manage Flatpaks
 
