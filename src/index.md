@@ -44,7 +44,7 @@ hide:
      {style="list-style-type: decimal;"}
   4. [Quadlet][quadlet] for hosting services.
      {style="list-style-type: decimal;"}
-  5. [Distrobox][distrobox] for legacy Linux apps or as development containers.
+  5. [Distrobox][distrobox] for access to Linux package managers or as development containers.
      {style="list-style-type: decimal;"}
   6. [Appimage][appimage] for portable apps found on the web.
      {style="list-style-type: decimal;"}
