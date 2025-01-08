@@ -12,7 +12,7 @@ authors:
 
 ![onexplayer-x1|690x328, 100%](../../img/onexplayer-x1.jpeg)
 
-**Status**: Gold
+**Status**: Platinum
 
 ### Installing Bazzite
 
