@@ -10,7 +10,7 @@ hide:
 
 - [:material-harddisk: **Installing Bazzite**](General/Installation_Guide/index.md){ style="font-size: 1.1rem" }
 
-  Bazzite supports PC hardware from [most desktop and laptops][install_pc_laptop] to specific laptops like the [Framework 13][frame_13] and [Framework 16][frame_16]. <br>
+  Bazzite supports PC hardware from [most desktop and laptops][install_pc_laptop] to specialized models like the [Framework 13][frame_13] and [Framework 16][frame_16]. <br>
 
   Bazzite also supports controller-friendly hardware like [home theater PC setups][htpc] and a [multitude of handhelds][install_handheld]:
 
