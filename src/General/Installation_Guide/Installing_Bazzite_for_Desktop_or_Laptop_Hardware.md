@@ -171,10 +171,6 @@ An application will pop up welcoming you to Bazzite when you boot into the deskt
 - If you would like to customize any of the options, then press the arrow next to the toggle switch button if available.
 - Installing items from the portal **may take a long time**.
 
-!!! note
-    
-    If you only check a few items in a category, then it will only install those selected items. The switch is only toggled to install **everything** in that category.
-
 !!! attention
     
     There is a rare chance you will be asked to setup KDE Wallet or GNOME Keyring and set a password to continue installing items from the Bazzite Portal.
