@@ -140,7 +140,7 @@ Read the [Secure Boot Guide](https://universal-blue.discourse.group/docs?topic=2
 
 ![Rollbacks|690x402, 50%](../../img/GRUB_Menu.png)
 
-The first boot will show a screen showing your current and last deployment. It will automatically boot if nothing. It is important to note that the GRUB menu can be used to rollback Bazzite deployments if you encounter issues.
+The first boot will show a screen showing your current and last deployment. It is important to note that the GRUB menu can be used to rollback Bazzite deployments if you encounter issues.
 
 Read more about this in the [Updates, Rollback, and Rebasing documentation](../../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md).
 
