@@ -164,8 +164,6 @@ It is important to configure the system settings on a first boot to personalize 
 
 An application will pop up welcoming you to Bazzite when you boot into the desktop for the first time. This is a utility that allows you to tailor Bazzite to your liking by installing additional software.
 
-![Bazzite Portal|584x500, 75%](../../img/yafti_options.png)
-
 - Click "Next" to begin configuring Bazzite.
 - Press the toggle switch button next to the item to have the option enabled or disabled for your installation, some are already toggled on by default.
 - If you would like to customize any of the options, then press the arrow next to the toggle switch button if available.
