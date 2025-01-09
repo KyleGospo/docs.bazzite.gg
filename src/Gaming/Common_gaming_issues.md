@@ -25,7 +25,7 @@ A log file should appear in your Home directory named after the game's applicati
 
 Some Linux ports may have missing functionality or worse performance than on the Windows version running through Proton. However, there are scenarios where using the native port exclusively is your only option, and may even be desirable.
 
-## Valve/Source Engine Games Problems
+## Valve & Source Engine Game Problems
 
 !!! note
     
