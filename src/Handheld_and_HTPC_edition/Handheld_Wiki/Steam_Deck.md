@@ -15,7 +15,7 @@ authors:
 
 ## Installing Bazzite
 
-Read the [**Installing Bazzite on Steam Deck**](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
+Read the [**Installing Bazzite on Steam Deck guide**](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
 
 ### Post-Installation Setup
 
