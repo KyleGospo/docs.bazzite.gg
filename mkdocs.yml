@@ -136,6 +136,7 @@ nav:
   - General:
       - "General Guides": General/index.md
       - "Dictionary and Terminology": General/terms.md
+      - "SteamOS Comparison": /General/SteamOS_Comparison.md
       - "Issues & Resolutions": "General/issues_and_resolutions.md"
       - "Reporting Bugs": General/reporting_bugs.md
       - "Desktop Environment Tweaks": General/Desktop_Environment_Tweaks.md
