@@ -44,7 +44,7 @@ tags:
     - 600M/700M integrated GPUs
   - May work with **major caveats**:
     - Polaris (RX 500 series)
-- Intel Arc GPUs may work with **major caveats**
+- Intel Arc GPUs may work with **minor caveats**
 - Nvidia GPUs are currently in beta with **major caveats**
 - [Steam](https://store.steampowered.com/) account
 
