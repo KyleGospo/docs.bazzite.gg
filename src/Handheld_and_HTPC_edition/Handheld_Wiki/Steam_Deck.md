@@ -23,8 +23,8 @@ Read the [**Installing Bazzite on Steam Deck**](/General/Installation_Guide/Inst
 - It should function nearly identical to SteamOS with the benefits of [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/):
   - Layer Fedora packages to the image without losing them between updates/reboots.
   - Newer package upgrades including the Linux kernel and drivers.
+  - Alternate desktop environments available. 
 - Regressions may occur since this Bazzite upgrades base packages faster than SteamOS.
-- View our [FAQ](https://faq.bazzite.gg) for more information.
 
 ## SteamOS and Bazzite Comparison
 
