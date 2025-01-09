@@ -41,54 +41,7 @@ The Quick Access Menu (accessed with the <kbd>...</kbd> button on Steam Deck) is
 
 Third-party software like [Decky Loader](https://decky.xyz/), [Emudeck](https://www.emudeck.com/), [RetroDeck](https://retrodeck.net/), etc. should install and function properly.
 
-### Why should I use Bazzite over SteamOS?
-
-Bazzite is great for users who feel that the device is too limited by SteamOS in comparison to other Linux operating systems, but do not want to sacrifice Steam Gaming Mode, stability, and the user friendliness of SteamOS.
-
-#### Enhancements
-
-- Shares packages from SteamOS
-- Works on different hardware configurations (desktops, handhelds, etc.)
-- Android applications can be installed with [Waydroid](/Installing_and_Managing_Software/Waydroid_Setup_Guide.md)
-- Updating in Steam Gaming Mode will also update installed applications
-- Access to multiple desktop environments
-  - KDE
-  - GNOME
-  - Budgie (**coming soon**)
-
-#### Daily Driving
-
-- System packages that get updated on a regular basis
-  - Follows Fedora's [update cycle](https://docs.fedoraproject.org/en-US/releases/lifecycle/) and receive updates directly from upstream
-    - This includes graphics drivers, the Linux kernel, and desktop environment upgrades
-- Security focused with the [Security Enhanced Linux](https://www.redhat.com/en/topics/linux/what-is-selinux) kernel module enabled by default
-- Printing support out of the box
-- Wayland is the default session for Desktop Mode
-
-#### Tinkering
-
-- Access to multiple package managers and repositories in [containers](/Installing_and_Managing_Software/Distrobox.md)
-- [Layer](/Installing_and_Managing_Software/rpm-ostree.md) Fedora packages to the system which survive between updates
-- [`ujust`](/Installing_and_Managing_Software/ujust.md) commands to setup anything from virtualization support to supporting specific input peripherals
-
-### Will there be any performance improvements with Bazzite?
-
-Performance should be on par with SteamOS, and every game capable of running on SteamOS should run on Bazzite. Bazzite and SteamOS share the same packages, so the difference is usually negligible.
-
-However there are some **advantages** that Bazzite may have in some edge cases:
-
-- Performance Governor
-  - Bazzite uses powersave w/ [`amd-pstate`](https://www.kernel.org/doc/html/latest/admin-guide/pm/amd-pstate.html) which is more efficient on the hardware
-- MGLRU is already enabled by default by Fedora
-- Watchdog is disabled by default
-- Memory lock is tweaked for [RPCS3](https://rpcs3.net/)
-- Kyber I/O scheduler is used
-- File access times is disabled
-- Transparent Huge Pages is not used
-  - Bazzite does not use a swapfile and rely on zram with zstd by default (compressed memory)
-- Kernel is using 1000hz tick
-
-> Performance tweaks are sourced from this [Medium article](https://medium.com/@a.b.t./here-are-some-possibly-useful-tweaks-for-steamos-on-the-steam-deck-fcb6b571b577).
+If you want to see a more in-depth comparison, see [here](/General/SteamOS_Comparison.md)
 
 ### Does the Steam Deck image receive BIOS updates like SteamOS?
 
