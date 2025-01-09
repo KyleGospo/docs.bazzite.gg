@@ -33,8 +33,7 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
 
 Handheld Daemon (aka HHD) ships with Bazzite for PC handhelds, and adds the following functionality:
 
-- Game controller support for a large selection of PC handhelds
-  - See the [supported Bazzite handhelds in our Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki.md).
+- Game controller support for a large selection of PC [handhelds.](../Handheld_and_HTPC_edition/Handheld_Wiki.md)
 - Hardware controls for TDP, GPU, Power Governor, CPU Boost, etc.
 - RGB controls for select devices only.
 - Swipe gestures while in Steam Gaming Mode.
