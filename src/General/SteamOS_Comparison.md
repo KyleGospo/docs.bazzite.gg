@@ -55,7 +55,11 @@ Handheld Daemon (aka HHD) ships with Bazzite for PC handhelds, and adds the foll
 
 #### Security Improvements
 
-Bazzite supports LUKS Disk Encryption, Secure Boot, and TPM unlock of the encrypted disk. Bazzite also has the [Security Enhanced Linux](https://www.redhat.com/en/topics/linux/what-is-selinux) kernel module enabled and pre-configured by default. None of these are currently offered on SteamOS.  Note that, in Bazzite, disk encryption must be enabled manually during the OS installation process, and will require you to create an encryption password that you will remember to decrypt the disk.  For to not have to enter the disk decryption password on every reboot, you can configure TPM unlock via `ujust setup-luks-tpm-unlock`.  Secure Boot enables is useful for if you want to dual-boot with Windows, and requires Secure Boot for certain anti-cheat software. Read more in our [guide](/General/Installation_Guide/secure_boot.md).
+Bazzite supports LUKS Disk Encryption, Secure Boot, and TPM unlock of the encrypted disk. Bazzite also has the [Security Enhanced Linux](https://www.redhat.com/en/topics/linux/what-is-selinux) kernel module enabled and pre-configured by default. 
+
+None of these are currently offered on SteamOS.  Note that, in Bazzite, disk encryption must be enabled manually during the OS installation process, and will require you to create an encryption password that you will remember to decrypt the disk.  For to not have to enter the disk decryption password on every reboot, you can configure TPM unlock via `ujust setup-luks-tpm-unlock`.  
+
+Secure Boot enables is useful for if you want to dual-boot with Windows, and requires Secure Boot for certain anti-cheat software. Read more in our [guide](/General/Installation_Guide/secure_boot.md).
 
 >Please note: SELinux can affect certain games that run on the Source Engine, but there is a [fix](/Gaming/Common_gaming_issues.md) if you run into issues.
 
