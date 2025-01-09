@@ -33,7 +33,7 @@ authors:
 #### Steam Gaming Mode Requirements
 
 - A modern AMD GPU
-  - Intel Arc GPUs may work with **major caveats**
+  - Intel Arc GPUs may work with **minor caveats**
   - Nvidia GPUs are currently in beta with **major caveats**
 - [Steam](https://store.steampowered.com/) account
 
