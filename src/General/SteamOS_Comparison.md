@@ -34,7 +34,7 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
 Handheld Daemon (aka HHD) ships with Bazzite for PC handhelds, and adds the following functionality:
 
 - Game controller support for a large selection of PC handhelds
-  - See the [supported Bazzite handhelds in our Handheld Wiki](/Handheld_and_HTPC_edition/Handheld_Wiki.md).
+  - See the [supported Bazzite handhelds in our Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki.md).
 - Hardware controls for TDP, GPU, Power Governor, CPU Boost, etc.
 - RGB controls for select devices only.
 - Swipe gestures while in Steam Gaming Mode.
@@ -51,7 +51,7 @@ Handheld Daemon (aka HHD) ships with Bazzite for PC handhelds, and adds the foll
 - Access to multiple package managers and repositories in [containers](/Installing_and_Managing_Software/Distrobox.md).
 - [Homebrew](https://brew.sh/) is pre-installed for command-line packages.
 - [Layer](/Installing_and_Managing_Software/rpm-ostree.md) Fedora packages to the system which survive between system updates.
-- Host software as services using [Quadlet](/Installing_and_Managing_Software/Quadlet.md.).
+- Host software as services using [Quadlet](/Installing_and_Managing_Software/Quadlet.md).
 
 #### Security Improvements
 
