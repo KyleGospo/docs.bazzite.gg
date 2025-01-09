@@ -25,9 +25,6 @@ authors:
 
 Bazzite functions properly on the Steam Deck LCD and Steam Deck OLED models.
 
-#### **Bazzite and SteamOS** Comparison:
-Read the [SteamOS Comparison documentation](General/SteamOS_Comparison.md) for a quick rundown of differences between the two operating systems.
-
 <hr>
 
 ## Pre-Installation
