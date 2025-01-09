@@ -14,9 +14,9 @@ hide:
 
   Bazzite also supports controller-friendly hardware like [home theater PC setups][htpc] and a [multitude of handhelds][install_handheld]:
 
-  - [Steam Deck (and OLED)][deck]
+  - [Steam Deck (LCD and OLED)][deck]
   - [Lenovo Legion Go][legion_go]
-  - [Asus ROG Ally (and X)][ally]
+  - [Asus ROG Ally (And X)][ally]
   - [GPD Handhelds][gpd]
   - [OneXPlayer Handhelds][onex]
   - [Ayn Handhelds][ayn]
