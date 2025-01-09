@@ -23,7 +23,6 @@ Read the [**Installing Bazzite on Steam Deck**](/General/Installation_Guide/Inst
 - It should function nearly identical to SteamOS with the benefits of [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/):
   - Layer Fedora packages to the image without losing them between updates/reboots.
   - Newer package upgrades including the Linux kernel and drivers.
-  - Printing support and other basic features that would make Bazzite viable for daily usage.
 - Regressions may occur since this Bazzite upgrades base packages faster than SteamOS.
 - View our [FAQ](https://faq.bazzite.gg) for more information.
 
@@ -33,7 +32,7 @@ Both run Steam Gaming Mode and share packages, but what about under the hood?  B
 
 Bazzite Steam Deck images include the latest Gamescope and packages, which means we are always ahead of SteamOS in terms of Steam Gaming Mode and Desktop Mode features.  The Quick Access Menu (accessed with the <kbd>...</kbd> button on Steam Deck) is functional for TDP, framerate limiting, scaling, etc.  Third-party software like [Decky Loader](https://decky.xyz/), [Emudeck](https://www.emudeck.com/), [RetroDeck](https://retrodeck.net/), etc. should install and function properly.
 
-If you want to see a more in-depth comparison, see [here](/General/SteamOS_Comparison.md)
+>If you want to see a more in-depth comparison, see [here](/General/SteamOS_Comparison.md)
 
 ### Does the Steam Deck image receive BIOS updates like SteamOS?
 
