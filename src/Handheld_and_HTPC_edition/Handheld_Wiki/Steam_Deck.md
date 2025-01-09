@@ -29,25 +29,15 @@ Read the [**Installing Bazzite on Steam Deck**](/General/Installation_Guide/Inst
 
 ## SteamOS and Bazzite Comparison
 
-Both run Steam Gaming Mode and share packages, but what about under the hood?
+Both run Steam Gaming Mode and share packages, but what about under the hood?  Bazzite should have most of the functionality from SteamOS with Steam Gaming Mode working as intended.  
 
-### How similar is Bazzite to SteamOS on Steam Deck hardware?
-
-Bazzite should have most of the functionality from SteamOS with Steam Gaming Mode working as intended.
-
-Bazzite Steam Deck images include the latest Gamescope and packages, which means we are always ahead of SteamOS in terms of Steam Gaming Mode and Desktop Mode features.
-
-The Quick Access Menu (accessed with the <kbd>...</kbd> button on Steam Deck) is functional for TDP, framerate limiting, scaling, etc.
-
-Third-party software like [Decky Loader](https://decky.xyz/), [Emudeck](https://www.emudeck.com/), [RetroDeck](https://retrodeck.net/), etc. should install and function properly.
+Bazzite Steam Deck images include the latest Gamescope and packages, which means we are always ahead of SteamOS in terms of Steam Gaming Mode and Desktop Mode features.  The Quick Access Menu (accessed with the <kbd>...</kbd> button on Steam Deck) is functional for TDP, framerate limiting, scaling, etc.  Third-party software like [Decky Loader](https://decky.xyz/), [Emudeck](https://www.emudeck.com/), [RetroDeck](https://retrodeck.net/), etc. should install and function properly.
 
 If you want to see a more in-depth comparison, see [here](/General/SteamOS_Comparison.md)
 
 ### Does the Steam Deck image receive BIOS updates like SteamOS?
 
-**Yes**.
-
-If a BIOS update is available then it will install when you update Bazzite normally. It also supports controller firmware updates too.
+**Yes**.  If a BIOS update is available then it will install when you update Bazzite normally. It also supports controller firmware updates too.
 
 If desired, there is a **command to disable BIOS updates** at your own risk:
 
