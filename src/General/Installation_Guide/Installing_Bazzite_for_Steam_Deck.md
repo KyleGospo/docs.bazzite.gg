@@ -146,7 +146,7 @@ When you get to the boot menu, select your bootable device to boot into the Bazz
 
 ![Rollbacks|690x402, 50%](../../img/GRUB_Menu.png)
 
-The first boot will show a screen showing your current and last deployment. It will automatically boot if nothing. It is important to note that the GRUB menu can be used to rollback Bazzite deployments if you encounter issues.
+The first boot will show a screen showing your current and last deployment. It is important to note that the GRUB menu can be used to rollback Bazzite deployments if you encounter issues.
 
 Read more about this in the [Updates, Rollback, and Rebasing documentation](../../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md).
 
@@ -177,8 +177,6 @@ It is important to configure the system settings on a first boot to personalize 
 ![Welcome to Bazzite|618x500, 75%](../../img/yafti_welcome.jpeg)
 
 An application will pop up welcoming you to Bazzite when you boot into the desktop for the first time. This is a utility that allows you to tailor Bazzite to your liking by installing additional software.
-
-![Bazzite Portal|584x500, 75%](../../img/yafti_options.png)
 
 - Click "Next" to begin configuring Bazzite.
 - Press the toggle switch button next to the item to have the option enabled or disabled for your installation, some are already toggled on by default.
