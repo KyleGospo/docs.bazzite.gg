@@ -19,20 +19,24 @@ Read the [**Installing Bazzite on Steam Deck**](/General/Installation_Guide/Inst
 
 ### Post-Installation Setup
 
-- No additional setup required, but make sure to read the [Installation Guide](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
-- It should function nearly identical to SteamOS with the benefits of [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/):
+- No additional setup required, but the Bazzite Portal will appear in Desktop Mode at startup for additional software if desired.
+
+### Why Bazzite over SteamOS?
+
+Both SteamOS and Bazzite use Steam Gaming Mode and share packages between each other, but what about differences under the hood?  Bazzite should have most of the functionality from SteamOS with Steam Gaming Mode working as intended.
+
+- It should function nearly identical to SteamOS.
+  - The Quick Access Menu (QAM) which is accessed with the <kbd>...</kbd> button on Steam Deck is functional for TDP, framerate limiting, scaling, etc. like on SteamOS.
+  - The same popular third-party software like [Decky Loader](https://decky.xyz/), [Emudeck](https://www.emudeck.com/), [RetroDeck](https://retrodeck.net/), etc. should install and function properly.
+- Reaping the benefits of [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/):
   - Layer Fedora packages to the image without losing them between updates/reboots.
+  - Roll back system updates from the last 90 days.
+  - Alternate desktop environments available.
+- Bazzite includes newer versions of base packages than SteamOS which means Bazzite is always ahead of SteamOS in terms of Steam Gaming Mode and Desktop Mode features.
   - Newer package upgrades including the Linux kernel and drivers.
-  - Alternate desktop environments available. 
-- Regressions may occur since this Bazzite upgrades base packages faster than SteamOS.
+  - Regressions may occur since this Bazzite upgrades base packages faster than SteamOS.
 
-## SteamOS and Bazzite Comparison
-
-Both run Steam Gaming Mode and share packages, but what about under the hood?  Bazzite should have most of the functionality from SteamOS with Steam Gaming Mode working as intended.  
-
-Bazzite Steam Deck images include the latest Gamescope and packages, which means we are always ahead of SteamOS in terms of Steam Gaming Mode and Desktop Mode features.  The Quick Access Menu (accessed with the <kbd>...</kbd> button on Steam Deck) is functional for TDP, framerate limiting, scaling, etc.  Third-party software like [Decky Loader](https://decky.xyz/), [Emudeck](https://www.emudeck.com/), [RetroDeck](https://retrodeck.net/), etc. should install and function properly.
-
->If you want to see a more in-depth comparison, see [here](/General/SteamOS_Comparison.md)
+>If you want to see a more in-depth comparison, read our [SteamOS comparison guide](/General/SteamOS_Comparison.md).
 
 ### Does the Steam Deck image receive BIOS updates like SteamOS?
 
