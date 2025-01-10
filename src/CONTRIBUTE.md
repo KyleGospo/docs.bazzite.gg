@@ -1,8 +1,8 @@
 ---
 title: Contributing to Bazzite
 authors:
-  - "@castrojo"
   - "@nicknamenamenick"
+  - "@castrojo"
 ---
 
 <!-- ANCHOR: METADATA -->
