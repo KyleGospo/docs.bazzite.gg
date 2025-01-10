@@ -23,12 +23,15 @@ authors:
   - Language translations are encouraged for documentation and the [README](https://github.com/ublue-os/bazzite/blob/main/README.md).
 - Testing Bazzite on unique hardware configurations.
   - Troubleshooting issues with handheld hardware is appreciated.
-    - Reporting issues with [HHD](https://github.com/hhd-dev/hhd) directly is also helpful on handhelds.
+    - Reporting issues with [HHD](https://github.com/hhd-dev/hhd) directly.
 
 ## Building Your Own Bazzite for Testing
 
+If you feel comfortable with bash scripting, programming, working with containers, or anything upstream (Fedora, Flatpak, etc.) then feel free to contribute to Bazzite if you have want to add a feature or bug fix.  Building your own Bazzite will give you a sandbox to play in with your own personal changes to it. 
+
+Also, this can be your own version of Bazzite to daily drive. This is useful to receive the same updates upstream, but with your own spin on it with differences that we will not include regarding specific packages, drivers, etc.  
+
+Read about forking your own Bazzite image [here](/Advanced/creating_custom_image.md/#forking-bazzite) or use the [Image Template](https://github.com/ublue-os/image-template).  Alternatively, use the unaffiliated [BlueBuild](https://blue-build.org/learn/universal-blue/) project to build your own Bazzite.
+
 >**See also**: [Creating A Custom Bazzite Image](/Advanced/creating_custom_image.md)
 
-If you feel comfortable with bash scripting, programming, working with containers, or anything upstream (Fedora, Flatpak, etc.) then feel free to contribute to Bazzite if you have want to add a feature or bug fix.  Building your own Bazzite will give you a sandbox to play in with your own personal changes to it. Also, this can be your own version of Bazzite to daily drive. This is useful to receive the same updates upstream, but with your spin on it with differences that we cannot or will not include regarding specific packages, drivers, etc.  
-
->Read about forking your own Bazzite image [here](/Advanced/creating_custom_image.md/#forking-bazzite) or use the [Image Template](https://github.com/ublue-os/image-template).  Alternatively, use the unaffiliated [BlueBuild](https://blue-build.org/learn/universal-blue/) project to build your own Bazzite.
