@@ -34,7 +34,7 @@ Both SteamOS and Bazzite use Steam Gaming Mode and share packages between each o
   - Alternate desktop environments available.
 - Bazzite includes newer versions of base packages than SteamOS which means Bazzite is always ahead of SteamOS in terms of Steam Gaming Mode and Desktop Mode features.
   - Newer package upgrades including the Linux kernel and drivers.
-  - Regressions may occur since this Bazzite upgrades base packages faster than SteamOS.
+  - Regressions may occur more often since Bazzite upgrades base packages faster than SteamOS does.
 
 >If you want to see a more in-depth comparison, read our [SteamOS comparison guide](/General/SteamOS_Comparison.md).
 
