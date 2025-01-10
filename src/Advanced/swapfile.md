@@ -14,19 +14,45 @@ Some games and hardware setups may benefit from a large swapfile over compressed
 The Bazzite maintainers do **NOT recommend** performing the steps found in this advanced guide in most common gaming scenarios since there are more **negatives than positives** in most outcomes.
 
 ## Make Swap Subvolume (e.g., due to Snapper)
+```
 sudo mkdir -p /var/swap
+```
+
+```
 sudo btrfs subvolume create /var/swap
+```
+
+```
 sudo semanage fcontext -a -t var_t /var/swap
+```
+
+```
 sudo restorecon /var/swap
+```
 
 ## Create Swapfile
+
+```
 SIZE=26G
+```
+
+```
 sudo btrfs filesystem mkswapfile --size $SIZE /var/swap/swapfile
+```
+
+```
 sudo semanage fcontext -a -t swapfile_t /var/swap/swapfile
+```
+
+```
 sudo restorecon /var/swap/swapfile
+```
 
 ## Sanity Check Validation
+
+```
 sudo swapon /var/swap/swapfile
+```
 
 ## Adding it to fstab
 
