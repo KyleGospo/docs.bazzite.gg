@@ -223,15 +223,16 @@ It is **not recommended to rebase between desktop environments** due to configur
 
 >[Read more about Rebasing on Bazzite.](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md)
 
-## I have questions or concerns that cannot be answered in the documentation
-
-Please try searching for your question on **https://docs.bazzite.gg** first before proceeding with the next steps. Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite/5) or [Discord](https://discord.gg/WEu6BdFEtp) if you have a specific question about something, but if it's an issue or bug you are encountering then [report it to the issue tracker](/General/reporting_bugs.md).  Keep in mind that certain areas and topics are out of our control especially when it comes to Nvidia driver problems, game compatibility, or other problems that plague the modern day Linux desktop.
 
 ## Why are builds failing?
 
 ![Builds Failing|178x43](../img/Builds_Failing.png)
 
 Do not be alarmed if you see this on our [Github repository](https://github.com/ublue-os/bazzite/). Builds can fail for a number of reasons, but it's only temporary. You can still install and use Bazzite without any issues. Latest features and fixes may be delayed until the builds are successfully built again however.
+
+## I have questions or concerns that cannot be answered in the documentation
+
+Please try searching for your question on **https://docs.bazzite.gg** first before proceeding with the next steps. Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite/5) or [Discord](https://discord.gg/WEu6BdFEtp) if you have a specific question about something, but if it's an issue or bug you are encountering then [report it to the issue tracker](/General/reporting_bugs.md).  Keep in mind that certain areas and topics are out of our control especially when it comes to Nvidia driver problems, game compatibility, or other problems that plague the modern day Linux desktop.
 
 <hr>
 
