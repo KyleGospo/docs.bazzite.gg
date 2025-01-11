@@ -262,7 +262,7 @@ https://www.youtube.com/watch?v=gE1ff72g2Gk
 
 - Resolutions above 2560x1440 will cause game-breaking graphical artifacts.
 - HDR can cause game-breaking graphical artifacts.
-- Frame pacing is a mess due to the proprietary Nvidia drivers [shipping a broken Vulkan extension that Steam Gaming Mode requires](https://registry.khronos.org/vulkan/specs/latest/man/html/VK_KHR_present_wait.html).
+- Frame pacing is a mess due to the proprietary Nvidia drivers [shipping a broken version of the Vulkan extension that Steam Gaming Mode requires for full functionality](https://registry.khronos.org/vulkan/specs/latest/man/html/VK_KHR_present_wait.html).
 
 <hr>
 
