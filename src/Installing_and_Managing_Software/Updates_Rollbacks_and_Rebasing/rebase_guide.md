@@ -120,10 +120,10 @@ For the **testing** branch on the generic AMD/Intel Desktop image.
 - Like rolling back to the previous Bazzite deployment, users can also rebase to a specific Bazzite builds that was were built within the last 90 days.
 - All of your userdata will remain intact, but like how the warning indicates above, you will have to rebase manually back to `:stable` to update the system to receive the newest build.
 
-View the list of available builds by **entering**:
+View the list of available stable builds by **entering**:
 
 ```command
-skopeo list-tags docker://ghcr.io/ublue-os/bazzite | grep -- "-stable-" | sort -rV
+skopeo list-tags docker://ghcr.io/ublue-os/bazzite | grep -- "stable-" | sort -rV
 ```
 
 Rebasing to a specific build requires users to open a host terminal and **enter**:
