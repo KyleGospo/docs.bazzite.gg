@@ -254,6 +254,16 @@ Reboot the system.
 ###### Video Tutorial
 https://www.youtube.com/watch?v=gE1ff72g2Gk
 
+### Nvidia Exclusive Issues
+
+!!! note
+
+    This only affects the `bazzite-deck-nvidia` images.
+
+- Resolutions above 2560x1440 will cause game-breaking graphical artifacts.
+- HDR can cause game-breaking graphical artifacts.
+- Frame pacing is a mess due to the proprietary Nvidia drivers [shipping a broken Vulkan extension that Steam Gaming Mode requires](https://registry.khronos.org/vulkan/specs/latest/man/html/VK_KHR_present_wait.html).
+
 <hr>
 
 **See also**: [Issues & Resolutions](/General/issues_and_resolutions.md)
