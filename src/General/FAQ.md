@@ -215,7 +215,7 @@ Make your own [custom image based off Bazzite](/Advanced/creating_custom_image.m
 
 ## What about changing the Java version?
 
-If its for Minecraft modding then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) since this would not affect your host java installation. If Java needs to be modified for development or a mod then use [**Distrobox**](../Installing_and_Managing_Software/Distrobox.md). You will **not** be able to change Java on your host at a system level.
+If its for Minecraft modding then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) since this would not affect your host Java installation. If Java needs to be modified for development purposes then use [**Distrobox**](../Installing_and_Managing_Software/Distrobox.md). You will **not** be able to modify Java on your host at a system level.
 
 ## Can I rebase to a different desktop environment?  (Example: KDE Plasma to GNOME)
 
@@ -223,12 +223,6 @@ It is **not recommended to rebase between desktop environments** due to configur
 
 >[Read more about Rebasing on Bazzite.](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md)
 
-
-## Why are builds failing?
-
-![Builds Failing|178x43](../img/Builds_Failing.png)
-
-Do not be alarmed if you see this on our [Github repository](https://github.com/ublue-os/bazzite/). Builds can fail for a number of reasons, but it's only temporary. You can still install and use Bazzite without any issues. Latest features and fixes may be delayed until the builds are successfully built again however.
 
 ## I have questions or concerns that cannot be answered in the documentation
 
