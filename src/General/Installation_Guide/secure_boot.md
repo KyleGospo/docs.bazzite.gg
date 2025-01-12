@@ -15,6 +15,10 @@ authors:
     
     Skip this section if Secure Boot is not enabled or unsupported with your hardware.
 
+!!! important
+
+    Certain keyboard layouts can interfere with the characters of the password.
+
 - Entering the password will register invisible characters for security purposes, so you will not be able to see what you are typing!
 
 - Updating your BIOS may re-enable Secure Boot and you may have to follow **"Method B"** after updating it to resolve the black screen on boot complaining about loading the kernel first.
