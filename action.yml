@@ -1,0 +1,85 @@
+name: Build mkdocs
+description: Parametrized mkdocs building
+
+inputs:
+  github_token:
+    description: github token
+    required: true
+
+  site_url:
+    description: Set `MKDOCS_SITE_URL` env var
+    default: ""
+    required: true
+
+  working_dir:
+    description: Parent directory that contains mkdocs.yml
+    default: ${{ github.workspace }}/docs
+
+  output_dir:
+    description: Where we will output the resulting webpage
+    default: ${{ github.workspace }}/book
+
+  upload_github_page:
+    description: Upload github-page
+    default: "false"
+
+  repo_url:
+    description: URL of the repo
+    default: ${{ github.server_url }}/${{ github.repository }}
+
+outputs:
+  artifact_id:
+    description: "Artifact id uploaded (is an empty string in case of `upload_github_page: false`)"
+    value: ${{ steps.upload-artifact.outputs.artifact_id }}
+
+runs:
+  using: composite
+  steps:
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        enable-cache: true
+        cache-dependency-glob: "uv.lock"
+
+    - name: Configure uv
+      working-directory: ${{ inputs.working_dir }}
+      shell: bash
+      run: uv python install
+
+    - name: uv install deps
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: uv sync --all-extras --dev
+
+    - name: Build book
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      env:
+        MKDOCS_SITE_URL: ${{ inputs.site_url }}
+        MKDOCS_REPO_URL: ${{ inputs.repo_url }}
+        _OUTPUT_DIR: ${{ inputs.output_dir }}
+      run: |
+        source .venv/bin/activate
+        set -euo pipefail
+        mkdocs build -d $_OUTPUT_DIR
+
+    - name: Setup Pages
+      if: ${{ inputs.upload_github_page == 'true' }}
+      uses: actions/configure-pages@v4
+      with:
+        token: ${{ inputs.github_token }}
+
+    - name: Upload artifact
+      if: ${{ inputs.upload_github_page == 'true' }}
+      uses: actions/upload-pages-artifact@v3
+      id: upload-artifact
+      with:
+        path: ${{ inputs.output_dir }}
+        token: ${{ inputs.github_token }}
+
+    - name: Deploy to GitHub Pages
+      if: ${{ inputs.upload_github_page == 'true' }}
+      id: deployment
+      uses: actions/deploy-pages@v4
+      with:
+        token: ${{ inputs.github_token }}
