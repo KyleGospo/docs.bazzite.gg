@@ -49,17 +49,7 @@ Intended specifically for desktops and laptops with a focus on gaming which is i
 
 ### [2. Bazzite-Deck Edition](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
-Mimics SteamOS with "**Steam Gaming Mode**" and its features fully functional. This version of Bazzite boots directly into the Steam Gaming Mode session and are intended for handheld PCs and home theater setups.  You can still run `-deck` images on your desktop if desired.  Images also includes a Desktop Mode session based on the Desktop images. System and application updates are manually installed in Steam Gaming Mode and applied on a restart.
-
-!!! important
-    
-    Steam Gaming Mode **requires** a modern AMD graphics card or an Intel Arc graphics card.
-
-#### Desktop Environments & Specific Hardware Variants
-
-Both types of images also come with the choice of using [KDE Plasma](https://kde.org/plasma-desktop/) or [GNOME](https://www.gnome.org/) for the desktop environment and certain images are made with specific hardware support.
-
->There is more information about this topic on the [**Installation Guide**](../General/Installation_Guide/index.md) to help guide users on which image to choose before the installation.
+"**Steam Gaming Mode**" is pre-installed and its features fully functional for supported hardware. This version of Bazzite boots directly into the Steam Gaming Mode session and is intended for handhelds and couch-gaming scenarios. It also includes a Desktop Mode session. System and application updates are manually upgraded in Steam Gaming Mode and applied on a restart.
 
 ### Bazzite Image Chart
 
@@ -191,11 +181,11 @@ Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. c
 
 
 ## Can I uninstall pre-installed applications (that are not [Flatpaks](/Installing_and_Managing_Software/Flatpak.md))
-Not recommended and due to technical limitations. The uninstalled packages will result in slower updates and take up more storage space.  We recommend hiding it from the application menu instead.
+It is not recommended due to technical limitations. Uninstalling packages will result in slower updates and take up more storage space.  Alternatively, you can hide programs from the application menu.
 
 ## Am I able to use AMD Fluid Motion Frames?
 
-The AMD drivers for Linux does not support this at a driver-level like it does on Windows.  Most of these graphical effects that work at a driver-level on Windows only work for games that support it in their options menu on Bazzite (or other Linux operating systems) outside of AMD'S FSR 1 and Nvidia's DLSS which are at a driver-level.
+Not at this time.
 
 ## Can I change the hostname of my device?
 
