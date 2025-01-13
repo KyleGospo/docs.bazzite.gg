@@ -18,6 +18,7 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
   - Installing such software on SteamOS requires you to unlock the root filesystem on SteamOS, and those changes will get reset from SteamOS updates.
 - Android applications can be installed with [Waydroid](/Installing_and_Managing_Software/Waydroid_Setup_Guide.md) which is pre-installed.
 - Works on different hardware configurations.
+- Out of the box support for virtualization and GPU passthrough.
 - Updating in Steam Gaming Mode will also update installed applications.
 - Access to multiple desktop environments
   - GNOME (Not Available on SteamOS)
