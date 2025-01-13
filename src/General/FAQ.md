@@ -168,7 +168,7 @@ It is not recommended due to technical limitations. Uninstalling packages will r
 
 ## Am I able to use AMD Fluid Motion Frames?
 
-Not at this time.
+Only if the game supports it.  Nothing at a global level.
 
 ## Can I change the hostname of my device?
 
