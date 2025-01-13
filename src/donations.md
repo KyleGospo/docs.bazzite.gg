@@ -158,7 +158,7 @@ Similar desktop Linux projects that share resources with us.
 
 Check out the other Universal Blue end-user custom Fedora images especially if you want an experience similar to Bazzite on other hardware that does not require all of the extra gaming packages. Aurora and Bluefin are recommended operating systems to install for your family who may not be into PC gaming or for work colleagues who like to develop software in containers.  uCore is strictly for server usage only.
 
-The contributors and maintainers involved with the other Universal Blue projects will usually fix bugs in their images that will eventually be fixed in Bazzite if the same issues occur in both.
+The contributors and maintainers involved with the other Universal Blue projects will usually fix bugs in their images that will eventually be fixed in Bazzite around the same time if the same issues occur in both.
 
 - [**Aurora**](https://getaurora.dev/)
 - [**Bluefin**](https://projectbluefin.io/)
