@@ -11,7 +11,9 @@ authors:
 
 ![generic handheld|348x158, 100%](../../img/generic_handheld.jpeg)
 
-## Known Supported Unlisted Handhelds
+## Known Supported _Unlisted_ Handhelds
+
+These are the handhelds that do not have an individual entry in our Handheld Wiki yet, but have support ranging from **Silver to Platinum**.
 
 ### GPD
 - GPD Win Mini
@@ -41,15 +43,18 @@ authors:
 ### TECNO
 - TECNO Pocket Go
 
-## HHD Setup
+
+## Unsupported Handhelds
 
 !!! note
     
     Certain handhelds have been confirmed to boot Bazzite, but are plagued by missing driver support for Linux including missing audio drivers.
 
-Unsupported handhelds _could work_ with Bazzite and the "**Other Handhelds**" section should cover unsupported handhelds, but there may be major issues encountered that are undocumented. If your handheld hardware is not listed, then you can still give Bazzite a try with our Bazzite-Deck image.
+Unsupported handhelds _could work_ with Bazzite, but there may be major issues encountered that are undocumented. If your handheld hardware is not listed, then you can still give Bazzite a try with our Bazzite-Deck image.
 
-Your mileage may vary with untested hardware. Bazzite does **not** have the required setup for unsupported handheld, so setup will be manually done by the end user with unsupported handhelds.
+Your mileage may vary with untested hardware. Bazzite does **not** have the required setup for unsupported handheld, so setup will be manually done by the end-user for different functionality if it even works properly on the unsupported device.
+
+## HHD Setup
 
 **Commands for functional HHD**:
 
