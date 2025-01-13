@@ -63,15 +63,11 @@ This works in Desktop Mode including running Nested Gamescope and also works for
 
 **Scenarios where this is desirable**:
 
----
-
 *>* **Example 1**: Keyboard and mouse is not working for this title.
 
 *>* **Example 2**: The game’s launcher for adjusting video settings or adding mods does not launch.
 
 *>* **Example 3**: Certain features/options are not available that should be.
-
----
 
 Open the game's properties on Steam and **enter this launch option**:
 
@@ -133,7 +129,7 @@ The Internal Display Scaling settings will be fully accessible under "Display" i
 
 You can restore this shortcut by creating a text file called `Return.desktop` and adding these specific lines to it:
 
-### KDE
+### KDE Plasma
 
 ```file
 [Desktop Entry]
@@ -222,6 +218,7 @@ https://www.youtube.com/watch?v=gE1ff72g2Gk
 
     This only affects the `bazzite-deck-nvidia` images.
 
+- "Enable GPU accelerated rendering in web views (requires restart)" must be enabled in the Steam settings for better performance in the UI.
 - Resolutions above 2560x1440 will cause game-breaking graphical artifacts.
 - HDR can cause game-breaking graphical artifacts.
 - Frame pacing is a mess due to the proprietary Nvidia drivers [shipping a broken version of the Vulkan extension that Steam Gaming Mode requires for full functionality](https://registry.khronos.org/vulkan/specs/latest/man/html/VK_KHR_present_wait.html).
