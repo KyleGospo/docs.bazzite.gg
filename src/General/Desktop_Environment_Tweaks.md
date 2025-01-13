@@ -87,7 +87,7 @@ Read this [guide](https://github.com/catsout/wallpaper-engine-kde-plugin/blob/ma
 
 ### Manage GNOME Extensions (`-gnome` Images)
 
-View the [Bluefin documentation](https://docs.projectbluefin.io/administration#managing-extensions) since most of the information will be relevant to Bazzite as well.
+The "Extension Manager" applicaton alllows for installing new extensions to GNOME and managing currently pre-installed extensions.  Proceed with caution as extensions can make your system unstable and if your desktop crashes then GNOME will disable all of the extensions on the next boot.
 
 ### Steam Gaming Mode Tweaks (`-deck` Images)
 !!! warning
