@@ -21,7 +21,7 @@ authors:
 
 ## What is the difference between SteamOS and Bazzite?
 
-Bazzite originally was developed for the Steam Deck targeting users who used their Steam Deck as their primary PC. Bazzite is a collection of custom Fedora Atomic Desktop images (with the power of [libostree](https://ostreedev.github.io/ostree/)) built with Universal Blue's tooling (with the power of [OCI](https://opencontainers.org/about/overview/)) as opposed to using an [Arch Linux](https://archlinux.org/) base with A/B updates utilizing [RAUC](https://github.com/rauc/rauc).  The main advantages of Bazzite versus SteamOS is receiving system packages in updates at a much faster rate, choice of an alternative desktop environment, [Waydroid support](/Installing_and_Managing_Software/Waydroid_Setup_Guide.md), [layering system-level packages at your own risk without messing with the filesystem](/Installing_and_Managing_Software/rpm-ostree.md), and printing support.
+Bazzite originally was developed for the Steam Deck targeting users who used their Steam Deck as their primary PC. Bazzite is a collection of custom Fedora Atomic Desktop images (with the power of [libostree](https://ostreedev.github.io/ostree/)) built with Universal Blue's tooling (with the power of [OCI](https://opencontainers.org/about/overview/)) as opposed to using an [Arch Linux](https://archlinux.org/) base with A/B updates utilizing [RAUC](https://github.com/rauc/rauc).  The main advantages of Bazzite versus SteamOS is receiving system packages in updates at a much faster rate and a choice of an alternative desktop environment.
 
 > A list of major differences can be found in the [SteamOS Comparison](/General/SteamOS_Comparison.md), [Steam Deck wiki entry](/Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck.md#how-similar-is-bazzite-to-steamos-on-steam-deck-hardware), and the [Bazzite README](https://github.com/ublue-os/bazzite/blob/main/README.md).
 
@@ -31,12 +31,10 @@ Bazzite's [website](https://bazzite.gg/#image-picker) offers a streamlined way o
 
 Bazzite offers multiple images, but most images will be following _one of these **two formats**_:
 
-- Bazzite images that do **not** have Steam Gaming Mode and receive automatic updates daily.
-- Bazzite images that automatically boots into Steam Gaming Mode with manual updates (like SteamOS).
+- **Format 1**: Bazzite images that do **not** have Steam Gaming Mode and receive automatic updates daily that have can be seen as Fedora Atomic Desktop with gaming packages pre-installed.
+- **Format 2**: Bazzite images that automatically boot into Steam Gaming Mode (like SteamOS) and are intended for controller-oriented setups.
 
-**Images are split up between **two** types of Bazzite editions**:
-
-### 1. Desktop Edition
+### 1. Desktop Edition (**Format 1**)
 
 !!! important
     
@@ -47,11 +45,11 @@ Intended specifically for desktops and laptops with a focus on gaming which is i
 **All Nvidia hardware can currently only use the Desktop Edition since the graphic drivers do not support Steam Gaming Mode**.
 
 
-### [2. Bazzite-Deck Edition](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
+### [2. Bazzite-Deck Edition](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) (**Format 2**)
 
 "**Steam Gaming Mode**" is pre-installed and its features fully functional for supported hardware. This version of Bazzite boots directly into the Steam Gaming Mode session and is intended for handhelds and couch-gaming scenarios. It also includes a Desktop Mode session. System and application updates are manually upgraded in Steam Gaming Mode and applied on a restart.
 
-### Bazzite Image Chart
+#### Bazzite Image Chart
 
 Verify your image by entering this **commmand**:
 
@@ -59,8 +57,7 @@ Verify your image by entering this **commmand**:
 rpm-ostree status
 ```
 
-Every Bazzite image should be `ostree-image-signed:docker://ghcr.io/ublue-os/...`
-
+Every Bazzite image should start with `ostree-image-signed:docker://ghcr.io/ublue-os/...`.
 <sub> The `...` is a placeholder for the actual image name which can be referenced in the chart below. </sub>
 
 | Image                       | Desktop Environment | Steam Gaming Mode | Hardware                                 | Edition       |
@@ -84,7 +81,7 @@ Every Bazzite image should be `ostree-image-signed:docker://ghcr.io/ublue-os/...
 | `bazzite-ally`              | KDE Plasma          | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Bazzite-Deck |
 | `bazzite-ally-gnome`        | GNOME               | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Bazzite-Deck |
 
-### Who are the target audiences?
+### Who are the target audiences for Bazzite?
 
 *>* Individuals who desire a desktop operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance involved in comparison to other desktop Linux operating systems.
 
@@ -98,7 +95,7 @@ Every Bazzite image should be `ostree-image-signed:docker://ghcr.io/ublue-os/...
 
 SteamOS receives package and driver updates less frequently despite the rolling release base.  Bazzite will follow Fedora's update release cycle which means early access to new graphics card driver and kernel updates in comparison to SteamOS.  Fedora Linux and Universal Blue currently supports a specific "atomic" implementation to maintain multiple images that can receive all of the same updates at once, which is unlike a derivative Linux distribution.  The **goal** of Bazzite is to have an operating system ready to game after installing it.
 
-#### Any advantages to using Fedora Atomic Desktop?
+### Advantages to Using Fedora Atomic Desktop
 
 Since Bazzite is a custom Fedora Atomic Desktop image, it makes use of read-only root files for stability purposes, and is built with [libostree](https://docs.fedoraproject.org/en-US/fedora-silverblue/technical-information/) which has advantages such as:
 
@@ -110,29 +107,31 @@ Since Bazzite is a custom Fedora Atomic Desktop image, it makes use of read-only
 
 > Check out the [**Universal Blue homepage**](https://universal-blue.org) for more information on what this project is capable of.
 
-### How is Fedora Atomic Desktop different than Fedora Workstation?
+#### How is Fedora Atomic Desktop different than Fedora Workstation?
 
-If you're familiar with [Fedora Workstation](https://www.fedoraproject.org/workstation/) and [Fedora's Spins](https://www.fedoraproject.org/spins/), but not the Fedora Atomic Desktops paradigm then the major difference deals with obtaining a reproducable and consistent OS image, seperation between installing additional software and the system, and stability between system upgrades. Here's a helpful [cheat sheet](https://docs.fedoraproject.org/en-US/fedora-silverblue/_attachments/silverblue-cheatsheet.pdf) for using **advanced** commands, but gives a glimpse of what this paradigm is capable of. There is also a future planned ahead of this technology like the upcoming addition of [bootc](https://containers.github.io/bootc/) which will be a major change when it is ready for production.
+If you're familiar with [Fedora Workstation](https://www.fedoraproject.org/workstation/) and [Fedora's Spins](https://www.fedoraproject.org/spins/), but not the Fedora Atomic Desktops paradigm then the major difference deals with obtaining a reproducable and consistent OS image, seperation between installing additional software and the system, and stability between system upgrades.
 
-#### Software & Updates
+### Installing Software
 
-There are **read-only root files** and an emphasis on installing applications as a [Flatpak](/Installing_and_Managing_Software/Flatpak.md), [Homebrew](/Installing_and_Managing_Software/Homebrew.md), or inside of a [Distrobox container.](/Installing_and_Managing_Software/Distrobox.md)
+There are **read-only root files** and an emphasis on installing applications as a [Flatpak](/Installing_and_Managing_Software/Flatpak.md), [Homebrew](/Installing_and_Managing_Software/Homebrew.md), or inside of a [Distrobox container.](/Installing_and_Managing_Software/Distrobox.md).
 
 >**Read more about [obtaining software on Bazzite](../Installing_and_Managing_Software/index.md)**.
+
+### Updates
 
 Users can also rollback to a previous deployment if a system update breaks their workflow, or rebase entirely back to a stock Fedora Atomic image, [Aurora](https://getaurora.dev/), [Bluefin](https://projectbluefin.io/), or a [custom image by the community](https://universal-blue.discourse.group/t/list-of-community-created-custom-images/340). Do **not** rebase between different desktop environments. 
 
 >**Read more about how [updates, rolling back, and rebasing works on Bazzite](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md)**.
 
-### Is this another fringe Linux distribution?
+## Is this another fringe Linux distribution?
 
 Bazzite is **not** a Linux distribution in the traditional sense. It's a custom Fedora Atomic Desktop image with a recipe on top of it. Universal Blue images are a proof of concept of using containerized workflows with transactional and in-place operating system updates, and Bazzite exists by being gaming focused with inspiration from SteamOS.  Bazzite is a Fedora Atomic Desktop installation, but with the aid of Universal Blue's tooling, adds packages, services, drivers, etc. to the base image of it.
 
-#### How does Bazzite differ?
+### How does Bazzite differ?
 
 Bazzite is using a new "**container-native**" approach that Fedora has been testing, and we are taking full advantage of it.  We are utilizing the [Open Container Initiative (OCI)](https://opencontainers.org/about/overview/) to build the images, and are adding packages, services, kernel modules, and our own spin to existing Fedora operating systems. Unlike traditional Linux distributions, **most of the maintenance and security updates are done upstream** by Fedora and Universal Blue while Bazzite only has to focus on creating a great experience for PC gaming.  The ultimate goal of Bazzite is to be Fedora Linux, but provide a great gaming experience out of the box while also being an alternative operating system for the Steam Deck.
 
-##### Image Matrix
+#### Image Matrix
 
 We provide several different images that all get the same additions and fixes through updates at the same time unless specified otherwise. Many images are hardware specific for compatibility reasons, yet all of the images will usually receive the same features and fixes at the same time.  There can be a hypothetical scenario where everyone involved with Bazzite could stop maintaining the project at once and it will still continue to receive updates directly from upstream until the scheduled builds are busted.
 
@@ -158,27 +157,11 @@ We provide several different images that all get the same additions and fixes th
 
 ## Are AMD, Intel, and Nvidia graphics card drivers pre-installed?
 
-**Yes** and they are updated during a system upgrade when available.
+**Yes** and they are updated during a system upgrade when new drivers are available.
 
 ### What if I change hardware?
 
 Most hardware changes should **not** require any manual intervention outside of the expectations from that particular hardware which would be OS-agnostic.  However, if you swap from or to a Nvidia GPU, then [rebasing](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md) will be necessary as a manual intervention to get the appropriate graphics drivers.
-
-## Can this be used as a daily driver?
-
-**Yes**.  Updates are obtained and downloaded straight from upstream which means there is little maintenance to be done with the image on our end since these images are modified Fedora images. Users will receive application and system updates from Bazzite, Universal Blue, and Fedora daily.
-
-## What is the `:0` and `:1` in the GRUB menu at boot?
-
-These are deployments and **there's a bug where they get duplicated**, which is why there are 4 entries when there should be two by default unless a specific deployment is pinned.  This allows users to rollback a bad system upgrade by selecting the previous deployment.
-
-- `:0` = Current deployment/newest update
-- `:1` = Previous deployment/update.
-
-Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. can also exist as long as you have the storage for it.
-
->**See also**: [Rolling Back System Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md)
-
 
 ## Can I uninstall pre-installed applications (that are not [Flatpaks](/Installing_and_Managing_Software/Flatpak.md))
 It is not recommended due to technical limitations. Uninstalling packages will result in slower updates and take up more storage space.  Alternatively, you can hide programs from the application menu.
@@ -199,20 +182,30 @@ Edit the `/etc/hostname` file with a new hostname, save it, and reboot.
 hostnamectl hostname <hostname>
 ```
 
-## Am I able to install and use _this_ desktop environment or _that_ standalone window manager?
-
-Make your own [custom image based off Bazzite](/Advanced/creating_custom_image.md) with the DE and WM change that you want.
-
 ## What about changing the Java version?
 
 If its for Minecraft modding then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) since this would not affect your host Java installation. If Java needs to be modified for development purposes then use [**Distrobox**](../Installing_and_Managing_Software/Distrobox.md). You will **not** be able to modify Java on your host at a system level.
 
-## Can I rebase to a different desktop environment?  (Example: KDE Plasma to GNOME)
+## Can I switch to a different desktop environment on my current installation?  (Example: KDE Plasma to GNOME)
 
 It is **not recommended to rebase between desktop environments** due to configuration files having different standards which usually lead to broken installations after rebasing between two different DEs.
 
 >[Read more about Rebasing on Bazzite.](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md)
 
+## Am I able to install and use _this_ desktop environment or _that_ standalone window manager?
+
+Make your own [custom image based off Bazzite](/Advanced/creating_custom_image.md) with the desktop environment or standalone window manager change that you want.
+
+## What is the `:0` and `:1` in the GRUB menu at boot?
+
+These are deployments and **there's a bug where they get duplicated**, which is why there are 4 entries when there should be two by default unless a specific deployment is pinned.  This allows users to rollback a bad system upgrade by selecting the previous deployment.
+
+- `:0` = Current deployment/newest update
+- `:1` = Previous deployment/update.
+
+Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. can also exist as long as you have the storage for it.
+
+>**See also**: [Rolling Back System Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md)
 
 ## I have questions or concerns that cannot be answered in the documentation
 
