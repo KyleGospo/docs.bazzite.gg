@@ -113,7 +113,7 @@ If you're familiar with [Fedora Workstation](https://www.fedoraproject.org/works
 
 ### Installing Software
 
-There are **read-only root files** and an emphasis on installing applications as a [Flatpak](/Installing_and_Managing_Software/Flatpak.md), [Homebrew](/Installing_and_Managing_Software/Homebrew.md), or inside of a [Distrobox container.](/Installing_and_Managing_Software/Distrobox.md).
+There are **read-only root files** and an emphasis on installing applications as a [Flatpak](/Installing_and_Managing_Software/Flatpak.md), [Homebrew](/Installing_and_Managing_Software/Homebrew.md), or inside of a [Distrobox container](/Installing_and_Managing_Software/Distrobox.md).
 
 >**Read more about [obtaining software on Bazzite](../Installing_and_Managing_Software/index.md)**.
 
