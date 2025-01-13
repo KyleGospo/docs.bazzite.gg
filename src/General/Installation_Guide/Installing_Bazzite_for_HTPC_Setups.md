@@ -28,7 +28,7 @@ authors:
 - **Storage**: 64GB free on an internal solid-state drive
 - **Network**: Stable internet connection with no bandwidth caps
 - **Additional Notes**: Certain drivers are **not** compatible with Bazzite
-  - For example: [A list of compatible USB Wi-Fi adapters](https://github.com/morrownr/USB-WiFi/blob/f3001d8e5b897e5671302cb2faf18954dd34e3d7/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) 
+  - For example: [A list of compatible USB Wi-Fi adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) 
 
 #### Steam Gaming Mode Requirements
 
