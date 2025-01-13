@@ -10,7 +10,7 @@ authors:
 
 ## Bazzite's `-deck` Images Overview
 
->View our [Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) for post-installation setup, workarounds, and known issues on **handheld hardware**.
+>View our [**Handheld Wiki**](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) for post-installation setup, workarounds, and known issues on **handheld hardware**.
 
 ![Steam Gaming Mode UI|690x430](../img/Steam_Gaming_Mode_UI.jpeg)
 
