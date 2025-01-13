@@ -18,7 +18,7 @@ authors:
 1. [Flatpak](./Flatpak.md) (_Graphical Applications_) - Universal package format using a permissions-based model and should be used for most graphical applications.
 2. [`ujust`](./ujust.md) (_Convenience Commands_) - Custom scripts maintained by Bazzite & Universal Blue contributors that can install applications.
 3. [Homebrew](./Homebrew.md) (_Command-Line Tools_) - Install applications intended to run inside of the terminal (CLI/TUI).
-4. [Quadlet](./Quadlet.md)  (_Software as a Service_) - Run containerized applications as a [systemd service](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/system_administrators_guide/chap-managing_services_with_systemd#sect-Managing_Services_with_systemd-Services).
+4. [Quadlet](./Quadlet.md)  (_Services_) - Run containerized applications as a [systemd service](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/system_administrators_guide/chap-managing_services_with_systemd#sect-Managing_Services_with_systemd-Services).
 5. [Distrobox](./Distrobox.md) (_Legacy Applications & Developer Workflows_) - Access to most Linux package managers for software that do not support Flatpak and Homebrew and for use as development boxes.
 6. [AppImage](./AppImage.md) (_Portable Graphical Applications_) - Portable universal package format that relies on specific host libraries at a system-level, usually obtained from a project's website.
 7. [`rpm-ostree`](./rpm-ostree.md) (_System-Level Packages_) - Layer Fedora packages at a system-level (**not recommended, use as a last resort**)
