@@ -1,7 +1,5 @@
 ---
 title: Steam Gaming Mode Images
-authors:
-  - "@nicknamenamenick"
 ---
 
 <!-- ANCHOR: METADATA -->
