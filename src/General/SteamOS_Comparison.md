@@ -32,12 +32,14 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
 
 #### Handheld Improvements
 
-Handheld Daemon (aka HHD) ships with Bazzite for PC handhelds, and adds the following functionality:
+Handheld Daemon (aka HHD) ships with Bazzite for handheld PCs<sup>1</sup>, and adds the following functionality:
 
 - Game controller support for a large selection of PC [handhelds.](https://github.com/hhd-dev/hhd/blob/master/readme.md#supported-devices)
 - Hardware controls for TDP, GPU, Power Governor, CPU Boost, etc.
 - RGB controls for select devices only.
 - Swipe gestures while in Steam Gaming Mode.
+
+*<sup>*1</sup>Handheld PCs that are **not** the Steam Deck hardware.
 
 #### Daily Driving
 
