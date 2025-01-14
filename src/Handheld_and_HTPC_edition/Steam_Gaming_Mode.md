@@ -41,8 +41,8 @@ A [ community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2804
 
 ### How do I open the side menus with a physical keyboard?
 
-**Steam Home Menu**: <kbd>Super/Meta/Win</kbd>+<kbd>1</kbd>
-**Quick Access Menu (QAM)**: <kbd>Super/Meta/Win</kbd>+<kbd>2</kbd>
+**Steam Home Menu**: <kbd>Super/Meta/Win/Start</kbd>+<kbd>1</kbd>
+**Quick Access Menu (QAM)**: <kbd>Super/Meta/Win/Start</kbd>+<kbd>2</kbd>
 
 ### Valve's Official SteamOS Guide
 
