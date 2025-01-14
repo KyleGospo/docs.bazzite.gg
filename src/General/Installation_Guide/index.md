@@ -1,7 +1,5 @@
 ---
 title: Installation Guide
-authors:
-  - "@nicknamenamenick"
 ---
 
 <!-- ANCHOR: METADATA -->
