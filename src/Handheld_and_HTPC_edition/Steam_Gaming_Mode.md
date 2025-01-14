@@ -39,9 +39,10 @@ This documentation may not cover specific areas with the assumption that the use
 A [ community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2804823261) that goes over **tips and tricks for controls on the Steam Deck, but contains information that can still apply to all devices running Bazzite-Deck**.
 
 
-### How do I open the Quick Access Menu (QAM) with a physical keyboard?
+### How do I open the side menus with a physical keyboard?
 
-<kbd>Super</kbd>+<kbd>2</kbd>
+**Steam Home Menu**: <kbd>Super/Meta/Win</kbd>+<kbd>1</kbd>
+**Quick Access Menu (QAM)**: <kbd>Super/Meta/Win</kbd>+<kbd>2</kbd>
 
 ### Valve's Official SteamOS Guide
 
