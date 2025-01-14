@@ -39,7 +39,7 @@ Handheld Daemon (aka HHD) ships with Bazzite for handheld PCs<sup>1</sup>, and a
 - RGB controls for select devices only.
 - Swipe gestures while in Steam Gaming Mode.
 
-*<sup>*1</sup>Handheld PCs that are **not** the Steam Deck hardware.
+*<sup>1</sup>Handheld PCs that are **not** the Steam Deck hardware.
 
 #### Daily Driving
 
