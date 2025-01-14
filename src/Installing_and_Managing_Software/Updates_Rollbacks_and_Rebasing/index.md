@@ -1,7 +1,5 @@
 ---
 title: Updates, Rollbacks, and Rebasing
-authors:
-  - "@nicknamenamenick"
 ---
 
 <!-- ANCHOR: METADATA -->
