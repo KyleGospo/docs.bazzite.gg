@@ -21,8 +21,9 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
 - Out of the box support for virtualization and GPU passthrough.
 - Updating in Steam Gaming Mode will also update installed applications.
 - Access to multiple desktop environments
-  - GNOME (Not Available on SteamOS)
-  - Budgie (Planned for the future)
+  - KDE Plasma 
+  - GNOME (Not available on SteamOS)
+  - Budgie (Planned for the future for Bazzite)
 - [`ujust`](/Installing_and_Managing_Software/ujust.md) convenience scripts for to setup software and tweaks such as supporting specific input peripherals, secure boot, and additional software.
 - Useful gaming-related software preinstalled, such as Lutris, Umu-Launcher, ProtonUp-QT, Protontricks, and more
 - "Fearless Updates"
