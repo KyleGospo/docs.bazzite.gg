@@ -58,6 +58,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("sentry", "sentry", "Kernel patches") }}
 {{ contributor("Jason Nagin", "JasonN3", "Installer assistance") }}
 {{ contributor("Sterophonick", "Sterophonick", "Driver backports and game fixes") }}
+{{ contributor("dreamyuki", "dreamyukii", "Scripting") }}
 {{ contributor ("Adelia", "reisvg", "Branding") }}
 {{ contributor("Sean", "SuperRiderTH", "Animations") }}
 {{ contributor("wolfyreload", "wolfyreload", "Video tutorials") }}
@@ -84,7 +85,6 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("CharlieBros", "CharlieBros", "Contributor Emeritus") }}
 {{ contributor("xAlphaKat", "xAlphaKAT", "Contributor Emeritus") }}
 {{ contributor("Justin Garrison", "rothgar", "Contributor Emeritus") }}
-{{ contributor("dreamyuki", "dreamyukii", "Contributor Emeritus") }}
 {{ contributor("Alex Banna", "abanna", "Contributor Emeritus") }}
 {{ contributor("bobslept", "bobslept", "Contributor Emeritus") }}
 {{ contributor("Primož Ajdišek", "bigpod98", "Contributor Emeritus") }}
