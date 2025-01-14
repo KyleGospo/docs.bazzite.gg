@@ -1,17 +1,10 @@
 ---
-authors:
-  - "@nicknamenamenick"
-  - "@KyleGospo"
-  - "@EyeCantCU"
-  - "@storyaddict"
-  - "@castrojo"
+title: Frequently Asked Questions
 ---
 
 <!-- ANCHOR: METADATA -->
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=33", "fetched_at": "2024-09-03 16:43:17.727110+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
-
-# Frequently Asked Questions
 
 ![Bazzite Tagline|938x775 40%](../img/Bazzite_Tagline_Light_BG.png)
 
