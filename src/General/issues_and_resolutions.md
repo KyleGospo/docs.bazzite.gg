@@ -64,21 +64,17 @@ On the right hand side of the screen there will be a button labelled **Behaviour
 
 Now tick **"Automatically log in"**, select your user and for the session, select **"Plasma (Wayland)"** and don't forget to to click on the **"Apply"** button.
 
-## HTPC Nvidia GPU setup
+## HTPC legacy hardware setup
 
-!!! note
+**Issue:** How do you setup a similar version to Bazzite-Deck using GPU hardware that is considered "legacy" and unsupported for Steam Gaming Mode?
 
-    Nvidia hardware running Steam Gaming Mode is now available in **beta** with major caveats and known issues.
+**Resolution:** You can enable auto-login and set Steam to automatically launch in Steam's Big Picture Mode for a decent couch gaming experience if you have legacy hardware.
 
-**Issue:** How do you set up your Nvidia GPU powered gaming machine as an HTPC as Steam Gaming Mode is not available for Nvidia GPUs?
-
-**Resolution:** You can enable auto-login and set Steam to automatically launch in Steam's Big Picture Mode for a decent couch gaming experience if you have an NVidia GPU.
-
-There is a video guide that you can follow for Bazzite's GNOME Desktop image.
+There is a video guide that you can follow for Bazzite's GNOME Desktop image using a Nvidia GPU (before Nvidia hardware could run Steam Gaming Mode, but same idea):
 
 https://www.youtube.com/watch?v=F9l-RQvCPMo
 
-If you are using Bazzite's KDE image, then you can skip the "Making Gnome look more familiar to Windows users" section, and use the steps above to get auto login working in Bazzite KDE. Then finally set Steam Big Picture Mode to auto-start in **Settings >> Autostart**
+If you are using Bazzite's KDE Plasma image, then you can skip the "Making Gnome look more familiar to Windows users" section, and use the steps above to get auto login working in Bazzite KDE. Then finally set Steam Big Picture Mode to auto-start in **Settings >> Autostart**
 
 ## No Wi-Fi or Ethernet connectivity in Bazzite when dual-booting with Windows
 
