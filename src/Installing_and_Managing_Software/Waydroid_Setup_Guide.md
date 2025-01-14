@@ -6,6 +6,8 @@ authors:
   - "@storyaddict"
   - "@castrojo"
   - "@aarron-lee"
+tags:
+  - Guide
 ---
 
 <!-- ANCHOR: METADATA -->
