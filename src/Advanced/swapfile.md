@@ -3,6 +3,7 @@ title: Enabling Hibernation in Bazzite Desktop Images
 authors:
   - "@antheas"
 ---
+
 !!! warning
 
     This tutorial will disable zram which is a default of Bazzite and is an unsupported configuration.
