@@ -38,10 +38,10 @@ https://www.youtube.com/watch?v=Z_DsWqTuipU
 
 ## Alternative Installation Method
 
+!!! note
+
+    **The alternative installation method is useful for downloading a smaller ISO and may resolve issues with downloading Bazzite's ISO, but contains installer display issues on most handheld hardware**.
+
 If none of the above errors are relevant to your issue, or you still have problems installing Bazzite, then try following our alternative installation method:
 
 [**Try installing Bazzite by rebasing from Fedora Kinoite (KDE Plasma) or Fedora Silverblue (GNOME)**](/General/Installation_Guide/alternate-install-guide.md).
-
-!!! note
-
-    The alternative installation method is also useful for **downloading a smaller ISO** and **may resolve issues with downloading Bazzite's ISO**.
