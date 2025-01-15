@@ -25,8 +25,9 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
   - GNOME (Not available on SteamOS)
   - Budgie (Planned for the future for Bazzite)
 - [`ujust`](/Installing_and_Managing_Software/ujust.md) convenience scripts for to setup software and tweaks such as supporting specific input peripherals, secure boot, and additional software.
-- Useful gaming-related software preinstalled, such as Lutris, Umu-Launcher, ProtonUp-QT, Protontricks, and more
-- Supports dual boot, see [setup guide](/General/Installation_Guide/dual_boot_setup_guide/)
+- Useful gaming-related software preinstalled, such as Lutris, Umu-Launcher, ProtonUp-QT, Protontricks, and more.
+- Supports dual-booting with Windows.
+  - Read the [Setup Guide](/General/Installation_Guide/dual_boot_setup_guide/) for more information.
 - "Fearless Updates"
   - Due to the atomic nature of Bazzite, users have access to trivially easy OS rollbacks.
   - If an OS update introduces a bug, you can simply [rollback the bad update with one simple command](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md), and wait until the bug gets fixed in a future build
