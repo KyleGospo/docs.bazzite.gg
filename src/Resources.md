@@ -15,5 +15,3 @@ title: Social Platforms
 ## [:simple-x: X/Twitter](https://x.com/bazzite_gg) / [Nitter](https://xcancel.com/bazzite_gg)
 
 ## [:simple-steam: Steam Group](https://steamcommunity.com/groups/Bazzite)
-
-## [:simple-matrix: Matrix](https://matrix.to/#/#universal-blue:matrix.org)
