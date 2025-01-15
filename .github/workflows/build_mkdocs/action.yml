@@ -49,7 +49,7 @@ runs:
     - name: uv install deps
       shell: bash
       working-directory: ${{ inputs.working_dir }}
-      run: uv sync --all-extras --dev
+      run: uv sync --all-extras --dev --no-binary-package=watchdog
 
     - name: Build book
       shell: bash
