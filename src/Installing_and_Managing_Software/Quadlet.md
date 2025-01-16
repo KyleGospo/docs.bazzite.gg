@@ -62,6 +62,10 @@ You can put your quadlet in these location sorted by priority.
 - `/etc/containers/systemd/users/$(UID)`
 - `/etc/containers/systemd/users/`
 
+!!! note
+    
+    If you want your service to start even when you are not logged in, run `loginctl enable-linger $USER` to start automatically
+
 ### Running Quadlet on Startup
 
 You may want to run your quadlet automatically on startup, just add an install section to the quadlet file if you want it to autostart. Most of the time `default.target` is what you want but if you need other target you can read on systemd docs.
