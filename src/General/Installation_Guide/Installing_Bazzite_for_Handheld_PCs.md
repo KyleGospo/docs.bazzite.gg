@@ -130,8 +130,8 @@ You may need to research your handheld on how to boot from removable storage. It
 
 - Select your language, region, keyboard layout, and time zone.
 - Select the drive that Bazzite is going to be installed on.
-  - Delete any partitions that you have remaining on the drive **unless [dual booting on the same drive](https://universal-blue.discourse.group/t/dual-boot-preliminary-setup-and-post-setup-guide/2743#p-6361-b-same-drive-method-3)**.
-  - If **[dual booting on the same drive](https://universal-blue.discourse.group/t/dual-boot-preliminary-setup-and-post-setup-guide/2743#p-6361-b-same-drive-method-3)**, it is **strongly recommended** to do manual partitioning and create a separate EFI partition.
+  - Delete any partitions that you have remaining on the drive **unless [dual booting on the same drive](/General/Installation_Guide/dual_boot_setup_guide/#b-same-drive-method)**.
+  - If **[dual booting on the same drive](/General/Installation_Guide/dual_boot_setup_guide/#manual-partitioning-to-the-same-drive-for-dual-boot-setups)**, it is **strongly recommended** to do manual partitioning and create a separate EFI partition.
     - The separate EFI partition will help prevent Windows Updates from affecting your Bazzite installation later down the line.
   - Only use the automatic storage configuration when installing to separate drives
 - Optionally encrypt the drive with a password if desired.
@@ -218,9 +218,9 @@ https://www.youtube.com/watch?v=wUDbMJtR1sM
 
 !!! attention
     
-    We strongly recommend **manual partitioning + creating a separate EFI partition** for dual-booting, **not** automatic partitioning.  See instructions for manual partitioning [here.](/General/FAQ.md#bazzite-image-chart)
+    We strongly recommend **manual partitioning + creating a separate EFI partition** for dual-booting, **not** automatic partitioning.  See instructions for manual partitioning [here.](/General/Installation_Guide/dual_boot_setup_guide/#manual-partitioning-to-the-same-drive-for-dual-boot-setups). The separate EFI partition will help prevent Windows Updates from affecting your Bazzite installation later down the line.
 
-https://www.youtube.com/watch?v=H4226yq0ZwY
+https://www.youtube.com/watch?v=pbxM_1ZJCCc
 
 <hr>
 
