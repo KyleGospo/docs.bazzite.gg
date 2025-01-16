@@ -186,7 +186,9 @@ Most of the time this is because you're connecting the device via HDMI which doe
 
 ![My-Eyes|690x430](../img/hdr-woes.png)
 
-Toggle HDR on and off in the Quick Access Menu
+Toggle HDR on and off in the Quick Access Menu.
+
+Hiwever, you may need to enable "Force Composite" found in the Developer Options, which also has to be enabled in the Steam settings beforehand.
 
 ## Stuck at the Bazzite logo
 1.  Opening a TTY session with an **external physical keyboard** using this **keyboard combination and entering this command**:
