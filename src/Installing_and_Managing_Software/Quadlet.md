@@ -1,11 +1,12 @@
 ---
 authors:
   - "@asen23"
+  - "@noelniller"
 
 preview:
   alpha: 150
   image: "../img/podman.png"
-description: "Podman Icon"
+description: "Run services."
 ---
 
 ## What is Quadlet?
