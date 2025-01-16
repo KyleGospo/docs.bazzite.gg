@@ -1,7 +1,7 @@
 ---
 authors:
   - "@asen23"
-  - "@noelniller"
+  - "@noelmiller"
 
 preview:
   alpha: 150
