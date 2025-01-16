@@ -64,7 +64,7 @@ You can put your quadlet in these location sorted by priority.
 
 !!! note
     
-    If you want your service to start even when you are not logged in, run `loginctl enable-linger $USER` to start automatically
+    If you want your service to start even when you are not logged in, run `loginctl enable-linger $USER` to start it automatically.
 
 ### Running Quadlet on Startup
 
