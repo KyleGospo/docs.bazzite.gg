@@ -18,11 +18,15 @@ authors:
 
 ![Edit the command for the latest boot entry|690x351](../img/Edit_the_command_for_the_latest_boot_entry.png)
 
-Reboot your device and edit the last deployment by presssing <kbd>E</kbd> on your keyboard.
+1. Reboot your device.
+2. Press <kbd>Esc</kbd> on the keyboard to reach the GRUB boot menu.
+   a. If you press <kbd>Esc</kbd> too many times, you may end up at a `grub>` prompt.
+   b. Return to the boot menu by typing `exit` and pressing <kbd>Enter</kbd>
+3. Edit the last deployment by presssing <kbd>E</kbd> on your keyboard.
 
 ![Boot with init=/bin/bash|689x359](../img/Boot_with_init_bin_bash.jpeg)
 
-Boot with `init=/bin/bash` on the kernel command line (e.g. edit GRUB prompt.)
+Edit the GRUB prompt and append `init=/bin/bash` to the line beginning with `linux`.
 
 ![Reboot|689x359](../img/Reset_Password_Reboot.jpeg)
 
