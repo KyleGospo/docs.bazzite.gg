@@ -49,7 +49,6 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Antheas Kapenekakis", "antheas", "Handheld support", "https://github.com/sponsors/antheas") }}
 {{ contributor("HikariKnight", "HikariKnight", "Virtualization support, scripting", "https://github.com/sponsors/HikariKnight") }}
 {{ contributor("Noel Miller", "noelmiller", "ISO enhancements, custom image tooling, marketing", "https://github.com/sponsors/noelmiller") }}
-{{ contributor("Pat Connors", "nicknamenamenick", "Documentation", "https://github.com/sponsors/nicknamenamenick") }}
 {{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD pipeline, support for alternate desktop environments") }}
 {{ contributor("Zeglius", "Zeglius", "CI/CD pipeline") }}
 {{ contributor("Aarron Lee", "aarron-lee", "SimpleDeckyTDP, scripting, command-line utilities") }}
@@ -81,6 +80,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Marco Ceppi", "marcoceppi", "Contributor Emeritus") }}
 {{ contributor("Adam Israel", "AdamIsrael", "Contributor Emeritus") }}
 {{ contributor("Joseph of Earth", "", "Contributor Emeritus") }}
+{{ contributor("Pat Connors", "nicknamenamenick", "Contributor Emeritus", "https://github.com/sponsors/nicknamenamenick") }}
 {{ contributor("Marco Rodolfi", "RodoMa92", "Contributor Emeritus") }}
 {{ contributor("CharlieBros", "CharlieBros", "Contributor Emeritus") }}
 {{ contributor("xAlphaKat", "xAlphaKAT", "Contributor Emeritus") }}
