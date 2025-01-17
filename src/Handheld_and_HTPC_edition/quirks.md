@@ -127,33 +127,11 @@ The Internal Display Scaling settings will be fully accessible under "Display" i
 
 ## I lost my "Return to Gaming Mode" shortcut
 
-You can restore this shortcut by creating a text file called `Return.desktop` and adding these specific lines to it:
+You can restore this shortcut by opening terminal and running:
 
-### KDE Plasma
-
-```file
-[Desktop Entry]
-Name=Return to Gaming Mode
-Exec=qdbus org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
-Icon=steamdeck-gaming-return
-Terminal=false
-Type=Application
-StartupNotify=false
-```
-
-### GNOME
-
-```file
-[Desktop Entry]
-Name=Return to Gaming Mode
-Exec=gnome-session-quit --logout --no-prompt
-Icon=steamdeck-gaming-return
-Terminal=false
-Type=Application
-StartupNotify=false
-```
-
-Save it and place it in the "Desktop" directory.
+ ```
+ ujust restore-gamemode-shortcut
+ ```
 
 ## Steam broke and Gaming Mode is broken too
 
