@@ -47,9 +47,19 @@ runs:
       run: uv python install
 
     - name: uv install deps
+      id: uv-setup
       shell: bash
       working-directory: ${{ inputs.working_dir }}
       run: uv sync --all-extras --dev
+      continue-on-error: true
+
+    # Fallback for whenever 'watchdog' dep gives issues
+    # FIXME: Remove me whenever 'watchdog' doesnt give issues anymore
+    - name: uv install deps
+      shell: bash
+      if: ${{ steps.uv-setup.outcome == 'failure' }}
+      working-directory: ${{ inputs.working_dir }}
+      run: uv sync --all-extras --dev --no-binary-package=watchdog
 
     - name: Build book
       shell: bash
@@ -65,7 +75,7 @@ runs:
 
     - name: Setup Pages
       if: ${{ inputs.upload_github_page == 'true' }}
-      uses: actions/configure-pages@v5
+      uses: actions/configure-pages@v4
       with:
         token: ${{ inputs.github_token }}
 
