@@ -21,7 +21,7 @@ ujust switch-to-ext4
 
 ## How do I specify the correct monitor for Gaming Mode to use? (HTPC only)
 
-Go into desktop mode and open `ptyxis` our terminal and run
+In Desktop Mode, open a host terminal and run this **command**:
 
 ```command
 mkdir ~/.config/environment.d
@@ -32,13 +32,13 @@ Then add this to the file:
 
 `OUTPUT_CONNECTOR=DP-1`
 Change `DP-1` to the correct output.
-You can find your display outputs on KDE using the command
+You can find your display outputs on **KDE Plasma** using the command
 
 ```
 kscreen-doctor -o
 ```
 
-You can find your display outputs in GNOME using this command
+You can find your display outputs in **GNOME** using this command
 
 ```
 gnome-randr
