@@ -10,8 +10,6 @@ authors:
 
 ## Make Swap Subvolume (e.g., due to Snapper)
 ```
-sudo mkdir -p /var/swap
-
 sudo btrfs subvolume create /var/swap
 
 sudo semanage fcontext -a -t var_t /var/swap
