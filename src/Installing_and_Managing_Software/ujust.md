@@ -1,6 +1,7 @@
 ---
 authors:
   - "@nicknamenamenick"
+  - "@wolfyreload"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -89,10 +90,46 @@ This **command** Shows layered packages that may be installed from the Bazzite P
 rpm-ostree status
 ```
 
-### Project Website
+## ujust script overview
+
+These are just some of the common Bazzite ujust scripts, there are much more available which are viewable with `ujust --choose` as mentioned above
+
+### Maintenance Scripts
+
+- **ujust update** - updates system, flatpaks, and containers all at once
+- **ujust regenerate-grub** - Regenerate GRUB config, useful in dual-boot scenarios where a second operating system isn't listed
+- **ujust configure-grub** - Configures GRUB boot menu visibility
+- **ujust fix-reset-steam** - Reset the Steam folder back to a fresh state without removing games, music, saves, etc. Very useful if Steam is giving trouble or if you are getting a blank screen in Game Mode
+- **ujust fix-proton-hang** - Force terminates all processes related to wine and proton. Useful if you can't launch games after a game fails to close properly
+- **ujust bios** - Reboots straight into this device's BIOS/EUFI screen
+- **ujust restart-pipewire** - Crackling audio? Restarting Pipewire sometimes fixes that
+- **ujust enroll-secure-boot-key** - Enrolls the Nvidia driver & KMOD signing key for secure boot. You'll need this if you want to use Bazzite with Secure Boot enabled
+- **ujust clean-system** - Cleans up old unused podman images, volumes, flatpak packages and rpm-ostree content
+
+### Configuration/Enabling Scripts
+
+- **ujust setup-waydroid** - a configuration helper for Waydroid. More information in [Waydroid Setup Guide](../Installing_and_Managing_Software/Waydroid_Setup_Guide.md)
+- **ujust setup-virtualization** - setup and configuure virtualization and vfio
+- **ujust setup-sunshine** - toggle Sunshine Game Streaming host on or off
+- **ujust setup-luks-tpm-unlock** - enable auto LUKS unlock via TPM
+- **ujust setup-decky** - Install and configure Decky Loader
+- **ujust setup-boot-windows-steam** - Adds a script in Steam to boot Windows which is useful for dual-boot setups
+- **ujust enable-tailscale** - Enables support for Tailscale
+- **ujust enable-supergfxctl** - Enable Supergfxctl, a GPU switcher for hybrid laptops
+- **ujust bazzite-cli** - Bazzite CLI mod for Bluefin styled cli enhancements. More information in [Bazzite Command Line Tools](../Advanced/bazzite-cli.md)
+
+### Troubleshooting Scripts
+
+- **ujust logs-last-boot** - Shows all messages from last boot
+- **ujust logs-this-boot** - Shows all messages from this boot
+- **ujust device-info** - Gathers useful device information to a pastebin. This is very useful for providing information when creating support tickets in the #Bazzite-Help section in Discord
+
+
+## Project Website
 
 https://just.systems/
 
 <hr>
+
 
 [**<-- Back to Installing and Managing Software on Bazzite**](./index.md)
