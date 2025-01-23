@@ -100,7 +100,7 @@ You will find that most of containerized app in the web are built using docker c
 
 ### Running Rootful Container as Quadlet
 
-While ideally you would run all container using rootless podman, sadly not all container will work with it. If you noticed in the beginning, this guide used nginx-unprivileged rather than the normal nginx, this because it need root to function. To use rootful podman, you will need to use different quadlet path and run using root systemctl (without `--user`).
+While ideally you would run all container using rootless podman, sadly not all container will work with it. If you noticed in the beginning, this guide used nginx-unprivileged rather than the normal nginx, this because it needs root to function. To use rootful podman, you will need to use different quadlet path and run using root systemctl (without `--user`).
 
 Rootful Quadlet Path
 - `/run/containers/systemd/` - Temporary quadlet
