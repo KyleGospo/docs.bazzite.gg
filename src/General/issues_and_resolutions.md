@@ -98,6 +98,36 @@ You can do this by:
 
 Now if you now select the Shutdown option, Windows will shut down completely and not interfere with Bazzite.
 
+## Lag spikes on the Rog Ally Z1E
+
+**Issue:** Your Wi-Fi connection has a lot more lag spikes, which interferes with voice chat on Discord and online games. The problem is not present in Windows. This might also solve the lag spikes issue on the Rog Ally X but I don't own one to confirm this.
+
+**Cause:** The Wi-Fi power saving feature in Linux seems to work poorly on the Rog Ally Z1E under Linux.
+
+**Resolution:** Open a terminal and run `ip link show` this will list all your network devices and the output should look something like this:
+
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: wlp6s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DORMANT group default qlen 1000
+    link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff permaddr 00:00:00:00:00:00
+```
+
+The device that we are interested in is the Wi-Fi device which is called "wlp6s0" on my Ally
+
+Next run `iw wlp6s0 get power_save` (change the wlp6s0 if your device name is different) and you should get `Power save: on` as the output.
+
+To resolve this we are going to configure Network manager to not use the power save feature for Wi-FI devices. Open a terminal and run
+
+```bash
+printf "[connection]\nwifi.powersave = 2" | sudo tee /etc/NetworkManager/conf.d/wifi-powersave-off.conf
+sudo systemctl restart NetworkManager
+```
+
+Next run `iw wlp6s0 get power_save` to confirm that power save is off and hopefully you'll experience much less lag when playing online.
+
+Note that this fix may negatively affect the battery life of your Rog Ally. If you do wish to reverse this change just delete the config file with `sudo rm /etc/NetworkManager/conf.d/wifi-powersave-off.conf` followed by `sudo systemctl restart NetworkManager`
+
 <hr>
 
 **See also**: [Steam Gaming Mode Quirks](/Handheld_and_HTPC_edition/quirks.md)
