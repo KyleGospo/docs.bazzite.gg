@@ -88,7 +88,7 @@ Notifications for updates are now active.
 
 Open a host terminal and enter this **command**:
 ```
-ujust toggle-update
+ujust toggle-updates
 ```
 
 <hr>
