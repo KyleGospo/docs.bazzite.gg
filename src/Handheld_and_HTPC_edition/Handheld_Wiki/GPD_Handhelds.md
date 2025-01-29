@@ -70,7 +70,6 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 - Login to Steam
 - Reboot device
 - Configure the HHD Overlay by opening it with QAM button
-- Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode (See "Desktop Controls" section below)
 - Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode. (See "Desktop Controls" section below)
   - <kbd>Xbox</kbd> + <kbd>X</kbd> (This can be remapped)
   - GPD devices also have a physical switch you can toggle to enable a separate desktop/mouse mode
