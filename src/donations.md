@@ -127,6 +127,7 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 - **fd: [David Peter](https://github.com/sponsors/sharkdp) and [Tavian Barnes](https://github.com/sponsors/tavianator)**
 - **Flatpak**: *Currently migrating fiscal hosts*
 - [**fzf**](https://github.com/sponsors/junegunn)
+- [**freedesktop.org**](https://www.freedesktop.org/wiki/#donations)
 - [**Gear Lever**](https://ko-fi.com/mijorus)
 - [**GNOME**](https://www.gnome.org/donate/)
 - [**GNOME themes for Firefox and Thunderbird**](https://www.patreon.com/rafaelmardojai)
