@@ -76,7 +76,7 @@ defaults,noatime,nofail,rw,users,exec
 ### Permissions for the drive
 
 ```command
-sudo chown $USER:$USER /mnt/games
+sudo chown $USER:$USER /var/mnt/games
 ```
 
 #### Advanced Options (Not required for most setups)
