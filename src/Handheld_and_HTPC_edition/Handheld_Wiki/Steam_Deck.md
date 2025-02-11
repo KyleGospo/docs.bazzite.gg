@@ -48,6 +48,11 @@ If desired, there is a **command to disable BIOS updates** at your own risk:
 ujust disable-bios-updates
 ```
 
+### Workarounds / Known Issues
+
+- (Steam Deck OLED) The brightness is not properly restored when changing refresh rate.
+- (Steam Deck OLED) MangoHUD does not report GPU clocks.
+
 <hr>
 
 **See also**: [Steam Gaming Mode Overview](../Steam_Gaming_Mode.md)
