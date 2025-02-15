@@ -8,6 +8,7 @@ site_description: Bazzite is a custom image built upon Fedora Atomic Desktops th
 
 watch:
   - theme_overrides
+  - &macros_tmpls macros_tmpls
 
 validation:
   links:
@@ -79,7 +80,8 @@ plugins:
           build: true
 
   - search
-  - macros
+  - macros:
+      include_dir: *macros_tmpls
   - glightbox:
       skip_classes:
         - "no-lightbox"

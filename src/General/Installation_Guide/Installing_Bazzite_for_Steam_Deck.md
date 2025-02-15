@@ -7,6 +7,7 @@ authors:
   - "@noelmiller"
   - "@rothgar"
   - "@HikariKnight"
+  - "@Zeglius"
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -16,10 +17,6 @@ authors:
 ![image|690x332](../../img/image.jpeg)
 
 ## Bazzite on the Steam Deck
-
-!!! attention
-    
-    XHCI has to be set as the USB Mode for the Steam Deck for our ISO to boot! If it is set to DRD, please change it in your BIOS settings, and more information can be found [here](https://github.com/ublue-os/bazzite/issues/808#issuecomment-1963141866).
 
 ### Status
 
@@ -33,11 +30,7 @@ Bazzite functions properly on the Steam Deck LCD and Steam Deck OLED models.
 
 #### Installer Requirements
 
-!!! note
-    
-    Bazzite requires a stable internet connection with no bandwidth cap in place.
-
-
+- Stable internet connection with no bandwidth cap in place.
 - A USB flash drive with 10GB free space
   - **Note**: All data on this drive will be wiped when flashed
 - Software to flash the image:
@@ -45,57 +38,18 @@ Bazzite functions properly on the Steam Deck LCD and Steam Deck OLED models.
     - Make sure to properly eject the drive after flashing the ISO to it
 - Optional: Physical keyboard (without one, your username will be `bazzite` and the password will be `bazzite`)
 
-### Desktop Environments
+{% include 'desktop_envs.md' %}
 
-All of the images come with the choice of [KDE Plasma](https://kde.org/plasma-desktop/) or [GNOME](https://www.gnome.org/) for their desktop environment.
+!!! warning
 
-[Steam Gaming Mode](https://github.com/KyleGospo/gamescope-session) is a requirement for the Steam Deck.
-
-More information can be found on our [FAQ](https://faq.bazzite.gg) about the differences between the image variants.
-
-#### [KDE Plasma (Default)](https://kde.org/plasma-desktop/)
-
-![KDE Plasma|690x388, 75%](../../img/KDE_Plasma_DE.jpeg)
-
-- KDE Plasma's default interface has a traditional and familiar layout
-- Highly customizable with tons of settings
-- Qt framework
-- Popular Linux distributions like SteamOS use KDE Plasma
-
-#### [GNOME (`-gnome` images)](https://www.gnome.org/)
-
-![GNOME|690x359, 75%](../../img/GNOME_DE.png)
-
-- GNOME's default interface has an elegant and touch-friendly layout
-- Simple and concise
-- GTK framework
-- Popular Linux distributions like Ubuntu use GNOME
-
-#### [Steam Gaming Mode (`-deck` images)][Steam_Gaming_Mode]
-
-![Gaming Mode|690x388, 75%](../../img/Gaming_Mode.jpeg)
-
-!!! important
-
-    Your device will automatically boot into the Steam Gaming Mode session at startup, and Desktop Mode can be accessed from the "**power menu**" in Steam Gaming Mode.
-
-- **Requires a [Steam](https://store.steampowered.com/) account**
-- Included in the [Bazzite-Deck images][Steam_Gaming_Mode]
-- Interface is designed for handheld and couch gaming
-- Controller friendly
-- Choice of KDE Plasma or GNOME in Desktop Mode
-- Extra functionality with [Decky](https://github.com/SteamDeckHomebrew/decky-loader) [plugins](https://plugins.deckbrew.xyz/)
-- XHCI has to be set as the USB Mode for the Steam Deck for our ISO to boot! If it is set to DRD, please change it in your BIOS settings. More information can be found [here](https://github.com/ublue-os/bazzite/issues/808#issuecomment-1963141866).
+    XHCI has to be set as the USB Mode for the Steam Deck for our ISO to boot! If it is set to DRD, please change it in your BIOS settings. 
+    More information can be found [here](https://github.com/ublue-os/bazzite/issues/808#issuecomment-1963141866).
 
 <hr>
 
 ## Installation Guide
 
 > The part of the guide that requires the most effort.
-
-!!! important 
-    
-    XHCI has to be set as the USB Mode for the Steam Deck for our ISO to boot! If it is set to DRD, please change it in your BIOS settings. More information can be found [here](https://github.com/ublue-os/bazzite/issues/808#issuecomment-1963141866).
 
 ### 1. Download and Flash Bazzite
 
@@ -111,9 +65,12 @@ When you get to the boot menu, select your bootable device to boot into the Bazz
 
 ### 3. Installer
 
-> **NOTE**: If you do not have a usb physical keyboard connected, do **NOT** press "_User Creation_", since it will remove the default username and password, and you will be unable to type a username or password without a physical keyboard.
+!!! note "Installation without keyboard"
 
-> **default user**: `bazzite` >**default password**: `bazzite`
+    If you do not have a usb physical keyboard connected, do **NOT** press "_User Creation_", since it will remove the default username and password, and you will be unable to type a username or password without a physical keyboard.
+
+    **default user**: `bazzite`
+    **default password**: `bazzite`
 
 ![Installer|690x348](../../img/uHKqd8F4nxZryfP8ebBz1DIbNVv.png)
 
