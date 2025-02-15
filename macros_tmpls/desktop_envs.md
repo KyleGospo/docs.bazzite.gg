@@ -7,39 +7,45 @@ All of the images come with the choice of [KDE Plasma](https://kde.org/plasma-de
 
 More information can be found on our [FAQ](https://faq.bazzite.gg) about the differences between the image variants.
 
-#### [KDE Plasma (Default)](https://kde.org/plasma-desktop/)
+=== "KDE Plasma"
 
-![KDE Plasma|690x388, 75%](/img/KDE_Plasma_DE.jpeg)
+    #### [KDE Plasma (Default)](https://kde.org/plasma-desktop/)
 
-- KDE Plasma's default interface has a traditional and familiar layout
-- Highly customizable with tons of settings
-- Qt framework
-- Popular Linux distributions like SteamOS use KDE Plasma
+    ![KDE Plasma|690x388, 75%](/img/KDE_Plasma_DE.jpeg)
 
-#### [GNOME (`-gnome` images)](https://www.gnome.org/)
+    - KDE Plasma's default interface has a traditional and familiar layout
+    - Highly customizable with tons of settings
+    - Qt framework
+    - Popular Linux distributions like SteamOS use KDE Plasma
 
-![GNOME|690x359, 75%](/img/GNOME_DE.png)
+=== "GNOME"
 
-- GNOME's default interface has an elegant and touch-friendly layout
-- Simple and concise
-- GTK framework
-- Popular Linux distributions like Ubuntu use GNOME
+    #### [GNOME (`-gnome` images)](https://www.gnome.org/)
 
-#### [Steam Gaming Mode (`-deck` images)](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
+    ![GNOME|690x359, 75%](/img/GNOME_DE.png)
 
-![Gaming Mode|690x388, 75%](/img/Gaming_Mode.jpeg)
+    - GNOME's default interface has an elegant and touch-friendly layout
+    - Simple and concise
+    - GTK framework
+    - Popular Linux distributions like Ubuntu use GNOME
 
-!!! note
+=== "Steam Gaming Mode"
 
-    Your device will automatically boot into the Steam Gaming Mode session at startup, and Desktop Mode can be accessed from the "**power menu**" in Steam Gaming Mode.
+    #### [Steam Gaming Mode (`-deck` images)](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
-{% block desktop_envs_steam_notes %}
+    ![Gaming Mode|690x388, 75%](/img/Gaming_Mode.jpeg)
 
-- **Requires a [Steam](https://store.steampowered.com/) account**
-- Included in the [Bazzite-Deck images](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
-- Interface is designed for handheld and couch gaming
-- Controller friendly
-- Choice of KDE Plasma or GNOME in Desktop Mode
-- Extra functionality with [Decky](https://github.com/SteamDeckHomebrew/decky-loader) [plugins](https://plugins.deckbrew.xyz/)
+    !!! note
 
-{% endblock %}
+        Your device will automatically boot into the Steam Gaming Mode session at startup, and Desktop Mode can be accessed from the "**power menu**" in Steam Gaming Mode.
+
+    {% block desktop_envs_steam_notes %}
+
+    - **Requires a [Steam](https://store.steampowered.com/) account**
+    - Included in the [Bazzite-Deck images](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
+    - Interface is designed for handheld and couch gaming
+    - Controller friendly
+    - Choice of KDE Plasma or GNOME in Desktop Mode
+    - Extra functionality with [Decky](https://github.com/SteamDeckHomebrew/decky-loader) [plugins](https://plugins.deckbrew.xyz/)
+
+    {% endblock %}
