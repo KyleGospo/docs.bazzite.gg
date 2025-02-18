@@ -113,6 +113,9 @@ ujust regenerate-grub
 
 If the `OS Boot Manager` has set `Windows Boot Manager` to be the first boot priority, then this may result in booting directly into Windows after the install instead of Bazzite. You may have to fix this in your BIOS settings.
 
+Take note that the GRUB menu might not show up. In such case, span the <kbd>↓</kbd> key when booting up.
+{# TODO: Add procedure for showing GRUB in handhelds. #}
+
 <hr>
 
 ## Expanding storage size in a Windows dual-boot scenario
