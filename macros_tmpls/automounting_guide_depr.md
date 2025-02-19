@@ -7,5 +7,5 @@
     You can place a custom named shortcut to the partition with:
 
     ```sh
-    ln -s /run/media/media-automount/PARTITION_UUID /mnt/CUSTOM_NAME
+    sudo ln -s /run/media/media-automount/PARTITION_UUID /mnt/CUSTOM_NAME
     ```
