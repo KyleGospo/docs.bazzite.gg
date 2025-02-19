@@ -4,6 +4,7 @@ authors:
   - "@HikariKnight"
   - "@asen23"
   - "@lethedata"
+  - "@Zeglius"
 tags:
   - Guide
 ---
@@ -17,6 +18,8 @@ tags:
 ![KDE|48x48](../img/KDE_Partition_Manager_icon.png)
 
 **This is pre-installed on KDE images.**
+
+{% include 'automounting_guide_depr.md' %}
 
 ## Instructions
 

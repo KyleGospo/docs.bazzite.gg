@@ -3,6 +3,7 @@ authors:
   - "@nicknamenamenick"
   - "@HikariKnight"
   - "@lethedata"
+  - "@Zeglius"
 tags:
   - Guide
 ---
@@ -16,6 +17,8 @@ tags:
 ![GNOME|120x120, 50%](../img/GNOME_Disks_icon.png)
 
 **This comes pre-installed on GNOME images.**
+
+{% include 'automounting_guide_depr.md' %}
 
 ## Instructions
 
