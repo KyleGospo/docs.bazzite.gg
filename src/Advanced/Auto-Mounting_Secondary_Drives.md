@@ -12,18 +12,13 @@ tags:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=970", "fetched_at": "2024-09-03 16:43:14.005694+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-!!! warning
-
-    You may lose data on the drive(s) or result in an unbootable system if configured improperly.
-
-
-!!! attention 
-  
-    MicroSD cards automatically mount without any manual intervention required on Bazzite.
-
-!!! important
+!!! warning 
     
-    Do **not** use the NTFS, exFAT, or FAT32 filesystems for game library storage.
+    - You may lose data on the drive(s) or result in an unbootable system if configured improperly.
+    
+    - Do **not** use the NTFS, exFAT, or FAT32 filesystems for game library storage.
+
+!!! info "MicroSD cards automatically mount without any manual intervention required on Bazzite."
 
 Follow this guide **at your own discretion** and make sure to read the entire document relevant to your method, so you do not miss anything!
 
