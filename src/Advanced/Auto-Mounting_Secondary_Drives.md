@@ -87,11 +87,13 @@ sudo chown $USER:$USER /var/mnt/games
 
 ## Alternative Methods (CLI)
 
-There are also two command-line interface (CLI) methods.
+Other ways to setup automounting:
 
-1.  Using `systemd.mount`
+1. [`media-automount-generator`](https://github.com/Zeglius/media-automount-generator).
 
-2.  Editing the `/etc/fstab` file
+2. [`systemd.mount`](https://www.freedesktop.org/software/systemd/man/latest/systemd.mount.html) units.
+
+3. Editing the `/etc/fstab` file.
 
 Command Line Interface methods are intended for advanced users, and it is recommended to research one of the two methods outside of this documentation.
 
