@@ -80,7 +80,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Marco Ceppi", "marcoceppi", "Contributor Emeritus") }}
 {{ contributor("Adam Israel", "AdamIsrael", "Contributor Emeritus") }}
 {{ contributor("Joseph of Earth", "", "Contributor Emeritus") }}
-{{ contributor("Pat Connors", "nicknamenamenick", "Contributor Emeritus", "https://github.com/sponsors/nicknamenamenick") }}
+{{ contributor("Pat Connors", "nicknamenamenick", "Contributor Emeritus") }}
 {{ contributor("Marco Rodolfi", "RodoMa92", "Contributor Emeritus") }}
 {{ contributor("CharlieBros", "CharlieBros", "Contributor Emeritus") }}
 {{ contributor("xAlphaKat", "xAlphaKAT", "Contributor Emeritus") }}
