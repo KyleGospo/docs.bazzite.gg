@@ -7,7 +7,7 @@ title: Community Resources
 
 !!! warning
 
-    Some of the instructions found in these resources can break your Bazzite installation if followed improperly!
+    Some of these resources may be outdated.
 
 ## Hardware
 
