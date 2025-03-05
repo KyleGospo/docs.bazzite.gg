@@ -51,7 +51,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Noel Miller", "noelmiller", "Installer Enhancements / Custom Image Tooling / Marketing", "https://github.com/sponsors/noelmiller") }}
 {{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD Pipelines / Initial Support for Alternate Desktop Environments") }}
 {{ contributor("Zeglius", "Zeglius", "Documentation Maintenance / Scripting") }}
-{{ contributor("Aarron Lee", "aarron-lee", "SimpleDeckyTDP, Scripting, Command-Line Utilities") }}
+{{ contributor("Aarron Lee", "aarron-lee", "SimpleDeckyTDP / Scripting / Command-Line Utilities") }}
 {{ contributor("Matthew Schwartz", "matte-schwartz", "Steam Gaming Mode Testing and Consulting") }}
 {{ contributor("Bouhaa", "BoukeHaarsma23", "Steam Gaming Mode Testing and Consulting") }}
 {{ contributor("Jan", "Jan200101", "Kernel Patches") }}
