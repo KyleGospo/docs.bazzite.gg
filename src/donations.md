@@ -59,7 +59,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Sterophonick", "Sterophonick", "Driver Backports / Game Fixes") }}
 {{ contributor("dreamyuki", "dreamyukii", "Scripting") }}
 {{ contributor ("Adelia", "adeliasvg", "Branding Manager") }}
-{{ contributor("Sean", "SuperRiderTH", "Animator / Bug Fixing") }}
+{{ contributor("Sean Srock", "SuperRiderTH", "Animator / Bug Fixing") }}
 {{ contributor("wolfyreload", "wolfyreload", "Video Tutorials / Documentation") }}
 {{ contributor("Kurt Himebauch", "xXJSONDeruloXx", "Decky Plugins / ujust Extraordinaire") }}
 {{ contributor("Benjamin Sherman", "bsherman", "Image Maintenance") }}
@@ -71,8 +71,8 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Gareth Widlansky", "gerblesh", "Image Maintenance") }}
 {{ contributor("Ryan Brue", "ryanabx", "Image Maintenance") }}
 {{ contributor("Ian Off", "atimeofday", "Documentation / Testing") }}
-{{ contributor("xyny", "xynydev", "Alternate Custom Image Tooling / Infographs") }}
-{{ contributor("fiftydinar", "fiftydinar", "Alternate Custom Image Tooling / Bug Fixes") }}
+{{ contributor("XYNY", "xynydev", "Alternate Custom Image Tooling / Infographs") }}
+{{ contributor("FiftyDinar", "fiftydinar", "Alternate Custom Image Tooling / Bug Fixes") }}
 {{ contributor("RoyalOughtness", "RoyalOughtness", "Security Consulting", "https://github.com/sponsors/RoyalOughtness") }}
 {{ contributor("Gecked-Deck", "Gecked-Deck", "Technical Support / Social Media") }}
 {{ contributor("termdisc", "termdisc", "Technical Support") }}
