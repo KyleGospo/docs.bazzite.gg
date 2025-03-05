@@ -45,38 +45,42 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 <sub>(*If we missed a major contributor, then [**please let use know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
 
 <div style="display: flex; flex-wrap: wrap; gap: 0.3rem;">
-{{ contributor("Kyle Gospodnetich", "KyleGospo", "Creator & lead maintainer of Bazzite", "https://github.com/sponsors/KyleGospo") }}
-{{ contributor("Antheas Kapenekakis", "antheas", "Handheld support", "https://github.com/sponsors/antheas") }}
-{{ contributor("HikariKnight", "HikariKnight", "Virtualization support, scripting", "https://github.com/sponsors/HikariKnight") }}
-{{ contributor("Noel Miller", "noelmiller", "ISO enhancements, custom image tooling, marketing", "https://github.com/sponsors/noelmiller") }}
-{{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD pipeline, support for alternate desktop environments") }}
-{{ contributor("Zeglius", "Zeglius", "CI/CD pipeline") }}
-{{ contributor("Aarron Lee", "aarron-lee", "SimpleDeckyTDP, scripting, command-line utilities") }}
-{{ contributor("Matthew Schwartz", "matte-schwartz", "Steam Gaming Mode consulting and testing") }}
-{{ contributor("Bouhaa", "BoukeHaarsma23", "Steam Gaming Mode consulting and testing") }}
-{{ contributor("Jan", "Jan200101", "Kernel patches") }}
-{{ contributor("Jason Nagin", "JasonN3", "Installer assistance") }}
-{{ contributor("Sterophonick", "Sterophonick", "Driver backports and game fixes") }}
+{{ contributor("Kyle Gospodnetich", "KyleGospo", "Founder / Lead Maintainer", "https://github.com/sponsors/KyleGospo") }}
+{{ contributor("Antheas Kapenekakis", "antheas", "Handheld Daemon Lead Maintainer / Handheld Support", "https://github.com/sponsors/antheas") }}
+{{ contributor("HikariKnight", "HikariKnight", "Virtualization Support / Scripting", "https://github.com/sponsors/HikariKnight") }}
+{{ contributor("Noel Miller", "noelmiller", "Installer Enhancements / Custom Image Tooling / Marketing", "https://github.com/sponsors/noelmiller") }}
+{{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD Pipelines / Initial Support for Alternate Desktop Environments") }}
+{{ contributor("Zeglius", "Zeglius", "Documentation Maintenance / Scripting") }}
+{{ contributor("Aarron Lee", "aarron-lee", "SimpleDeckyTDP, Scripting, Command-Line Utilities") }}
+{{ contributor("Matthew Schwartz", "matte-schwartz", "Steam Gaming Mode Testing and Consulting") }}
+{{ contributor("Bouhaa", "BoukeHaarsma23", "Steam Gaming Mode Testing and Consulting") }}
+{{ contributor("Jan", "Jan200101", "Kernel Patches") }}
+{{ contributor("Jason Nagin", "JasonN3", "Creator of Build Container Installer") }}
+{{ contributor("Sterophonick", "Sterophonick", "Driver Backports / Game Fixes") }}
 {{ contributor("dreamyuki", "dreamyukii", "Scripting") }}
-{{ contributor ("Adelia", "adeliasvg", "Branding") }}
-{{ contributor("Sean", "SuperRiderTH", "Animations") }}
-{{ contributor("wolfyreload", "wolfyreload", "Video tutorials") }}
-{{ contributor("Benjamin Sherman", "bsherman", "Image maintenance") }}
-{{ contributor("Brian Ketelsen", "bketelsen", "Image maintenance") }}
-{{ contributor("Robert Sturla", "p5", "Image maintenance") }}
-{{ contributor("m2", "m2Giles", "Image maintenance") }}
-{{ contributor("Niklas Haiden", "NiHaiden", "Image maintenance") }}
-{{ contributor("Tulip Blossom", "tulilirockz", "Image maintenance", "https://github.com/sponsors/tulilirockz") }}
-{{ contributor("Gareth Widlansky", "gerblesh", "Image maintenance") }}
-{{ contributor("Ryan Brue", "ryanabx", "Image maintenance") }}
-{{ contributor("xyny", "xynydev", "Alternate custom image tooling, early branding") }}
-{{ contributor("fiftydinar", "fiftydinar", "Alternate custom image tooling, bug fixes") }}
-{{ contributor("RoyalOughtness", "RoyalOughtness", "Security consulting", "https://github.com/sponsors/RoyalOughtness") }}
-{{ contributor("Gecked-Deck", "Gecked-Deck", "Social media") }}
-{{ contributor("termdisc", "termdisc", "Technical support") }}
-{{ contributor("jerb", "jerbmega", "Early Bazzite tester") }}
-{{ contributor("boredsquirrel", "boredsquirrel", "Early Bazzite tester") }}
-{{ contributor("Weaver Marquez", "weavermarquez", "Early Bazzite tester") }}
+{{ contributor ("Adelia", "adeliasvg", "Branding Manager") }}
+{{ contributor("Sean", "SuperRiderTH", "Animator / Bug Fixing") }}
+{{ contributor("wolfyreload", "wolfyreload", "Video Tutorials / Documentation") }}
+{{ contributor("Kurt Himebauch", "xXJSONDeruloXx", "Decky Plugins / ujust Extraordinaire") }}
+{{ contributor("Benjamin Sherman", "bsherman", "Image Maintenance") }}
+{{ contributor("Brian Ketelsen", "bketelsen", "Image Maintenance") }}
+{{ contributor("Robert Sturla", "p5", "Image Maintenance") }}
+{{ contributor("m2", "m2Giles", "Image Maintenance") }}
+{{ contributor("Niklas Haiden", "NiHaiden", "Image Maintenance") }}
+{{ contributor("Tulip Blossom", "tulilirockz", "Image Maintenance", "https://github.com/sponsors/tulilirockz") }}
+{{ contributor("Gareth Widlansky", "gerblesh", "Image Maintenance") }}
+{{ contributor("Ryan Brue", "ryanabx", "Image Maintenance") }}
+{{ contributor("Ian Off", "atimeofday", "Documentation / Testing") }}
+{{ contributor("xyny", "xynydev", "Alternate Custom Image Tooling, Infographs") }}
+{{ contributor("fiftydinar", "fiftydinar", "Alternate Custom Image Tooling / Bug Fixes") }}
+{{ contributor("RoyalOughtness", "RoyalOughtness", "Security Consulting", "https://github.com/sponsors/RoyalOughtness") }}
+{{ contributor("Gecked-Deck", "Gecked-Deck", "Technical Support / Social Media") }}
+{{ contributor("termdisc", "termdisc", "Technical Support") }}
+{{ contributor("Crono", "EPOCHvoyager", "Translations / Performance Scheduler Enthusiast") }}
+{{ contributor("Tony", "cyrv6737", "Pilot") }}
+{{ contributor("jerb", "jerbmega", "Early Tester") }}
+{{ contributor("boredsquirrel", "boredsquirrel", "Early Tester") }}
+{{ contributor("Weaver Marquez", "weavermarquez", "Early Tester") }}
 {{ contributor("Marco Ceppi", "marcoceppi", "Contributor Emeritus") }}
 {{ contributor("Adam Israel", "AdamIsrael", "Contributor Emeritus") }}
 {{ contributor("Joseph of Earth", "", "Contributor Emeritus") }}
