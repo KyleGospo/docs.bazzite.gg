@@ -142,6 +142,7 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 - [**Logo Menu**](https://github.com/sponsors/Aryan20)
 - [**Mozilla**](https://foundation.mozilla.org/en/?form=donate&gad_source=1)
 - [**Pika Backup**](https://opencollective.com/pika-backup)
+- [**Terra**](https://github.com/sponsors/FyraLabs)
 - [**Thunderbird**](https://www.thunderbird.net/en-US/donate/)
 - [**Warehouse**](https://ko-fi.com/heliguy)
 - [**Waydroid**](https://opencollective.com/waydroid/donate)
