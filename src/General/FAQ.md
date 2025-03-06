@@ -10,6 +10,13 @@ title: Frequently Asked Questions
 
 [Fedora Linux's Atomic Desktops](https://fedoraproject.org/atomic-desktops/) originally followed a naming scheme based on [minerals.](https://fedoraproject.org/kinoite/) Bazzite is a mineral that is known for being strong, lightweight, and is colored [blue](https://universal-blue.org/).
 
+## Who is Bazzite for?
+
+- Individuals who desire a desktop operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance involved in comparison to other desktop Linux operating systems.
+- Individuals who want a controller-friendly experience for couch PC gaming.
+- Individuals who own a [Handheld PC](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) and would prefer a SteamOS-like experience.
+- Individuals who own a Steam Deck and feel limited by SteamOS and/or also want desire newer system packages or alternate desktop enviornments.
+
 ## What is the difference between SteamOS and Bazzite?
 
 Bazzite originally was developed for the Steam Deck targeting users who used their Steam Deck as their primary PC. Bazzite is a collection of custom Fedora Atomic Desktop images (with the power of [libostree](https://ostreedev.github.io/ostree/)) built with Universal Blue's tooling (with the power of [OCI](https://opencontainers.org/about/overview/)) as opposed to using an [Arch Linux](https://archlinux.org/) base with A/B updates utilizing [RAUC](https://github.com/rauc/rauc).  The main advantages of Bazzite versus SteamOS is receiving system packages in updates at a much faster rate and a choice of an alternative desktop environment.
@@ -73,13 +80,6 @@ rpm-ostree status
 | `bazzite-ally`              | KDE Plasma          | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Bazzite-Deck |
 | `bazzite-ally-gnome`        | GNOME               | Yes               | ASUS Laptops (Steam Gaming Mode Enabled) | Bazzite-Deck |
 
-## Who is Bazzite for?
-
-- Individuals who desire a desktop operating system designed for gaming with inspiration from SteamOS that has fairly low maintenance involved in comparison to other desktop Linux operating systems.
-- Individuals who want a controller-friendly experience for couch PC gaming.
-- Individuals who own a [Handheld PC](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) and would prefer a SteamOS-like experience.
-- Individuals who own a Steam Deck and feel limited by SteamOS and/or also want desire newer system packages or alternate desktop enviornments.
-
 ## SteamOS is based on Arch Linux, so why use Fedora Atomic Desktop?
 
 SteamOS receives package and driver updates less frequently despite the rolling release base.  Bazzite will follow Fedora's update release cycle which means early access to new graphics card driver and kernel updates in comparison to SteamOS.  Fedora Linux and Universal Blue currently supports a specific "atomic" implementation to maintain multiple images that can receive all of the same updates at once, which is unlike a derivative Linux distribution.  The **goal** of Bazzite is to have an operating system ready to game after installing it.
@@ -114,9 +114,9 @@ Users can also rollback to a previous deployment if a system update breaks their
 
 ## Is this another fringe Linux distribution?
 
-Bazzite is **not** a Linux distribution in the traditional sense. Yes, it is a Linux operating system that is distributed for the public to use however it is a custom Fedora Atomic Desktop image with a recipe on top of it. Universal Blue images are a proof of concept of using containerized workflows with transactional and in-place operating system updates, and Bazzite exists by being gaming focused with inspiration from SteamOS.  Bazzite is a Fedora Atomic Desktop installation, but with the aid of Universal Blue's tooling, adds packages, services, drivers, etc. to the base image of it.
+Bazzite is **not** a Linux distribution in the traditional sense. Yes, it is a Linux operating system that is distributed for the public to use however it is a custom Fedora Atomic Desktop image with a recipe on top of it. Universal Blue images are a proof of concept of using containerized workflows with transactional and in-place operating system updates, and Bazzite exists by being gaming focused with inspiration from SteamOS.  Bazzite is a Fedora Atomic Desktop installation, but with the aid of Universal Blue's tooling, adds packages, services, drivers, etc. to the base image of it. Bazzite is using a new "**container-native**" approach that Fedora has been testing, and we are taking full advantage of it.  The team is utilizing the [Open Container Initiative (OCI)](https://opencontainers.org/about/overview/) to build the images, and are adding packages, services, and kernel modules to existing Fedora operating systems. 
 
-Bazzite is using a new "**container-native**" approach that Fedora has been testing, and we are taking full advantage of it.  The team is utilizing the [Open Container Initiative (OCI)](https://opencontainers.org/about/overview/) to build the images, and are adding packages, services, and kernel modules to existing Fedora operating systems. Unlike traditional Linux distributions, **most of the maintenance and security updates are done upstream** by Fedora and Universal Blue contributors while the primary Bazzite maintainers only have to focus on creating a great experience for an OS geared towards playing video games. Bazzite provides several images that all get the same additions and fixes through updates at the same time unless specified otherwise.  There can be a hypothetical scenario where everyone involved with Bazzite could stop maintaining the project at once and it will still continue to receive updates directly from upstream until the scheduled builds are broken.
+Unlike traditional Linux distributions, **most of the maintenance and security updates are done upstream** by Fedora and Universal Blue contributors while the primary Bazzite maintainers only have to focus on creating a great experience for an OS geared towards playing video games. Bazzite provides several images that all get the same additions and fixes through updates at the same time unless specified otherwise.  There can be a hypothetical scenario where everyone involved with Bazzite could stop maintaining the project at once and it will still continue to receive updates directly from upstream until the scheduled builds are broken.
 
 **The purpose of Bazzite is to be Fedora Linux, but provide a great gaming experience out of the box while also being an alternative operating system for the Steam Deck and other handheld devices**.
 
