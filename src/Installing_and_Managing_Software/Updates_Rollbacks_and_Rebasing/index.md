@@ -23,7 +23,7 @@ Swap back to a previous system update if there are major issues after updating v
 > [Rollbacks guide](./rolling_back_system_updates.md)
 
 
-### `bazzite-rollback-helper` / `brh` Tool
+### Bazzite Rollback Helper Tool
 
 Utility to assist with rolling back to older Bazzite images, changing update branches, or swapping to a different Bazzite image.
 
