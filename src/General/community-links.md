@@ -49,6 +49,8 @@ title: Community Resources
 ## Misc.
 
 - [Bazzite Buzz Newsletters Archive](https://universal-blue.discourse.group/t/bazzite-newsletters/2252)
+- [Bluefin Documentation](https://docs.projectbluefin.io/)
+- [Aurora Documentation](https://docs.getaurora.dev/)
 
 <hr>
 
