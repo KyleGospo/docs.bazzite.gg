@@ -201,7 +201,7 @@ Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. c
     
     Search for the question first before proceeding with the next steps.
 
-Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite/5), [Subreddit(https://www.reddit.com/r/Bazzite/) or [Discord](https://discord.gg/WEu6BdFEtp), but if it's an issue or bug you are encountering then we strongly urge you to [report it to the issue tracker](/General/reporting_bugs.md).  Keep in mind that certain areas and topics are out of our control especially when it comes to Nvidia driver problems, game compatibility, or other problems that plague the modern day Linux desktop regardless if you're running Bazzite or not.
+Reach out to us on our [forums](https://universal-blue.discourse.group/c/bazzite/5), [Subreddit](https://www.reddit.com/r/Bazzite/) or [Discord](https://discord.gg/WEu6BdFEtp), but if it's an issue or bug you are encountering then we strongly urge you to [report it to the issue tracker](/General/reporting_bugs.md).  Keep in mind that certain areas and topics are out of our control especially when it comes to Nvidia driver problems, game compatibility, or other problems that plague the modern day Linux desktop regardless if you're running Bazzite or not.
 
 <hr>
 
