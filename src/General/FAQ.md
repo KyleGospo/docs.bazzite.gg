@@ -27,7 +27,9 @@ Bazzite offers multiple images, but most images will be following _one of these 
 - **Format 1**: Bazzite images that do **not** have Steam Gaming Mode and receive automatic updates daily that have can be seen as Fedora Atomic Desktop with gaming packages pre-installed.
 - **Format 2**: Bazzite images that automatically boot into Steam Gaming Mode (like SteamOS) and are intended for controller-oriented setups.
 
-### 1. Desktop Edition (**Format 1**)
+### 1. Desktop Edition 
+
+<sub>(**Format 1**)</sub>
 
 !!! important
     
@@ -38,7 +40,9 @@ Intended specifically for desktops and laptops with a focus on gaming which is i
 **All Nvidia hardware can currently only use the Desktop Edition since the graphic drivers do not support Steam Gaming Mode**.
 
 
-### [2. Bazzite-Deck Edition](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) (**Format 2**)
+### [2. Bazzite-Deck Edition](../Handheld_and_HTPC_edition/Steam_Gaming_Mode.md) 
+
+<sub>(**Format 2**)</sub>
 
 "**Steam Gaming Mode**" is pre-installed and its features fully functional for supported hardware. This version of Bazzite boots directly into the Steam Gaming Mode session and is intended for handhelds and couch-gaming scenarios. It also includes a Desktop Mode session. System and application updates are manually upgraded in Steam Gaming Mode and applied on a restart.
 
@@ -161,7 +165,7 @@ It is not recommended due to technical limitations. Uninstalling packages will r
 
 ## Am I able to use AMD Fluid Motion Frames?
 
-Only if the game supports it.  Nothing at a global level.
+Only if the game supports it.  Not available globally for every game like on Windows.
 
 ## Can I change the hostname of my device?
 
