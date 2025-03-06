@@ -22,6 +22,14 @@ Swap back to a previous system update if there are major issues after updating v
 > **Full Documentation**:
 > [Rollbacks guide](./rolling_back_system_updates.md)
 
+
+### `bazzite-rollback-helper` / `brh` Tool
+
+Utility to assist with rolling back to older Bazzite images, changing update branches, or swapping to a different Bazzite image.
+
+> **Full Documentation**:
+> [Bazzite's Rollback Helper Utility Guide](./bazzite_rollback_helper.md)
+
 ## Rebasing
 
 Rebase to Bazzite builds from the last 90 days, change Bazzite update channels, swap between the Desktop and Bazzite-Deck images, or move completely to a different Fedora Atomic Desktop image.
@@ -32,13 +40,6 @@ Rebase to Bazzite builds from the last 90 days, change Bazzite update channels, 
 
 > **Full Documentation**:
 > [Rebase guide](./rebase_guide.md)
-
-## `bazzite-rollback-helper` / `brh`
-
-Utility to assist with rolling back to older Bazzite images, changing update branches, or swapping to a different Bazzite image.
-
-> **Full Documentation**:
-> [Bazzite's Rollback Helper Utility Guide](./bazzite_rollback_helper.md)
 
 <hr>
 
