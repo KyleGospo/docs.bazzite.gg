@@ -147,12 +147,9 @@ Unlike traditional Linux distributions, **most of the maintenance and security u
 
 Most hardware changes should **not** require any manual intervention outside of the expectations from that particular hardware which would be OS-agnostic.  However, if you swap from or to a Nvidia GPU, then [rebasing](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md) will be necessary as a manual intervention to get the appropriate graphics drivers.
 
-## Can I uninstall pre-installed applications (that are not [Flatpaks](/Installing_and_Managing_Software/Flatpak.md))
-It is not recommended due to technical limitations. Uninstalling packages will result in slower updates and take up more storage space.  Alternatively, you can hide programs from the application menu.
-
 ## Am I able to use AMD Fluid Motion Frames?
 
-Only if the game supports it.  Not available globally for every game like on Windows.
+**Yes**, but only if the game supports it.  Not available globally for every game like on Windows however there may game mods or [Decky plugins](https://github.com/xXJSONDeruloXx/Decky-Framegen) that mimic similar functionality.
 
 ## Can I change the hostname of my device?
 
@@ -165,14 +162,15 @@ Edit the `/etc/hostname` file with a new hostname, save it, and reboot.
 ```
 hostnamectl hostname <hostname>
 ```
-
 ## I need a different version of Java
 
 If its for Minecraft modding then install the [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) since this would not affect your host Java installation. If Java needs to be modified for development purposes then use [**Distrobox**](../Installing_and_Managing_Software/Distrobox.md). You will **not** be able to modify Java on your host at a system level.  
 
 **This also applies to other system-level packages that act as dependencies for other pieces of software or for development.**
 
-## Can I switch to a different desktop environment on my current installation?  (Example: Swapping from KDE Plasma to GNOME or vice-versa)
+## Can I switch to a different desktop environment on my current installation?  
+
+<sub> (Example: Swapping from KDE Plasma to GNOME or vice-versa) </sub>
 
 It is **not recommended to rebase between desktop environments** due to configuration files having different standards which usually lead to broken installations after rebasing between two different DEs.
 
