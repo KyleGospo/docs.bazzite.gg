@@ -176,7 +176,7 @@ It is **not recommended to rebase between desktop environments** due to configur
 
 >[Read more about Rebasing on Bazzite.](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md)
 
-## Am I able to install and use _this_ desktop environment or _that_ standalone window manager?
+## Am I able to install _this_ desktop environment or _that_ standalone window manager?
 
 Make your own [custom image based off Bazzite](/Advanced/creating_custom_image.md) with the desktop environment or standalone window manager change that you want.
 
