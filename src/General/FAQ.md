@@ -29,9 +29,7 @@ Bazzite offers multiple images, but most images will be following _one of these 
 
 <sub>(**Variant 1**)</sub>
 
-!!! important
-    
-    **Steam Gaming Mode is not on these specific images!**
+**Steam Gaming Mode is not on these specific images!**
 
 Intended specifically for desktops and laptops with a focus on gaming which is influenced by SteamOS's Desktop Mode and the maintenance-free nature of ChromeOS. A gaming-focused Fedora Atomic Desktop (Kinoite/Silverblue) operating system.  Steam and other gaming utilities are part of the base operating system. System rollbacks available with a rock-solid stable Fedora Linux base. Most modern PC hardware should be compatible outside of specific drivers that do not work well on desktop Linux.  [Flathub](https://flathub.org/) is enabled out of the box, so all of the applications that you would find on SteamOS are available on Bazzite.  System and application updates are automatically downloaded in the background and applied on a restart by default. 
 
