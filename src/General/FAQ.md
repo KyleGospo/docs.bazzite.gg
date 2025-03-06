@@ -191,7 +191,7 @@ Make your own [custom image based off Bazzite](/Advanced/creating_custom_image.m
 
 ## What is the `:0` and `:1` in the GRUB menu at boot?
 
-These are deployments and **there's a bug where they get duplicated**, which is why there are 4 entries when there should be two by default unless a specific deployment is pinned.  This allows users to rollback a bad system upgrade by selecting the previous deployment.
+This allows users to rollback a bad system upgrade by selecting the previous deployment.
 
 - `:0` = Current deployment/newest update
 - `:1` = Previous deployment/update.
