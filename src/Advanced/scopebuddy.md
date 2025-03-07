@@ -1,5 +1,9 @@
 ---
 title: ScopeBuddy
+authors:
+  - "@HikariKnight"
+tags:
+  - Guide
 ---
 
 ## ScopeBuddy
