@@ -94,12 +94,12 @@ SCB_GAMESCOPE_ARGS+=" --hdr-enabled"
 
 Now when steam runs `scb -- %command%`, scopebuddy will load the config from `scb.conf` then load `AppID/2694490.conf` afterwards to apply extra options on top of the defaults (or replace previous options from the default config if the same variables are exported or changed again)
 
-!!! note
+Notice how `SCB_GAMESCOPE_ARGS` uses `+=` instead of `=`.
 
-    Notice how `SCB_GAMESCOPE_ARGS` uses += instead of =
-    += means append this at the end of the current variable
-    = means to replace everything in the variable.
-    this let's us re-use the `SCB_GAMESCOPE_ARGS` we set in our scb.conf
+- `+=` means append this at the end of the current variable.
+- `=` means to replace everything in the variable.
+
+This let's us re-use the `SCB_GAMESCOPE_ARGS` we set in our `scb.conf`
 
 ## Frequently asked questions (FAQ)
 
