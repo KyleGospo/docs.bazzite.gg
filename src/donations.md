@@ -42,7 +42,7 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 
 This list contains members who have contributed heavily to Bazzite and/or the [**Universal Blue project**](https://ublue.it) since 2021 which includes past contributors who may not be active with the project currently.
 
-<sub>(*If we missed a major contributor, then [**please let use know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
+<sub>(*If we missed a major contributor, then [**please let us know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
 
 <div style="display: flex; flex-wrap: wrap; gap: 0.3rem;">
 {{ contributor("Kyle Gospodnetich", "KyleGospo", "Founder / Lead Maintainer", "https://github.com/sponsors/KyleGospo") }}
@@ -117,7 +117,7 @@ Bazzite would not exist without [**Fedora Linux**](https://fedoraproject.org/). 
 
 We also encourage you to donate to the projects that are used in Bazzite which helps us keep open source sustainable!
 
-<sub>(*If we missed software that is part of Bazzite and can be donated to, then [**please let use know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
+<sub>(*If we missed software that is part of Bazzite and can be donated to, then [**please let us know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
 
 - [**Atuin**](https://github.com/sponsors/atuinsh)
 - [**BORE Scheduler**](https://ko-fi.com/firelzrd)
