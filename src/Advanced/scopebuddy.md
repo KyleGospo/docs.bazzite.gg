@@ -3,10 +3,10 @@ title: ScopeBuddy
 authors:
   - "@HikariKnight"
 tags:
-  - Guide
+  - Utility
 ---
 
-## What is?
+## What is it?
 
 - A small script that works as a gamescope bridge to avoid having to copy paste long launch options for many games.
 - Allows you to set Environment Variables (env vars) and gamescope launch options globally, per game or depending on what mode ScopeBuddy or Steam is running in.
