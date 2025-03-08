@@ -12,4 +12,4 @@ title: Advanced Guides
 - [How to Modify Initramfs and Dracut](/Advanced/dracut-and-initramfs.md)
 - [Enabling Hibernation in Bazzite Desktop Images](/Advanced/swapfile.md)
 - [Creating A Custom Bazzite Image](/Advanced/creating_custom_image.md)
-- [Managing gamescope using ScopeBuddy](/Advanced/scopebuddy.md)
+- [Managing Gamescope Using ScopeBuddy](/Advanced/scopebuddy.md)
