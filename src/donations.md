@@ -77,6 +77,7 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Gecked-Deck", "Gecked-Deck", "Technical Support / Social Media") }}
 {{ contributor("termdisc", "termdisc", "Technical Support") }}
 {{ contributor("Crono", "EPOCHvoyager", "Translations / Performance Scheduler Enthusiast") }}
+{{ contributor("Justin Garrison", "rothgar", "Developer Relations") }}
 {{ contributor("Tony", "cyrv6737", "Pilot") }}
 {{ contributor("jerb", "jerbmega", "Early Tester") }}
 {{ contributor("boredsquirrel", "boredsquirrel", "Early Tester") }}
@@ -88,7 +89,6 @@ This list contains members who have contributed heavily to Bazzite and/or the [*
 {{ contributor("Marco Rodolfi", "RodoMa92", "Contributor Emeritus") }}
 {{ contributor("CharlieBros", "CharlieBros", "Contributor Emeritus") }}
 {{ contributor("xAlphaKat", "xAlphaKAT", "Contributor Emeritus") }}
-{{ contributor("Justin Garrison", "rothgar", "Contributor Emeritus") }}
 {{ contributor("Alex Banna", "abanna", "Contributor Emeritus") }}
 {{ contributor("bobslept", "bobslept", "Contributor Emeritus") }}
 {{ contributor("Primož Ajdišek", "bigpod98", "Contributor Emeritus") }}
