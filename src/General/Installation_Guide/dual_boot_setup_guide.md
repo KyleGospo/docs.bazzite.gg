@@ -64,6 +64,8 @@ Then, right-click your Windows partition and select "Shrink Volume" from the dro
 
 ## Manual Partitioning to the Same Drive for Dual Boot Setups
 
+!!! warning "Bazzite only supports the BTRFS filesystem for `/`"
+
 If you need a tutorial video for manual partitioning, watch this [tutorial at timestamp 6:08](https://www.youtube.com/watch?v=to6FLhn0NOM&t=368s).
 
 1.  Select Installation Destination
