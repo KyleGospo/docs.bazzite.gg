@@ -74,7 +74,7 @@ scopebuddy will now use `1080p.conf` instead of `scb.conf` to set default option
 
 !!! note
 
-    If you supply any argument to scopebuddy then `SCB_GAMESCOPE_ARGS` will be ignored entierly!
+    If you supply any argument to scopebuddy then `SCB_GAMESCOPE_ARGS` will be ignored entirely!
     This means using the launch option `scb -f -- %command%` will load the env vars from `scb.conf` however it will not use `SCB_GAMESCOPE_ARGS` from any config files.
 
 ### Setting specific options for a single Steam game
@@ -85,7 +85,7 @@ First we will need to find Path of Exile 2's Steam AppID, you can find this by g
 At the bottom you will see some information, you want the **App ID** value, in our Path of Exile 2 example this is `2694490`.
 
 Now make `2694490.conf` inside `~/.config/scopebuddy/AppID/` and add your Path of Exile 2 specific options.
-And for examples sake lets set `ENABLE_GAMESCOPE_WSI` to 0, because lets say it causes issues in this one game for me when it is set to 1 which is default.
+And for examples sake let's set `ENABLE_GAMESCOPE_WSI` to 0, because let us say it causes issues in this one game for me when it is set to 1 which is default.
 
 ```bash
 export ENABLE_GAMESCOPE_WSI=0
