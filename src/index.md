@@ -75,7 +75,7 @@ hide:
 
 - [:fontawesome-solid-handshake: **Contributing**][contrib]{ style="font-size: 1.1rem" }
 
-  One of the strengths of Bazzite (inherited from [Universal Blue](https://universal-blue.org/)) is how easy is to contribute.
+  One of the strengths of Bazzite (inherited from [Universal Blue](https://universal-blue.org/)) is how easy it is to contribute.
 
   - Something seems broken? You might want to [report a bug](General/reporting_bugs.md).
   - Add new changes by testing them in a [custom image][customimage].
