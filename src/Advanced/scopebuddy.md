@@ -114,7 +114,7 @@ SCB_NOSCOPE=1 scb -- %command% --launcher-skip
 This will tell scopebuddy to not launch gamescope and ignore `SCB_GAMESCOPE_ARGS` in all configs.
 The default config file will also be set to `noscope.conf` instead of `scb.conf` unless you also added the `SCB_CONF` env var to the launch options.
 
-!! note
+!!! note
 
     You can also export `SCB_NOSCOPE=1` inside an appid config if you never want to use gamescope for a game but still use scopebuddy for it.
 
