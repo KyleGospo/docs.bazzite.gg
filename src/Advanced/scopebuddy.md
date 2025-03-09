@@ -85,10 +85,10 @@ First we will need to find Path of Exile 2's Steam AppID, you can find this by g
 At the bottom you will see some information, you want the **App ID** value, in our Path of Exile 2 example this is `2694490`.
 
 Now make `2694490.conf` inside `~/.config/scopebuddy/AppID/` and add your Path of Exile 2 specific options.
-And for examples sake let's set `ENABLE_GAMESCOPE_WSI` to 0, because let us say it causes issues in this one game for me when it is set to 1 which is default.
+And for examples sake let's set `SteamDeck` to `0`, because let us say the game enforces settings that are only relevant on Steam Deck hardware, so we turn off announcing to the game that we are on the Steam Deck Client.
 
 ```bash
-export ENABLE_GAMESCOPE_WSI=0
+export SteamDeck=0
 SCB_GAMESCOPE_ARGS+=" --hdr-enabled"
 ```
 
@@ -113,6 +113,10 @@ SCB_NOSCOPE=1 scb -- %command% --launcher-skip
 
 This will tell scopebuddy to not launch gamescope and ignore `SCB_GAMESCOPE_ARGS` in all configs.
 The default config file will also be set to `noscope.conf` instead of `scb.conf` unless you also added the `SCB_CONF` env var to the launch options.
+
+!!! note
+
+    You can also export `SCB_NOSCOPE=1` inside an appid config if you never want to use gamescope for a game but still use scopebuddy for it.
 
 ### Does ScopeBuddy work inside Steam Gamemode?
 
