@@ -4,7 +4,7 @@ authors:
   - "@noelmiller"
 
 preview:
-  alpha: 150
+  alpha: 70
   image: "../img/podman.png"
 description: "Run services."
 ---
