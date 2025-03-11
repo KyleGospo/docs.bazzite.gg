@@ -99,7 +99,7 @@ Selecting `Configure Waydroid` will allow users to install additional Android tw
 
 3. Follow the instructions in the terminal output.
 
-After verification has happened, it will usually take a while before your device is verified.
+After verification has happened, it will usually take a while before your device is Google Play certified.
 
 ## Add as a Non-Steam Shortcut
 
