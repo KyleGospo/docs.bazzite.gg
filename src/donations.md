@@ -64,13 +64,13 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("XYNY", "xynydev", "Infographics / Alternate Custom Tooling") }}
 {{ contributor("Crono", "EPOCHvoyager", "Performance Scheduler Enthusiast") }}
 {{ contributor("m2", "m2Giles", "Bug Fixes / Enhancements") }}
-{{ contributor("FiftyDinar", "Bug Fixes") }}
+{{ contributor("FiftyDinar", "fiftydinar", "Bug Fixes / Enhancements") }}
+{{ contributor("Marco Rodolfi", "RodoMa92", "Bug Fixes / Enhancements") }}
 {{ contributor("RoyalOughtness", "RoyalOughtness", "Security Consulting", "https://github.com/sponsors/RoyalOughtness") }}
 {{ contributor("Gecked-Deck", "Gecked-Deck", "Technical Support / Social Media") }}
 {{ contributor("termdisc", "termdisc", "Technical Support") }}
 {{ contributor("Justin Garrison", "rothgar", "Developer Relations") }}
 {{ contributor("Ian Off", "atimeofday", "QA Testing") }}
-{{ contributor("Marco Rodolfi", "RodoMa92", "Qualtiy of Life Changes") }}
 {{ contributor("Gareth Widlansky", "gerblesh", "Image Maintenance") }}
 {{ contributor("Marco Ceppi", "marcoceppi", "Bazzite Portal Creator") }}
 {{ contributor("Alex Banna", "abanna", "Bazzite Portal Prototyping") }}
