@@ -76,7 +76,7 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("Alex Banna", "abanna", "Bazzite Portal Prototyping") }}
 {{ contributor("CharlieBros ", "CharlieBros", "Initial Language Translations") }}
 {{ contributor("Tony", "cyrv6737", "Pilot") }}
-{{ contributor("Jorge Castro", "castrojo", "Dinosaur Guy", https://github.com/sponsors/castrojo) }}
+{{ contributor("Jorge Castro", "castrojo", "Dinosaur Guy", "https://github.com/sponsors/castrojo") }}
 </div>
 
 >[**View the full list of Bazzite contributors in the Gitub repository**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Contribute**](/CONTRIBUTE.md))
