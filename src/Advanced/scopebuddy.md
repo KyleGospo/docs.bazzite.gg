@@ -141,6 +141,9 @@ command+=" --launcher-skip --some-other-parameter"
 ### Wait... This is all just bash!?
 
 Every config file for scopebuddy is a full bash script that is sourced before running gamescope and the game. This means if you are an advanced user you can do some really creative stuff!
+!!! note
+
+    ScopeBuddy has `read-only` access when run through steam!
 
 Some handy variables available to you are
 
