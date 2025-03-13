@@ -7,12 +7,15 @@ title: Credits and Donating
     display: inline-flex;
     flex-direction: row;
     gap: 0.5rem;
-    align-items: center;
+    align-items: top;
     background-color: #00000066;
     border-radius: 24px;
     padding: 0.3rem;
     padding-right: 0.4rem;
-    min-width: 200px;"
+    min-width: 200px;
+    width: 100%;
+    max-width: 335px;
+    line-height: 1.1rem;"
     >
         {% if github %}
             <img
@@ -40,7 +43,7 @@ title: Credits and Donating
 
 Love Bazzite and want to help sustain it's development?  Consider **sponsoring** the maintainers and contributors of the project.
 
-<div style="display: flex; flex-wrap: wrap; gap: 0.3rem;">
+<div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
 {{ contributor("Kyle Gospodnetich", "KyleGospo", "Founder / Lead Maintainer", "https://github.com/sponsors/KyleGospo") }}
 {{ contributor("Antheas Kapenekakis", "antheas", "Handheld Daemon Lead Maintainer / Handheld Support", "https://github.com/sponsors/antheas") }}
 {{ contributor("HikariKnight", "HikariKnight", "Virtualization Support / Scripting", "https://github.com/sponsors/HikariKnight") }}
