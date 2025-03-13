@@ -48,7 +48,7 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("Antheas Kapenekakis", "antheas", "Handheld Daemon Lead Maintainer / Handheld Support", "https://github.com/sponsors/antheas") }}
 {{ contributor("HikariKnight", "HikariKnight", "Virtualization Support / Scripting", "https://github.com/sponsors/HikariKnight") }}
 {{ contributor("Noel Miller", "noelmiller", "Installer Enhancements / Custom Image Tooling", "https://github.com/sponsors/noelmiller") }}
-{{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD Pipelines / Initial Support for Alternate Desktop Environments") }}
+{{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD Pipelines / Alternate Desktop Environment Support") }}
 {{ contributor("Tulip Blossom", "tulilirockz", "OCI Image Virtuoso", "https://github.com/sponsors/tulilirockz") }}
 {{ contributor("Benjamin Sherman", "bsherman", "Nvidia Wrangler / Image Maintenance") }}
 {{ contributor("Brian Ketelsen", "bketelsen", "Tooling Expert") }}
