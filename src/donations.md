@@ -59,7 +59,7 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("Adelia", "adeliasvg", "Branding Manager") }}
 {{ contributor("Sean Srock", "SuperRiderTH", "Animator") }}
 {{ contributor("wolfyreload", "wolfyreload", "Visual Guides") }}
-{{ contributor("Kurt Himebauch", "xXJSONDeruloXx", "Decky Plugins / `ujust` Extraordinaire") }}
+{{ contributor("Kurt Himebauch", "xXJSONDeruloXx", "Decky Plugins / ujust Extraordinaire") }}
 {{ contributor("Sterophonick", "Sterophonick", "Driver Backports") }}
 {{ contributor("XYNY", "xynydev", "Infographics / Alternate Custom Tooling") }}
 {{ contributor("Crono", "EPOCHvoyager", "Performance Scheduler Enthusiast") }}
