@@ -121,7 +121,7 @@ The default config file will also be set to `noscope.conf` instead of `scb.conf`
 ### Does ScopeBuddy work inside Steam Gamemode?
 
 Yes!
-When scopebuddy detects that steam is running in gamemode, it will force `SCP_NOSCOPE=1` and `SCB_CONF=gamemode.conf` this means that you can set custom options that will only be used in gamemode while keeping game specific options!
+When scopebuddy detects that steam is running in gamemode, it will force `SCB_NOSCOPE=1` and `SCB_CONF=gamemode.conf` this means that you can set custom options that will only be used in gamemode while keeping game specific options!
 
 This means you can use scopebuddy to automatically handle using nested gamescope when in desktop mode and not utilizing gamescope when inside gamemode.
 No more manually adding and removing gamescope from launch options when you switch between gamemode and desktop mode! 🎉
@@ -141,6 +141,9 @@ command+=" --launcher-skip --some-other-parameter"
 ### Wait... This is all just bash!?
 
 Every config file for scopebuddy is a full bash script that is sourced before running gamescope and the game. This means if you are an advanced user you can do some really creative stuff!
+!!! note
+
+    ScopeBuddy has `read-only` access when run through steam!
 
 Some handy variables available to you are
 
