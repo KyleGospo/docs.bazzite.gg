@@ -124,12 +124,14 @@ Unlike traditional Linux distributions, **most of the maintenance and security u
 
 (_in alphabetical order_)
 
-- [Boxkit](https://github.com/ublue-os/boxkit): Tool used for custom OCI Distrobox/Toolbox containers, and anything from [DaVinci Resolve](https://github.com/zelikos/davincibox) to [OBS Studio Portable](https://github.com/ublue-os/obs-studio-portable) can be accessed with this. (The software is in their own special container, so dependencies do not affect your host.)
-- [Discover Overlay](https://github.com/trigg/Discover): Discord chat overlay integration for Steam Gaming Mode which has a [special configuration](https://trigg.github.io/Discover/bazzite) for Bazzite where it launches automatically
-- [Handheld Daemon](https://github.com/hhd-dev/hhd): Tool for configuring and managing handheld devices from gyro, LEDs, paddles, and TDP.
-- [Ptyxis](https://devsuite.app/ptyxis/): Terminal with first-class container support.
-- [`ujust`](../Installing_and_Managing_Software/ujust.md): Execute custom commands based on recipes.
-- [yafti (Bazzite Portal)](https://github.com/ublue-os/yafti/): First-boot utility for installing additional software.
+- [**Boxkit**](https://github.com/ublue-os/boxkit): Tool used for custom OCI Distrobox/Toolbox containers, and anything from [DaVinci Resolve](https://github.com/zelikos/davincibox) to [OBS Studio Portable](https://github.com/ublue-os/obs-studio-portable) can be accessed with this. (The software is in their own special container, so dependencies do not affect your host.)
+- [**Discover Overlay**](https://github.com/trigg/Discover): Discord chat overlay integration for Steam Gaming Mode which has a [special configuration](https://trigg.github.io/Discover/bazzite) for Bazzite where it launches automatically
+- [**Handheld Daemon**](https://github.com/hhd-dev/hhd): Tool for configuring and managing handheld devices from gyro, LEDs, paddles, and TDP.
+- [**Media Automount Generator**](https://github.com/Zeglius/media-automount-generator): Systemd-generator for partition auto-mounting for internal disks.
+- [**Ptyxis**](https://devsuite.app/ptyxis/): Terminal with first-class container support.
+- [**ScopeBuddy**](https://github.com/HikariKnight/ScopeBuddy): A manager script to make Gamescope easier on the Desktop.
+- [**`ujust`**](../Installing_and_Managing_Software/ujust.md): Execute custom commands based on recipes.
+- [**yafti**(Bazzite Portal)](https://github.com/ublue-os/yafti/): First-boot utility for installing additional software.
 
 ## Is Secure Boot supported?
 
