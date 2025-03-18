@@ -71,7 +71,7 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("FiftyDinar", "fiftydinar", "Bug Fixes / Enhancements") }}
 {{ contributor("Marco Rodolfi", "RodoMa92", "Bug Fixes / Enhancements") }}
 {{ contributor("RoyalOughtness", "RoyalOughtness", "Security Consulting", "https://github.com/sponsors/RoyalOughtness") }}
-{{ contributor("Gecked-Deck", "Gecked-Deck", "Technical Support / Social Media") }}
+{{ contributor("Valerie", "valerie-tar-gz", "Technical Support / Social Media") }}
 {{ contributor("termdisc", "termdisc", "Technical Support") }}
 {{ contributor("Justin Garrison", "rothgar", "Developer Relations") }}
 {{ contributor("Ian Off", "atimeofday", "QA Testing") }}
