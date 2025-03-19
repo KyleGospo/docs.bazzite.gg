@@ -66,7 +66,8 @@ Then, right-click your Windows partition and select "Shrink Volume" from the dro
 
 !!! warning "Bazzite only supports the BTRFS filesystem for `/`"
 
-If you need a tutorial video for manual partitioning, watch this [tutorial at timestamp 6:08](https://www.youtube.com/watch?v=to6FLhn0NOM&t=368s).
+If you need a tutorial video for manual partitioning, watch this [tutorial at timestamp 9:10](https://www.youtube.com/watch?v=pbxM_1ZJCCc&t=550s).
+
 
 1.  Select Installation Destination
 2.  Select `Advanced Custom(Blivet-GUI)` under Storage Configuration.
